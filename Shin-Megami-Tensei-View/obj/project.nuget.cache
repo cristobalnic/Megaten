@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YMo7FOUMQp8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cristian\\Downloads\\Proyecto-Megaten-IIC2113\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cristian\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\Cristian\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\Cristian\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
