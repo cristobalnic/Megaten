@@ -43,7 +43,7 @@ public class Tests
     {
         var view = View.BuildTestingView(testFile);
         var game = new Game(view, teamsFolder);
-        game.Play();
+        game.TryToPlay();
         
         var actualScript = view.GetScript();
         var expectedScript = File.ReadAllLines(testFile);

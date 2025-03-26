@@ -30,7 +30,7 @@ AnnounceTestCase(test);
 
 var view = View.BuildManualTestingView(test);
 var game = new Game(view, teamsFolder);
-game.Play();
+game.TryToPlay();
 
 string SelectTestFolder()
 {
