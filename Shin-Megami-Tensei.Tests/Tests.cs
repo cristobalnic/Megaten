@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.Design;
 using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei.Entities;
 
 namespace Shin_Megami_Tensei.Tests;
 
@@ -41,6 +42,9 @@ public class Tests
     
     private static void RunTest(string teamsFolder, string testFile)
     {
+        Game.Player1 = new Player(1);
+        Game.Player2 = new Player(2);
+        
         var view = View.BuildTestingView(testFile);
         var game = new Game(view, teamsFolder);
         game.TryToPlay();

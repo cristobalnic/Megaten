@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei_View;
+﻿using System.Diagnostics.CodeAnalysis;
+using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.MegatenErrorHandling;
@@ -12,12 +13,12 @@ public class Game
     private readonly View _view;
     private readonly string _teamsFolder;
 
-    private static readonly Player Player1 = new(id: 1);
-    private static readonly Player Player2 = new(id: 2);
+    public static Player Player1 = new(id: 1);
+    public static Player Player2 = new(id: 2);
     
     private bool ENDGAME = false;
     private readonly List<Player> _players = [Player1, Player2];
-    private int _round = 0;
+    private int _round;
     private Player _currentPlayer = Player1;
 
     public Game(View view, string teamsFolder)
@@ -41,7 +42,7 @@ public class Game
     private void Play()
     {
         GameSetup();
-        // StartGame();
+        StartGame();
     }
     
     private void GameSetup()
@@ -49,7 +50,7 @@ public class Game
         DisplayTeamFiles();
         LoadTeams();
         ValidateTeams();
-        // SetupTable();
+        SetupTable();
     }
     
     private void DisplayTeamFiles()
@@ -69,7 +70,7 @@ public class Game
     {
         var selectedTeamFileLines = GetSelectedTeamFileLines();
 
-        Player currentPlayer = null!;
+        Player currentPlayer = Player1;
 
         foreach (var unitRawData in selectedTeamFileLines)
         {
@@ -97,55 +98,61 @@ public class Game
             DataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
     }
 
-    private void ValidateTeams()
+    private static void ValidateTeams()
     {
         if (!IsTeamValid(Player1) || !IsTeamValid(Player2))
             throw new InvalidTeamException();
     }
 
-    private bool IsTeamValid(Player player) => player.Samurai != null;
+    private static bool IsTeamValid(Player player) => player.Samurai != null;
 
 
-    // private void SetupTable()
-    // {
-    //     Player1.Table.SetSamurai(Player1.Samurai);
-    //     Player2.Table.SetSamurai(Player2.Samurai);
-    //     foreach (var monster in Player1.Units) Player1.Table.AddMonster(monster);
-    //     foreach (var monster in Player2.Units) Player2.Table.AddMonster(monster);
-    // }
-    //
-    // private void StartGame()
-    // {
-    //     while (ENDGAME == false)
-    //     {
-    //         _currentPlayer = _players[_round % 2];
-    //         PlayRound(_currentPlayer);
-    //         _round++;
-    //     }
-    // }
-    //
-    // private void PlayRound(Player player)
-    // {
-    //     DisplayRoundInit(player);
-    //     DisplayPlayerTable(player.Table);
-    // }
-    //
-    // private void DisplayRoundInit(Player player)
-    // {
-    //     _view.WriteLine(Params.Separator);
-    //     _view.WriteLine($"Ronda de {player.Samurais.First().Name} (J{player.Id})");
-    // }
-    //
-    // private void DisplayPlayerTable(Table table)
-    // {
-    //     _view.WriteLine(Params.Separator);
-    //     _view.WriteLine($"Equipo de {table.Samurai?.Name} (J{player.Id})"); //CONTINUE HERRREEEEE!!!!
-    //     _view.WriteLine($"A-{samurai.Name} HP: {samurai.Stats.Hp} / {samurai.Stats.MaxHp}");
-    //     _view.WriteLine($"B-{}");
-    //     _view.WriteLine($"C-{}");
-    //     _view.WriteLine($"D-{}");
-    //     
-    //     
-    //     
-    // }
+    private void SetupTable()
+    {
+        Player1.Table.SetSamurai(Player1.Samurai);
+        Player2.Table.SetSamurai(Player2.Samurai);
+        foreach (var monster in Player1.Units) Player1.Table.AddMonster(monster);
+        foreach (var monster in Player2.Units) Player2.Table.AddMonster(monster);
+    }
+    
+    private void StartGame()
+    {
+        while (ENDGAME == false)
+        {
+            SetCurrentPlayer();
+            PlayRound(_currentPlayer);
+            _round++;
+        }
+    }
+    
+    private void SetCurrentPlayer() => _currentPlayer = _players[_round % 2];
+
+    private void PlayRound(Player player)
+    {
+        DisplayRoundInit(player);
+        DisplayPlayerTable(player);
+    }
+    
+    private void DisplayRoundInit(Player player)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Ronda de {player.Samurai?.Name} (J{player.Id})");
+    }
+
+    private void DisplayPlayerTable(Player player)
+    {
+        var table = player.Table;
+        var samurai = player.Table.Samurai;
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Equipo de {samurai?.Name} (J{player.Id})");
+        _view.WriteLine($"A-{samurai?.Name} HP: {samurai?.Stats.Hp} / {samurai?.Stats.MaxHp}");
+        char label = 'B';
+        foreach (var monster in table.Monsters)
+        {
+            _view.WriteLine($"{label}-{monster.Name} HP: {monster.Stats.Hp} / {monster.Stats.MaxHp}");
+            label++;
+        }
+    }
+    
+    
 }
