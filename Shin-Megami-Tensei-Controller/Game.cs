@@ -1,5 +1,4 @@
 ﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Utils;
@@ -20,7 +19,8 @@ public class Game
     private bool ENDGAME = false;
     private readonly List<Player> _players = [Player1, Player2];
     private int _round;
-    private Player _currentPlayer = Player1;
+    private Player _attacker = Player1;
+    private Player _defender = Player2;
 
     public Game(View view, string teamsFolder)
     {
@@ -121,29 +121,32 @@ public class Game
         while (ENDGAME == false)
         {
             SetCurrentPlayer();
-            PlayRound(_currentPlayer);
+            PlayRound();
             _round++;
         }
     }
     
-    private void SetCurrentPlayer() => _currentPlayer = _players[_round % 2];
-
-    private void PlayRound(Player player)
+    private void SetCurrentPlayer()
     {
-        DisplayRoundInit(player);
-        player.ResetAvailableTurns();
-        DisplayPlayerAvailableTurns(player);
-        var orderedMonsters = GetMonstersOrderedBySpeed(player);
+        _attacker = _players[_round % 2];
+        _defender = _players[(_round + 1) % 2];
+    }
+
+    private void PlayRound()
+    {
+        DisplayRoundInit();
+        _attacker.ResetAvailableTurns();
+        DisplayPlayerAvailableTurns();
+        var orderedMonsters = GetMonstersOrderedBySpeed();
         DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
-        DisplayPlayerActionSelection(player);
-        var action = GetPlayerAction(player);
-        // ExecutePlayerAction(player, action);
+        DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
+        ExecutePlayerAction(orderedMonsters[0]);
     }
     
-    private void DisplayRoundInit(Player player)
+    private void DisplayRoundInit()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {player.Samurai?.Name} (J{player.Id})");
+        _view.WriteLine($"Ronda de {_attacker.Samurai?.Name} (J{_attacker.Id})");
         DisplayPlayerTables();
     }
     private void DisplayPlayerTables()
@@ -164,15 +167,15 @@ public class Game
             label++;
         }
     }
-    private void DisplayPlayerAvailableTurns(Player player)
+    private void DisplayPlayerAvailableTurns()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Full Turns: {player.FullTurns}");
-        _view.WriteLine($"Blinking Turns: {player.BlinkingTurns}");
+        _view.WriteLine($"Full Turns: {_attacker.FullTurns}");
+        _view.WriteLine($"Blinking Turns: {_attacker.BlinkingTurns}");
     }
-    private static List<Unit> GetMonstersOrderedBySpeed(Player player)
+    private List<Unit> GetMonstersOrderedBySpeed()
     {
-        var monsters = player.Table.Monsters;
+        var monsters = _attacker.Table.Monsters;
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }
     private void DisplayPlayerMonstersOrderedBySpeed(List<Unit> orderedMonsters)
@@ -186,31 +189,72 @@ public class Game
             counter++;
         }
     }
-    private void DisplayPlayerActionSelection(Player player)
+    private void DisplayPlayerActionSelectionMenu(Unit monster)
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Seleccione una acción para {player.Samurai?.Name}");
-        _view.WriteLine("1: Atacar");
-        _view.WriteLine("2: Disparar");
-        _view.WriteLine("3: Usar Habilidad");
-        _view.WriteLine("4: Invocar");
-        _view.WriteLine("5: Pasar Turno");
-        _view.WriteLine("6: Rendirse");
+        _view.WriteLine($"Seleccione una acción para {_attacker.Samurai?.Name}");
+        DisplayActionList(monster is Samurai ? Params.SamuraiActions : Params.MonsterActions);
     }
-    private int GetPlayerAction(Player player)
+    private void DisplayActionList(string[] actions)
     {
-        return int.Parse(_view.ReadLine());
+        int counter = 1;
+        foreach (var action in actions)
+        {
+            _view.WriteLine($"{counter}: {action}");
+            counter++;
+        }
     }
 
-    // private void ExecutePlayerAction(Player player, int action)
-    // {
-    //     if (action == 1) ExecuteAttack(player);
-    //     else if (action == 2) ExecuteShoot(player);
-    //     else if (action == 3) ExecuteUseSkill(player);
-    //     else if (action == 4) ExecuteSummon(player);
-    //     else if (action == 5) ExecutePassTurn(player);
-    //     else if (action == 6) ExecuteSurrender(player);
-    // }
-    
-    
+    private void ExecutePlayerAction(Unit monster)
+    {
+        var action = GetPlayerAction(monster);
+        _view.WriteLine(Params.Separator);
+        if (action == "Atacar") ExecuteAttack(monster);
+        else if (action == "Disparar") ExecuteShoot(monster);
+        else if (action == "Usar Habilidad") ExecuteUseSkill(monster);
+        else if (action == "Invocar") ExecuteSummon();
+        else if (action == "Pasar Turno") ExecutePassTurn();
+        else if (action == "Rendirse") ExecuteSurrender();
+        
+    }
+    private string GetPlayerAction(Unit monster)
+    {
+        var actionSelection = int.Parse(_view.ReadLine());
+        return monster is Samurai ? Params.SamuraiActions[actionSelection-1] : Params.MonsterActions[actionSelection-1];
+    }
+
+    private void ExecuteAttack(Unit monster)
+    {
+        double partialDamage = monster.Stats.Str * Params.AttackDamageModifier * Params.AttackAndShootDamageMultiplier;
+        double damage = Math.Min(0, partialDamage);
+    }
+
+    private void ExecuteShoot(Unit monster)
+    {
+        //_view.WriteLine($"Seleccione un objetivo para {monster.Name}"); // SEGUIR ACA!!!!!!!!!
+        double partialDamage = monster.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
+        double damage = Math.Min(0, partialDamage);
+    }
+
+    private void ExecuteUseSkill(Unit monster)
+    {
+        
+        double partialDamage = Math.Sqrt(monster.Stats.Mag * Params.AttackAndShootDamageMultiplier);
+        double damage = Math.Min(0, partialDamage);
+    }
+
+    private void ExecuteSummon()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void ExecutePassTurn()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void ExecuteSurrender()
+    {
+        throw new NotImplementedException();
+    }
 }

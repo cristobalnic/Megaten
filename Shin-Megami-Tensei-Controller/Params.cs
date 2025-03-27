@@ -11,4 +11,26 @@ public static class Params
     public const int MaxUnitsAllowedInTablePerSide = 4;
 
     public const string Separator = "----------------------------------------";
+
+    public const int AttackDamageModifier = 54;
+    public const int ShootDamageModifier = 80;
+    public const double AttackAndShootDamageMultiplier = 0.0114;
+    
+    public static string[] SamuraiActions { get; } =
+        [
+            "Atacar",
+            "Disparar",
+            "Usar Habilidad",
+            "Invocar",
+            "Pasar Turno",
+            "Rendirse"
+        ];
+    
+    public static string[] MonsterActions { get; } =
+        [
+            "Atacar",
+            "Usar Habilidad",
+            "Invocar",
+            "Pasar Turno"
+        ];
 }
