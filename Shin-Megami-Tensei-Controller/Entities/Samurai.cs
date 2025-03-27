@@ -1,17 +1,18 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.MegatenErrorHandling;
 
 namespace Shin_Megami_Tensei.Entities;
 
-public class Samurai : Unit
+public class Samurai(UnitData unitData) : Unit(unitData)
 {
-    public Samurai(UnitData data) : base(data) 
+    public void EquipSkill(SkillData skillData)
     {
-        Skills = [];
-    }
-    
-    public void EquipSkill(string skill)
-    {
-        Skills.Add(skill);
-        Console.WriteLine($"Skill equipped! {skill}");
+        if (Skills.Count >= Params.MaxSamuraiSkillsAllowed)
+            throw new InvalidTeamException();
+
+        if (Skills.Any(existingSkill => existingSkill.Name == skillData.Name))
+            throw new InvalidTeamException();
+        
+        Skills.Add(new Skill(skillData));
     }
 }

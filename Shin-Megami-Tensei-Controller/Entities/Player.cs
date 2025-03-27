@@ -1,10 +1,14 @@
-﻿namespace Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.MegatenErrorHandling;
+
+namespace Shin_Megami_Tensei.Entities;
 
 public class Player
 {
-    public int Id;
-    public readonly List<Unit> Samurais = [];
+    public readonly int Id;
+    public Samurai? Samurai { get; private set; }
     public readonly List<Unit> Units = [];
+    public readonly Table Table = new();
     
     
     public Player(int id)
@@ -12,13 +16,23 @@ public class Player
         Id = id;
     }
 
-    public void AddSamurai(Unit unit)
+    public void SetSamurai(Samurai samurai)
     {
-        Samurais.Add(unit);
+        if (Samurai != null)
+        {
+            throw new InvalidTeamException();
+        }
+        Samurai = samurai;
     }
 
     public void AddUnit(Unit unit)
     {
+        if (Units.Count >= Params.MaxUnitsAllowed)
+            throw new InvalidTeamException();
+
+        if (Units.Any(existingUnit => existingUnit.Name == unit.Name))
+            throw new InvalidTeamException();
+        
         Units.Add(unit);
     }
 }

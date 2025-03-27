@@ -5,16 +5,18 @@ namespace Shin_Megami_Tensei.Entities;
 public abstract class Unit
 {
     public readonly string Name;
-    private Stats _stats;
+    public readonly Stats Stats;
     private Affinity _affinity;
-    public List<string>? Skills;
-    
+    public readonly List<Skill> Skills = [];
 
-    protected Unit(UnitData data)
+    protected Unit(UnitData unitData)
     {
-        Name = data.Name;
-        _stats = data.Stats;
-        _affinity= data.Affinity;
-        Skills = data.Skills;
+        Name = unitData.Name;
+        Stats = unitData.Stats;
+        Stats.MaxHp = unitData.Stats.Hp;
+        Stats.MaxMp = unitData.Stats.Mp;
+        _affinity= unitData.Affinity;
     }
+    
+    
 }

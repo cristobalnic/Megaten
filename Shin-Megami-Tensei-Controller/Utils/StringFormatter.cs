@@ -2,16 +2,13 @@
 
 public static class StringFormatter
 {
-    public static string[] SplitSamuraiInfo(string input)
+    public static string GetSamuraiName(string samuraiRawData)
     {
-        return input.Contains('(') ? SplitSamuraiInfoWithSkills(input) : [input, ""];
+        return samuraiRawData.Split(" ")[1];
     }
 
-    private static string[] SplitSamuraiInfoWithSkills(string input)
+    public static string[] GetSamuraiSkills(string samuraiRawData)
     {
-        var split = input.Split(" (");
-        var name = split[0];
-        var skills = split[1].Trim('(', ')');
-        return [name, skills];
+        return samuraiRawData.Split(" (")[1].Trim('(', ')').Split(',');
     }
 }

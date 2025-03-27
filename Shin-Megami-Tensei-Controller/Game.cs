@@ -12,8 +12,13 @@ public class Game
     private readonly View _view;
     private readonly string _teamsFolder;
 
-    private readonly Player _player1 = new(id: 1);
-    private readonly Player _player2 = new(id: 2);
+    private static readonly Player Player1 = new(id: 1);
+    private static readonly Player Player2 = new(id: 2);
+    
+    private bool ENDGAME = false;
+    private readonly List<Player> _players = [Player1, Player2];
+    private int _round = 0;
+    private Player _currentPlayer = Player1;
 
     public Game(View view, string teamsFolder)
     {
@@ -36,46 +41,47 @@ public class Game
     private void Play()
     {
         GameSetup();
+        // StartGame();
     }
-
-
-
+    
     private void GameSetup()
     {
-        var teamFiles = GetTeamFiles();
-        DisplayTeamFiles(teamFiles);
-        LoadTeams(teamFiles);
+        DisplayTeamFiles();
+        LoadTeams();
         ValidateTeams();
+        // SetupTable();
     }
-
+    
+    private void DisplayTeamFiles()
+    {
+        string[] teamFiles = GetTeamFiles();
+        _view.WriteLine("Elige un archivo para cargar los equipos");
+        for (var i = 0; i < teamFiles.Length; i++)
+            _view.WriteLine($"{i}: {Path.GetFileName(teamFiles[i])}");
+    }
+    
     private string[] GetTeamFiles()
     {
         return Directory.GetFiles(_teamsFolder, "*.txt");
     }
 
-    private void DisplayTeamFiles(string[] teamFiles)
+    private void LoadTeams()
     {
-        _view.WriteLine("Elige un archivo para cargar los equipos");
-        for (var i = 0; i < teamFiles.Length; i++)
-            _view.WriteLine($"{i}: {Path.GetFileName(teamFiles[i])}");
-    }
-
-    private void LoadTeams(string[] teamFiles)
-    {
-        var selectedTeamFileLines = GetSelectedTeamFileLines(teamFiles);
+        var selectedTeamFileLines = GetSelectedTeamFileLines();
 
         Player currentPlayer = null!;
 
-        foreach (var line in selectedTeamFileLines)
+        foreach (var unitRawData in selectedTeamFileLines)
         {
-            if (line.StartsWith("Player 1 Team")) currentPlayer = _player1;
-            else if (line.StartsWith("Player 2 Team")) currentPlayer = _player2;
-            else if (currentPlayer != null) AddUnitToPlayer(line, currentPlayer);
+            if (unitRawData.StartsWith("Player 1 Team")) currentPlayer = Player1;
+            else if (unitRawData.StartsWith("Player 2 Team")) currentPlayer = Player2;
+            else if (currentPlayer != null) AddUnitToPlayer(unitRawData, currentPlayer);
         }
     }
 
-    private string[] GetSelectedTeamFileLines(string[] teamFiles)
+    private string[] GetSelectedTeamFileLines()
     {
+        var teamFiles = GetTeamFiles();
         var selectedTeamIndex = int.Parse(_view.ReadLine());
         return File.ReadAllLines(teamFiles[selectedTeamIndex]);
     }
@@ -83,33 +89,63 @@ public class Game
     private static void AddUnitToPlayer(string unitRawData, Player currentPlayer)
     {
         if (unitRawData.StartsWith("[Samurai]"))
-            DataLoader.LoadSamuraiUnit(unitRawData, currentPlayer);
+        {
+            DataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
+            DataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai ?? throw new InvalidOperationException());
+        }
         else
-            DataLoader.LoadMonsterUnit(unitRawData, currentPlayer);
+            DataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
     }
 
     private void ValidateTeams()
     {
-        if (!IsTeamValid(_player1) || !IsTeamValid(_player2))
-        {
+        if (!IsTeamValid(Player1) || !IsTeamValid(Player2))
             throw new InvalidTeamException();
-        }
     }
 
-    private bool IsTeamValid(Player player)
-    {
-        if (player.Samurais.Count != Params.RequiredSamurais)
-            return false;
+    private bool IsTeamValid(Player player) => player.Samurai != null;
 
-        if (player.Units.Count + player.Samurais.Count > Params.MaxUnitsAllowed)
-            return false;
 
-        if (player.Units.GroupBy(unit => unit.Name).Any(group => group.Count() > 1))
-            return false;
-
-        if (player.Samurais.First().Skills.Count > Params.MaxSamuraiSkillsAllowed)
-            return false;
-
-        return !player.Samurais.First().Skills.GroupBy(skill => skill).Any(group => group.Count() > 1);
-    }
+    // private void SetupTable()
+    // {
+    //     Player1.Table.SetSamurai(Player1.Samurai);
+    //     Player2.Table.SetSamurai(Player2.Samurai);
+    //     foreach (var monster in Player1.Units) Player1.Table.AddMonster(monster);
+    //     foreach (var monster in Player2.Units) Player2.Table.AddMonster(monster);
+    // }
+    //
+    // private void StartGame()
+    // {
+    //     while (ENDGAME == false)
+    //     {
+    //         _currentPlayer = _players[_round % 2];
+    //         PlayRound(_currentPlayer);
+    //         _round++;
+    //     }
+    // }
+    //
+    // private void PlayRound(Player player)
+    // {
+    //     DisplayRoundInit(player);
+    //     DisplayPlayerTable(player.Table);
+    // }
+    //
+    // private void DisplayRoundInit(Player player)
+    // {
+    //     _view.WriteLine(Params.Separator);
+    //     _view.WriteLine($"Ronda de {player.Samurais.First().Name} (J{player.Id})");
+    // }
+    //
+    // private void DisplayPlayerTable(Table table)
+    // {
+    //     _view.WriteLine(Params.Separator);
+    //     _view.WriteLine($"Equipo de {table.Samurai?.Name} (J{player.Id})"); //CONTINUE HERRREEEEE!!!!
+    //     _view.WriteLine($"A-{samurai.Name} HP: {samurai.Stats.Hp} / {samurai.Stats.MaxHp}");
+    //     _view.WriteLine($"B-{}");
+    //     _view.WriteLine($"C-{}");
+    //     _view.WriteLine($"D-{}");
+    //     
+    //     
+    //     
+    // }
 }
