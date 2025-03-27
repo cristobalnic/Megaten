@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei.DataStructures;
+﻿namespace Shin_Megami_Tensei;
 
 public static class Params
 {
@@ -8,7 +8,7 @@ public static class Params
     public const int MaxUnitsAllowed = 7;
     public const int RequiredSamurais = 1;
     public const int MaxSamuraiSkillsAllowed = 8;
-    public const int MaxUnitsAllowedInTablePerSide = 3;
+    public const int MaxUnitsAllowedInTablePerSide = 4;
 
     public const string Separator = "----------------------------------------";
 }

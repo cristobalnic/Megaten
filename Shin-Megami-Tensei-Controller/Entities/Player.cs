@@ -10,6 +10,9 @@ public class Player
     public readonly List<Unit> Units = [];
     public readonly Table Table = new();
     
+    public int FullTurns { get; set; }
+    public int BlinkingTurns { get; set; }
+    
     
     public Player(int id)
     {
@@ -34,5 +37,11 @@ public class Player
             throw new InvalidTeamException();
         
         Units.Add(unit);
+    }
+
+    public void ResetAvailableTurns()
+    {
+        FullTurns = Table.Monsters.Count;
+        BlinkingTurns = 0;
     }
 }

@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using Shin_Megami_Tensei_View;
+﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.MegatenErrorHandling;
@@ -15,6 +14,8 @@ public class Game
 
     public static Player Player1 = new(id: 1);
     public static Player Player2 = new(id: 2);
+
+    public static Table Table = new();
     
     private bool ENDGAME = false;
     private readonly List<Player> _players = [Player1, Player2];
@@ -130,29 +131,86 @@ public class Game
     private void PlayRound(Player player)
     {
         DisplayRoundInit(player);
-        DisplayPlayerTable(player);
+        player.ResetAvailableTurns();
+        DisplayPlayerAvailableTurns(player);
+        var orderedMonsters = GetMonstersOrderedBySpeed(player);
+        DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
+        DisplayPlayerActionSelection(player);
+        var action = GetPlayerAction(player);
+        // ExecutePlayerAction(player, action);
     }
     
     private void DisplayRoundInit(Player player)
     {
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"Ronda de {player.Samurai?.Name} (J{player.Id})");
+        DisplayPlayerTables();
     }
-
+    private void DisplayPlayerTables()
+    {
+        _view.WriteLine(Params.Separator);
+        DisplayPlayerTable(Player1);
+        DisplayPlayerTable(Player2);
+    }
     private void DisplayPlayerTable(Player player)
     {
         var table = player.Table;
         var samurai = player.Table.Samurai;
-        _view.WriteLine(Params.Separator);
         _view.WriteLine($"Equipo de {samurai?.Name} (J{player.Id})");
-        _view.WriteLine($"A-{samurai?.Name} HP: {samurai?.Stats.Hp} / {samurai?.Stats.MaxHp}");
-        char label = 'B';
+        char label = 'A';
         foreach (var monster in table.Monsters)
         {
-            _view.WriteLine($"{label}-{monster.Name} HP: {monster.Stats.Hp} / {monster.Stats.MaxHp}");
+            _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
             label++;
         }
     }
+    private void DisplayPlayerAvailableTurns(Player player)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Full Turns: {player.FullTurns}");
+        _view.WriteLine($"Blinking Turns: {player.BlinkingTurns}");
+    }
+    private static List<Unit> GetMonstersOrderedBySpeed(Player player)
+    {
+        var monsters = player.Table.Monsters;
+        return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
+    }
+    private void DisplayPlayerMonstersOrderedBySpeed(List<Unit> orderedMonsters)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine("Orden:");
+        int counter = 1;
+        foreach (var monster in orderedMonsters)
+        {
+            _view.WriteLine($"{counter}-{monster.Name}");
+            counter++;
+        }
+    }
+    private void DisplayPlayerActionSelection(Player player)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Seleccione una acción para {player.Samurai?.Name}");
+        _view.WriteLine("1: Atacar");
+        _view.WriteLine("2: Disparar");
+        _view.WriteLine("3: Usar Habilidad");
+        _view.WriteLine("4: Invocar");
+        _view.WriteLine("5: Pasar Turno");
+        _view.WriteLine("6: Rendirse");
+    }
+    private int GetPlayerAction(Player player)
+    {
+        return int.Parse(_view.ReadLine());
+    }
+
+    // private void ExecutePlayerAction(Player player, int action)
+    // {
+    //     if (action == 1) ExecuteAttack(player);
+    //     else if (action == 2) ExecuteShoot(player);
+    //     else if (action == 3) ExecuteUseSkill(player);
+    //     else if (action == 4) ExecuteSummon(player);
+    //     else if (action == 5) ExecutePassTurn(player);
+    //     else if (action == 6) ExecuteSurrender(player);
+    // }
     
     
 }

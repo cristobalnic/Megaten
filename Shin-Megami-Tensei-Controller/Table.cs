@@ -13,6 +13,7 @@ public class Table
     public void SetSamurai(Samurai? samurai)
     {
         Samurai = samurai;
+        if (Samurai != null) AddMonster(Samurai);
     }
 
     public void AddMonster(Unit monster)
