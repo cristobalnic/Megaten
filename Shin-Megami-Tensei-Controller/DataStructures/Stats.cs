@@ -1,6 +1,6 @@
 ﻿namespace Shin_Megami_Tensei.DataStructures;
 
-public class Stats
+public struct Stats
 {
     public int Hp { get; set; }
     public int MaxHp { get; set; }

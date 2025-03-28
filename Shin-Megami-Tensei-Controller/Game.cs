@@ -263,7 +263,7 @@ public class Game
         _view.WriteLine(Params.Separator);
         if (action == "Atacar") ExecuteAttack(monster);
         else if (action == "Disparar") ExecuteShoot(monster);
-        else if (action == "Usar Habilidad") ExecuteUseSkill();
+        else if (action == "Usar Habilidad") ExecuteUseSkill(monster);
         else if (action == "Invocar") ExecuteSummon();
         else if (action == "Pasar Turno") ExecutePassTurn();
         else if (action == "Rendirse") ExecuteSurrender();
@@ -318,7 +318,6 @@ public class Game
     private Unit GetPlayerObjective()
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
-        if (WasCancelSelected(objectiveSelection)) throw new CancelObjectiveSelectionException();
         List<Unit> validMonsters = new List<Unit>();
         foreach (var monster in _waitPlayer.Table.Monsters)
         {
@@ -332,17 +331,38 @@ public class Game
         return validMonsters[objectiveSelection-1];
     }
     
-    private bool WasCancelSelected(int objectiveSelection)
+
+    private void ExecuteUseSkill(Unit monster)
     {
-        return objectiveSelection == _waitPlayer.Table.Monsters.Count + 1;
+        _view.WriteLine($"Seleccione una habilidad para que {monster.Name} use");
+        int label = 1;
+        foreach (var skill in monster.Skills)
+        {
+            if (monster.Stats.Mp < skill.Cost)
+                continue;
+            _view.WriteLine($"{label}-{skill.Name} MP:{skill.Cost}");
+            label++;
+        }
+        _view.WriteLine($"{label}-Cancelar");
+        Skill selectedSkill = GetSelectedSkill(monster);
+        int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetSkillDamage(monster, selectedSkill))));
+        
     }
 
-    private void ExecuteUseSkill()
+    private Skill GetSelectedSkill(Unit monster)
     {
-        
-        // double partialDamage = Math.Sqrt(monster.Stats.Mag * Params.AttackAndShootDamageMultiplier);
-        // double damage = Math.Max(0, partialDamage);
-        throw new NotImplementedException();
+        var affordableSkills = monster.Skills.Where(skill => monster.Stats.Mp >= skill.Cost).ToList();
+        var skillSelection = int.Parse(_view.ReadLine());
+        if (skillSelection > affordableSkills.Count)
+        {
+            throw new CancelObjectiveSelectionException();
+        }
+        return monster.Skills[skillSelection-1];
+    }
+    
+    private double GetSkillDamage(Unit monster, Skill skill)
+    {
+        return Math.Sqrt(monster.Stats.Mag * skill.Power);
     }
 
     private void ExecuteSummon()

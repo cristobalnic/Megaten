@@ -5,9 +5,9 @@ namespace Shin_Megami_Tensei.Entities;
 public abstract class Unit
 {
     public readonly string Name;
-    public readonly Stats Stats;
+    public Stats Stats;
     private Affinity _affinity;
-    protected readonly List<Skill> Skills = [];
+    public readonly List<Skill> Skills = [];
 
     protected Unit(UnitData unitData)
     {
