@@ -113,6 +113,8 @@ public class Game
         Player2.Table.SetSamurai(Player2.Samurai);
         foreach (var monster in Player1.Units) Player1.Table.AddMonster(monster);
         foreach (var monster in Player2.Units) Player2.Table.AddMonster(monster);
+        Player1.Table.FillEmptySlotsToNull();
+        Player2.Table.FillEmptySlotsToNull();
     }
     
     private void StartGame()
@@ -150,6 +152,7 @@ public class Game
         DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
         TryToExecuteAction(orderedMonsters);
         UpdateTurnState();
+        DisplayWinnerIfItExists();
     }
 
 
@@ -177,22 +180,32 @@ public class Game
         DisplayPlayerTable(Player1);
         DisplayPlayerTable(Player2);
     }
-    private void DisplayPlayerTable(Player player, bool displayForTargetSelection = false)
+    private void DisplayPlayerTable(Player player)
     {
-        var table = player.Table;
-        var samurai = player.Table.Samurai;
-        if (!displayForTargetSelection) _view.WriteLine($"Equipo de {samurai?.Name} (J{player.Id})");
+        _view.WriteLine($"Equipo de {player.Table.Samurai?.Name} (J{player.Id})");
         char label = 'A';
-        if (displayForTargetSelection) {label = '1';}
-        foreach (var monster in table.Monsters)
+        foreach (var monster in player.Table.Monsters)
         {
-            if (monster == null) continue;
-            if (!monster.IsAlive() && displayForTargetSelection) continue;
+            if (monster == null)
+                _view.WriteLine($"{label}-");
+            else
+                _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
+            label++;
+        }
+    }
+    
+    private void DisplayTargetSelection(Player player)
+    {
+        char label = '1';
+        foreach (var monster in player.Table.Monsters)
+        {
+            if (monster == null || !monster.IsAlive()) continue;
             _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
             label++;
         }
-        if (displayForTargetSelection) { _view.WriteLine($"{label}-Cancelar"); }
+        _view.WriteLine($"{label}-Cancelar");
     }
+    
     private void DisplayPlayerAvailableTurns()
     {
         _view.WriteLine(Params.Separator);
@@ -257,7 +270,7 @@ public class Game
     private void ExecuteAttack(Unit monster)
     {
         _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
-        DisplayPlayerTable(_waitPlayer, true);
+        DisplayTargetSelection(_waitPlayer);
         Unit defenderMonster = GetPlayerObjective();
         int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetAttackDamage(monster))));
         _view.WriteLine(Params.Separator);
@@ -273,7 +286,7 @@ public class Game
     private void ExecuteShoot(Unit monster)
     {
         _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
-        DisplayPlayerTable(_waitPlayer, true);
+        DisplayTargetSelection(_waitPlayer);
         Unit defenderMonster = GetPlayerObjective();
         int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetShootDamage(monster))));
         _view.WriteLine(Params.Separator);
@@ -303,6 +316,10 @@ public class Game
         {
             if (monster == null || !monster.IsAlive()) continue;
             validMonsters.Add(monster);
+        }
+        if (objectiveSelection > validMonsters.Count)
+        {
+            throw new CancelObjectiveSelectionException();
         }
         return validMonsters[objectiveSelection-1];
     }
@@ -351,5 +368,21 @@ public class Game
         reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));
         reorderedMonsters.Add(orderedMonsters[0]);
         return reorderedMonsters;
+    }
+
+    private void DisplayWinnerIfItExists()
+    {
+        if (_waitPlayer.Table.Monsters.All(monster => monster == null || !monster.IsAlive()))
+        {
+            _view.WriteLine(Params.Separator);
+            _view.WriteLine($"Ganador: {_turnPlayer.Samurai?.Name} (J{_turnPlayer.Id})");
+            throw new EndGameException();
+        }
+        if (_turnPlayer.Table.Monsters.All(monster => monster == null || !monster.IsAlive()))
+        {
+            _view.WriteLine(Params.Separator);
+            _view.WriteLine($"Ganador: {_waitPlayer.Samurai?.Name} (J{_waitPlayer.Id})");
+            throw new EndGameException();
+        }
     }
 }

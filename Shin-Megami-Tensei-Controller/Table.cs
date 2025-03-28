@@ -37,4 +37,14 @@ public class Table
             break;
         }
     }
+
+    public void FillEmptySlotsToNull()
+    {
+        int emptySlots = Params.MaxUnitsAllowedInTablePerSide - Monsters.Count;
+
+        for (int i = 0; i < emptySlots; i++)
+        {
+            Monsters.Add(null);
+        }
+    }
 }
