@@ -1,5 +1,4 @@
-﻿using Shin_Megami_Tensei.DataStructures;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+﻿using Shin_Megami_Tensei.MegatenErrorHandling;
 
 namespace Shin_Megami_Tensei.Entities;
 
@@ -11,7 +10,7 @@ public class Player
     public readonly Table Table = new();
     
     public int FullTurns { get; set; }
-    public int BlinkingTurns { get; set; }
+    public int BlinkingTurns { get; private set; }
     
     
     public Player(int id)
@@ -41,7 +40,7 @@ public class Player
 
     public void ResetAvailableTurns()
     {
-        FullTurns = Table.Monsters.Count;
+        FullTurns = Table.Monsters.Count(monster => monster != null && monster.IsAlive());
         BlinkingTurns = 0;
     }
 }

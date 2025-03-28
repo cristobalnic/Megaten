@@ -14,13 +14,11 @@ public class Game
     public static Player Player1 = new(id: 1);
     public static Player Player2 = new(id: 2);
 
-    public static Table Table = new();
-    
     private bool ENDGAME = false;
     private readonly List<Player> _players = [Player1, Player2];
     private int _round;
-    private Player _attacker = Player1;
-    private Player _defender = Player2;
+    private Player _turnPlayer = Player1;
+    private Player _waitPlayer = Player2;
 
     public Game(View view, string teamsFolder)
     {
@@ -36,7 +34,8 @@ public class Game
         }
         catch (MegatenException exception)
         {
-            _view.WriteLine(exception.GetErrorMessage());
+            string message = exception.GetErrorMessage();
+            if (message != "ENDGAME") _view.WriteLine(message);
         }
     }
 
@@ -128,26 +127,49 @@ public class Game
     
     private void SetCurrentPlayer()
     {
-        _attacker = _players[_round % 2];
-        _defender = _players[(_round + 1) % 2];
+        _turnPlayer = _players[_round % 2];
+        _waitPlayer = _players[(_round + 1) % 2];
     }
 
     private void PlayRound()
     {
         DisplayRoundInit();
-        _attacker.ResetAvailableTurns();
-        DisplayPlayerAvailableTurns();
+        _turnPlayer.ResetAvailableTurns();
         var orderedMonsters = GetMonstersOrderedBySpeed();
-        DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
-        DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
-        ExecutePlayerAction(orderedMonsters[0]);
+        while (_turnPlayer.FullTurns > 0)
+        {
+            PlayTurn(orderedMonsters);
+            orderedMonsters = ReorderMonsters(orderedMonsters);
+        }
     }
-    
+
+    private void PlayTurn(List<Unit> orderedMonsters)
+    {
+        DisplayPlayerTables();
+        DisplayPlayerAvailableTurns();
+        DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
+        TryToExecuteAction(orderedMonsters);
+        UpdateTurnState();
+    }
+
+
+    private void TryToExecuteAction(List<Unit> orderedMonsters)
+    {
+        try
+        {
+            DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
+            PlayerActionExecution(orderedMonsters[0]);
+        }
+        catch (CancelObjectiveSelectionException)
+        {
+            TryToExecuteAction(orderedMonsters);
+        }
+    }
+
     private void DisplayRoundInit()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {_attacker.Samurai?.Name} (J{_attacker.Id})");
-        DisplayPlayerTables();
+        _view.WriteLine($"Ronda de {_turnPlayer.Samurai?.Name} (J{_turnPlayer.Id})");
     }
     private void DisplayPlayerTables()
     {
@@ -155,27 +177,36 @@ public class Game
         DisplayPlayerTable(Player1);
         DisplayPlayerTable(Player2);
     }
-    private void DisplayPlayerTable(Player player)
+    private void DisplayPlayerTable(Player player, bool displayForTargetSelection = false)
     {
         var table = player.Table;
         var samurai = player.Table.Samurai;
-        _view.WriteLine($"Equipo de {samurai?.Name} (J{player.Id})");
+        if (!displayForTargetSelection) _view.WriteLine($"Equipo de {samurai?.Name} (J{player.Id})");
         char label = 'A';
+        if (displayForTargetSelection) {label = '1';}
         foreach (var monster in table.Monsters)
         {
+            if (monster == null) continue;
+            if (!monster.IsAlive() && displayForTargetSelection) continue;
             _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
             label++;
         }
+        if (displayForTargetSelection) { _view.WriteLine($"{label}-Cancelar"); }
     }
     private void DisplayPlayerAvailableTurns()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Full Turns: {_attacker.FullTurns}");
-        _view.WriteLine($"Blinking Turns: {_attacker.BlinkingTurns}");
+        _view.WriteLine($"Full Turns: {_turnPlayer.FullTurns}");
+        _view.WriteLine($"Blinking Turns: {_turnPlayer.BlinkingTurns}");
     }
     private List<Unit> GetMonstersOrderedBySpeed()
     {
-        var monsters = _attacker.Table.Monsters;
+        var monsters = new List<Unit>();
+        foreach (var monster in _turnPlayer.Table.Monsters)
+        {
+            if (monster == null || !monster.IsAlive()) continue;
+            monsters.Add(monster);
+        }
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }
     private void DisplayPlayerMonstersOrderedBySpeed(List<Unit> orderedMonsters)
@@ -192,7 +223,7 @@ public class Game
     private void DisplayPlayerActionSelectionMenu(Unit monster)
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Seleccione una acción para {_attacker.Samurai?.Name}");
+        _view.WriteLine($"Seleccione una acción para {monster.Name}");
         DisplayActionList(monster is Samurai ? Params.SamuraiActions : Params.MonsterActions);
     }
     private void DisplayActionList(string[] actions)
@@ -205,13 +236,13 @@ public class Game
         }
     }
 
-    private void ExecutePlayerAction(Unit monster)
+    private void PlayerActionExecution(Unit monster)
     {
         var action = GetPlayerAction(monster);
         _view.WriteLine(Params.Separator);
         if (action == "Atacar") ExecuteAttack(monster);
         else if (action == "Disparar") ExecuteShoot(monster);
-        else if (action == "Usar Habilidad") ExecuteUseSkill(monster);
+        else if (action == "Usar Habilidad") ExecuteUseSkill();
         else if (action == "Invocar") ExecuteSummon();
         else if (action == "Pasar Turno") ExecutePassTurn();
         else if (action == "Rendirse") ExecuteSurrender();
@@ -225,22 +256,68 @@ public class Game
 
     private void ExecuteAttack(Unit monster)
     {
-        double partialDamage = monster.Stats.Str * Params.AttackDamageModifier * Params.AttackAndShootDamageMultiplier;
-        double damage = Math.Min(0, partialDamage);
+        _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
+        DisplayPlayerTable(_waitPlayer, true);
+        Unit defenderMonster = GetPlayerObjective();
+        int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetAttackDamage(monster))));
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"{monster.Name} ataca a {defenderMonster.Name}");
+        DealDamage(defenderMonster, damage);
+    }
+
+    private static double GetAttackDamage(Unit monster)
+    {
+        return monster.Stats.Str * Params.AttackDamageModifier * Params.AttackAndShootDamageMultiplier;
     }
 
     private void ExecuteShoot(Unit monster)
     {
-        //_view.WriteLine($"Seleccione un objetivo para {monster.Name}"); // SEGUIR ACA!!!!!!!!!
-        double partialDamage = monster.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
-        double damage = Math.Min(0, partialDamage);
+        _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
+        DisplayPlayerTable(_waitPlayer, true);
+        Unit defenderMonster = GetPlayerObjective();
+        int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetShootDamage(monster))));
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"{monster.Name} dispara a {defenderMonster.Name}");
+        DealDamage(defenderMonster, damage);
     }
 
-    private void ExecuteUseSkill(Unit monster)
+    private static double GetShootDamage(Unit monster)
+    {
+        return monster.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
+    }
+
+    private void DealDamage(Unit monster, int damage)
+    {
+        monster.Stats.Hp = Math.Max(0, monster.Stats.Hp - damage);
+        _view.WriteLine($"{monster.Name} recibe {damage} de daño");
+        _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
+        if (!monster.IsAlive()) _waitPlayer.Table.HandleDeath(monster);
+    }
+
+    private Unit GetPlayerObjective()
+    {
+        var objectiveSelection = int.Parse(_view.ReadLine());
+        if (WasCancelSelected(objectiveSelection)) throw new CancelObjectiveSelectionException();
+        List<Unit> validMonsters = new List<Unit>();
+        foreach (var monster in _waitPlayer.Table.Monsters)
+        {
+            if (monster == null || !monster.IsAlive()) continue;
+            validMonsters.Add(monster);
+        }
+        return validMonsters[objectiveSelection-1];
+    }
+    
+    private bool WasCancelSelected(int objectiveSelection)
+    {
+        return objectiveSelection == _waitPlayer.Table.Monsters.Count + 1;
+    }
+
+    private void ExecuteUseSkill()
     {
         
-        double partialDamage = Math.Sqrt(monster.Stats.Mag * Params.AttackAndShootDamageMultiplier);
-        double damage = Math.Min(0, partialDamage);
+        // double partialDamage = Math.Sqrt(monster.Stats.Mag * Params.AttackAndShootDamageMultiplier);
+        // double damage = Math.Max(0, partialDamage);
+        throw new NotImplementedException();
     }
 
     private void ExecuteSummon()
@@ -255,6 +332,24 @@ public class Game
 
     private void ExecuteSurrender()
     {
-        throw new NotImplementedException();
+        _view.WriteLine($"{_turnPlayer.Samurai?.Name} (J{_turnPlayer.Id}) se rinde");
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Ganador: {_waitPlayer.Samurai?.Name} (J{_waitPlayer.Id})");
+        throw new EndGameException();
+    }
+
+    private void UpdateTurnState()
+    {
+        _view.WriteLine(Params.Separator);
+        _turnPlayer.FullTurns -= 1;
+        _view.WriteLine($"Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)\nSe han obtenido 0 Blinking Turn(s)");
+    }
+    
+    private List<Unit> ReorderMonsters(List<Unit> orderedMonsters)
+    {
+        var reorderedMonsters = new List<Unit>();
+        reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));
+        reorderedMonsters.Add(orderedMonsters[0]);
+        return reorderedMonsters;
     }
 }

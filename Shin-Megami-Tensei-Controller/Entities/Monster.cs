@@ -7,7 +7,7 @@ public class Monster : Unit
 {
     public Monster(UnitData unitData) : base(unitData)
     {
-        foreach (var skillName in unitData.Skills!)
+        foreach (var skillName in unitData.Skills)
         {
             SkillData skillData = DataLoader.GetSkillDataFromDeserializedJson(skillName);
             Skills.Add(new Skill(skillData));

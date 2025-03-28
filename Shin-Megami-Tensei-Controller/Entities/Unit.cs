@@ -7,7 +7,7 @@ public abstract class Unit
     public readonly string Name;
     public readonly Stats Stats;
     private Affinity _affinity;
-    public readonly List<Skill> Skills = [];
+    protected readonly List<Skill> Skills = [];
 
     protected Unit(UnitData unitData)
     {
@@ -18,5 +18,8 @@ public abstract class Unit
         _affinity= unitData.Affinity;
     }
     
-    
+    public bool IsAlive()
+    {
+        return Stats.Hp > 0;
+    }
 }
