@@ -42,9 +42,6 @@ public class Tests
     
     private static void RunTest(string teamsFolder, string testFile)
     {
-        Game.Player1 = new Player(1);
-        Game.Player2 = new Player(2);
-        
         var view = View.BuildTestingView(testFile);
         var game = new Game(view, teamsFolder);
         game.TryToPlay();

@@ -11,19 +11,19 @@ public class Game
     private readonly View _view;
     private readonly string _teamsFolder;
 
-    public static Player Player1 = new(id: 1);
-    public static Player Player2 = new(id: 2);
-
     private bool ENDGAME = false;
-    private readonly List<Player> _players = [Player1, Player2];
+    private readonly List<Player> _players;
     private int _round;
-    private Player _turnPlayer = Player1;
-    private Player _waitPlayer = Player2;
+    private Player _turnPlayer;
+    private Player _waitPlayer;
 
+    private readonly DataLoader _dataLoader;
     public Game(View view, string teamsFolder)
     {
         _view = view;
         _teamsFolder = teamsFolder;
+        _players = new List<Player>();
+        _dataLoader = new DataLoader();
     }
 
     public void TryToPlay()
@@ -47,12 +47,20 @@ public class Game
     
     private void GameSetup()
     {
+        InitializePlayers();
         DisplayTeamFiles();
         LoadTeams();
         ValidateTeams();
         SetupTable();
     }
-    
+
+    private void InitializePlayers()
+    {
+        _players.Add(new Player(1));
+        _players.Add(new Player(2));
+        SetCurrentPlayer();
+    }
+
     private void DisplayTeamFiles()
     {
         string[] teamFiles = GetTeamFiles();
@@ -70,12 +78,12 @@ public class Game
     {
         var selectedTeamFileLines = GetSelectedTeamFileLines();
 
-        Player currentPlayer = Player1;
+        Player currentPlayer = _players[0];
 
         foreach (var unitRawData in selectedTeamFileLines)
         {
-            if (unitRawData.StartsWith("Player 1 Team")) currentPlayer = Player1;
-            else if (unitRawData.StartsWith("Player 2 Team")) currentPlayer = Player2;
+            if (unitRawData.StartsWith("Player 1 Team")) currentPlayer = _players[0];
+            else if (unitRawData.StartsWith("Player 2 Team")) currentPlayer = _players[1];
             else if (currentPlayer != null) AddUnitToPlayer(unitRawData, currentPlayer);
         }
     }
@@ -87,20 +95,20 @@ public class Game
         return File.ReadAllLines(teamFiles[selectedTeamIndex]);
     }
 
-    private static void AddUnitToPlayer(string unitRawData, Player currentPlayer)
+    private void AddUnitToPlayer(string unitRawData, Player currentPlayer)
     {
         if (unitRawData.StartsWith("[Samurai]"))
         {
-            DataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
-            DataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai ?? throw new InvalidOperationException());
+            _dataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
+            _dataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai ?? throw new InvalidOperationException());
         }
         else
-            DataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
+            _dataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
     }
 
-    private static void ValidateTeams()
+    private void ValidateTeams()
     {
-        if (!IsTeamValid(Player1) || !IsTeamValid(Player2))
+        if (!IsTeamValid(_players[0]) || !IsTeamValid(_players[1]))
             throw new InvalidTeamException();
     }
 
@@ -109,12 +117,12 @@ public class Game
 
     private void SetupTable()
     {
-        Player1.Table.SetSamurai(Player1.Samurai);
-        Player2.Table.SetSamurai(Player2.Samurai);
-        foreach (var monster in Player1.Units) Player1.Table.AddMonster(monster);
-        foreach (var monster in Player2.Units) Player2.Table.AddMonster(monster);
-        Player1.Table.FillEmptySlotsToNull();
-        Player2.Table.FillEmptySlotsToNull();
+        _players[0].Table.SetSamurai(_players[0].Samurai);
+        _players[1].Table.SetSamurai(_players[1].Samurai);
+        foreach (var monster in _players[0].Units) _players[0].Table.AddMonster(monster);
+        foreach (var monster in _players[1].Units) _players[1].Table.AddMonster(monster);
+        _players[0].Table.FillEmptySlotsToNull();
+        _players[1].Table.FillEmptySlotsToNull();
     }
     
     private void StartGame()
@@ -177,8 +185,8 @@ public class Game
     private void DisplayPlayerTables()
     {
         _view.WriteLine(Params.Separator);
-        DisplayPlayerTable(Player1);
-        DisplayPlayerTable(Player2);
+        DisplayPlayerTable(_players[0]);
+        DisplayPlayerTable(_players[1]);
     }
     private void DisplayPlayerTable(Player player)
     {

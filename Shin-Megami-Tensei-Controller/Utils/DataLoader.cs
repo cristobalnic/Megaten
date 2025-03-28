@@ -5,34 +5,42 @@ using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Shin_Megami_Tensei.Utils;
 
-public abstract class DataLoader
+public class DataLoader
 {
-    private static readonly JsonSerializerOptions Options = new() { PropertyNameCaseInsensitive = true };
-    private static readonly List<UnitData> Samurais = DeserializeUnits(Params.SamuraiPath);
-    private static readonly List<UnitData> Monsters = DeserializeUnits(Params.MonsterPath);
-    private static readonly List<SkillData> Skills = DeserializeSkills(Params.SkillPath);
+    private readonly JsonSerializerOptions _options;
+    private readonly List<UnitData> _samurais;
+    private readonly List<UnitData> _monsters;
+    private readonly List<SkillData> _skills;
 
-    private static List<UnitData> DeserializeUnits(string path) 
+    public DataLoader()
     {
-        var json = File.ReadAllText(path);
-        return JsonSerializer.Deserialize<List<UnitData>>(json, Options) ?? [];
+        _options = new() { PropertyNameCaseInsensitive = true };
+        _samurais = DeserializeUnits(Params.SamuraiPath);
+        _monsters = DeserializeUnits(Params.MonsterPath);
+        _skills = DeserializeSkills(Params.SkillPath);
     }
 
-    private static List<SkillData> DeserializeSkills(string path)
+    private  List<UnitData> DeserializeUnits(string path) 
     {
         var json = File.ReadAllText(path);
-        return JsonSerializer.Deserialize<List<SkillData>>(json, Options) ?? [];
+        return JsonSerializer.Deserialize<List<UnitData>>(json, _options) ?? [];
     }
 
-    public static void LoadSamuraiUnitToPlayer(string samuraiRawData, Player currentPlayer)
+    private  List<SkillData> DeserializeSkills(string path)
+    {
+        var json = File.ReadAllText(path);
+        return JsonSerializer.Deserialize<List<SkillData>>(json, _options) ?? [];
+    }
+
+    public  void LoadSamuraiUnitToPlayer(string samuraiRawData, Player currentPlayer)
     {
         var samuraiName = StringFormatter.GetSamuraiName(samuraiRawData);
-        var samuraiData = Samurais.First(samurai => samurai.Name == samuraiName);
+        var samuraiData = _samurais.First(samurai => samurai.Name == samuraiName);
         var samurai = new Samurai(samuraiData);
         currentPlayer.SetSamurai(samurai);
     }
 
-    public static void LoadSkillsToSamurai(string samuraiRawData, Samurai samurai)
+    public  void LoadSkillsToSamurai(string samuraiRawData, Samurai samurai)
     {
         if (!samuraiRawData.Contains('(')) return;
         var samuraiSkillsNames = StringFormatter.GetSamuraiSkills(samuraiRawData);
@@ -43,15 +51,15 @@ public abstract class DataLoader
         }
     }
 
-    public static SkillData GetSkillDataFromDeserializedJson(string skillName)
+    public  SkillData GetSkillDataFromDeserializedJson(string skillName)
     {
-        var skillData = Skills.First(skill => skill.Name == skillName);
+        var skillData = _skills.First(skill => skill.Name == skillName);
         return skillData;
     }
 
-    public static void LoadMonsterUnitToPlayer(string monsterName, Player currentPlayer)
+    public  void LoadMonsterUnitToPlayer(string monsterName, Player currentPlayer)
     {
-        var monsterData = Monsters.First(monster => monster.Name == monsterName);
+        var monsterData = _monsters.First(monster => monster.Name == monsterName);
         var monster = new Monster(monsterData);
         currentPlayer.AddUnit(monster);
     }
