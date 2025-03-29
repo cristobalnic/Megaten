@@ -1,6 +1,6 @@
 ﻿namespace Shin_Megami_Tensei.DataStructures;
 
-public class SkillData
+public struct SkillData
 {
     public required string Name { get; set; }
     public required string Type { get; set; }

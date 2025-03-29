@@ -1,4 +1,6 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using JsonSerializer = System.Text.Json.JsonSerializer;
@@ -14,15 +16,20 @@ public class DataLoader
 
     public DataLoader()
     {
-        _options = new() { PropertyNameCaseInsensitive = true };
+        _options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true,
+            Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+        };
         _samurais = DeserializeUnits(Params.SamuraiPath);
         _monsters = DeserializeUnits(Params.MonsterPath);
         _skills = DeserializeSkills(Params.SkillPath);
     }
 
-    private  List<UnitData> DeserializeUnits(string path) 
+    private  List<UnitData> DeserializeUnits(string path)
     {
-        var json = File.ReadAllText(path);
+        var rawJson = File.ReadAllText(path);
+        var json = StringFormatter.NormalizeAffinityValues(rawJson);
         return JsonSerializer.Deserialize<List<UnitData>>(json, _options) ?? [];
     }
 
@@ -31,7 +38,7 @@ public class DataLoader
         var json = File.ReadAllText(path);
         return JsonSerializer.Deserialize<List<SkillData>>(json, _options) ?? [];
     }
-
+    
     public  void LoadSamuraiUnitToPlayer(string samuraiRawData, Player currentPlayer)
     {
         var samuraiName = StringFormatter.GetSamuraiName(samuraiRawData);
@@ -46,12 +53,12 @@ public class DataLoader
         var samuraiSkillsNames = StringFormatter.GetSamuraiSkills(samuraiRawData);
         foreach (var skillName in samuraiSkillsNames)
         {
-            var skillData = GetSkillDataFromDeserializedJson(skillName);
+            var skillData = GetSkillDataFromJson(skillName);
             samurai.EquipSkill(skillData);
         }
     }
 
-    public  SkillData GetSkillDataFromDeserializedJson(string skillName)
+    public  SkillData GetSkillDataFromJson(string skillName)
     {
         var skillData = _skills.First(skill => skill.Name == skillName);
         return skillData;

@@ -10,7 +10,7 @@ public class Monster : Unit
     {
         foreach (var skillName in unitData.Skills)
         {
-            SkillData skillData = _dataLoader.GetSkillDataFromDeserializedJson(skillName);
+            var skillData = _dataLoader.GetSkillDataFromJson(skillName);
             Skills.Add(new Skill(skillData));
         }
     }

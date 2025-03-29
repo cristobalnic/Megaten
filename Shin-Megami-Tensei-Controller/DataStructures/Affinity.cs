@@ -1,18 +1,20 @@
-﻿namespace Shin_Megami_Tensei.DataStructures;
+﻿using Shin_Megami_Tensei.Enums;
 
-public class Affinity
+namespace Shin_Megami_Tensei.DataStructures;
+
+public struct Affinity
 {
-    public required string Phys { get; set; }
-    public required string Gun { get; set; }
-    public required string Fire { get; set; }
-    public required string Ice { get; set; }
-    public required string Elec { get; set; }
-    public required string Force { get; set; }
-    public required string Light { get; set; }
-    public required string Dark { get; set; }
-    public required string Bind { get; set; }
-    public required string Sleep { get; set; }
-    public required string Sick { get; set; }
-    public required string Panic { get; set; }
-    public required string Poison { get; set; }
+    public required AffinityType Phys { get; set; }
+    public required AffinityType Gun { get; set; }
+    public required AffinityType Fire { get; set; }
+    public required AffinityType Ice { get; set; }
+    public required AffinityType Elec { get; set; }
+    public required AffinityType Force { get; set; }
+    public required AffinityType Light { get; set; }
+    public required AffinityType Dark { get; set; }
+    public required AffinityType Bind { get; set; }
+    public required AffinityType Sleep { get; set; }
+    public required AffinityType Sick { get; set; }
+    public required AffinityType Panic { get; set; }
+    public required AffinityType Poison { get; set; }
 }

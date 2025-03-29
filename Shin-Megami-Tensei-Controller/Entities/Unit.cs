@@ -6,7 +6,7 @@ public abstract class Unit
 {
     public readonly string Name;
     public Stats Stats;
-    private Affinity _affinity;
+    public Affinity Affinity;
     public readonly List<Skill> Skills = [];
 
     protected Unit(UnitData unitData)
@@ -15,7 +15,7 @@ public abstract class Unit
         Stats = unitData.Stats;
         Stats.MaxHp = unitData.Stats.Hp;
         Stats.MaxMp = unitData.Stats.Mp;
-        _affinity= unitData.Affinity;
+        Affinity= unitData.Affinity;
     }
     
     public bool IsAlive()

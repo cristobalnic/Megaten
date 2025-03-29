@@ -8,10 +8,8 @@ public class Player
     public Samurai? Samurai { get; private set; }
     public readonly List<Unit> Units = [];
     public readonly Table Table = new();
-    
     public int FullTurns { get; set; }
     public int BlinkingTurns { get; private set; }
-    
     
     public Player(int id)
     {
