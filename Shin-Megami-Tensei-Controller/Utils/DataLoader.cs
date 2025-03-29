@@ -1,6 +1,5 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Text.RegularExpressions;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using JsonSerializer = System.Text.Json.JsonSerializer;
@@ -47,14 +46,14 @@ public class DataLoader
         currentPlayer.SetSamurai(samurai);
     }
 
-    public  void LoadSkillsToSamurai(string samuraiRawData, Samurai samurai)
+    public  void LoadSkillsToSamurai(string samuraiRawData, Samurai? samurai)
     {
         if (!samuraiRawData.Contains('(')) return;
         var samuraiSkillsNames = StringFormatter.GetSamuraiSkills(samuraiRawData);
         foreach (var skillName in samuraiSkillsNames)
         {
             var skillData = GetSkillDataFromJson(skillName);
-            samurai.EquipSkill(skillData);
+            samurai?.EquipSkill(skillData);
         }
     }
 

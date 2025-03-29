@@ -36,9 +36,21 @@ public class Player
         Units.Add(unit);
     }
 
+    public bool HasSamurai()
+    {
+        return Samurai != null;
+    }
+    
     public void ResetAvailableTurns()
     {
         FullTurns = Table.Monsters.Count(monster => monster != null && monster.IsAlive());
         BlinkingTurns = 0;
+    }
+
+    public bool IsTeamValid()
+    {
+        if (Samurai == null)
+            return false;
+        return true;
     }
 }

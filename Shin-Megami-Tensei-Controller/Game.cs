@@ -3,7 +3,6 @@ using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Utils;
 
-
 namespace Shin_Megami_Tensei;
 
 public class Game
@@ -11,8 +10,8 @@ public class Game
     private readonly View _view;
     private readonly string _teamsFolder;
 
-    private bool ENDGAME = false;
-    private readonly List<Player> _players;
+    private bool IsGameEnded = false;
+    private readonly List<Player> _players = [new(1), new(2)];
     private int _round;
     private Player _turnPlayer;
     private Player _waitPlayer;
@@ -22,7 +21,6 @@ public class Game
     {
         _view = view;
         _teamsFolder = teamsFolder;
-        _players = new List<Player>();
         _dataLoader = new DataLoader();
     }
 
@@ -34,7 +32,7 @@ public class Game
         }
         catch (MegatenException exception)
         {
-            string message = exception.GetErrorMessage();
+            var message = exception.GetErrorMessage();
             if (message != "ENDGAME") _view.WriteLine(message);
         }
     }
@@ -47,21 +45,13 @@ public class Game
     
     private void GameSetup()
     {
-        InitializePlayers();
-        DisplayTeamFiles();
+        DisplayTeamFileSelection();
         LoadTeams();
         ValidateTeams();
         SetupTable();
     }
 
-    private void InitializePlayers()
-    {
-        _players.Add(new Player(1));
-        _players.Add(new Player(2));
-        SetCurrentPlayer();
-    }
-
-    private void DisplayTeamFiles()
+    private void DisplayTeamFileSelection()
     {
         string[] teamFiles = GetTeamFiles();
         _view.WriteLine("Elige un archivo para cargar los equipos");
@@ -69,10 +59,7 @@ public class Game
             _view.WriteLine($"{i}: {Path.GetFileName(teamFiles[i])}");
     }
     
-    private string[] GetTeamFiles()
-    {
-        return Directory.GetFiles(_teamsFolder, "*.txt");
-    }
+    private string[] GetTeamFiles() => Directory.GetFiles(_teamsFolder, "*.txt");
 
     private void LoadTeams()
     {
@@ -100,7 +87,7 @@ public class Game
         if (unitRawData.StartsWith("[Samurai]"))
         {
             _dataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
-            _dataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai ?? throw new InvalidOperationException());
+            _dataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai);
         }
         else
             _dataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
@@ -108,13 +95,10 @@ public class Game
 
     private void ValidateTeams()
     {
-        if (!IsTeamValid(_players[0]) || !IsTeamValid(_players[1]))
+        if (!_players[0].IsTeamValid() || !_players[1].IsTeamValid())
             throw new InvalidTeamException();
     }
-
-    private static bool IsTeamValid(Player player) => player.Samurai != null;
-
-
+    
     private void SetupTable()
     {
         _players[0].Table.SetSamurai(_players[0].Samurai);
@@ -127,15 +111,15 @@ public class Game
     
     private void StartGame()
     {
-        while (ENDGAME == false)
+        while (IsGameEnded == false)
         {
-            SetCurrentPlayer();
+            SetPlayersRoles();
             PlayRound();
             _round++;
         }
     }
     
-    private void SetCurrentPlayer()
+    private void SetPlayersRoles()
     {
         _turnPlayer = _players[_round % 2];
         _waitPlayer = _players[(_round + 1) % 2];
