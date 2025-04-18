@@ -24,11 +24,11 @@ public class Game
         _dataLoader = new DataLoader();
     }
 
-    public void TryToPlay()
+    public void Play()
     {
         try
         {
-            Play();
+            TryToPlay();
         }
         catch (MegatenException exception)
         {
@@ -37,7 +37,7 @@ public class Game
         }
     }
 
-    private void Play()
+    private void TryToPlay()
     {
         SetupGame();
         StartGame();

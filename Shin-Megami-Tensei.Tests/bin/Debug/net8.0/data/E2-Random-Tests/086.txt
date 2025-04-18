@@ -1,0 +1,7240 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+100: 101.txt
+101: 102.txt
+102: 103.txt
+103: 104.txt
+104: 105.txt
+105: 106.txt
+106: 107.txt
+107: 108.txt
+108: 109.txt
+109: 110.txt
+110: 111.txt
+111: 112.txt
+112: 113.txt
+113: 114.txt
+114: 115.txt
+115: 116.txt
+116: 117.txt
+117: 118.txt
+118: 119.txt
+119: 120.txt
+120: 121.txt
+121: 122.txt
+122: 123.txt
+123: 124.txt
+124: 125.txt
+125: 126.txt
+126: 127.txt
+127: 128.txt
+128: 129.txt
+129: 130.txt
+130: 131.txt
+131: 132.txt
+132: 133.txt
+133: 134.txt
+134: 135.txt
+135: 136.txt
+136: 137.txt
+137: 138.txt
+138: 139.txt
+139: 140.txt
+140: 141.txt
+141: 142.txt
+142: 143.txt
+143: 144.txt
+144: 145.txt
+145: 146.txt
+146: 147.txt
+147: 148.txt
+148: 149.txt
+149: 150.txt
+150: 151.txt
+151: 152.txt
+152: 153.txt
+153: 154.txt
+154: 155.txt
+155: 156.txt
+156: 157.txt
+157: 158.txt
+158: 159.txt
+159: 160.txt
+160: 161.txt
+161: 162.txt
+162: 163.txt
+163: 164.txt
+164: 165.txt
+165: 166.txt
+166: 167.txt
+167: 168.txt
+168: 169.txt
+169: 170.txt
+170: 171.txt
+171: 172.txt
+172: 173.txt
+173: 174.txt
+174: 175.txt
+175: 176.txt
+176: 177.txt
+177: 178.txt
+178: 179.txt
+179: 180.txt
+180: 181.txt
+181: 182.txt
+182: 183.txt
+183: 184.txt
+184: 185.txt
+185: 186.txt
+186: 187.txt
+187: 188.txt
+188: 189.txt
+189: 190.txt
+190: 191.txt
+191: 192.txt
+192: 193.txt
+193: 194.txt
+194: 195.txt
+195: 196.txt
+196: 197.txt
+197: 198.txt
+198: 199.txt
+199: 200.txt
+INPUT: 85
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:399/399 MP:387/387
+C-Shax HP:371/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Alilat
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:399/399 MP:387/387
+C-Shax HP:371/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Alilat
+2-Scathach
+3-Mithras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:399/399 MP:387/387
+C-Shax HP:371/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+4-Alilat
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:760/760 MP:398/398
+2-Mastema HP:399/399 MP:387/387
+3-Shax HP:371/371 MP:360/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Scathach ataca a Mastema
+Mastema recibe 27 de daño
+Mastema termina con HP:372/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:372/399 MP:387/387
+C-Shax HP:371/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Alilat
+4-Scathach
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mithras
+1-Kei HP:760/760 MP:398/398
+2-Mastema HP:372/399 MP:387/387
+3-Shax HP:371/371 MP:360/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Mithras ataca a Shax
+Shax recibe 20 de daño
+Shax termina con HP:351/371
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:372/399 MP:387/387
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Alilat
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:760/760 MP:398/398
+2-Mastema HP:372/399 MP:387/387
+3-Shax HP:351/371 MP:360/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Mastema
+Mastema recibe 88 de daño
+Mastema termina con HP:284/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Shax
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mastema
+1-Flynn HP:971/971 MP:527/527
+2-Scathach HP:343/343 MP:153/153
+3-Mithras HP:293/293 MP:58/58
+4-Alilat HP:441/441 MP:428/428
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pale Rider HP:693/693 MP:310/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:310/310
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shax
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:310/310
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Shax
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:293/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:310/310
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Shax
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mastema HP:284/399 MP:387/387
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:971/971 MP:527/527
+2-Scathach HP:343/343 MP:153/153
+3-Mithras HP:293/293 MP:58/58
+4-Alilat HP:441/441 MP:428/428
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kei dispara a Mithras
+Mithras recibe 15 de daño
+Mithras termina con HP:278/293
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:278/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:310/310
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Shax
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:971/971 MP:527/527
+2-Scathach HP:343/343 MP:153/153
+3-Mithras HP:278/293 MP:58/58
+4-Alilat HP:441/441 MP:428/428
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider lanza viento a Flynn
+Flynn recibe 168 de daño
+Flynn termina con HP:803/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:278/293 MP:58/58
+D-Alilat HP:441/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:288/310
+C-Shax HP:351/371 MP:360/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shax
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Shax use
+1-Deadly Wind MP:22
+2-Poison Breath MP:11
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:803/971 MP:527/527
+2-Scathach HP:343/343 MP:153/153
+3-Mithras HP:278/293 MP:58/58
+4-Alilat HP:441/441 MP:428/428
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Shax lanza viento a Alilat
+Alilat recibe 167 de daño
+Alilat termina con HP:274/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:527/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:278/293 MP:58/58
+D-Alilat HP:274/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:288/310
+C-Shax HP:351/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Alilat
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:760/760 MP:398/398
+2-Pale Rider HP:693/693 MP:288/310
+3-Shax HP:351/371 MP:338/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn lanza fuego a Shax
+Shax recibe 141 de daño
+Shax termina con HP:210/371
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:519/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:278/293 MP:58/58
+D-Alilat HP:274/441 MP:428/428
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Alilat
+2-Scathach
+3-Mithras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Alilat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:519/527
+B-Scathach HP:343/343 MP:153/153
+C-Mithras HP:278/293 MP:58/58
+D-Yamata-no-Orochi HP:662/662 MP:131/131
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:693/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:760/760 MP:398/398
+2-Pale Rider HP:693/693 MP:288/310
+3-Shax HP:210/371 MP:338/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Scathach ataca a Pale Rider
+Pale Rider recibe 82 de daño
+Pale Rider termina con HP:611/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:519/527
+B-Scathach HP:343/343 MP:144/153
+C-Mithras HP:278/293 MP:58/58
+D-Yamata-no-Orochi HP:662/662 MP:131/131
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:611/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Yamata-no-Orochi
+4-Scathach
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Alilat HP:274/441 MP:428/428
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Alilat ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:519/527
+B-Scathach HP:343/343 MP:144/153
+C-Alilat HP:274/441 MP:428/428
+D-Yamata-no-Orochi HP:662/662 MP:131/131
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:611/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+4-Alilat
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:760/760 MP:398/398
+2-Pale Rider HP:611/693 MP:288/310
+3-Shax HP:210/371 MP:338/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn lanza fuego a Pale Rider
+Pale Rider recibe 141 de daño
+Pale Rider termina con HP:470/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:343/343 MP:144/153
+C-Alilat HP:274/441 MP:428/428
+D-Yamata-no-Orochi HP:662/662 MP:131/131
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:470/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Alilat
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mithras HP:278/293 MP:58/58
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Mithras ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:343/343 MP:144/153
+C-Alilat HP:274/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Pale Rider HP:470/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Alilat
+3-Flynn
+4-Mithras
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:760/760 MP:398/398
+2-Pale Rider HP:470/693 MP:288/310
+3-Shax HP:210/371 MP:338/360
+4-Manticore HP:385/385 MP:172/172
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 41 de daño
+Kei termina con HP:719/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:343/343 MP:135/153
+C-Alilat HP:274/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Pale Rider HP:470/693 MP:288/310
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Manticore
+3-Shax
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mastema HP:284/399 MP:387/387
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Mastema ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:343/343 MP:135/153
+C-Alilat HP:274/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Manticore
+2-Shax
+3-Kei
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:343/343 MP:135/153
+3-Alilat HP:274/441 MP:428/428
+4-Mithras HP:278/293 MP:58/58
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Manticore ataca a Scathach
+Scathach recibe 31 de daño
+Scathach termina con HP:312/343
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-Alilat HP:274/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:338/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shax
+2-Kei
+3-Mastema
+4-Manticore
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pale Rider HP:470/693 MP:288/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Shax use
+1-Deadly Wind MP:22
+2-Poison Breath MP:11
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:135/153
+3-Alilat HP:274/441 MP:428/428
+4-Mithras HP:278/293 MP:58/58
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Shax lanza viento a Alilat
+Alilat recibe 167 de daño
+Alilat termina con HP:107/441
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-Alilat HP:107/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:316/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Mastema
+3-Manticore
+4-Shax
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-Alilat HP:107/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:316/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Shax
+4-Kei
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-Alilat HP:107/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:316/360
+D-Manticore HP:385/385 MP:172/172
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Manticore
+2-Shax
+3-Kei
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pale Rider HP:470/693 MP:288/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-Alilat HP:107/441 MP:428/428
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:316/360
+D-Pale Rider HP:470/693 MP:288/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shax
+2-Kei
+3-Mastema
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:135/153
+3-Alilat HP:107/441 MP:428/428
+4-Mithras HP:278/293 MP:58/58
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Shax use
+1-Deadly Wind MP:22
+2-Poison Breath MP:11
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:135/153
+3-Alilat HP:107/441 MP:428/428
+4-Mithras HP:278/293 MP:58/58
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Shax lanza viento a Alilat
+Alilat recibe 167 de daño
+Alilat termina con HP:0/441
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:294/360
+D-Pale Rider HP:470/693 MP:288/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:135/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:210/371 MP:294/360
+D-Pale Rider HP:470/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Shax HP:210/371 MP:294/360
+4-Pale Rider HP:470/693 MP:288/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Scathach ataca a Shax
+Shax recibe 82 de daño
+Shax termina con HP:128/371
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:128/371 MP:294/360
+D-Pale Rider HP:470/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Scathach
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mithras
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Shax HP:128/371 MP:294/360
+4-Pale Rider HP:470/693 MP:288/310
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Mithras ataca a Pale Rider
+Pale Rider recibe 20 de daño
+Pale Rider termina con HP:450/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:128/371 MP:294/360
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Shax HP:128/371 MP:294/360
+4-Pale Rider HP:450/693 MP:288/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Shax HP:128/371 MP:294/360
+4-Pale Rider HP:450/693 MP:288/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn dispara a Shax
+Shax recibe 110 de daño
+Shax termina con HP:18/371
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:18/371 MP:294/360
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Shax
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:18/371 MP:294/360
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Shax
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Shax HP:18/371 MP:294/360
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shax
+2-Kei
+3-Pale Rider
+4-Mastema
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:126/153
+3-Mithras HP:278/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Manticore HP:385/385 MP:172/172
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Manticore ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:385/385 MP:172/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:385/385 MP:172/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:385/385 MP:172/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Shax HP:18/371 MP:294/360
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shax ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:278/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:385/385 MP:172/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Shax
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:126/153
+3-Mithras HP:278/293 MP:58/58
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:803/971 MP:511/527
+2-Scathach HP:312/343 MP:126/153
+3-Mithras HP:278/293 MP:58/58
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Manticore ataca a Mithras
+Mithras recibe 84 de daño
+Manticore ataca a Mithras
+Mithras recibe 84 de daño
+Mithras termina con HP:110/293
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:110/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:385/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Scathach HP:312/343 MP:126/153
+C-
+D-Mithras HP:110/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:385/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yamata-no-Orochi HP:662/662 MP:131/131
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-
+D-Mithras HP:110/293 MP:58/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:385/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mithras use
+1-Mahama MP:18
+2-Heat Wave MP:11
+3-Rakunda MP:15
+4-Fatal Sword MP:8
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mithras use
+1-Mahama MP:18
+2-Heat Wave MP:11
+3-Rakunda MP:15
+4-Fatal Sword MP:8
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Mithras
+1-Kei HP:719/760 MP:398/398
+2-Shax HP:18/371 MP:294/360
+3-Manticore HP:385/385 MP:165/172
+4-Pale Rider HP:450/693 MP:288/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Mithras ataca a Manticore
+Manticore recibe 72 de daño
+Manticore termina con HP:313/385
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-
+D-Mithras HP:110/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:313/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:719/760 MP:398/398
+2-Shax HP:18/371 MP:294/360
+3-Manticore HP:313/385 MP:165/172
+4-Pale Rider HP:450/693 MP:288/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn dispara a Manticore
+Manticore recibe 110 de daño
+Manticore termina con HP:203/385
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:662/662 MP:131/131
+C-
+D-Mithras HP:110/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Shax
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mastema HP:284/399 MP:387/387
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:803/971 MP:511/527
+2-Yamata-no-Orochi HP:662/662 MP:131/131
+3-Mithras HP:110/293 MP:50/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 58 de daño
+Yamata-no-Orochi termina con HP:604/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:604/662 MP:131/131
+C-
+D-Mithras HP:110/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shax
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:604/662 MP:131/131
+C-
+D-Mithras HP:110/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Shax
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:803/971 MP:511/527
+2-Yamata-no-Orochi HP:604/662 MP:131/131
+3-Mithras HP:110/293 MP:50/58
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Manticore ataca a Mithras
+Mithras recibe 31 de daño
+Mithras termina con HP:79/293
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:604/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Shax
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:604/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:288/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Shax
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:803/971 MP:511/527
+2-Yamata-no-Orochi HP:604/662 MP:131/131
+3-Mithras HP:79/293 MP:50/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider lanza viento a Yamata-no-Orochi
+Yamata-no-Orochi recibe 168 de daño
+Yamata-no-Orochi termina con HP:436/662
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Shax HP:18/371 MP:294/360
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shax
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mastema HP:284/399 MP:387/387
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Mastema ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:803/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:803/971 MP:511/527
+2-Yamata-no-Orochi HP:436/662 MP:131/131
+3-Mithras HP:79/293 MP:50/58
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Manticore ataca a Flynn
+Flynn recibe 31 de daño
+Flynn termina con HP:772/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:203/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Manticore HP:203/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn ataca a Manticore
+Manticore recibe 88 de daño
+Manticore termina con HP:115/385
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Mithras
+3-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:284/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:284/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Mastema
+Mastema recibe 88 de daño
+Mastema termina con HP:196/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:436/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:772/971 MP:511/527
+2-Yamata-no-Orochi HP:436/662 MP:131/131
+3-Mithras HP:79/293 MP:50/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 58 de daño
+Yamata-no-Orochi termina con HP:378/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:378/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:378/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Manticore
+1-Flynn HP:772/971 MP:511/527
+2-Yamata-no-Orochi HP:378/662 MP:131/131
+3-Mithras HP:79/293 MP:50/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Manticore ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 31 de daño
+Yamata-no-Orochi termina con HP:347/662
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:347/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:772/971 MP:511/527
+2-Yamata-no-Orochi HP:347/662 MP:131/131
+3-Mithras HP:79/293 MP:50/58
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kei ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 19 de daño
+Yamata-no-Orochi termina con HP:328/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Scathach HP:312/343 MP:126/153
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Yamata-no-Orochi HP:328/662 MP:131/131 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Mithras HP:79/293 MP:50/58 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Scathach ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Mithras
+3-Scathach
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Scathach
+3-Flynn
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mithras use
+1-Mahama MP:18
+2-Heat Wave MP:11
+3-Rakunda MP:15
+4-Fatal Sword MP:8
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+3-Yamata-no-Orochi
+4-Mithras
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Mithras
+4-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:131/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:719/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Mithras
+3-Scathach
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:719/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yamata-no-Orochi lanza hielo a Kei
+Kei es resistente el ataque de Yamata-no-Orochi
+Kei recibe 54 de daño
+Kei termina con HP:665/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:772/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:772/971 MP:511/527
+2-Yamata-no-Orochi HP:328/662 MP:117/131
+3-Scathach HP:312/343 MP:126/153
+4-Mithras HP:79/293 MP:50/58
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Pale Rider ataca a Flynn
+Flynn recibe 58 de daño
+Flynn termina con HP:714/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:79/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:714/971 MP:511/527
+2-Yamata-no-Orochi HP:328/662 MP:117/131
+3-Scathach HP:312/343 MP:126/153
+4-Mithras HP:79/293 MP:50/58
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kei dispara a Mithras
+Mithras recibe 15 de daño
+Mithras termina con HP:64/293
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:328/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mastema use
+1-Megidolaon MP:60
+2-Pandemic Bomb MP:11
+3-Panic Voice MP:15
+4-Mahamaon MP:30
+5-Deadly Wind MP:22
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mastema
+1-Flynn HP:714/971 MP:511/527
+2-Yamata-no-Orochi HP:328/662 MP:117/131
+3-Scathach HP:312/343 MP:126/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Mastema ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 43 de daño
+Yamata-no-Orochi termina con HP:285/662
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:511/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:665/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:665/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 53 de daño
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 53 de daño
+Kei termina con HP:559/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:196/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Mithras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:196/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Yamata-no-Orochi ataca a Mastema
+Mastema recibe 50 de daño
+Mastema termina con HP:146/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:146/399 MP:387/387
+C-Manticore HP:115/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:146/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:146/399 MP:387/387
+3-Manticore HP:115/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Scathach ataca a Manticore
+Manticore recibe 27 de daño
+Manticore termina con HP:88/385
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:146/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Yamata-no-Orochi
+4-Scathach
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mithras
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:146/399 MP:387/387
+3-Manticore HP:88/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Mithras ataca a Mastema
+Mastema recibe 20 de daño
+Mastema termina con HP:126/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:312/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:714/971 MP:507/527
+2-Yamata-no-Orochi HP:285/662 MP:117/131
+3-Scathach HP:312/343 MP:126/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Pale Rider ataca a Scathach
+Scathach recibe 58 de daño
+Scathach termina con HP:254/343
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:714/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:254/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Manticore
+3-Kei
+4-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mastema
+1-Flynn HP:714/971 MP:507/527
+2-Yamata-no-Orochi HP:285/662 MP:117/131
+3-Scathach HP:254/343 MP:126/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Mastema ataca a Flynn
+Flynn recibe 43 de daño
+Flynn termina con HP:671/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:254/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Manticore
+2-Kei
+3-Pale Rider
+4-Mastema
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Shax HP:18/371 MP:294/360
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Manticore use
+1-Toxic Sting MP:9
+2-Damascus Claw MP:7
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Manticore
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:254/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+4-Manticore
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:285/662 MP:117/131
+3-Scathach HP:254/343 MP:126/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kei ataca a Scathach
+Scathach recibe 19 de daño
+Scathach termina con HP:235/343
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:285/662 MP:117/131
+C-Scathach HP:235/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Manticore
+4-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:285/662 MP:117/131
+3-Scathach HP:235/343 MP:126/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 58 de daño
+Yamata-no-Orochi termina con HP:227/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-Manticore HP:88/385 MP:165/172
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:126/399 MP:387/387
+3-Manticore HP:88/385 MP:165/172
+4-Pale Rider HP:450/693 MP:266/310
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn dispara a Manticore
+Manticore recibe 110 de daño
+Manticore termina con HP:0/385
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Mithras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:126/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:126/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Mithras
+3-Flynn
+4-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:126/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Scathach ataca a Mastema
+Mastema recibe 82 de daño
+Mastema termina con HP:44/399
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mithras
+2-Flynn
+3-Yamata-no-Orochi
+4-Scathach
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Mithras
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+4-Mithras
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:227/662 MP:117/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Mithras
+4-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:559/760 MP:398/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yamata-no-Orochi lanza hielo a Mastema
+Mastema devuelve 109 daño a Yamata-no-Orochi
+Yamata-no-Orochi termina con HP:118/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:64/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Shax HP:18/371 MP:294/360
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Shax HP:18/371 MP:294/360
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:118/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Mithras HP:64/293 MP:50/58
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider ataca a Mithras
+Mithras recibe 58 de daño
+Mithras termina con HP:6/293
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:6/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Kei
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-Mithras HP:6/293 MP:50/58
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:398/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:118/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Mithras HP:6/293 MP:50/58
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kei lanza viento a Mithras
+Mithras recibe 56 de daño
+Mithras termina con HP:0/293
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mastema
+2-Kei
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:559/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:559/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:559/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 44 de daño
+Kei termina con HP:515/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:515/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yamata-no-Orochi use
+1-Bufudyne MP:14
+2-Megaton Press MP:17
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:515/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+3-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:515/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 13 de daño
+Kei termina con HP:502/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:502/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:450/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:502/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:502/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:450/693 MP:266/310
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Flynn ataca a Pale Rider
+Pale Rider recibe 88 de daño
+Pale Rider termina con HP:362/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:118/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:502/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:362/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Mastema
+3-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:118/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 58 de daño
+Yamata-no-Orochi termina con HP:60/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:671/971 MP:507/527
+B-Yamata-no-Orochi HP:60/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:502/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:362/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mastema
+2-Kei
+3-Pale Rider
+----------------------------------------
+Seleccione una acción para Mastema
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mastema
+1-Flynn HP:671/971 MP:507/527
+2-Yamata-no-Orochi HP:60/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Mastema ataca a Flynn
+Flynn recibe 43 de daño
+Flynn termina con HP:628/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:60/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:502/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:362/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+3-Mastema
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:628/971 MP:507/527
+2-Yamata-no-Orochi HP:60/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kei ataca a Yamata-no-Orochi
+Yamata-no-Orochi recibe 19 de daño
+Yamata-no-Orochi termina con HP:41/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:502/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:362/693 MP:266/310
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:502/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:362/693 MP:266/310
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:502/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:362/693 MP:266/310
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 55 de daño
+Kei termina con HP:447/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:362/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yamata-no-Orochi
+2-Scathach
+3-Flynn
+----------------------------------------
+Seleccione una acción para Yamata-no-Orochi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yamata-no-Orochi
+1-Kei HP:447/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:362/693 MP:266/310
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yamata-no-Orochi ataca a Pale Rider
+Pale Rider recibe 50 de daño
+Pale Rider termina con HP:312/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:312/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+3-Yamata-no-Orochi
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-Mastema HP:44/399 MP:387/387
+C-
+D-Pale Rider HP:312/693 MP:266/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Yamata-no-Orochi
+3-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:447/760 MP:390/398
+2-Mastema HP:44/399 MP:387/387
+3-Pale Rider HP:312/693 MP:266/310
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Mastema
+Mastema recibe 88 de daño
+Mastema termina con HP:0/399
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:312/693 MP:266/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:628/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:312/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:628/971 MP:507/527
+2-Yamata-no-Orochi HP:41/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:628/971 MP:507/527
+2-Yamata-no-Orochi HP:41/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Kei dispara a Flynn
+Flynn recibe 15 de daño
+Flynn termina con HP:613/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-Yamata-no-Orochi HP:41/662 MP:103/131
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:312/693 MP:266/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:613/971 MP:507/527
+2-Yamata-no-Orochi HP:41/662 MP:103/131
+3-Scathach HP:235/343 MP:117/153
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Pale Rider lanza viento a Yamata-no-Orochi
+Yamata-no-Orochi recibe 168 de daño
+Yamata-no-Orochi termina con HP:0/662
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:312/693 MP:244/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:447/760 MP:390/398
+2-Pale Rider HP:312/693 MP:244/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Pale Rider
+Pale Rider recibe 110 de daño
+Pale Rider termina con HP:202/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:447/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:447/760 MP:390/398
+2-Pale Rider HP:202/693 MP:244/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 13 de daño
+Kei termina con HP:434/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:613/971 MP:507/527
+2-Scathach HP:235/343 MP:117/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Flynn HP:613/971 MP:507/527
+2-Scathach HP:235/343 MP:117/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:235/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:613/971 MP:507/527
+2-Scathach HP:235/343 MP:117/153
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kei ataca a Scathach
+Scathach recibe 19 de daño
+Scathach termina con HP:216/343
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:202/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:202/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:202/693 MP:244/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Scathach ataca a Pale Rider
+Pale Rider recibe 27 de daño
+Pale Rider termina con HP:175/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:175/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:390/398
+2-Pale Rider HP:175/693 MP:244/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Pale Rider
+Pale Rider recibe 88 de daño
+Pale Rider termina con HP:87/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:87/693 MP:244/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Kei
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:390/398
+B-
+C-
+D-Pale Rider HP:87/693 MP:244/310
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:613/971 MP:507/527
+2-Scathach HP:216/343 MP:117/153
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kei dispara a Scathach
+Scathach bloquea el ataque de Kei
+Scathach termina con HP:216/343
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:386/398
+B-
+C-
+D-Pale Rider HP:87/693 MP:244/310
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:386/398
+2-Pale Rider HP:87/693 MP:244/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:434/760 MP:386/398
+2-Pale Rider HP:87/693 MP:244/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Pale Rider
+Pale Rider recibe 88 de daño
+Pale Rider termina con HP:0/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:434/760 MP:386/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:386/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:386/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:386/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:434/760 MP:386/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 13 de daño
+Kei termina con HP:421/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:421/760 MP:386/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:613/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:421/760 MP:386/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:613/971 MP:507/527
+2-Scathach HP:216/343 MP:117/153
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Flynn
+Flynn recibe 85 de daño
+Flynn termina con HP:528/971
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:421/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:421/760 MP:375/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:421/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:421/760 MP:375/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:421/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 13 de daño
+Kei termina con HP:408/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Shax HP:18/371 MP:294/360
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Shax ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-Shax HP:18/371 MP:294/360
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shax
+2-Kei
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Shax use
+1-Deadly Wind MP:22
+2-Poison Breath MP:11
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Shax
+1-Flynn HP:528/971 MP:507/527
+2-Scathach HP:216/343 MP:117/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shax
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-Shax HP:18/371 MP:294/360
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:408/760 MP:375/398
+2-Shax HP:18/371 MP:294/360
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:408/760 MP:375/398
+2-Shax HP:18/371 MP:294/360
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Shax
+Shax recibe 110 de daño
+Shax termina con HP:0/371
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:408/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:408/760 MP:375/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:408/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 55 de daño
+Kei termina con HP:353/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:528/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:353/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:528/971 MP:507/527
+2-Scathach HP:216/343 MP:117/153
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Flynn
+Flynn recibe 19 de daño
+Flynn termina con HP:509/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:509/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:353/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:353/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn dispara a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 55 de daño
+Kei termina con HP:298/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:509/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:117/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:298/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:298/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach dispara a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 50 de daño
+Kei termina con HP:248/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:509/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:248/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:509/971 MP:507/527
+2-Scathach HP:216/343 MP:106/153
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Flynn
+Flynn recibe 19 de daño
+Flynn termina con HP:490/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:248/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:248/760 MP:375/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:248/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 44 de daño
+Kei termina con HP:204/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:204/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:204/760 MP:375/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach ataca a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 13 de daño
+Kei termina con HP:191/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:191/760 MP:375/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:106/153
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kei dispara a Scathach
+Scathach bloquea el ataque de Kei
+Scathach termina con HP:216/343
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:191/760 MP:364/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:191/760 MP:364/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 44 de daño
+Kei termina con HP:147/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:147/760 MP:364/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:147/760 MP:364/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:147/760 MP:364/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:106/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:106/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:106/153
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Kei lanza viento a Scathach
+Scathach bloquea el ataque de Kei
+Scathach termina con HP:216/343
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:147/760 MP:356/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:147/760 MP:356/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 44 de daño
+Kei termina con HP:103/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:106/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:103/760 MP:356/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Scathach
+2-Flynn
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Scathach
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Scathach use
+1-Mazanma MP:20
+2-Oni-Kagura MP:9
+3-Grand Tack MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Scathach
+1-Kei HP:103/760 MP:356/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Scathach dispara a Kei
+Kei es resistente el ataque de Scathach
+Kei recibe 50 de daño
+Kei termina con HP:53/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:490/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:95/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:53/760 MP:356/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:95/153
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Oni-Kagura MP:9
+2-Axel Claw MP:15
+3-Needle Shot MP:4
+4-Nihil Claw MP:11
+5-Zanma MP:8
+6-Grand Tack MP:11
+7-Tathlum Shot MP:7
+8-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Flynn HP:490/971 MP:507/527
+2-Scathach HP:216/343 MP:95/153
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Flynn
+Flynn recibe 85 de daño
+Flynn termina con HP:405/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:405/971 MP:507/527
+B-
+C-Scathach HP:216/343 MP:95/153
+D-
+Equipo de Kei (J2)
+A-Kei HP:53/760 MP:345/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Scathach
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Agilao MP:8
+2-Bufu MP:5
+3-Bouncing Claw MP:4
+4-Ziodyne MP:14
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Kei HP:53/760 MP:345/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn lanza fuego a Kei
+Kei es resistente el ataque de Flynn
+Kei recibe 70 de daño
+Kei termina con HP:0/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Flynn (J1)
