@@ -233,437 +233,7 @@ Seleccione una habilidad para que Demonee-Ho use
 2-Desperate Hit MP:40
 3-Breath MP:24
 4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:999/999 MP:0/0
-2-Quetzalcoatl HP:553/553 MP:247/247
-3-Tsuchigumo HP:280/280 MP:126/126
-4-Nue HP:341/341 MP:67/67
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Demonee-Ho ataca a Tsuchigumo
-Tsuchigumo recibe 110 de daño
-Tsuchigumo termina con HP:170/280
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Demonee-Ho HP:804/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:247/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:341/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Joker
-2-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Joker
-1-Kyouji HP:999/999 MP:0/0
-2-Quetzalcoatl HP:553/553 MP:247/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:341/341 MP:67/67
-5-Cancelar
 INPUT: 4
-----------------------------------------
-Joker ataca a Nue
-Nue recibe 28 de daño
-Nue termina con HP:313/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Demonee-Ho HP:804/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:247/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Tsuchigumo
-3-Kyouji
-4-Nue
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Quetzalcoatl
-1-Joker HP:597/597 MP:347/347
-2-Demonee-Ho HP:804/804 MP:152/160
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Quetzalcoatl lanza fuego a Demonee-Ho
-Demonee-Ho es resistente el ataque de Quetzalcoatl
-Demonee-Ho recibe 75 de daño
-Demonee-Ho termina con HP:729/804
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Demonee-Ho HP:729/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Kyouji
-3-Nue
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Joker HP:597/597 MP:347/347
-2-Demonee-Ho HP:729/804 MP:152/160
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo ataca a Joker
-Joker recibe 22 de daño
-Joker termina con HP:575/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:729/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-2-Nue
-3-Quetzalcoatl
-4-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:729/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nue
-2-Quetzalcoatl
-3-Tsuchigumo
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Mokoi HP:74/74 MP:36/36
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Joker HP:575/597 MP:347/347
-2-Demonee-Ho HP:729/804 MP:152/160
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Nue ataca a Demonee-Ho
-Demonee-Ho es resistente el ataque de Nue
-Demonee-Ho recibe 12 de daño
-Demonee-Ho termina con HP:717/804
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Tsuchigumo
-3-Kyouji
-4-Nue
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Kyouji
-3-Nue
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Joker
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:999/999 MP:0/0
-2-Quetzalcoatl HP:553/553 MP:225/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:347/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:553/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Zandyne MP:14
-2-Agidyne MP:14
-3-Oni-Kagura MP:9
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Joker
-1-Kyouji HP:999/999 MP:0/0
-2-Quetzalcoatl HP:553/553 MP:225/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Joker lanza fuego a Quetzalcoatl
-Quetzalcoatl es resistente el ataque de Joker
-Quetzalcoatl recibe 50 de daño
-Quetzalcoatl termina con HP:503/553
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:999/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Joker
 ----------------------------------------
 Seleccione una acción para Demonee-Ho
 1: Atacar
@@ -677,236 +247,17 @@ Seleccione una habilidad para que Demonee-Ho use
 2-Desperate Hit MP:40
 3-Breath MP:24
 4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Demonee-Ho
 1-Kyouji HP:999/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:225/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
+2-Quetzalcoatl HP:553/553 MP:247/247
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Nue HP:341/341 MP:67/67
 5-Cancelar
-INPUT: 1
-----------------------------------------
-Demonee-Ho ataca a Kyouji
-Kyouji recibe 62 de daño
-Kyouji termina con HP:937/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:575/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:225/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Tsuchigumo
-3-Kyouji
-4-Nue
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Quetzalcoatl
-1-Joker HP:575/597 MP:333/347
-2-Demonee-Ho HP:717/804 MP:152/160
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Quetzalcoatl lanza fuego a Joker
-Joker recibe 150 de daño
-Joker termina con HP:425/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Kyouji
-3-Nue
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Nue
-3-Quetzalcoatl
-4-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Mokoi HP:74/74 MP:36/36
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Mokoi HP:74/74 MP:36/36
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 5
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Quetzalcoatl
-3-Tsuchigumo
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Tsuchigumo
-3-Kyouji
-4-Nue
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
+Seleccione una acción para Demonee-Ho
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -914,102 +265,8 @@ Seleccione una acción para Quetzalcoatl
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Mokoi HP:74/74 MP:36/36
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:717/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Kyouji
-3-Nue
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Joker HP:425/597 MP:333/347
-2-Demonee-Ho HP:717/804 MP:152/160
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+1-Cancelar
 INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Joker HP:425/597 MP:333/347
-2-Demonee-Ho HP:717/804 MP:152/160
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tsuchigumo ataca a Demonee-Ho
-Demonee-Ho es resistente el ataque de Tsuchigumo
-Demonee-Ho recibe 11 de daño
-Demonee-Ho termina con HP:706/804
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Joker
 ----------------------------------------
 Seleccione una acción para Demonee-Ho
 1: Atacar
@@ -1022,15 +279,15 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
+A-Joker HP:597/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
 C-
 D-
 Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:313/341 MP:67/67
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:280/280 MP:126/126
+D-Nue HP:341/341 MP:67/67
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
@@ -1046,22 +303,11 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
+INPUT: 4
 ----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Zandyne MP:14
-2-Agidyne MP:14
-3-Oni-Kagura MP:9
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Joker
-1-Kyouji HP:937/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:203/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
-5-Cancelar
-INPUT: 5
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -1070,20 +316,32 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Kyouji HP:999/999 MP:0/0
+2-Quetzalcoatl HP:553/553 MP:247/247
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Nue HP:341/341 MP:67/67
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Joker ataca a Nue
+Nue recibe 28 de daño
+Nue termina con HP:313/341
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
+A-Joker HP:597/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
 C-
 D-
 Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:280/280 MP:126/126
 D-Nue HP:313/341 MP:67/67
 ----------------------------------------
 Full Turns: 1
@@ -1098,50 +356,76 @@ Seleccione una acción para Demonee-Ho
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:937/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:203/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
-5-Cancelar
-INPUT: 5
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Demonee-Ho
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:937/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:203/247
-3-Tsuchigumo HP:170/280 MP:126/126
-4-Nue HP:313/341 MP:67/67
-5-Cancelar
 INPUT: 4
 ----------------------------------------
-Demonee-Ho ataca a Nue
-Nue recibe 62 de daño
-Nue termina con HP:251/341
-----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:280/280 MP:126/126
+D-Nue HP:313/341 MP:67/67
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Demonee-Ho
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Kyouji HP:999/999 MP:0/0
+2-Quetzalcoatl HP:553/553 MP:247/247
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Nue HP:313/341 MP:67/67
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Joker ataca a Tsuchigumo
+Tsuchigumo recibe 28 de daño
+Tsuchigumo termina con HP:252/280
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Kyouji (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
+A-Joker HP:597/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
 C-
 D-
 Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:251/341 MP:67/67
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:252/280 MP:126/126
+D-Nue HP:313/341 MP:67/67
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
@@ -1157,21 +441,34 @@ Seleccione una acción para Quetzalcoatl
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quetzalcoatl
+1-Joker HP:597/597 MP:347/347
+2-Demonee-Ho HP:804/804 MP:160/160
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quetzalcoatl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
+A-Joker HP:597/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
 C-
 D-
 Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Tsuchigumo HP:170/280 MP:126/126
-D-Nue HP:251/341 MP:67/67
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:252/280 MP:126/126
+D-Nue HP:313/341 MP:67/67
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 1
@@ -1194,722 +491,7 @@ Seleccione un monstruo para invocar
 2-Karasu Tengu HP:238/238 MP:107/107
 3-Jueyuan HP:154/154 MP:68/68
 4-Cancelar
-INPUT: 1
-----------------------------------------
-Mokoi ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:425/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Mokoi HP:74/74 MP:36/36
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-2-Nue
-3-Quetzalcoatl
-4-Mokoi
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Joker HP:425/597 MP:333/347
-2-Demonee-Ho HP:706/804 MP:152/160
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kyouji ataca a Joker
-Joker recibe 614 de daño
-Joker termina con HP:0/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Mokoi HP:74/74 MP:36/36
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Quetzalcoatl
-3-Mokoi
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Demonee-Ho HP:706/804 MP:152/160
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Mokoi HP:74/74 MP:36/36
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Mokoi
-3-Kyouji
-4-Nue
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Mokoi HP:74/74 MP:36/36
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mokoi
-2-Kyouji
-3-Nue
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Mokoi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:170/280 MP:126/126
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Mokoi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mokoi use
-1-Zio MP:5
-2-Dream Fist MP:9
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Mokoi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mokoi use
-1-Zio MP:5
-2-Dream Fist MP:9
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Mokoi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:170/280 MP:126/126
-2-Karasu Tengu HP:238/238 MP:107/107
-3-Jueyuan HP:154/154 MP:68/68
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Jueyuan ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Nue
-3-Quetzalcoatl
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:170/280 MP:126/126
-2-Mokoi HP:74/74 MP:36/36
-3-Karasu Tengu HP:238/238 MP:107/107
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Quetzalcoatl HP:503/553 MP:203/247 (Puesto 2)
-2-Jueyuan HP:154/154 MP:68/68 (Puesto 3)
-3-Nue HP:251/341 MP:67/67 (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Nue HP:251/341 MP:67/67
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:937/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:203/247
-3-Jueyuan HP:154/154 MP:68/68
-4-Nue HP:251/341 MP:67/67
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Demonee-Ho ataca a Nue
-Nue recibe 62 de daño
-Nue termina con HP:189/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:706/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:203/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Nue HP:189/341 MP:67/67
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Nue
-3-Kyouji
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Quetzalcoatl use
-1-Trisagion MP:22
-2-Mazandyne MP:32
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Quetzalcoatl
-1-Demonee-Ho HP:706/804 MP:152/160
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Quetzalcoatl lanza fuego a Demonee-Ho
-Demonee-Ho es resistente el ataque de Quetzalcoatl
-Demonee-Ho recibe 75 de daño
-Demonee-Ho termina con HP:631/804
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Nue HP:189/341 MP:67/67
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Kyouji
-3-Jueyuan
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:170/280 MP:126/126
-2-Mokoi HP:74/74 MP:36/36
-3-Karasu Tengu HP:238/238 MP:107/107
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Mokoi ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Mokoi HP:74/74 MP:36/36
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Jueyuan
-3-Quetzalcoatl
-4-Mokoi
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:631/804 MP:152/160
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:631/804 MP:152/160
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:631/804 MP:152/160
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Mokoi HP:74/74 MP:36/36
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Jueyuan
-2-Quetzalcoatl
-3-Mokoi
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Jueyuan
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Mokoi HP:74/74 MP:36/36
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Mokoi
-3-Kyouji
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Mokoi HP:74/74 MP:36/36
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mokoi
-2-Kyouji
-3-Jueyuan
-4-Quetzalcoatl
-----------------------------------------
-Seleccione una acción para Mokoi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:170/280 MP:126/126
-2-Nue HP:189/341 MP:67/67
-3-Karasu Tengu HP:238/238 MP:107/107
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:631/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Tsuchigumo HP:170/280 MP:126/126
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Jueyuan
-3-Quetzalcoatl
-4-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:631/804 MP:152/160
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kyouji ataca a Demonee-Ho
-Demonee-Ho es resistente el ataque de Kyouji
-Demonee-Ho recibe 307 de daño
-Demonee-Ho termina con HP:324/804
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:324/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Tsuchigumo HP:170/280 MP:126/126
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Kyouji HP:937/999 MP:0/0
-2-Quetzalcoatl HP:503/553 MP:181/247
-3-Jueyuan HP:154/154 MP:68/68
-4-Tsuchigumo HP:170/280 MP:126/126
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Demonee-Ho ataca a Tsuchigumo
-Tsuchigumo recibe 62 de daño
-Tsuchigumo termina con HP:108/280
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:324/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Tsuchigumo HP:108/280 MP:126/126
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Quetzalcoatl
-2-Tsuchigumo
-3-Kyouji
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para Quetzalcoatl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:324/804 MP:152/160
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Tsuchigumo HP:108/280 MP:126/126
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Kyouji
-3-Jueyuan
-4-Quetzalcoatl
 ----------------------------------------
 Seleccione una acción para Tsuchigumo
 1: Atacar
@@ -1926,11 +508,197 @@ Seleccione una habilidad para que Tsuchigumo use
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Tsuchigumo
-1-Demonee-Ho HP:324/804 MP:152/160
-2-Cancelar
+1-Joker HP:597/597 MP:347/347
+2-Demonee-Ho HP:804/804 MP:160/160
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tsuchigumo lanza electricidad a Joker
+Joker recibe 70 de daño
+Joker termina con HP:527/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:527/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Tsuchigumo HP:252/280 MP:118/126
+D-Nue HP:313/341 MP:67/67
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Nue
+3-Quetzalcoatl
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Mokoi HP:74/74 MP:36/36
+2-Karasu Tengu HP:238/238 MP:107/107
+3-Jueyuan HP:154/154 MP:68/68
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247 (Puesto 2)
+2-Tsuchigumo HP:252/280 MP:118/126 (Puesto 3)
+3-Nue HP:313/341 MP:67/67 (Puesto 4)
+4-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Tsuchigumo
+Mokoi ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:527/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Mokoi HP:74/74 MP:36/36
+D-Nue HP:313/341 MP:67/67
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nue
+2-Quetzalcoatl
+3-Mokoi
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tsuchigumo HP:252/280 MP:118/126
+2-Karasu Tengu HP:238/238 MP:107/107
+3-Jueyuan HP:154/154 MP:68/68
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tsuchigumo ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:527/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Quetzalcoatl HP:553/553 MP:247/247
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Quetzalcoatl
+2-Mokoi
+3-Kyouji
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Quetzalcoatl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Quetzalcoatl
+1-Joker HP:527/597 MP:347/347
+2-Demonee-Ho HP:804/804 MP:160/160
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Quetzalcoatl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nue HP:313/341 MP:67/67
+2-Karasu Tengu HP:238/238 MP:107/107
+3-Jueyuan HP:154/154 MP:68/68
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Nue ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:527/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:313/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mokoi
+2-Kyouji
+3-Tsuchigumo
+4-Nue
+----------------------------------------
+Seleccione una acción para Mokoi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mokoi use
+1-Zio MP:5
+2-Dream Fist MP:9
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mokoi
+1-Joker HP:527/597 MP:347/347
+2-Demonee-Ho HP:804/804 MP:160/160
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Mokoi
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1941,23 +709,163 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:333/347
-B-Demonee-Ho HP:324/804 MP:152/160
+A-Joker HP:527/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
 C-
 D-
 Equipo de Kyouji (J2)
-A-Kyouji HP:937/999 MP:0/0
-B-Quetzalcoatl HP:503/553 MP:181/247
-C-Jueyuan HP:154/154 MP:68/68
-D-Tsuchigumo HP:108/280 MP:126/126
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:313/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+2-Tsuchigumo
+3-Nue
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Joker HP:527/597 MP:347/347
+2-Demonee-Ho HP:804/804 MP:160/160
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji ataca a Joker
+Joker recibe 614 de daño
+Joker termina con HP:0/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:313/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demonee-Ho
+----------------------------------------
+Seleccione una acción para Demonee-Ho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demonee-Ho
+1-Kyouji HP:999/999 MP:0/0
+2-Nue HP:313/341 MP:67/67
+3-Mokoi HP:74/74 MP:36/36
+4-Tsuchigumo HP:252/280 MP:118/126
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Demonee-Ho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demonee-Ho
+1-Kyouji HP:999/999 MP:0/0
+2-Nue HP:313/341 MP:67/67
+3-Mokoi HP:74/74 MP:36/36
+4-Tsuchigumo HP:252/280 MP:118/126
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Demonee-Ho ataca a Nue
+Nue recibe 62 de daño
+Nue termina con HP:251/341
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:804/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Kyouji
+3-Nue
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tsuchigumo
+1-Demonee-Ho HP:804/804 MP:160/160
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tsuchigumo ataca a Demonee-Ho
+Demonee-Ho es resistente el ataque de Tsuchigumo
+Demonee-Ho recibe 11 de daño
+Demonee-Ho termina con HP:793/804
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:793/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Kyouji
-2-Jueyuan
-3-Quetzalcoatl
+2-Nue
+3-Mokoi
 4-Tsuchigumo
 ----------------------------------------
 Seleccione una acción para Kyouji
@@ -1970,9 +878,318 @@ Seleccione una acción para Kyouji
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:324/804 MP:152/160
+1-Demonee-Ho HP:793/804 MP:160/160
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji ataca a Demonee-Ho
+Demonee-Ho es resistente el ataque de Kyouji
+Demonee-Ho recibe 307 de daño
+Demonee-Ho termina con HP:486/804
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nue
+2-Mokoi
+3-Tsuchigumo
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Nue use
+1-Scratch Dance MP:9
+2-Zionga MP:8
+3-Shock MP:21
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Nue use
+1-Scratch Dance MP:9
+2-Zionga MP:8
+3-Shock MP:21
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nue
+1-Demonee-Ho HP:486/804 MP:160/160
 2-Cancelar
 INPUT: 2
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Mokoi HP:74/74 MP:36/36
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mokoi
+2-Tsuchigumo
+3-Kyouji
+4-Nue
+----------------------------------------
+Seleccione una acción para Mokoi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247
+2-Karasu Tengu HP:238/238 MP:107/107
+3-Jueyuan HP:154/154 MP:68/68
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Jueyuan ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Kyouji
+3-Nue
+4-Jueyuan
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247
+2-Mokoi HP:74/74 MP:36/36
+3-Karasu Tengu HP:238/238 MP:107/107
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247
+2-Mokoi HP:74/74 MP:36/36
+3-Karasu Tengu HP:238/238 MP:107/107
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Nue HP:251/341 MP:67/67
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+2-Nue
+3-Jueyuan
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247
+2-Mokoi HP:74/74 MP:36/36
+3-Karasu Tengu HP:238/238 MP:107/107
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Nue HP:251/341 MP:67/67 (Puesto 2)
+2-Jueyuan HP:154/154 MP:68/68 (Puesto 3)
+3-Tsuchigumo HP:252/280 MP:118/126 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Mokoi ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:74/74 MP:36/36
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demonee-Ho
+----------------------------------------
+Seleccione una acción para Demonee-Ho
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demonee-Ho
+1-Kyouji HP:999/999 MP:0/0
+2-Mokoi HP:74/74 MP:36/36
+3-Jueyuan HP:154/154 MP:68/68
+4-Tsuchigumo HP:252/280 MP:118/126
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Demonee-Ho ataca a Mokoi
+Mokoi recibe 62 de daño
+Mokoi termina con HP:12/74
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Kyouji
+3-Jueyuan
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:486/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+2-Jueyuan
+3-Mokoi
+4-Tsuchigumo
 ----------------------------------------
 Seleccione una acción para Kyouji
 1: Atacar
@@ -1997,7 +1214,214 @@ Seleccione una acción para Kyouji
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Kyouji
-1-Demonee-Ho HP:324/804 MP:152/160
+1-Demonee-Ho HP:486/804 MP:160/160
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji dispara a Demonee-Ho
+Demonee-Ho es resistente el ataque de Kyouji
+Demonee-Ho recibe 455 de daño
+Demonee-Ho termina con HP:31/804
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:31/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Jueyuan HP:154/154 MP:68/68
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Jueyuan
+2-Mokoi
+3-Tsuchigumo
+4-Kyouji
+----------------------------------------
+Seleccione una acción para Jueyuan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jueyuan use
+1-Poison Claw MP:9
+2-Agi MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Jueyuan
+1-Demonee-Ho HP:31/804 MP:160/160
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Jueyuan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jueyuan use
+1-Poison Claw MP:9
+2-Agi MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Jueyuan
+1-Demonee-Ho HP:31/804 MP:160/160
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Jueyuan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Jueyuan use
+1-Poison Claw MP:9
+2-Agi MP:5
+3-Posumudi MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Jueyuan
+1-Demonee-Ho HP:31/804 MP:160/160
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Jueyuan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Quetzalcoatl HP:553/553 MP:247/247
+2-Nue HP:251/341 MP:67/67
+3-Karasu Tengu HP:238/238 MP:107/107
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Quetzalcoatl ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:31/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Quetzalcoatl HP:553/553 MP:247/247
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Mokoi
+2-Tsuchigumo
+3-Kyouji
+4-Quetzalcoatl
+----------------------------------------
+Seleccione una acción para Mokoi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:31/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Quetzalcoatl HP:553/553 MP:247/247
+D-Tsuchigumo HP:252/280 MP:118/126
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Kyouji
+3-Quetzalcoatl
+4-Mokoi
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nue HP:251/341 MP:67/67
+2-Karasu Tengu HP:238/238 MP:107/107
+3-Jueyuan HP:154/154 MP:68/68
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Nue ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:0/597 MP:347/347
+B-Demonee-Ho HP:31/804 MP:160/160
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-Mokoi HP:12/74 MP:36/36
+C-Quetzalcoatl HP:553/553 MP:247/247
+D-Nue HP:251/341 MP:67/67
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+2-Quetzalcoatl
+3-Mokoi
+4-Nue
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Demonee-Ho HP:31/804 MP:160/160
 2-Cancelar
 INPUT: 1
 ----------------------------------------
@@ -2006,7 +1430,7 @@ Demonee-Ho es resistente el ataque de Kyouji
 Demonee-Ho recibe 455 de daño
 Demonee-Ho termina con HP:0/804
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ganador: Kyouji (J2)

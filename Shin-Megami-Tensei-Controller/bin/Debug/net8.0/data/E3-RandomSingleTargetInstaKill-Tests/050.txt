@@ -78,27 +78,7 @@ Seleccione una acción para Sphinx
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Knocker HP:126/126 MP:55/55
-2-Lord Nan Dou HP:549/549 MP:108/108
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Sphinx use
-1-Mediarahan MP:40
-2-Mahamaon MP:30
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 3
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Sphinx
 1-Aleph HP:1309/1309 MP:613/613
@@ -106,11 +86,27 @@ Seleccione un objetivo para Sphinx
 3-Shax HP:371/371 MP:360/360
 4-Magatsuhi HP:851/851 MP:170/170
 5-Cancelar
-INPUT: 3
+INPUT: 5
 ----------------------------------------
-Sphinx dispara a Shax
-Shax recibe 128 de daño
-Shax termina con HP:243/371
+Seleccione una acción para Sphinx
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Sphinx
+1-Aleph HP:1309/1309 MP:613/613
+2-Taown HP:709/709 MP:140/140
+3-Shax HP:371/371 MP:360/360
+4-Magatsuhi HP:851/851 MP:170/170
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Sphinx ataca a Aleph
+Aleph es resistente el ataque de Sphinx
+Aleph recibe 26 de daño
+Aleph termina con HP:1283/1309
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -118,12 +114,12 @@ Se han obtenido 0 Blinking Turn(s)
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:353/364
+C-Sphinx HP:376/376 MP:364/364
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
+A-Aleph HP:1283/1309 MP:613/613
 B-Taown HP:709/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
+C-Shax HP:371/371 MP:360/360
 D-Magatsuhi HP:851/851 MP:170/170
 ----------------------------------------
 Full Turns: 3
@@ -134,6 +130,226 @@ Orden:
 2-Pisaca
 3-Virtue
 4-Sphinx
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1283/1309 MP:613/613
+2-Taown HP:709/709 MP:140/140
+3-Shax HP:371/371 MP:360/360
+4-Magatsuhi HP:851/851 MP:170/170
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Joker dispara a Magatsuhi
+Magatsuhi recibe 39 de daño
+Magatsuhi termina con HP:812/851
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Virtue HP:240/240 MP:232/232
+C-Sphinx HP:376/376 MP:364/364
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1283/1309 MP:613/613
+B-Taown HP:709/709 MP:140/140
+C-Shax HP:371/371 MP:360/360
+D-Magatsuhi HP:812/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pisaca
+2-Virtue
+3-Sphinx
+4-Joker
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1283/1309 MP:613/613
+2-Taown HP:709/709 MP:140/140
+3-Shax HP:371/371 MP:360/360
+4-Magatsuhi HP:812/851 MP:170/170
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pisaca ataca a Taown
+Taown recibe 33 de daño
+Taown termina con HP:676/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Virtue HP:240/240 MP:232/232
+C-Sphinx HP:376/376 MP:364/364
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1283/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-Shax HP:371/371 MP:360/360
+D-Magatsuhi HP:812/851 MP:170/170
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Virtue
+2-Sphinx
+3-Joker
+4-Pisaca
+----------------------------------------
+Seleccione una acción para Virtue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Virtue use
+1-Sabbatma MP:20
+2-Tetraja MP:15
+3-Hamaon MP:10
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Virtue
+1-Aleph HP:1283/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Shax HP:371/371 MP:360/360
+4-Magatsuhi HP:812/851 MP:170/170
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Virtue ataca con luz a Shax
+Shax ha sido eliminado
+Shax termina con HP:0/371
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Virtue HP:240/240 MP:222/232
+C-Sphinx HP:376/376 MP:364/364
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1283/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:812/851 MP:170/170
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Magatsuhi
+3-Taown
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:597/597 MP:347/347
+2-Virtue HP:240/240 MP:222/232
+3-Sphinx HP:376/376 MP:364/364
+4-Pisaca HP:454/454 MP:90/90
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph dispara a Sphinx
+Sphinx devuelve 276 daño a Aleph
+Aleph termina con HP:1007/1309
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Virtue HP:240/240 MP:222/232
+C-Sphinx HP:376/376 MP:364/364
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:812/851 MP:170/170
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Sphinx
+2-Joker
+3-Pisaca
+4-Virtue
+----------------------------------------
+Seleccione una acción para Sphinx
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Knocker HP:126/126 MP:55/55
+2-Lord Nan Dou HP:549/549 MP:108/108
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Lord Nan Dou ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:812/851 MP:170/170
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Pisaca
+3-Virtue
+4-Lord Nan Dou
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -154,41 +370,41 @@ Seleccione una habilidad para que Joker use
 7-Zan MP:5
 8-Bufudyne MP:14
 9-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Joker
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:709/709 MP:140/140
-3-Shax HP:243/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
 INPUT: 2
 ----------------------------------------
-Joker lanza hielo a Taown
-Taown recibe 82 de daño
-Taown termina con HP:627/709
+Seleccione un objetivo para Joker
+1-Joker HP:597/597 MP:347/347
+2-Virtue HP:240/240 MP:222/232
+3-Lord Nan Dou HP:549/549 MP:108/108
+4-Pisaca HP:454/454 MP:90/90
+5-Cancelar
+INPUT: 3
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Joker cura a Lord Nan Dou
+Lord Nan Dou recibe 137 de HP
+Lord Nan Dou termina con HP:549/549
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:597/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:812/851 MP:170/170
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Pisaca
 2-Virtue
-3-Sphinx
+3-Lord Nan Dou
 4-Joker
 ----------------------------------------
 Seleccione una acción para Pisaca
@@ -196,28 +412,74 @@ Seleccione una acción para Pisaca
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:812/851 MP:170/170
+4-Cancelar
 INPUT: 4
 ----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pisaca use
+1-Bind Voice MP:15
+2-Life Drain MP:5
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:812/851 MP:170/170
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pisaca
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pisaca
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:812/851 MP:170/170
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Pisaca ataca a Magatsuhi
+Magatsuhi recibe 33 de daño
+Magatsuhi termina con HP:779/851
+----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:597/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:779/851 MP:170/170
 ----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
+Full Turns: 2
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Virtue
-2-Sphinx
+2-Lord Nan Dou
 3-Joker
 4-Pisaca
 ----------------------------------------
@@ -229,37 +491,53 @@ Seleccione una acción para Virtue
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Knocker HP:126/126 MP:55/55
-2-Lord Nan Dou HP:549/549 MP:108/108
+1-Sphinx HP:376/376 MP:364/364
+2-Knocker HP:126/126 MP:55/55
 3-Cancelar
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Lord Nan Dou ha sido invocado
+Seleccione una acción para Virtue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Seleccione un objetivo para Virtue
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:779/851 MP:170/170
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Virtue ataca a Magatsuhi
+Magatsuhi recibe 25 de daño
+Magatsuhi termina con HP:754/851
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:597/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Sphinx
+1-Lord Nan Dou
 2-Joker
 3-Pisaca
-4-Lord Nan Dou
+4-Virtue
 ----------------------------------------
-Seleccione una acción para Sphinx
+Seleccione una acción para Lord Nan Dou
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -270,15 +548,15 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:597/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
@@ -286,8 +564,8 @@ Blinking Turns: 1
 Orden:
 1-Joker
 2-Pisaca
-3-Lord Nan Dou
-4-Sphinx
+3-Virtue
+4-Lord Nan Dou
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -304,24 +582,36 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Aleph (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:597/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
-Full Turns: 4
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Aleph
 2-Magatsuhi
 3-Taown
-4-Shax
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Aleph
 1: Atacar
@@ -333,9 +623,9 @@ Seleccione una acción para Aleph
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Aleph
-1-Joker HP:597/597 MP:339/347
-2-Lord Nan Dou HP:549/549 MP:108/108
-3-Sphinx HP:376/376 MP:353/364
+1-Joker HP:597/597 MP:342/347
+2-Virtue HP:240/240 MP:222/232
+3-Lord Nan Dou HP:549/549 MP:108/108
 4-Pisaca HP:454/454 MP:90/90
 5-Cancelar
 INPUT: 1
@@ -348,1121 +638,23 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:440/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
+A-Joker HP:440/597 MP:342/347
+B-Virtue HP:240/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
 D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Magatsuhi
 2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:440/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:140/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Taown
-2-Shax
 3-Aleph
-4-Magatsuhi
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Taown use
-1-Ziodyne MP:14
-2-Madness Needle MP:11
-3-Nihil Claw MP:11
-4-Mediarama MP:22
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Taown
-1-Joker HP:440/597 MP:339/347
-2-Lord Nan Dou HP:549/549 MP:108/108
-3-Sphinx HP:376/376 MP:353/364
-4-Pisaca HP:454/454 MP:90/90
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Taown lanza electricidad a Joker
-Joker recibe 113 de daño
-Joker termina con HP:327/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:549/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shax
-2-Aleph
-3-Magatsuhi
-4-Taown
-----------------------------------------
-Seleccione una acción para Shax
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shax
-1-Joker HP:327/597 MP:339/347
-2-Lord Nan Dou HP:549/549 MP:108/108
-3-Sphinx HP:376/376 MP:353/364
-4-Pisaca HP:454/454 MP:90/90
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Shax ataca a Lord Nan Dou
-Lord Nan Dou recibe 40 de daño
-Lord Nan Dou termina con HP:509/549
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:509/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aleph
-2-Magatsuhi
-3-Taown
-4-Shax
-----------------------------------------
-Seleccione una acción para Aleph
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:509/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Magatsuhi
-2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:509/549 MP:108/108
-C-Sphinx HP:376/376 MP:353/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:243/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Sphinx
-2-Lord Nan Dou
-3-Joker
-4-Pisaca
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Sphinx use
-1-Mediarahan MP:40
-2-Mahamaon MP:30
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Sphinx
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:627/709 MP:126/140
-3-Shax HP:243/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Sphinx use
-1-Mediarahan MP:40
-2-Mahamaon MP:30
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Sphinx use
-1-Mediarahan MP:40
-2-Mahamaon MP:30
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Sphinx use
-1-Mediarahan MP:40
-2-Mahamaon MP:30
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Sphinx
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:627/709 MP:126/140
-3-Shax HP:243/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Sphinx dispara a Shax
-Shax recibe 128 de daño
-Shax termina con HP:115/371
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:509/549 MP:108/108
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lord Nan Dou
-2-Joker
-3-Pisaca
-4-Sphinx
-----------------------------------------
-Seleccione una acción para Lord Nan Dou
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Virtue HP:240/240 MP:232/232
-2-Knocker HP:126/126 MP:55/55
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Lord Nan Dou
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lord Nan Dou
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:627/709 MP:126/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Lord Nan Dou
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Virtue HP:240/240 MP:232/232
-2-Knocker HP:126/126 MP:55/55
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Virtue ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Pisaca
-3-Sphinx
-4-Virtue
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:627/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pisaca
-2-Sphinx
-3-Virtue
-4-Joker
-----------------------------------------
-Seleccione una acción para Pisaca
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pisaca use
-1-Bind Voice MP:15
-2-Life Drain MP:5
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pisaca
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pisaca use
-1-Bind Voice MP:15
-2-Life Drain MP:5
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pisaca
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pisaca
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:627/709 MP:126/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Pisaca ataca a Taown
-Taown recibe 33 de daño
-Taown termina con HP:594/709
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Sphinx
-2-Virtue
-3-Joker
-4-Pisaca
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Sphinx
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:594/709 MP:126/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Sphinx
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Virtue
-2-Joker
-3-Pisaca
-4-Sphinx
-----------------------------------------
-Seleccione una acción para Virtue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Knocker HP:126/126 MP:55/55
-2-Lord Nan Dou HP:509/549 MP:108/108
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Virtue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Aleph (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aleph
-2-Magatsuhi
-3-Taown
-4-Shax
-----------------------------------------
-Seleccione una acción para Aleph
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Magatsuhi
-2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Magatsuhi use
-1-Acid Breath MP:45
-2-Shivering Taboo MP:40
-3-Poison Breath MP:11
-4-Bufudyne MP:14
-5-Death's Door MP:10
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:454/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:126/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Taown
-2-Shax
-3-Aleph
-4-Magatsuhi
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Taown use
-1-Ziodyne MP:14
-2-Madness Needle MP:11
-3-Nihil Claw MP:11
-4-Mediarama MP:22
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Taown
-1-Joker HP:327/597 MP:339/347
-2-Virtue HP:240/240 MP:232/232
-3-Sphinx HP:376/376 MP:342/364
-4-Pisaca HP:454/454 MP:90/90
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Taown use
-1-Ziodyne MP:14
-2-Madness Needle MP:11
-3-Nihil Claw MP:11
-4-Mediarama MP:22
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Taown
-1-Joker HP:327/597 MP:339/347
-2-Virtue HP:240/240 MP:232/232
-3-Sphinx HP:376/376 MP:342/364
-4-Pisaca HP:454/454 MP:90/90
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Taown ataca a Pisaca
-Pisaca recibe 142 de daño
-Taown ataca a Pisaca
-Pisaca recibe 142 de daño
-Pisaca termina con HP:170/454
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:115/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shax
-2-Aleph
-3-Magatsuhi
-4-Taown
-----------------------------------------
-Seleccione una acción para Shax
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:115/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Aleph
-2-Magatsuhi
-3-Taown
-4-Shax
-----------------------------------------
-Seleccione una acción para Aleph
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:115/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Magatsuhi
-2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-Sphinx HP:376/376 MP:342/364
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:115/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Taown
-2-Shax
-3-Aleph
-4-Magatsuhi
-----------------------------------------
-Seleccione una acción para Taown
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Taown use
-1-Ziodyne MP:14
-2-Madness Needle MP:11
-3-Nihil Claw MP:11
-4-Mediarama MP:22
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Taown
-1-Joker HP:327/597 MP:339/347
-2-Virtue HP:240/240 MP:232/232
-3-Sphinx HP:376/376 MP:342/364
-4-Pisaca HP:170/454 MP:90/90
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Taown ataca a Sphinx
-Sphinx recibe 142 de daño
-Taown ataca a Sphinx
-Sphinx recibe 142 de daño
-Taown ataca a Sphinx
-Sphinx recibe 142 de daño
-Sphinx termina con HP:0/376
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1309/1309 MP:613/613
-B-Taown HP:594/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Joker
-2-Pisaca
-3-Virtue
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Joker
-1-Aleph HP:1309/1309 MP:613/613
-2-Taown HP:594/709 MP:104/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Joker ataca a Aleph
-Aleph es resistente el ataque de Joker
-Aleph recibe 14 de daño
-Aleph termina con HP:1295/1309
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:594/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pisaca
-2-Virtue
-3-Joker
-----------------------------------------
-Seleccione una acción para Pisaca
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pisaca
-1-Aleph HP:1295/1309 MP:613/613
-2-Taown HP:594/709 MP:104/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Pisaca ataca a Taown
-Taown recibe 33 de daño
-Taown termina con HP:561/709
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Virtue
-2-Joker
-3-Pisaca
-----------------------------------------
-Seleccione una acción para Virtue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Knocker HP:126/126 MP:55/55
-2-Lord Nan Dou HP:509/549 MP:108/108
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Lord Nan Dou ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Lord Nan Dou HP:509/549 MP:108/108
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Pisaca
-3-Lord Nan Dou
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Virtue HP:240/240 MP:232/232
-2-Knocker HP:126/126 MP:55/55
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Lord Nan Dou HP:509/549 MP:108/108 (Puesto 2)
-2-Vacío (Puesto 3)
-3-Pisaca HP:170/454 MP:90/90 (Puesto 4)
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Knocker ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Aleph (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Knocker HP:126/126 MP:55/55
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aleph
-2-Magatsuhi
-3-Taown
-4-Shax
-----------------------------------------
-Seleccione una acción para Aleph
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Knocker HP:126/126 MP:55/55
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Magatsuhi
-2-Taown
-3-Shax
-4-Aleph
 ----------------------------------------
 Seleccione una acción para Magatsuhi
 1: Atacar
@@ -1472,38 +664,53 @@ Seleccione una acción para Magatsuhi
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Magatsuhi
-1-Joker HP:327/597 MP:339/347
-2-Knocker HP:126/126 MP:55/55
-3-Pisaca HP:170/454 MP:90/90
-4-Cancelar
+1-Joker HP:440/597 MP:342/347
+2-Virtue HP:240/240 MP:222/232
+3-Lord Nan Dou HP:549/549 MP:108/108
+4-Pisaca HP:454/454 MP:90/90
+5-Cancelar
 INPUT: 2
 ----------------------------------------
-Magatsuhi ataca a Knocker
-Knocker recibe 65 de daño
-Knocker termina con HP:61/126
+Magatsuhi ataca a Virtue
+Virtue recibe 65 de daño
+Virtue termina con HP:175/240
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Knocker HP:61/126 MP:55/55
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:440/597 MP:342/347
+B-Virtue HP:175/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Taown
-2-Shax
-3-Aleph
-4-Magatsuhi
+2-Aleph
+3-Magatsuhi
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:440/597 MP:342/347
+2-Virtue HP:175/240 MP:222/232
+3-Lord Nan Dou HP:549/549 MP:108/108
+4-Pisaca HP:454/454 MP:90/90
+5-Cancelar
+INPUT: 5
 ----------------------------------------
 Seleccione una acción para Taown
 1: Atacar
@@ -1516,40 +723,181 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Knocker HP:61/126 MP:55/55
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:440/597 MP:342/347
+B-Virtue HP:175/240 MP:222/232
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
 Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
 ----------------------------------------
-Full Turns: 2
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Shax
-2-Aleph
-3-Magatsuhi
-4-Taown
+1-Aleph
+2-Magatsuhi
+3-Taown
 ----------------------------------------
-Seleccione una acción para Shax
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:342/347
+2-Virtue HP:175/240 MP:222/232
+3-Lord Nan Dou HP:549/549 MP:108/108
+4-Pisaca HP:454/454 MP:90/90
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph dispara a Virtue
+Virtue recibe 276 de daño
+Virtue termina con HP:0/240
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:754/851 MP:170/170
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Lord Nan Dou
+3-Pisaca
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:754/851 MP:170/170
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Joker dispara a Magatsuhi
+Magatsuhi recibe 39 de daño
+Magatsuhi termina con HP:715/851
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:715/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lord Nan Dou
+2-Pisaca
+3-Joker
+----------------------------------------
+Seleccione una acción para Lord Nan Dou
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Shax
-1-Joker HP:327/597 MP:339/347
-2-Knocker HP:61/126 MP:55/55
-3-Pisaca HP:170/454 MP:90/90
+Seleccione una habilidad para que Lord Nan Dou use
+1-Maragidyne MP:32
+2-Berserker God MP:12
+3-Samarecarm MP:40
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Shax
+Seleccione una acción para Lord Nan Dou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Pisaca HP:454/454 MP:90/90
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:715/851 MP:170/170
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pisaca
+2-Joker
+3-Lord Nan Dou
+----------------------------------------
+Seleccione una acción para Pisaca
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1557,10 +905,140 @@ Seleccione una acción para Shax
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Cancelar
+1-Sphinx HP:376/376 MP:364/364
+2-Knocker HP:126/126 MP:55/55
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Knocker ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:126/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:715/851 MP:170/170
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Lord Nan Dou
+3-Knocker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:126/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:715/851 MP:170/170
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lord Nan Dou
+2-Knocker
+3-Joker
+----------------------------------------
+Seleccione una acción para Lord Nan Dou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Shax
+Seleccione un objetivo para Lord Nan Dou
+1-Aleph HP:1007/1309 MP:613/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:715/851 MP:170/170
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Lord Nan Dou ataca a Magatsuhi
+Magatsuhi recibe 41 de daño
+Magatsuhi termina con HP:674/851
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:126/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Magatsuhi
+3-Taown
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:126/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Magatsuhi
+2-Taown
+3-Aleph
+----------------------------------------
+Seleccione una acción para Magatsuhi
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1571,24 +1049,127 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-Knocker HP:61/126 MP:55/55
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:126/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:613/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
 ----------------------------------------
 Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Taown
+2-Aleph
+3-Magatsuhi
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Taown
+1-Joker HP:440/597 MP:342/347
+2-Lord Nan Dou HP:549/549 MP:108/108
+3-Knocker HP:126/126 MP:55/55
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Knocker
+Knocker recibe 54 de daño
+Knocker termina con HP:72/126
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:613/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
+----------------------------------------
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Aleph
 2-Magatsuhi
 3-Taown
-4-Shax
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:440/597 MP:342/347
+2-Lord Nan Dou HP:549/549 MP:108/108
+3-Knocker HP:72/126 MP:55/55
+4-Cancelar
+INPUT: 4
 ----------------------------------------
 Seleccione una acción para Aleph
 1: Atacar
@@ -1607,58 +1188,37 @@ Seleccione una habilidad para que Aleph use
 5-Iron Judgement MP:8
 6-Zionga MP:8
 7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Mudoon MP:10
+2-Trisagion MP:22
+3-Bouncing Claw MP:4
+4-Diarama MP:9
+5-Iron Judgement MP:8
+6-Zionga MP:8
+7-Cancelar
+INPUT: 2
+----------------------------------------
 Seleccione un objetivo para Aleph
-1-Joker HP:327/597 MP:339/347
-2-Knocker HP:61/126 MP:55/55
-3-Pisaca HP:170/454 MP:90/90
+1-Joker HP:440/597 MP:342/347
+2-Lord Nan Dou HP:549/549 MP:108/108
+3-Knocker HP:72/126 MP:55/55
 4-Cancelar
 INPUT: 2
 ----------------------------------------
-Aleph ataca a Knocker
-Knocker recibe 143 de daño
-Knocker termina con HP:0/126
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:327/597 MP:339/347
-B-
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Magatsuhi
-2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Magatsuhi
-1-Joker HP:327/597 MP:339/347
-2-Pisaca HP:170/454 MP:90/90
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Magatsuhi ataca a Joker
-Joker recibe 65 de daño
-Joker termina con HP:262/597
+Aleph lanza fuego a Lord Nan Dou
+Lord Nan Dou bloquea el ataque de Aleph
+Lord Nan Dou termina con HP:549/549
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -1666,22 +1226,123 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Joker (J1)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:262/597 MP:339/347
+A-Joker HP:440/597 MP:342/347
 B-
-C-
-D-Pisaca HP:170/454 MP:90/90
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1295/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Lord Nan Dou
+3-Knocker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lord Nan Dou
+2-Knocker
+3-Joker
+----------------------------------------
+Seleccione una acción para Lord Nan Dou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:674/851 MP:170/170
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Knocker
+2-Joker
+3-Lord Nan Dou
+----------------------------------------
+Seleccione una acción para Knocker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Knocker
+1-Aleph HP:1007/1309 MP:591/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:674/851 MP:170/170
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Knocker ataca a Magatsuhi
+Magatsuhi recibe 8 de daño
+Magatsuhi termina con HP:666/851
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:440/597 MP:342/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Joker
-2-Pisaca
+2-Lord Nan Dou
+3-Knocker
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -1702,133 +1363,42 @@ Seleccione una habilidad para que Joker use
 7-Zan MP:5
 8-Bufudyne MP:14
 9-Cancelar
-INPUT: 7
+INPUT: 3
 ----------------------------------------
 Seleccione un objetivo para Joker
-1-Aleph HP:1295/1309 MP:609/613
-2-Taown HP:561/709 MP:104/140
-3-Shax HP:115/371 MP:360/360
-4-Magatsuhi HP:851/851 MP:170/170
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Joker lanza viento a Aleph
-Aleph recibe 62 de daño
-Aleph termina con HP:1233/1309
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:262/597 MP:334/347
-B-
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pisaca
-2-Joker
-----------------------------------------
-Seleccione una acción para Pisaca
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:262/597 MP:334/347
-B-
-C-
-D-Pisaca HP:170/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Pisaca
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Virtue HP:240/240 MP:232/232
-2-Lord Nan Dou HP:509/549 MP:108/108
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Vacío (Puesto 2)
-2-Vacío (Puesto 3)
-3-Pisaca HP:170/454 MP:90/90 (Puesto 4)
+1-Aleph HP:1007/1309 MP:591/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:666/851 MP:170/170
 4-Cancelar
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Virtue ha sido invocado
+Joker lanza hielo a Magatsuhi
+Magatsuhi devuelve 82 daño a Joker
+Joker termina con HP:358/597
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Aleph (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:262/597 MP:334/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:358/597 MP:334/347
+B-
+C-Lord Nan Dou HP:549/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
-Full Turns: 4
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Aleph
 2-Magatsuhi
 3-Taown
-4-Shax
-----------------------------------------
-Seleccione una acción para Aleph
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Aleph
-1-Joker HP:262/597 MP:334/347
-2-Virtue HP:240/240 MP:232/232
-3-Pisaca HP:170/454 MP:90/90
-4-Cancelar
-INPUT: 4
 ----------------------------------------
 Seleccione una acción para Aleph
 1: Atacar
@@ -1840,76 +1410,37 @@ Seleccione una acción para Aleph
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Aleph
-1-Joker HP:262/597 MP:334/347
-2-Virtue HP:240/240 MP:232/232
-3-Pisaca HP:170/454 MP:90/90
+1-Joker HP:358/597 MP:334/347
+2-Lord Nan Dou HP:549/549 MP:108/108
+3-Knocker HP:72/126 MP:55/55
 4-Cancelar
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Aleph dispara a Joker
-Joker recibe 276 de daño
-Joker termina con HP:0/597
+Aleph dispara a Lord Nan Dou
+Lord Nan Dou recibe 276 de daño
+Lord Nan Dou termina con HP:273/549
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:358/597 MP:334/347
+B-
+C-Lord Nan Dou HP:273/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Magatsuhi
 2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Magatsuhi use
-1-Acid Breath MP:45
-2-Shivering Taboo MP:40
-3-Poison Breath MP:11
-4-Bufudyne MP:14
-5-Death's Door MP:10
-6-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Magatsuhi
-1-Virtue HP:240/240 MP:232/232
-2-Pisaca HP:170/454 MP:90/90
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Magatsuhi use
-1-Acid Breath MP:45
-2-Shivering Taboo MP:40
-3-Poison Breath MP:11
-4-Bufudyne MP:14
-5-Death's Door MP:10
-6-Cancelar
-INPUT: 6
+3-Aleph
 ----------------------------------------
 Seleccione una acción para Magatsuhi
 1: Atacar
@@ -1922,24 +1453,23 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
-B-Virtue HP:240/240 MP:232/232
-C-
-D-Pisaca HP:170/454 MP:90/90
+A-Joker HP:358/597 MP:334/347
+B-
+C-Lord Nan Dou HP:273/549 MP:108/108
+D-Knocker HP:72/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:104/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Taown
-2-Shax
-3-Aleph
-4-Magatsuhi
+2-Aleph
+3-Magatsuhi
 ----------------------------------------
 Seleccione una acción para Taown
 1: Atacar
@@ -1957,90 +1487,43 @@ Seleccione una habilidad para que Taown use
 INPUT: 3
 ----------------------------------------
 Seleccione un objetivo para Taown
-1-Virtue HP:240/240 MP:232/232
-2-Pisaca HP:170/454 MP:90/90
-3-Cancelar
+1-Joker HP:358/597 MP:334/347
+2-Lord Nan Dou HP:273/549 MP:108/108
+3-Knocker HP:72/126 MP:55/55
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Taown
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Taown ataca a Virtue
-Virtue recibe 142 de daño
-Taown ataca a Virtue
-Virtue recibe 142 de daño
-Virtue termina con HP:0/240
+Seleccione un objetivo para Taown
+1-Joker HP:358/597 MP:334/347
+2-Lord Nan Dou HP:273/549 MP:108/108
+3-Knocker HP:72/126 MP:55/55
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Taown ataca a Knocker
+Knocker recibe 54 de daño
+Knocker termina con HP:18/126
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
+A-Joker HP:358/597 MP:334/347
 B-
-C-
-D-Pisaca HP:170/454 MP:90/90
+C-Lord Nan Dou HP:273/549 MP:108/108
+D-Knocker HP:18/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:93/140
-C-Shax HP:115/371 MP:360/360
-D-Magatsuhi HP:851/851 MP:170/170
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shax
-2-Aleph
-3-Magatsuhi
-4-Taown
-----------------------------------------
-Seleccione una acción para Shax
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Shax use
-1-Deadly Wind MP:22
-2-Poison Breath MP:11
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Shax
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Shax use
-1-Deadly Wind MP:22
-2-Poison Breath MP:11
-3-Grand Tack MP:11
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Shax
-1-Pisaca HP:170/454 MP:90/90
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shax dispara a Pisaca
-Pisaca recibe 127 de daño
-Pisaca termina con HP:43/454
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
-B-
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
 C-
-D-Pisaca HP:43/454 MP:90/90
-Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:93/140
-C-Shax HP:115/371 MP:349/360
-D-Magatsuhi HP:851/851 MP:170/170
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -2049,7 +1532,6 @@ Orden:
 1-Aleph
 2-Magatsuhi
 3-Taown
-4-Shax
 ----------------------------------------
 Seleccione una acción para Aleph
 1: Atacar
@@ -2058,19 +1540,133 @@ Seleccione una acción para Aleph
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:358/597 MP:334/347
+2-Lord Nan Dou HP:273/549 MP:108/108
+3-Knocker HP:18/126 MP:55/55
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph dispara a Lord Nan Dou
+Lord Nan Dou recibe 276 de daño
+Lord Nan Dou termina con HP:0/549
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:358/597 MP:334/347
+B-
+C-
+D-Knocker HP:18/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:676/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Knocker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Aleph use
-1-Mudoon MP:10
-2-Trisagion MP:22
-3-Bouncing Claw MP:4
-4-Diarama MP:9
-5-Iron Judgement MP:8
-6-Zionga MP:8
-7-Cancelar
-INPUT: 7
+Seleccione una habilidad para que Joker use
+1-Mudo MP:6
+2-Dia MP:5
+3-Bufula MP:8
+4-Trisagion MP:22
+5-Ziodyne MP:14
+6-Fatal Sword MP:8
+7-Zan MP:5
+8-Bufudyne MP:14
+9-Cancelar
+INPUT: 9
 ----------------------------------------
-Seleccione una acción para Aleph
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Aleph HP:1007/1309 MP:591/613
+2-Taown HP:676/709 MP:140/140
+3-Magatsuhi HP:666/851 MP:170/170
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Joker dispara a Taown
+Taown recibe 39 de daño
+Taown termina con HP:637/709
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:358/597 MP:334/347
+B-
+C-
+D-Knocker HP:18/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Knocker
+2-Joker
+----------------------------------------
+Seleccione una acción para Knocker
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:358/597 MP:334/347
+B-
+C-
+D-Knocker HP:18/126 MP:55/55
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Knocker
+----------------------------------------
+Seleccione una acción para Joker
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -2079,40 +1675,85 @@ Seleccione una acción para Aleph
 6: Rendirse
 INPUT: 5
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Aleph (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
+A-Joker HP:358/597 MP:334/347
 B-
 C-
-D-Pisaca HP:43/454 MP:90/90
+D-Knocker HP:18/126 MP:55/55
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:93/140
-C-Shax HP:115/371 MP:349/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+2-Magatsuhi
+3-Taown
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:358/597 MP:334/347
+2-Knocker HP:18/126 MP:55/55
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:358/597 MP:334/347
+2-Knocker HP:18/126 MP:55/55
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Aleph ataca a Knocker
+Knocker recibe 157 de daño
+Knocker termina con HP:0/126
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:358/597 MP:334/347
+B-
+C-
+D-
+Equipo de Aleph (J2)
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Magatsuhi
 2-Taown
-3-Shax
-4-Aleph
-----------------------------------------
-Seleccione una acción para Magatsuhi
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Magatsuhi
-1-Pisaca HP:43/454 MP:90/90
-2-Cancelar
-INPUT: 2
+3-Aleph
 ----------------------------------------
 Seleccione una acción para Magatsuhi
 1: Atacar
@@ -2121,78 +1762,73 @@ Seleccione una acción para Magatsuhi
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
+A-Joker HP:358/597 MP:334/347
 B-
 C-
-D-Pisaca HP:43/454 MP:90/90
+D-
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:93/140
-C-Shax HP:115/371 MP:349/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:140/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Pisaca
+1-Taown
+2-Aleph
+3-Magatsuhi
 ----------------------------------------
-Seleccione una acción para Pisaca
+Seleccione una acción para Taown
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Pisaca use
-1-Bind Voice MP:15
-2-Life Drain MP:5
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Pisaca
-1-Aleph HP:1233/1309 MP:609/613
-2-Taown HP:561/709 MP:93/140
-3-Shax HP:115/371 MP:349/360
-4-Magatsuhi HP:851/851 MP:170/170
+Seleccione una habilidad para que Taown use
+1-Ziodyne MP:14
+2-Madness Needle MP:11
+3-Nihil Claw MP:11
+4-Mediarama MP:22
 5-Cancelar
 INPUT: 1
 ----------------------------------------
-Pisaca ataca con oscuridad a Aleph
-Pisaca ha fallado el ataque
-Aleph termina con HP:1233/1309
+Seleccione un objetivo para Taown
+1-Joker HP:358/597 MP:334/347
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Taown lanza electricidad a Joker
+Joker recibe 113 de daño
+Joker termina con HP:245/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Aleph (J2)
-----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:0/597 MP:334/347
+A-Joker HP:245/597 MP:334/347
 B-
 C-
-D-Pisaca HP:43/454 MP:80/90
+D-
 Equipo de Aleph (J2)
-A-Aleph HP:1233/1309 MP:609/613
-B-Taown HP:561/709 MP:93/140
-C-Shax HP:115/371 MP:349/360
-D-Magatsuhi HP:851/851 MP:170/170
+A-Aleph HP:1007/1309 MP:591/613
+B-Taown HP:637/709 MP:126/140
+C-
+D-Magatsuhi HP:666/851 MP:170/170
 ----------------------------------------
-Full Turns: 4
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Aleph
 2-Magatsuhi
 3-Taown
-4-Shax
 ----------------------------------------
 Seleccione una acción para Aleph
 1: Atacar
@@ -2211,19 +1847,88 @@ Seleccione una habilidad para que Aleph use
 5-Iron Judgement MP:8
 6-Zionga MP:8
 7-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:245/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:245/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:245/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:245/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Joker HP:245/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Aleph
-1-Pisaca HP:43/454 MP:80/90
+1-Joker HP:245/597 MP:334/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Aleph lanza fuego a Pisaca
-Pisaca es débil contra el ataque de Aleph
-Pisaca recibe 227 de daño
-Pisaca termina con HP:0/454
+Aleph dispara a Joker
+Joker recibe 276 de daño
+Joker termina con HP:0/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ganador: Aleph (J2)

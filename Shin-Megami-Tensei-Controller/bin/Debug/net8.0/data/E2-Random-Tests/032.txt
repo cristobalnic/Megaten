@@ -227,20 +227,6 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Recarm MP:20
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
@@ -249,11 +235,12 @@ Seleccione un objetivo para Makoto
 3-Bilwis HP:161/161 MP:31/31
 4-Lilith HP:380/380 MP:369/369
 5-Cancelar
-INPUT: 4
+INPUT: 1
 ----------------------------------------
-Makoto ataca a Lilith
-Lilith recibe 38 de daño
-Lilith termina con HP:342/380
+Makoto ataca a Shujinko
+Shujinko es resistente el ataque de Makoto
+Shujinko recibe 19 de daño
+Shujinko termina con HP:1298/1317
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -266,10 +253,10 @@ B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
+A-Shujinko HP:1298/1317 MP:625/625
 B-Goblin HP:322/322 MP:63/63
 C-Bilwis HP:161/161 MP:31/31
-D-Lilith HP:342/380 MP:369/369
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
@@ -298,10 +285,10 @@ B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
+A-Shujinko HP:1298/1317 MP:625/625
 B-Goblin HP:322/322 MP:63/63
 C-Bilwis HP:161/161 MP:31/31
-D-Lilith HP:342/380 MP:369/369
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 1
@@ -323,9 +310,14 @@ Seleccione un monstruo para invocar
 1-Nadja HP:399/399 MP:179/179
 2-Atropos HP:277/277 MP:269/269
 3-Cancelar
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Atropos ha sido invocado
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -336,10 +328,10 @@ B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
+A-Shujinko HP:1298/1317 MP:625/625
 B-Goblin HP:322/322 MP:63/63
 C-Bilwis HP:161/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
@@ -348,88 +340,96 @@ Orden:
 1-Goblin
 2-Bilwis
 3-Shujinko
-4-Atropos
+4-Lilith
 ----------------------------------------
 Seleccione una acción para Goblin
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:342/380 MP:369/369
-2-Nadja HP:399/399 MP:179/179
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Nadja ha sido invocado
+Seleccione una habilidad para que Goblin use
+1-Oni-Kagura MP:9
+2-Tarukaja MP:15
+3-Bad Company MP:15
+4-Charge MP:9
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Makoto HP:597/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Goblin ataca a Makoto
+Makoto es resistente el ataque de Goblin
+Makoto recibe 37 de daño
+Makoto termina con HP:560/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:161/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Bilwis
-2-Shujinko
-3-Atropos
-4-Nadja
-----------------------------------------
-Seleccione una acción para Bilwis
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bilwis use
-1-Poison Claw MP:9
-2-Dia MP:5
-3-Lunge MP:6
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Bilwis
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nadja HP:399/399 MP:179/179
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
 C-Bilwis HP:161/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Bilwis
+2-Shujinko
+3-Lilith
+4-Goblin
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Makoto HP:560/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:560/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
 1-Shujinko
-2-Atropos
-3-Nadja
+2-Lilith
+3-Goblin
 4-Bilwis
 ----------------------------------------
 Seleccione una acción para Shujinko
@@ -439,88 +439,86 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
+INPUT: 5
 ----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Invitation MP:45
-2-Recarm MP:20
-3-Zan MP:5
-4-Damascus Claw MP:7
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:597/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko lanza viento a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 40 de daño
-Makoto termina con HP:557/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
 C-Bilwis HP:161/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Atropos
-2-Nadja
+1-Lilith
+2-Goblin
 3-Bilwis
 4-Shujinko
 ----------------------------------------
-Seleccione una acción para Atropos
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Lilith HP:342/380 MP:369/369
-3-Cancelar
 INPUT: 1
 ----------------------------------------
-Goblin ha sido invocado
+Seleccione un objetivo para Lilith
+1-Makoto HP:560/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Makoto HP:560/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
 C-Bilwis HP:161/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Nadja
+1-Goblin
 2-Bilwis
 3-Shujinko
-4-Goblin
+4-Lilith
 ----------------------------------------
-Seleccione una acción para Nadja
+Seleccione una acción para Goblin
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -533,18 +531,47 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
 C-Bilwis HP:161/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:560/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:322/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Makoto
@@ -570,48 +597,19 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:161/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Shujinko HP:1317/1317 MP:620/625
-2-Nadja HP:399/399 MP:179/179
+1-Shujinko HP:1298/1317 MP:625/625
+2-Goblin HP:322/322 MP:54/63
 3-Bilwis HP:161/161 MP:31/31
-4-Goblin HP:322/322 MP:63/63
+4-Lilith HP:380/380 MP:369/369
 5-Cancelar
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Makoto dispara a Bilwis
-Bilwis recibe 57 de daño
-Bilwis termina con HP:104/161
+Makoto ataca a Goblin
+Goblin recibe 38 de daño
+Goblin termina con HP:284/322
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -619,24 +617,41 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Shujinko (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:284/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Nadja
+2-Lilith
 3-Goblin
 4-Bilwis
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Invitation MP:45
+2-Recarm MP:20
+3-Zan MP:5
+4-Damascus Claw MP:7
+5-Cancelar
+INPUT: 5
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -648,33 +663,33 @@ Seleccione una acción para Shujinko
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:342/380 MP:369/369
+1-Nadja HP:399/399 MP:179/179
 2-Atropos HP:277/277 MP:269/269
 3-Cancelar
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Seleccione una posición para invocar
-1-Nadja HP:399/399 MP:179/179 (Puesto 2)
-2-Bilwis HP:104/161 MP:31/31 (Puesto 3)
-3-Goblin HP:322/322 MP:63/63 (Puesto 4)
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Lilith ha sido invocado
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Lilith HP:342/380 MP:369/369
-C-Bilwis HP:104/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:284/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 1
@@ -690,41 +705,21 @@ Seleccione una acción para Lilith
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lilith
-1-Makoto HP:557/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Nadja HP:399/399 MP:179/179
-2-Atropos HP:277/277 MP:269/269
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Nadja ha sido invocado
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:284/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
@@ -733,7 +728,7 @@ Orden:
 1-Goblin
 2-Bilwis
 3-Shujinko
-4-Nadja
+4-Lilith
 ----------------------------------------
 Seleccione una acción para Goblin
 1: Atacar
@@ -755,29 +750,21 @@ Seleccione una acción para Goblin
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:342/380 MP:369/369
-2-Atropos HP:277/277 MP:269/269
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Atropos ha sido invocado
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:284/322 MP:54/63
+C-Bilwis HP:161/161 MP:31/31
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 1
@@ -785,193 +772,48 @@ Blinking Turns: 1
 Orden:
 1-Bilwis
 2-Shujinko
-3-Nadja
-4-Atropos
+3-Lilith
+4-Goblin
 ----------------------------------------
 Seleccione una acción para Bilwis
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nadja HP:399/399 MP:179/179
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ha sido invocado
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:557/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+A-Shujinko HP:1298/1317 MP:625/625
+B-Goblin HP:284/322 MP:54/63
+C-Nadja HP:399/399 MP:179/179
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Nadja
-3-Atropos
-4-Bilwis
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Invitation MP:45
-2-Recarm MP:20
-3-Zan MP:5
-4-Damascus Claw MP:7
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Invitation MP:45
-2-Recarm MP:20
-3-Zan MP:5
-4-Damascus Claw MP:7
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:557/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:557/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko dispara a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 114 de daño
-Makoto termina con HP:443/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:443/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nadja
-2-Atropos
-3-Bilwis
-4-Shujinko
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:443/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Atropos
-2-Bilwis
-3-Shujinko
+2-Lilith
+3-Goblin
 4-Nadja
 ----------------------------------------
-Seleccione una acción para Atropos
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:443/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -980,116 +822,18 @@ Seleccione una acción para Makoto
 6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Recarm MP:20
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:443/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1317/1317 MP:620/625
-2-Nadja HP:399/399 MP:179/179
-3-Bilwis HP:104/161 MP:31/31
-4-Atropos HP:277/277 MP:269/269
+Seleccione una habilidad para que Shujinko use
+1-Invitation MP:45
+2-Recarm MP:20
+3-Zan MP:5
+4-Damascus Claw MP:7
 5-Cancelar
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Makoto dispara a Shujinko
-Shujinko es resistente el ataque de Makoto
-Shujinko recibe 28 de daño
-Shujinko termina con HP:1289/1317
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Shujinko (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:443/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Nadja
-3-Atropos
-4-Bilwis
+Seleccione un objetivo para Shujinko
+1-Makoto HP:560/597 MP:347/347
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -1098,130 +842,47 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:161/161 MP:31/31
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:443/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko ataca a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 93 de daño
-Makoto termina con HP:350/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:350/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nadja
-2-Atropos
-3-Bilwis
-4-Shujinko
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nadja use
-1-Pulinpa MP:5
-2-Concentrate MP:11
-3-Samarecarm MP:40
+Seleccione una posición para invocar
+1-Goblin HP:284/322 MP:54/63 (Puesto 2)
+2-Nadja HP:399/399 MP:179/179 (Puesto 3)
+3-Lilith HP:380/380 MP:369/369 (Puesto 4)
 4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Nadja
-1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Bilwis ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:350/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Atropos HP:277/277 MP:269/269
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:399/399 MP:179/179
+D-Lilith HP:380/380 MP:369/369
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Atropos
+1-Lilith
 2-Bilwis
-3-Shujinko
-4-Nadja
+3-Nadja
+4-Shujinko
 ----------------------------------------
-Seleccione una acción para Atropos
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Atropos use
-1-Hamaon MP:10
-2-Tathlum Shot MP:7
-3-Ziodyne MP:14
-4-Zandyne MP:14
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Atropos
-1-Makoto HP:350/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Atropos
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Atropos use
-1-Hamaon MP:10
-2-Tathlum Shot MP:7
-3-Ziodyne MP:14
-4-Zandyne MP:14
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Atropos
-1-Makoto HP:350/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Atropos
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1229,12 +890,12 @@ Seleccione una acción para Atropos
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Lilith HP:342/380 MP:369/369
+1-Goblin HP:284/322 MP:54/63
+2-Atropos HP:277/277 MP:269/269
 3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione una acción para Atropos
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1242,8 +903,43 @@ Seleccione una acción para Atropos
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Lilith HP:342/380 MP:369/369
+1-Goblin HP:284/322 MP:54/63
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:284/322 MP:54/63
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:284/322 MP:54/63
+2-Atropos HP:277/277 MP:269/269
 3-Cancelar
 INPUT: 1
 ----------------------------------------
@@ -1253,18 +949,265 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:350/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:104/161 MP:31/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:399/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bilwis
+2-Nadja
+3-Shujinko
+4-Goblin
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:560/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:399/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nadja
+2-Shujinko
+3-Goblin
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Makoto HP:560/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ataca a Makoto
+Makoto es resistente el ataque de Nadja
+Makoto recibe 16 de daño
+Makoto termina con HP:544/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:544/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:399/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1298/1317 MP:625/625
+2-Bilwis HP:161/161 MP:31/31
+3-Nadja HP:399/399 MP:179/179
+4-Goblin HP:284/322 MP:54/63
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto dispara a Nadja
+Nadja recibe 57 de daño
+Nadja termina con HP:342/399
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:544/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Nadja
+3-Goblin
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:544/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 114 de daño
+Makoto termina con HP:430/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:430/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nadja
+2-Goblin
+3-Bilwis
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Makoto HP:430/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ataca a Makoto
+Makoto es resistente el ataque de Nadja
+Makoto recibe 16 de daño
+Makoto termina con HP:414/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:414/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Goblin
+2-Bilwis
+3-Shujinko
+4-Nadja
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Goblin use
+1-Oni-Kagura MP:9
+2-Tarukaja MP:15
+3-Bad Company MP:15
+4-Charge MP:9
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Makoto HP:414/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:414/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Bilwis
@@ -1284,33 +1227,53 @@ Seleccione una habilidad para que Bilwis use
 2-Dia MP:5
 3-Lunge MP:6
 4-Cancelar
-INPUT: 2
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Bilwis
-1-Shujinko HP:1289/1317 MP:620/625
-2-Nadja HP:399/399 MP:179/179
-3-Bilwis HP:104/161 MP:31/31
-4-Goblin HP:322/322 MP:63/63
-5-Cancelar
+1-Makoto HP:414/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Bilwis cura a Bilwis
-Bilwis recibe 40 de HP
-Bilwis termina con HP:144/161
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 3
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:350/597 MP:347/347
+A-Makoto HP:414/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:144/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -1328,33 +1291,53 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:350/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko ataca a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 93 de daño
-Makoto termina con HP:257/597
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:414/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nadja
+2-Goblin
+3-Bilwis
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:257/597 MP:347/347
+A-Makoto HP:414/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:144/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:161/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -1369,27 +1352,12 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 3
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:257/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:144/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
+Seleccione una habilidad para que Makoto use
+1-Recarm MP:20
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
@@ -1398,35 +1366,35 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
+INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Shujinko HP:1289/1317 MP:620/625
-2-Nadja HP:399/399 MP:179/179
-3-Bilwis HP:144/161 MP:26/31
-4-Goblin HP:322/322 MP:63/63
+1-Shujinko HP:1298/1317 MP:625/625
+2-Bilwis HP:161/161 MP:31/31
+3-Nadja HP:342/399 MP:179/179
+4-Goblin HP:284/322 MP:54/63
 5-Cancelar
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Makoto ataca a Bilwis
-Bilwis recibe 38 de daño
-Bilwis termina con HP:106/161
+Makoto dispara a Bilwis
+Bilwis recibe 57 de daño
+Bilwis termina con HP:104/161
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:257/597 MP:347/347
+A-Makoto HP:414/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
@@ -1444,69 +1412,24 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:257/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Invitation MP:45
-2-Recarm MP:20
-3-Zan MP:5
-4-Damascus Claw MP:7
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:257/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko ataca a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 93 de daño
-Makoto termina con HP:164/597
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:414/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 3
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Nadja
@@ -1519,24 +1442,46 @@ Seleccione una acción para Nadja
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 1
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Seleccione un objetivo para Nadja
+1-Makoto HP:414/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Makoto HP:414/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ataca a Makoto
+Makoto es resistente el ataque de Nadja
+Makoto recibe 16 de daño
+Makoto termina con HP:398/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:398/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
+Full Turns: 3
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Goblin
@@ -1552,7 +1497,7 @@ Seleccione una acción para Goblin
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:342/380 MP:369/369
+1-Lilith HP:380/380 MP:369/369
 2-Atropos HP:277/277 MP:269/269
 3-Cancelar
 INPUT: 3
@@ -1562,24 +1507,39 @@ Seleccione una acción para Goblin
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Goblin use
+1-Oni-Kagura MP:9
+2-Tarukaja MP:15
+3-Bad Company MP:15
+4-Charge MP:9
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:398/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 2
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Bilwis
@@ -1594,22 +1554,22 @@ Seleccione una acción para Bilwis
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:398/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
+Full Turns: 2
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
@@ -1627,56 +1587,531 @@ Seleccione una acción para Shujinko
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:342/380 MP:369/369
+1-Lilith HP:380/380 MP:369/369
 2-Atropos HP:277/277 MP:269/269
 3-Cancelar
 INPUT: 1
 ----------------------------------------
 Seleccione una posición para invocar
-1-Nadja HP:399/399 MP:179/179 (Puesto 2)
-2-Bilwis HP:106/161 MP:26/31 (Puesto 3)
-3-Goblin HP:322/322 MP:63/63 (Puesto 4)
+1-Bilwis HP:104/161 MP:31/31 (Puesto 2)
+2-Nadja HP:342/399 MP:179/179 (Puesto 3)
+3-Goblin HP:284/322 MP:54/63 (Puesto 4)
 4-Cancelar
 INPUT: 2
 ----------------------------------------
 Lilith ha sido invocado
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:398/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:380/380 MP:369/369
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Goblin
+3-Bilwis
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nadja HP:342/399 MP:179/179
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Makoto HP:398/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:398/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:380/380 MP:369/369
+D-Goblin HP:284/322 MP:54/63
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nadja
+1-Goblin
+2-Bilwis
+3-Shujinko
+4-Lilith
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Makoto HP:398/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Goblin ataca a Makoto
+Makoto es resistente el ataque de Goblin
+Makoto recibe 11 de daño
+Makoto termina con HP:387/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:380/380 MP:369/369
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Recarm MP:20
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Recarm MP:20
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Recarm MP:20
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1298/1317 MP:625/625
+2-Bilwis HP:104/161 MP:31/31
+3-Lilith HP:380/380 MP:369/369
+4-Goblin HP:284/322 MP:54/63
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto dispara a Lilith
+Lilith es débil contra el ataque de Makoto
+Lilith recibe 86 de daño
+Lilith termina con HP:294/380
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:294/380 MP:369/369
+D-Goblin HP:284/322 MP:54/63
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1298/1317 MP:625/625
+2-Bilwis HP:104/161 MP:31/31
+3-Lilith HP:294/380 MP:369/369
+4-Goblin HP:284/322 MP:54/63
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Makoto dispara a Goblin
+Goblin recibe 57 de daño
+Goblin termina con HP:227/322
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:294/380 MP:369/369
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Goblin
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Lilith HP:294/380 MP:369/369
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
 2-Goblin
-3-Lilith
+3-Bilwis
 4-Shujinko
 ----------------------------------------
-Seleccione una acción para Nadja
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Nadja use
-1-Pulinpa MP:5
-2-Concentrate MP:11
-3-Samarecarm MP:40
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nadja HP:342/399 MP:179/179
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Goblin
+2-Bilwis
+3-Shujinko
+4-Nadja
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:294/380 MP:369/369
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Bilwis HP:104/161 MP:31/31
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:369/369
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bilwis
+2-Shujinko
+3-Nadja
+4-Lilith
+----------------------------------------
+Seleccione una acción para Bilwis
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bilwis use
+1-Poison Claw MP:9
+2-Dia MP:5
+3-Lunge MP:6
 4-Cancelar
-INPUT: 4
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Bilwis
+1-Shujinko HP:1298/1317 MP:625/625
+2-Bilwis HP:104/161 MP:31/31
+3-Nadja HP:342/399 MP:179/179
+4-Lilith HP:294/380 MP:369/369
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Bilwis cura a Shujinko
+Shujinko recibe 329 de HP
+Shujinko termina con HP:1317/1317
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:387/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Bilwis HP:104/161 MP:26/31
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:369/369
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Nadja
+3-Lilith
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:387/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:387/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:387/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:387/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 93 de daño
+Makoto termina con HP:294/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Bilwis HP:104/161 MP:26/31
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:369/369
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nadja
+2-Lilith
+3-Bilwis
+4-Shujinko
 ----------------------------------------
 Seleccione una acción para Nadja
 1: Atacar
@@ -1689,22 +2124,444 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:164/597 MP:347/347
+A-Makoto HP:294/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1317/1317 MP:625/625
+B-Bilwis HP:104/161 MP:26/31
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:369/369
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Goblin
+1-Lilith
+2-Bilwis
+3-Shujinko
+4-Nadja
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:227/322 MP:54/63
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Bilwis HP:104/161 MP:26/31 (Puesto 2)
+2-Nadja HP:342/399 MP:179/179 (Puesto 3)
+3-Lilith HP:294/380 MP:369/369 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Atropos ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:277/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1317/1317 MP:625/625
+2-Atropos HP:277/277 MP:269/269
+3-Nadja HP:342/399 MP:179/179
+4-Lilith HP:294/380 MP:324/369
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:277/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1317/1317 MP:625/625
+2-Atropos HP:277/277 MP:269/269
+3-Nadja HP:342/399 MP:179/179
+4-Lilith HP:294/380 MP:324/369
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto dispara a Atropos
+Atropos recibe 57 de daño
+Atropos termina con HP:220/277
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Nadja
+3-Lilith
+4-Atropos
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:294/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nadja
 2-Lilith
+3-Atropos
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:227/322 MP:54/63
+2-Bilwis HP:104/161 MP:26/31
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Makoto HP:294/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Atropos
+3-Shujinko
+4-Nadja
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:227/322 MP:54/63
+2-Bilwis HP:104/161 MP:26/31
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Bilwis ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:294/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:269/269
+C-Nadja HP:342/399 MP:179/179
+D-Bilwis HP:104/161 MP:26/31
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Atropos
+2-Shujinko
+3-Nadja
+4-Bilwis
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Atropos use
+1-Hamaon MP:10
+2-Tathlum Shot MP:7
+3-Ziodyne MP:14
+4-Zandyne MP:14
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Makoto HP:294/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Atropos lanza viento a Makoto
+Makoto es resistente el ataque de Atropos
+Makoto recibe 59 de daño
+Makoto termina con HP:235/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:235/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:255/269
+C-Nadja HP:342/399 MP:179/179
+D-Bilwis HP:104/161 MP:26/31
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Nadja
+3-Bilwis
+4-Atropos
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Goblin HP:227/322 MP:54/63
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Atropos HP:220/277 MP:255/269 (Puesto 2)
+2-Nadja HP:342/399 MP:179/179 (Puesto 3)
+3-Bilwis HP:104/161 MP:26/31 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Goblin ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:235/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:255/269
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nadja
+2-Goblin
+3-Atropos
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:235/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:255/269
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Goblin
+2-Atropos
 3-Shujinko
 4-Nadja
 ----------------------------------------
@@ -1716,14 +2573,89 @@ Seleccione una acción para Goblin
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Goblin
-1-Makoto HP:164/597 MP:347/347
+1-Makoto HP:235/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Goblin
+1-Makoto HP:235/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:235/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:255/269
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Atropos
+2-Shujinko
+3-Nadja
+4-Goblin
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Atropos use
+1-Hamaon MP:10
+2-Tathlum Shot MP:7
+3-Ziodyne MP:14
+4-Zandyne MP:14
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Makoto HP:235/597 MP:347/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Goblin ataca a Makoto
-Makoto es resistente el ataque de Goblin
-Makoto recibe 11 de daño
-Makoto termina con HP:153/597
+Atropos lanza viento a Makoto
+Makoto es resistente el ataque de Atropos
+Makoto recibe 59 de daño
+Makoto termina con HP:176/597
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -1731,15 +2663,15 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:176/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:342/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -1754,73 +2686,43 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1289/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Goblin HP:322/322 MP:63/63
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Shujinko HP:1289/1317 MP:620/625
-2-Nadja HP:399/399 MP:179/179
-3-Lilith HP:342/380 MP:369/369
-4-Goblin HP:322/322 MP:63/63
+1-Shujinko HP:1317/1317 MP:625/625
+2-Atropos HP:220/277 MP:241/269
+3-Nadja HP:342/399 MP:179/179
+4-Goblin HP:227/322 MP:54/63
 5-Cancelar
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Makoto dispara a Shujinko
-Shujinko es resistente el ataque de Makoto
-Shujinko recibe 28 de daño
-Shujinko termina con HP:1261/1317
+Makoto dispara a Nadja
+Nadja recibe 57 de daño
+Nadja termina con HP:285/399
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:176/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Goblin HP:322/322 MP:63/63
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Lilith
-3-Nadja
+2-Nadja
+3-Atropos
 4-Goblin
 ----------------------------------------
 Seleccione una acción para Shujinko
@@ -1833,123 +2735,123 @@ Seleccione una acción para Shujinko
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Bilwis HP:106/161 MP:26/31
-2-Atropos HP:277/277 MP:269/269
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
 3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Nadja HP:399/399 MP:179/179 (Puesto 2)
-2-Lilith HP:342/380 MP:369/369 (Puesto 3)
-3-Goblin HP:322/322 MP:63/63 (Puesto 4)
-4-Cancelar
 INPUT: 3
 ----------------------------------------
-Atropos ha sido invocado
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Atropos HP:220/277 MP:241/269 (Puesto 2)
+2-Nadja HP:285/399 MP:179/179 (Puesto 3)
+3-Goblin HP:227/322 MP:54/63 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:176/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Lilith HP:342/380 MP:369/369
-D-Atropos HP:277/277 MP:269/269
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Lilith
-2-Nadja
-3-Atropos
+1-Nadja
+2-Atropos
+3-Goblin
 4-Shujinko
 ----------------------------------------
-Seleccione una acción para Lilith
+Seleccione una acción para Nadja
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Bilwis HP:106/161 MP:26/31
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Bilwis ha sido invocado
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:176/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Atropos HP:277/277 MP:269/269
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nadja
-2-Atropos
-3-Shujinko
-4-Bilwis
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nadja use
-1-Pulinpa MP:5
-2-Concentrate MP:11
-3-Samarecarm MP:40
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Atropos HP:277/277 MP:269/269
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
 1-Atropos
-2-Shujinko
-3-Bilwis
+2-Goblin
+3-Shujinko
 4-Nadja
 ----------------------------------------
 Seleccione una acción para Atropos
@@ -1960,8 +2862,64 @@ Seleccione una acción para Atropos
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Lilith HP:342/380 MP:369/369
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:176/597 MP:347/347
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Goblin HP:227/322 MP:54/63
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Goblin
+2-Shujinko
+3-Nadja
+4-Atropos
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Goblin
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bilwis HP:104/161 MP:26/31
+2-Lilith HP:294/380 MP:324/369
 3-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -1971,23 +2929,23 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:176/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:342/380 MP:369/369
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Bilwis
-3-Nadja
+2-Nadja
+3-Atropos
 4-Lilith
 ----------------------------------------
 Seleccione una acción para Shujinko
@@ -1997,88 +2955,40 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:153/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Shujinko
-1-Makoto HP:153/597 MP:347/347
+1-Makoto HP:176/597 MP:347/347
 2-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+Shujinko ataca a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 93 de daño
+Makoto termina con HP:83/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:342/380 MP:369/369
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Bilwis
-2-Nadja
-3-Lilith
-4-Shujinko
-----------------------------------------
-Seleccione una acción para Bilwis
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:83/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Nadja HP:399/399 MP:179/179
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:342/380 MP:369/369
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Nadja HP:285/399 MP:179/179
+D-Lilith HP:294/380 MP:324/369
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Nadja
-2-Lilith
-3-Shujinko
-4-Bilwis
+2-Atropos
+3-Lilith
+4-Shujinko
 ----------------------------------------
 Seleccione una acción para Nadja
 1: Atacar
@@ -2088,8 +2998,8 @@ Seleccione una acción para Nadja
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Goblin HP:322/322 MP:63/63
-2-Atropos HP:277/277 MP:269/269
+1-Goblin HP:227/322 MP:54/63
+2-Bilwis HP:104/161 MP:26/31
 3-Cancelar
 INPUT: 1
 ----------------------------------------
@@ -2099,26 +3009,26 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:83/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Goblin HP:322/322 MP:63/63
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:342/380 MP:369/369
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Goblin HP:227/322 MP:54/63
+D-Lilith HP:294/380 MP:324/369
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Lilith
-2-Shujinko
-3-Bilwis
+1-Atropos
+2-Lilith
+3-Shujinko
 4-Goblin
 ----------------------------------------
-Seleccione una acción para Lilith
+Seleccione una acción para Atropos
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -2131,15 +3041,15 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:83/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Goblin HP:322/322 MP:63/63
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:342/380 MP:369/369
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Goblin HP:227/322 MP:54/63
+D-Lilith HP:294/380 MP:324/369
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -2154,113 +3064,35 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Recarm MP:20
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Shujinko HP:1261/1317 MP:620/625
-2-Goblin HP:322/322 MP:63/63
-3-Bilwis HP:106/161 MP:26/31
-4-Lilith HP:342/380 MP:369/369
+1-Shujinko HP:1317/1317 MP:625/625
+2-Atropos HP:220/277 MP:241/269
+3-Goblin HP:227/322 MP:54/63
+4-Lilith HP:294/380 MP:324/369
 5-Cancelar
-INPUT: 4
+INPUT: 3
 ----------------------------------------
-Makoto dispara a Lilith
-Lilith es débil contra el ataque de Makoto
-Lilith recibe 86 de daño
-Lilith termina con HP:256/380
+Makoto dispara a Goblin
+Goblin recibe 57 de daño
+Goblin termina con HP:170/322
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Goblin HP:322/322 MP:63/63
-C-Bilwis HP:106/161 MP:26/31
-D-Lilith HP:256/380 MP:369/369
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Recarm MP:20
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1261/1317 MP:620/625
-2-Goblin HP:322/322 MP:63/63
-3-Bilwis HP:106/161 MP:26/31
-4-Lilith HP:256/380 MP:369/369
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto ataca a Bilwis
-Bilwis recibe 38 de daño
-Bilwis termina con HP:68/161
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:153/597 MP:347/347
+A-Makoto HP:83/597 MP:347/347
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1261/1317 MP:620/625
-B-Goblin HP:322/322 MP:63/63
-C-Bilwis HP:68/161 MP:26/31
-D-Lilith HP:256/380 MP:369/369
+A-Shujinko HP:1317/1317 MP:625/625
+B-Atropos HP:220/277 MP:241/269
+C-Goblin HP:170/322 MP:54/63
+D-Lilith HP:294/380 MP:324/369
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
@@ -2268,8 +3100,8 @@ Blinking Turns: 0
 Orden:
 1-Shujinko
 2-Lilith
-3-Goblin
-4-Bilwis
+3-Atropos
+4-Goblin
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -2286,13 +3118,12 @@ Seleccione una habilidad para que Shujinko use
 3-Zan MP:5
 4-Damascus Claw MP:7
 5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:153/597 MP:347/347
-2-Cancelar
 INPUT: 2
 ----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Cancelar
+INPUT: 1
+----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
@@ -2308,22 +3139,29 @@ Seleccione una habilidad para que Shujinko use
 3-Zan MP:5
 4-Damascus Claw MP:7
 5-Cancelar
-INPUT: 4
+INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Shujinko
-1-Makoto HP:153/597 MP:347/347
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:83/597 MP:347/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Shujinko ataca a Makoto
+Shujinko dispara a Makoto
 Makoto es resistente el ataque de Shujinko
-Makoto recibe 103 de daño
-Shujinko ataca a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 103 de daño
-Shujinko ataca a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 103 de daño
+Makoto recibe 114 de daño
 Makoto termina con HP:0/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)

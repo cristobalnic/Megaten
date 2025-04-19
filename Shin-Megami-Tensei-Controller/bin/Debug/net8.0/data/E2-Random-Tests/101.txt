@@ -230,6 +230,137 @@ Seleccione una acción para Kotone
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Ometeotl HP:324/324 MP:315/315
+D-Naga HP:199/199 MP:39/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Naga
+3-Melchom
+4-Kotone
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Ometeotl HP:324/324 MP:315/315
+D-Naga HP:199/199 MP:39/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Naga
+2-Melchom
+3-Kotone
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Naga
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Ometeotl HP:324/324 MP:315/315
+D-Naga HP:199/199 MP:39/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Melchom
+2-Kotone
+3-Ometeotl
+4-Naga
+----------------------------------------
+Seleccione una acción para Melchom
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Melchom
+1-Kyouji HP:999/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Melchom ataca a Kyouji
+Kyouji recibe 6 de daño
+Kyouji termina con HP:993/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Ometeotl HP:324/324 MP:315/315
+D-Naga HP:199/199 MP:39/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:993/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Ometeotl
+3-Naga
+4-Melchom
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
 Seleccione una habilidad para que Kotone use
@@ -242,32 +373,75 @@ Seleccione una habilidad para que Kotone use
 7-Tathlum Shot MP:7
 8-Deadly Wind MP:22
 9-Cancelar
-INPUT: 6
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kotone
-1-Kyouji HP:999/999 MP:0/0
+1-Kyouji HP:993/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:993/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:993/999 MP:0/0
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Kotone ataca a Kyouji
-Kyouji recibe 70 de daño
-Kyouji termina con HP:929/999
+Kyouji recibe 38 de daño
+Kyouji termina con HP:955/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
+A-Kotone HP:597/597 MP:347/347
 B-Melchom HP:71/71 MP:67/67
 C-Ometeotl HP:324/324 MP:315/315
 D-Naga HP:199/199 MP:39/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:929/999 MP:0/0
+A-Kyouji HP:955/999 MP:0/0
 B-
 C-
 D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -281,1637 +455,6 @@ Seleccione una acción para Ometeotl
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Lilith ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-Naga HP:199/199 MP:39/39
-Equipo de Kyouji (J2)
-A-Kyouji HP:929/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Naga
-2-Melchom
-3-Kotone
-4-Lilith
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Naga use
-1-Lunge MP:6
-2-Bufu MP:5
-3-Tarukaja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Naga use
-1-Lunge MP:6
-2-Bufu MP:5
-3-Tarukaja MP:15
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Naga
-1-Kyouji HP:929/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Naga ataca a Kyouji
-Kyouji recibe 43 de daño
-Kyouji termina con HP:886/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-Naga HP:199/199 MP:33/39
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Melchom
-2-Kotone
-3-Lilith
-4-Naga
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Melchom use
-1-Agi MP:5
-2-Dia MP:5
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Melchom use
-1-Agi MP:5
-2-Dia MP:5
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Ometeotl ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-Naga HP:199/199 MP:33/39
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Lilith
-3-Naga
-4-Ometeotl
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Fatal Sword MP:8
-2-Zio MP:5
-3-Axel Claw MP:15
-4-Grand Tack MP:11
-5-Sabbatma MP:20
-6-Bouncing Claw MP:4
-7-Tathlum Shot MP:7
-8-Deadly Wind MP:22
-9-Cancelar
-INPUT: 8
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:886/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:886/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:886/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-Naga HP:199/199 MP:33/39
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:343/347
-2-Ometeotl HP:324/324 MP:315/315
-3-Lilith HP:380/380 MP:369/369
-4-Naga HP:199/199 MP:33/39
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kyouji ataca a Naga
-Naga recibe 614 de daño
-Naga termina con HP:0/199
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lilith
-2-Kotone
-3-Ometeotl
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lilith
-1-Kyouji HP:886/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Melchom HP:71/71 MP:67/67
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Melchom ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Ometeotl
-3-Melchom
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ometeotl
-2-Melchom
-3-Kotone
-----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Melchom
-2-Kotone
-3-Ometeotl
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Ometeotl
-3-Melchom
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Ometeotl HP:324/324 MP:315/315 (Puesto 2)
-2-Melchom HP:71/71 MP:67/67 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:279/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:886/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Melchom
-3-Kotone
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Kyouji HP:886/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Kyouji
-Kyouji recibe 162 de daño
-Kyouji termina con HP:724/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:343/347
-2-Raphael HP:623/623 MP:259/279
-3-Melchom HP:71/71 MP:67/67
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:343/347
-2-Raphael HP:623/623 MP:259/279
-3-Melchom HP:71/71 MP:67/67
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Kotone
-3-Melchom
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Kyouji HP:724/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Melchom
-3-Raphael
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:724/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:724/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Melchom HP:71/71 MP:67/67
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Melchom
-2-Raphael
-3-Kotone
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kyouji HP:724/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Lilith ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Raphael HP:623/623 MP:259/279
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Kotone
-3-Lilith
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Melchom HP:71/71 MP:67/67
-2-Ometeotl HP:324/324 MP:315/315
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Melchom ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:343/347
-2-Melchom HP:71/71 MP:67/67
-3-Lilith HP:380/380 MP:369/369
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:724/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Lilith
-3-Melchom
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:724/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:724/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone ataca a Kyouji
-Kyouji recibe 38 de daño
-Kyouji termina con HP:686/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:686/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lilith
-2-Melchom
-3-Kotone
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lilith
-1-Kyouji HP:686/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lilith
-1-Kyouji HP:686/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Lilith ataca a Kyouji
-Kyouji recibe 40 de daño
-Kyouji termina con HP:646/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:646/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Melchom
-2-Kotone
-3-Lilith
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kyouji HP:646/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kyouji HP:646/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Melchom ataca a Kyouji
-Kyouji recibe 6 de daño
-Kyouji termina con HP:640/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:343/347
-2-Melchom HP:71/71 MP:67/67
-3-Lilith HP:380/380 MP:369/369
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Melchom HP:71/71 MP:67/67
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Lilith
-3-Melchom
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
-2-Raphael HP:623/623 MP:259/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Melchom HP:71/71 MP:67/67 (Puesto 2)
-2-Lilith HP:380/380 MP:369/369 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ometeotl ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Lilith
-2-Ometeotl
-3-Kotone
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lilith
-1-Kyouji HP:640/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ometeotl
-2-Kotone
-3-Lilith
-----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:343/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Lilith
-3-Ometeotl
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Fatal Sword MP:8
-2-Zio MP:5
-3-Axel Claw MP:15
-4-Grand Tack MP:11
-5-Sabbatma MP:20
-6-Bouncing Claw MP:4
-7-Tathlum Shot MP:7
-8-Deadly Wind MP:22
-9-Cancelar
-INPUT: 7
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:640/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:640/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lilith
-2-Kotone
-3-Ometeotl
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Ometeotl
-3-Lilith
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:640/999 MP:0/0
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Melchom HP:71/71 MP:67/67
-2-Raphael HP:623/623 MP:259/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Ometeotl HP:324/324 MP:315/315 (Puesto 2)
-2-Lilith HP:380/380 MP:369/369 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Melchom ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-Melchom HP:71/71 MP:67/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ometeotl
-2-Lilith
-3-Melchom
-4-Kotone
-----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:259/279
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:259/279
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 2
 ----------------------------------------
 Seleccione una habilidad para que Ometeotl use
@@ -1919,206 +462,30 @@ Seleccione una habilidad para que Ometeotl use
 2-Recarmdra MP:2
 3-Bufudyne MP:14
 4-Cancelar
-INPUT: 4
+INPUT: 3
 ----------------------------------------
-Seleccione una acción para Ometeotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Seleccione un objetivo para Ometeotl
+1-Kyouji HP:955/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ometeotl lanza hielo a Kyouji
+Kyouji es resistente el ataque de Ometeotl
+Kyouji recibe 65 de daño
+Kyouji termina con HP:890/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Lilith HP:380/380 MP:369/369
-D-Melchom HP:71/71 MP:67/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Lilith
-2-Melchom
-3-Kotone
-4-Ometeotl
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Naga HP:0/199 MP:33/39
-2-Raphael HP:623/623 MP:259/279
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Ometeotl HP:324/324 MP:315/315 (Puesto 2)
-2-Lilith HP:380/380 MP:369/369 (Puesto 3)
-3-Melchom HP:71/71 MP:67/67 (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:259/279
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Raphael HP:623/623 MP:259/279
-D-Melchom HP:71/71 MP:67/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Melchom
-2-Kotone
-3-Ometeotl
-4-Raphael
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Lilith ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Raphael HP:623/623 MP:259/279
-D-Lilith HP:380/380 MP:369/369
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Ometeotl
-3-Raphael
-4-Lilith
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Kyouji (J2)
 ----------------------------------------
 Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-Raphael HP:623/623 MP:259/279
-D-Lilith HP:380/380 MP:369/369
+A-Kotone HP:597/597 MP:347/347
+B-Melchom HP:71/71 MP:67/67
+C-Ometeotl HP:324/324 MP:301/315
+D-Naga HP:199/199 MP:39/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
+A-Kyouji HP:890/999 MP:0/0
 B-
 C-
 D-
@@ -2136,15 +503,11 @@ Seleccione una acción para Kyouji
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:336/347
-2-Ometeotl HP:324/324 MP:315/315
-3-Raphael HP:623/623 MP:259/279
-4-Lilith HP:380/380 MP:369/369
-5-Cancelar
-INPUT: 5
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Kyouji
 1: Atacar
@@ -2153,19 +516,45 @@ Seleccione una acción para Kyouji
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:597/597 MP:336/347
-2-Ometeotl HP:324/324 MP:315/315
-3-Raphael HP:623/623 MP:259/279
-4-Lilith HP:380/380 MP:369/369
-5-Cancelar
 INPUT: 3
 ----------------------------------------
-Kyouji dispara a Raphael
-Raphael recibe 911 de daño
-Raphael termina con HP:0/623
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Kotone HP:597/597 MP:347/347
+2-Melchom HP:71/71 MP:67/67
+3-Ometeotl HP:324/324 MP:301/315
+4-Naga HP:199/199 MP:39/39
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Kyouji ataca a Melchom
+Melchom recibe 614 de daño
+Melchom termina con HP:0/71
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -2173,12 +562,12 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Kotone (J1)
 ----------------------------------------
 Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Lilith HP:380/380 MP:369/369
+A-Kotone HP:597/597 MP:347/347
+B-
+C-Ometeotl HP:324/324 MP:301/315
+D-Naga HP:199/199 MP:39/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
+A-Kyouji HP:890/999 MP:0/0
 B-
 C-
 D-
@@ -2187,63 +576,9 @@ Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Lilith
-2-Kotone
-3-Ometeotl
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Melchom HP:71/71 MP:67/67
-2-Naga HP:0/199 MP:33/39
-3-Raphael HP:0/623 MP:259/279
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Ometeotl HP:324/324 MP:315/315 (Puesto 2)
-2-Vacío (Puesto 3)
-3-Lilith HP:380/380 MP:369/369 (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Melchom ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:336/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Melchom HP:71/71 MP:67/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:640/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
 1-Kotone
 2-Ometeotl
-3-Melchom
+3-Naga
 ----------------------------------------
 Seleccione una acción para Kotone
 1: Atacar
@@ -2264,41 +599,65 @@ Seleccione una habilidad para que Kotone use
 7-Tathlum Shot MP:7
 8-Deadly Wind MP:22
 9-Cancelar
-INPUT: 6
+INPUT: 4
 ----------------------------------------
 Seleccione un objetivo para Kotone
-1-Kyouji HP:640/999 MP:0/0
+1-Kyouji HP:890/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:890/999 MP:0/0
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Kotone ataca a Kyouji
-Kyouji recibe 70 de daño
+Kyouji recibe 117 de daño
 Kotone ataca a Kyouji
-Kyouji recibe 70 de daño
-Kotone ataca a Kyouji
-Kyouji recibe 70 de daño
-Kyouji termina con HP:430/999
+Kyouji recibe 117 de daño
+Kyouji termina con HP:656/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:597/597 MP:332/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Melchom HP:71/71 MP:67/67
+B-
+C-Ometeotl HP:324/324 MP:301/315
+D-Naga HP:199/199 MP:39/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:656/999 MP:0/0
 B-
 C-
 D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Ometeotl
-2-Melchom
+2-Naga
 3-Kotone
 ----------------------------------------
 Seleccione una acción para Ometeotl
@@ -2309,8 +668,22 @@ Seleccione una acción para Ometeotl
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:324/369
-2-Cancelar
+1-Lilith HP:380/380 MP:369/369
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
 INPUT: 1
 ----------------------------------------
 Lilith ha sido invocado
@@ -2320,11 +693,163 @@ Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:597/597 MP:332/347
-B-Lilith HP:380/380 MP:324/369
-C-
-D-Melchom HP:71/71 MP:67/67
+B-
+C-Lilith HP:380/380 MP:369/369
+D-Naga HP:199/199 MP:39/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:656/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Naga
+2-Kotone
+3-Lilith
+----------------------------------------
+Seleccione una acción para Naga
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Naga use
+1-Lunge MP:6
+2-Bufu MP:5
+3-Tarukaja MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Naga
+1-Kyouji HP:656/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Naga lanza hielo a Kyouji
+Kyouji es resistente el ataque de Naga
+Kyouji recibe 17 de daño
+Kyouji termina con HP:639/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:332/347
+B-
+C-Lilith HP:380/380 MP:369/369
+D-Naga HP:199/199 MP:34/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:639/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Naga
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ometeotl HP:324/324 MP:301/315
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:639/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Ometeotl HP:324/324 MP:301/315
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Lilith HP:380/380 MP:369/369 (Puesto 3)
+3-Naga HP:199/199 MP:34/39 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:597/597 MP:332/347
+B-
+C-Lilith HP:380/380 MP:369/369
+D-Naga HP:199/199 MP:34/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:639/999 MP:0/0
 B-
 C-
 D-
@@ -2333,28 +858,53 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Melchom
-2-Kotone
-3-Lilith
+1-Lilith
+2-Naga
+3-Kotone
 ----------------------------------------
-Seleccione una acción para Melchom
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kyouji HP:430/999 MP:0/0
+Seleccione un objetivo para Lilith
+1-Kyouji HP:639/999 MP:0/0
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Melchom
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Melchom HP:0/71 MP:67/67
+2-Ometeotl HP:324/324 MP:301/315
+3-Raphael HP:623/623 MP:279/279
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Lilith HP:380/380 MP:369/369 (Puesto 3)
+3-Naga HP:199/199 MP:34/39 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ha sido invocado
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -2363,11 +913,11 @@ Ronda de Kyouji (J2)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:597/597 MP:332/347
-B-Lilith HP:380/380 MP:324/369
-C-
-D-Melchom HP:71/71 MP:67/67
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:639/999 MP:0/0
 B-
 C-
 D-
@@ -2385,6 +935,49 @@ Seleccione una acción para Kyouji
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kyouji use
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Kotone HP:597/597 MP:332/347
+2-Raphael HP:623/623 MP:279/279
+3-Lilith HP:380/380 MP:324/369
+4-Naga HP:199/199 MP:34/39
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
@@ -2392,11 +985,11 @@ Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:597/597 MP:332/347
-B-Lilith HP:380/380 MP:324/369
-C-
-D-Melchom HP:71/71 MP:67/67
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:639/999 MP:0/0
 B-
 C-
 D-
@@ -2418,9 +1011,10 @@ INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kyouji
 1-Kotone HP:597/597 MP:332/347
-2-Lilith HP:380/380 MP:324/369
-3-Melchom HP:71/71 MP:67/67
-4-Cancelar
+2-Raphael HP:623/623 MP:279/279
+3-Lilith HP:380/380 MP:324/369
+4-Naga HP:199/199 MP:34/39
+5-Cancelar
 INPUT: 1
 ----------------------------------------
 Kyouji ataca a Kotone
@@ -2435,11 +1029,50 @@ Ronda de Kotone (J1)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:290/597 MP:332/347
-B-Lilith HP:380/380 MP:324/369
-C-
-D-Melchom HP:71/71 MP:67/67
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:639/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Kotone
+3-Lilith
+4-Naga
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kyouji HP:639/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kyouji
+Kyouji recibe 52 de daño
+Kyouji termina con HP:587/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
+Equipo de Kyouji (J2)
+A-Kyouji HP:587/999 MP:0/0
 B-
 C-
 D-
@@ -2450,7 +1083,8 @@ Blinking Turns: 0
 Orden:
 1-Kotone
 2-Lilith
-3-Melchom
+3-Naga
+4-Raphael
 ----------------------------------------
 Seleccione una acción para Kotone
 1: Atacar
@@ -2466,11 +1100,11 @@ Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:290/597 MP:332/347
-B-Lilith HP:380/380 MP:324/369
-C-
-D-Melchom HP:71/71 MP:67/67
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:587/999 MP:0/0
 B-
 C-
 D-
@@ -2480,33 +1114,36 @@ Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Lilith
-2-Melchom
-3-Kotone
+2-Naga
+3-Raphael
+4-Kotone
 ----------------------------------------
 Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
+INPUT: 1
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Ometeotl HP:324/324 MP:315/315
+Seleccione un objetivo para Lilith
+1-Kyouji HP:587/999 MP:0/0
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Ometeotl ha sido invocado
+Lilith ataca a Kyouji
+Kyouji recibe 40 de daño
+Kyouji termina con HP:547/999
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:290/597 MP:332/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Melchom HP:71/71 MP:67/67
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Naga HP:199/199 MP:34/39
 Equipo de Kyouji (J2)
-A-Kyouji HP:430/999 MP:0/0
+A-Kyouji HP:547/999 MP:0/0
 B-
 C-
 D-
@@ -2515,63 +1152,120 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Melchom
-2-Kotone
-3-Ometeotl
+1-Naga
+2-Raphael
+3-Kotone
+4-Lilith
 ----------------------------------------
-Seleccione una acción para Melchom
+Seleccione una acción para Naga
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Melchom use
-1-Agi MP:5
-2-Dia MP:5
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kotone HP:290/597 MP:332/347
-2-Ometeotl HP:324/324 MP:315/315
-3-Melchom HP:71/71 MP:67/67
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Melchom use
-1-Agi MP:5
-2-Dia MP:5
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Kyouji HP:430/999 MP:0/0
+Seleccione un monstruo para invocar
+1-Ometeotl HP:324/324 MP:301/315
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Melchom lanza fuego a Kyouji
-Kyouji es resistente el ataque de Melchom
-Kyouji recibe 16 de daño
-Kyouji termina con HP:414/999
+Ometeotl ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Kotone
+3-Lilith
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kyouji HP:547/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Naga ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
 A-Kotone HP:290/597 MP:332/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Melchom HP:71/71 MP:62/67
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
 Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
+A-Kyouji HP:547/999 MP:0/0
 B-
 C-
 D-
@@ -2581,8 +1275,9 @@ Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Kotone
-2-Ometeotl
-3-Melchom
+2-Lilith
+3-Ometeotl
+4-Naga
 ----------------------------------------
 Seleccione una acción para Kotone
 1: Atacar
@@ -2594,7 +1289,164 @@ Seleccione una acción para Kotone
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:279/279
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Naga HP:199/199 MP:34/39 (Puesto 2)
+2-Lilith HP:380/380 MP:324/369 (Puesto 3)
+3-Ometeotl HP:324/324 MP:301/315 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Raphael HP:623/623 MP:279/279
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Ometeotl
+3-Naga
+4-Kotone
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
 1-Lilith HP:380/380 MP:324/369
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Ometeotl
+4-Naga
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:547/999 MP:0/0
 2-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -2605,10 +1457,499 @@ Seleccione una acción para Kotone
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Ometeotl
+3-Naga
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
 ----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:547/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Naga
+3-Kotone
+4-Lilith
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ometeotl
+1-Kyouji HP:547/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ometeotl ataca a Kyouji
+Kyouji recibe 34 de daño
+Kyouji termina con HP:513/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:513/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Naga
+2-Kotone
+3-Lilith
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Naga
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Naga
+1-Kyouji HP:513/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Naga
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:324/369
+1-Raphael HP:623/623 MP:279/279
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:332/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:513/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Ometeotl
+4-Raphael
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:623/623 MP:279/279 (Puesto 2)
+2-Lilith HP:380/380 MP:324/369 (Puesto 3)
+3-Ometeotl HP:324/324 MP:301/315 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:513/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:513/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Kyouji
+Kyouji recibe 117 de daño
+Kotone ataca a Kyouji
+Kyouji recibe 117 de daño
+Kyouji termina con HP:279/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:279/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Ometeotl
+3-Raphael
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:301/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:279/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ometeotl
+2-Raphael
+3-Kotone
+4-Lilith
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ometeotl use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ometeotl use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ometeotl
+1-Kyouji HP:279/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Ometeotl
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ometeotl use
+1-Agidyne MP:14
+2-Recarmdra MP:2
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ometeotl
+1-Kyouji HP:279/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ometeotl lanza hielo a Kyouji
+Kyouji es resistente el ataque de Ometeotl
+Kyouji recibe 65 de daño
+Kyouji termina con HP:214/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:623/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:214/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Kotone HP:290/597 MP:317/347
+2-Raphael HP:623/623 MP:279/279
+3-Lilith HP:380/380 MP:324/369
+4-Ometeotl HP:324/324 MP:287/315
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Kyouji ataca a Raphael
+Raphael recibe 614 de daño
+Raphael termina con HP:9/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kotone (J1)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:9/623 MP:279/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:214/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Kotone
+3-Lilith
+4-Ometeotl
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kotone HP:290/597 MP:317/347
+2-Raphael HP:9/623 MP:279/279
+3-Lilith HP:380/380 MP:324/369
+4-Ometeotl HP:324/324 MP:287/315
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kyouji HP:214/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kyouji
+Kyouji recibe 162 de daño
+Kyouji termina con HP:52/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:9/623 MP:259/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:52/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Ometeotl
+4-Raphael
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:52/999 MP:0/0
 2-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -2640,40 +1981,14 @@ Seleccione una acción para Kotone
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:414/999 MP:0/0
-2-Cancelar
 INPUT: 1
 ----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:414/999
+Seleccione un objetivo para Kotone
+1-Kyouji HP:52/999 MP:0/0
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
-B-Ometeotl HP:324/324 MP:315/315
-C-
-D-Melchom HP:71/71 MP:62/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Kotone
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -2682,29 +1997,144 @@ Seleccione una acción para Kyouji
 6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
-2-Ometeotl HP:324/324 MP:315/315
-3-Melchom HP:71/71 MP:62/67
-4-Cancelar
+Seleccione un objetivo para Kotone
+1-Kyouji HP:52/999 MP:0/0
+2-Cancelar
 INPUT: 2
 ----------------------------------------
-Kyouji dispara a Ometeotl
-Ometeotl recibe 911 de daño
-Ometeotl termina con HP:0/324
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:52/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kotone use
+1-Fatal Sword MP:8
+2-Zio MP:5
+3-Axel Claw MP:15
+4-Grand Tack MP:11
+5-Sabbatma MP:20
+6-Bouncing Claw MP:4
+7-Tathlum Shot MP:7
+8-Deadly Wind MP:22
+9-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:9/623 MP:259/279 (Puesto 2)
+2-Lilith HP:380/380 MP:324/369 (Puesto 3)
+3-Ometeotl HP:324/324 MP:287/315 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Naga HP:199/199 MP:34/39
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:9/623 MP:259/279 (Puesto 2)
+2-Lilith HP:380/380 MP:324/369 (Puesto 3)
+3-Ometeotl HP:324/324 MP:287/315 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Naga ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
+A-Kotone HP:290/597 MP:317/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:52/999 MP:0/0
 B-
 C-
-D-Melchom HP:71/71 MP:62/67
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Ometeotl
+3-Naga
+4-Kotone
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Kyouji HP:52/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ataca a Kyouji
+Kyouji recibe 40 de daño
+Kyouji termina con HP:12/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
 Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
+A-Kyouji HP:12/999 MP:0/0
 B-
 C-
 D-
@@ -2713,261 +2143,145 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kotone
-2-Melchom
+1-Ometeotl
+2-Naga
+3-Kotone
+4-Lilith
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Ometeotl
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:414/999 MP:0/0
-2-Cancelar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:414/999
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
-B-
-C-
-D-Melchom HP:71/71 MP:62/67
-Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
-2-Melchom HP:71/71 MP:62/67
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kyouji dispara a Melchom
-Melchom recibe 911 de daño
-Melchom termina con HP:0/71
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
-B-
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:414/999 MP:0/0
+Seleccione un objetivo para Ometeotl
+1-Kyouji HP:12/999 MP:0/0
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Ometeotl
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Kyouji HP:414/999 MP:0/0
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone dispara a Kyouji
-Kyouji bloquea el ataque de Kotone
-Kyouji termina con HP:414/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
-B-
-C-
-D-
-Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kyouji
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
+Seleccione un monstruo para invocar
+1-Raphael HP:9/623 MP:259/279
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Ometeotl
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Cancelar
-INPUT: 1
+Seleccione un monstruo para invocar
+1-Raphael HP:9/623 MP:259/279
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Ometeotl
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Kotone (J1)
-A-Kotone HP:290/597 MP:332/347
-B-
-C-
-D-
+A-Kotone HP:290/597 MP:317/347
+B-Naga HP:199/199 MP:34/39
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
 Equipo de Kyouji (J2)
-A-Kyouji HP:414/999 MP:0/0
+A-Kyouji HP:12/999 MP:0/0
 B-
 C-
 D-
 ----------------------------------------
-Full Turns: 0
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kyouji
+1-Naga
+2-Kotone
+3-Lilith
+4-Ometeotl
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Naga
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
+Seleccione un objetivo para Naga
+1-Kyouji HP:12/999 MP:0/0
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Naga
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kyouji
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Kotone HP:290/597 MP:332/347
+Seleccione un monstruo para invocar
+1-Raphael HP:9/623 MP:259/279
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Kyouji ataca a Kotone
-Kotone es resistente el ataque de Kyouji
-Kotone recibe 307 de daño
-Kotone termina con HP:0/597
+Raphael ha sido invocado
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Kyouji (J2)
+Equipo de Kotone (J1)
+A-Kotone HP:290/597 MP:317/347
+B-Raphael HP:9/623 MP:259/279
+C-Lilith HP:380/380 MP:324/369
+D-Ometeotl HP:324/324 MP:287/315
+Equipo de Kyouji (J2)
+A-Kyouji HP:12/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kotone
+2-Lilith
+3-Ometeotl
+4-Raphael
+----------------------------------------
+Seleccione una acción para Kotone
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kotone
+1-Kyouji HP:12/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kotone ataca a Kyouji
+Kyouji recibe 38 de daño
+Kyouji termina con HP:0/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kotone (J1)
