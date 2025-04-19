@@ -33,4 +33,6 @@ public static class Params
             "Invocar",
             "Pasar Turno"
         ];
+
+    public const double WeakDamageMultiplier = 1.5;
 }

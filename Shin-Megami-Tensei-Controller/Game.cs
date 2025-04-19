@@ -1,7 +1,8 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.GameSetup;
 using Shin_Megami_Tensei.MegatenErrorHandling;
-using Shin_Megami_Tensei.Utils;
 
 namespace Shin_Megami_Tensei;
 
@@ -9,19 +10,25 @@ public class Game
 {
     private readonly View _view;
     private readonly string _teamsFolder;
-
-    private bool IsGameEnded = false;
+    
     private readonly List<Player> _players = [new(1), new(2)];
     private int _round;
     private Player _turnPlayer;
     private Player _waitPlayer;
 
-    private readonly DataLoader _dataLoader;
+    private int _fullTurnsUsed;
+    private int _blinkingTurnsUsed;
+    private int _blinkingTurnsObtained;
+    
+    private readonly TeamLoader _teamLoader;
+    
     public Game(View view, string teamsFolder)
     {
         _view = view;
         _teamsFolder = teamsFolder;
-        _dataLoader = new DataLoader();
+        _turnPlayer = _players[0];
+        _waitPlayer = _players[1];
+        _teamLoader = new TeamLoader(_view, _teamsFolder, _players);
     }
 
     public void Play()
@@ -32,8 +39,7 @@ public class Game
         }
         catch (MegatenException exception)
         {
-            var message = exception.GetErrorMessage();
-            if (message != "ENDGAME") _view.WriteLine(message);
+            _view.WriteLine(exception.GetErrorMessage());
         }
     }
 
@@ -45,77 +51,24 @@ public class Game
     
     private void SetupGame()
     {
-        DisplayTeamFileSelection();
-        LoadTeams();
-        ValidateTeams();
-        SetupTable();
-    }
-
-    private void DisplayTeamFileSelection()
-    {
-        string[] teamFiles = GetTeamFiles();
-        _view.WriteLine("Elige un archivo para cargar los equipos");
-        for (var i = 0; i < teamFiles.Length; i++)
-            _view.WriteLine($"{i}: {Path.GetFileName(teamFiles[i])}");
-    }
-    
-    private string[] GetTeamFiles() => Directory.GetFiles(_teamsFolder, "*.txt");
-
-    private void LoadTeams()
-    {
-        var selectedTeamFileLines = GetSelectedTeamFileLines();
-
-        Player currentPlayer = _players[0];
-
-        foreach (var unitRawData in selectedTeamFileLines)
-        {
-            if (unitRawData.StartsWith("Player 1 Team")) currentPlayer = _players[0];
-            else if (unitRawData.StartsWith("Player 2 Team")) currentPlayer = _players[1];
-            else if (currentPlayer != null) AddUnitToPlayer(unitRawData, currentPlayer);
-        }
-    }
-
-    private string[] GetSelectedTeamFileLines()
-    {
-        var teamFiles = GetTeamFiles();
-        var selectedTeamIndex = int.Parse(_view.ReadLine());
-        return File.ReadAllLines(teamFiles[selectedTeamIndex]);
-    }
-
-    private void AddUnitToPlayer(string unitRawData, Player currentPlayer)
-    {
-        if (unitRawData.StartsWith("[Samurai]"))
-        {
-            _dataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
-            _dataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai);
-        }
-        else
-            _dataLoader.LoadMonsterUnitToPlayer(unitRawData, currentPlayer);
-    }
-
-    private void ValidateTeams()
-    {
-        if (!_players[0].IsTeamValid() || !_players[1].IsTeamValid())
-            throw new InvalidTeamException();
-    }
-    
-    private void SetupTable()
-    {
-        foreach (var player in _players)
-        {
-            player.Table.SetSamurai(player.Samurai);
-            foreach (var monster in player.Units) player.Table.AddMonster(monster);
-            player.Table.FillEmptySlotsToNull();
-        }
+        SetupView.DisplayTeamFileSelection(_view, _teamsFolder);
+        _teamLoader.LoadTeams();
+        TeamValidator.ValidateTeams(_players);
+        TableSetup.SetupTable(_players);
     }
     
     private void StartGame()
     {
-        while (IsGameEnded == false)
+        while (true)
         {
-            SetPlayersRoles();
-            PlayRound();
-            _round++;
+            try
+            {
+                PlayRound();
+            }
+            catch (EndGameException)
+            {
+                break;
+            }
         }
     }
     
@@ -127,6 +80,7 @@ public class Game
 
     private void PlayRound()
     {
+        SetPlayersRoles();
         DisplayRoundInit();
         _turnPlayer.ResetRemainingTurns();
         var orderedMonsters = GetAliveMonstersOrderedBySpeed();
@@ -135,6 +89,7 @@ public class Game
             PlayTurn(orderedMonsters);
             orderedMonsters = ReorderMonsters(orderedMonsters);
         }
+        _round++;
     }
     
     private void DisplayRoundInit()
@@ -260,7 +215,7 @@ public class Game
         int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetAttackDamage(monster))));
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monster.Name} ataca a {defenderMonster.Name}");
-        DealDamage(defenderMonster, damage);
+        DealDamage(defenderMonster, damage, defenderMonster.Affinity.Phys);
     }
 
     private static double GetAttackDamage(Unit monster) =>
@@ -274,7 +229,7 @@ public class Game
         int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetShootDamage(monster))));
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monster.Name} dispara a {defenderMonster.Name}");
-        DealDamage(defenderMonster, damage);
+        DealDamage(defenderMonster, damage, defenderMonster.Affinity.Gun);
     }
 
     private static double GetShootDamage(Unit monster) =>
@@ -308,10 +263,22 @@ public class Game
         return validMonsters[objectiveSelection-1];
     }
     
-    private void DealDamage(Unit monster, int damage)
+    private void DealDamage(Unit monster, int damage, AffinityType affinityType)
     {
-        monster.Stats.Hp = Math.Max(0, monster.Stats.Hp - damage);
-        _view.WriteLine($"{monster.Name} recibe {damage} de daño");
+        // AffinityTypes available: Neutral, Weak, Resist, Null, Repel, Drain
+
+        if (affinityType == AffinityType.Neutral)
+        {
+            monster.Stats.Hp = Math.Max(0, monster.Stats.Hp - damage);
+            _view.WriteLine($"{monster.Name} recibe {damage} de daño");
+            _fullTurnsUsed += 1;
+        }
+        else if (affinityType == AffinityType.Weak)
+        {
+            monster.Stats.Hp = Convert.ToInt32(Math.Floor(Math.Max(0, monster.Stats.Hp - damage * Params.WeakDamageMultiplier)));
+        }
+        
+
         _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
         if (!monster.IsAlive()) _waitPlayer.Table.HandleDeath(monster);
     }
@@ -369,8 +336,14 @@ public class Game
     private void UpdateTurnState()
     {
         _view.WriteLine(Params.Separator);
-        _turnPlayer.FullTurns -= 1;
-        _view.WriteLine($"Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)\nSe han obtenido 0 Blinking Turn(s)");
+        _turnPlayer.FullTurns -= _fullTurnsUsed;
+        _turnPlayer.BlinkingTurns -= _blinkingTurnsUsed;
+        _turnPlayer.BlinkingTurns += _blinkingTurnsObtained;
+        _view.WriteLine($"Se han consumido {_fullTurnsUsed} Full Turn(s) y {_blinkingTurnsUsed} Blinking Turn(s)");
+        _view.WriteLine($"Se han obtenido {_blinkingTurnsObtained} Blinking Turn(s)");
+        _fullTurnsUsed = 0;
+        _blinkingTurnsUsed = 0;
+        _blinkingTurnsObtained = 0;
     }
     
     private void DisplayWinnerIfExists()
