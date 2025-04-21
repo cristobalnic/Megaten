@@ -7,8 +7,6 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class ActionManager
 {
     private readonly View _view;
-    private readonly TurnManager _turnManager;
-    private readonly RoundManager _roundManager;
 
     private readonly AttackAction _attackAction;
     private readonly ShootAction _shootAction;
@@ -17,16 +15,14 @@ public class ActionManager
     private readonly PassTurnAction _passTurnAction;
     private readonly SurrenderAction _surrenderAction;
     
-    public ActionManager(View view, TurnManager turnManager, RoundManager roundManager)
+    public ActionManager(View view, GameState gameState)
     {
         _view = view;
-        _turnManager = turnManager;
-        _roundManager = roundManager;
-        _attackAction = new AttackAction(view, turnManager);
-        _shootAction = new ShootAction(view, turnManager);
-        _useSkillAction = new UseSkillAction(view, turnManager);
+        _attackAction = new AttackAction(view, gameState);
+        _shootAction = new ShootAction(view, gameState);
+        _useSkillAction = new UseSkillAction(view, gameState);
         _summonAction = new SummonAction(view);
-        _passTurnAction = new PassTurnAction(turnManager);
+        _passTurnAction = new PassTurnAction();
         _surrenderAction = new SurrenderAction(view);
     }
 

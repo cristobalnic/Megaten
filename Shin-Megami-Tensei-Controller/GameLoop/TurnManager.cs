@@ -7,37 +7,32 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class TurnManager
 {
     private readonly View _view;
-
-    public int FullTurnsUsed;
-    public int BlinkingTurnsUsed;
-    public int BlinkingTurnsObtained;
-
-    private RoundManager _roundManager;
+    private GameState _gameState;
     private ActionManager _actionManager;
     
     
-    public TurnManager(View view, RoundManager roundManager)
+    public TurnManager(View view, GameState gameState)
     {
         _view = view;
-        _roundManager = roundManager;
-        _actionManager = new ActionManager(view,this, roundManager);
+        _gameState = gameState;
+        _actionManager = new ActionManager(view, gameState);
     }
 
 
-    internal void PlayTurn(List<Unit> orderedMonsters, Player turnPlayer, Player waitPlayer)
+    internal void PlayTurn(List<Unit> orderedMonsters)
     {
-        DisplayPlayerAvailableTurns(turnPlayer);
+        DisplayPlayerAvailableTurns();
         DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
-        TryToExecuteAction(orderedMonsters, turnPlayer, waitPlayer);
-        UpdateTurnState(turnPlayer);
-        DisplayWinnerIfExists(turnPlayer, waitPlayer);
+        TryToExecuteAction(orderedMonsters);
+        UpdateTurnState();
+        DisplayWinnerIfExists(_gameState.TurnPlayer, _gameState.WaitPlayer);
     }
     
-    private void DisplayPlayerAvailableTurns(Player turnPlayer)
+    private void DisplayPlayerAvailableTurns()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Full Turns: {_roundManager.TurnPlayer.FullTurns}");
-        _view.WriteLine($"Blinking Turns: {turnPlayer.BlinkingTurns}");
+        _view.WriteLine($"Full Turns: {_gameState.TurnPlayer.TurnState.FullTurns}");
+        _view.WriteLine($"Blinking Turns: {_gameState.TurnPlayer.TurnState.BlinkingTurns}");
     }
     
     private void DisplayPlayerMonstersOrderedBySpeed(List<Unit> orderedMonsters)
@@ -57,30 +52,25 @@ public class TurnManager
         }
     }
     
-    private void TryToExecuteAction(List<Unit> orderedMonsters, Player turnPlayer, Player waitPlayer)
+    private void TryToExecuteAction(List<Unit> orderedMonsters)
     {
         try
         {
             _actionManager.DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
-            _actionManager.PlayerActionExecution(orderedMonsters[0], turnPlayer, waitPlayer);
+            _actionManager.PlayerActionExecution(orderedMonsters[0], _gameState.TurnPlayer, _gameState.WaitPlayer);
         }
         catch (CancelObjectiveSelectionException)
         {
-            TryToExecuteAction(orderedMonsters, turnPlayer, waitPlayer);
+            TryToExecuteAction(orderedMonsters);
         }
     }
     
-    private void UpdateTurnState(Player turnPlayer)
+    private void UpdateTurnState()
     {
+        var turnState = _gameState.TurnPlayer.TurnState;
         _view.WriteLine(Params.Separator);
-        turnPlayer.FullTurns -= FullTurnsUsed;
-        turnPlayer.BlinkingTurns -= BlinkingTurnsUsed;
-        turnPlayer.BlinkingTurns += BlinkingTurnsObtained;
-        _view.WriteLine($"Se han consumido {FullTurnsUsed} Full Turn(s) y {BlinkingTurnsUsed} Blinking Turn(s)");
-        _view.WriteLine($"Se han obtenido {BlinkingTurnsObtained} Blinking Turn(s)");
-        FullTurnsUsed = 0;
-        BlinkingTurnsUsed = 0;
-        BlinkingTurnsObtained = 0;
+        _view.WriteLine(turnState.Report());
+        turnState.ResetUsage();
     }
     
     private void DisplayWinnerIfExists(Player turnPlayer, Player waitPlayer)

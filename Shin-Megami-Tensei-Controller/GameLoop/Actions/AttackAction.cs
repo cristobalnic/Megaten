@@ -8,12 +8,12 @@ public class AttackAction
 {
     
     private readonly View _view;
-    private readonly TurnManager _turnManager;
+    private readonly GameState _gameState;
     
-    public AttackAction(View view, TurnManager turnManager)
+    public AttackAction(View view, GameState gameState)
     {
         _view = view;
-        _turnManager = turnManager;
+        _gameState = gameState;
     }
 
     internal void ExecuteAttack(Unit monster, Player waitPlayer)
@@ -38,7 +38,7 @@ public class AttackAction
         {
             monster.Stats.Hp = Math.Max(0, monster.Stats.Hp - damage);
             _view.WriteLine($"{monster.Name} recibe {damage} de daño");
-            _turnManager.FullTurnsUsed += 1;
+            _gameState.TurnPlayer.TurnState.UseFullTurn();
         }
         else if (affinityType == AffinityType.Weak)
         {

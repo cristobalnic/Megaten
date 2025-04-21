@@ -2,15 +2,15 @@
 
 public class PassTurnAction
 {
-    private readonly TurnManager _turnManager;
     
-    public PassTurnAction(TurnManager turnManager)
+    
+    public PassTurnAction()
     {
-        _turnManager = turnManager;
+        
     }
 
     internal void ExecutePassTurn()
     {
-        
+        throw new NotImplementedException();
     }
 }

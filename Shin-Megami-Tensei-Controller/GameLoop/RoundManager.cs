@@ -6,55 +6,47 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class RoundManager
 {
     private readonly View _view;
-    private readonly List<Player> _players;
-
-    public Player TurnPlayer;
-    private Player _waitPlayer;
-    
-    private int _round;
-    
+    private readonly GameState _gameState;
     private readonly TurnManager _turnManager;
 
-    public RoundManager(View view, List<Player> players)
+    public RoundManager(View view, GameState gameState)
     {
         _view = view;
-        _players = players;
-        TurnPlayer = _players[0];
-        _waitPlayer = _players[1];
-        _turnManager = new TurnManager(_view, this);
+        _gameState = gameState;
+        _turnManager = new TurnManager(_view, _gameState);
     }
 
     public void PlayRound()
     {
         SetPlayersRoles();
         DisplayRoundInit();
-        TurnPlayer.ResetRemainingTurns();
+        _gameState.TurnPlayer.TurnState.ResetRemainingTurns(_gameState.TurnPlayer.Table);
         var orderedMonsters = GetAliveMonstersOrderedBySpeed();
-        while (TurnPlayer.FullTurns > 0)
+        while (_gameState.TurnPlayer.TurnState.FullTurns > 0)
         {
             DisplayPlayersTables();
-            _turnManager.PlayTurn(orderedMonsters, TurnPlayer, _waitPlayer);
+            _turnManager.PlayTurn(orderedMonsters);
             orderedMonsters = ReorderMonsters(orderedMonsters);
         }
-        _round++;
+        _gameState.Round++;
     }
     
     private void SetPlayersRoles()
     {
-        TurnPlayer = _players[_round % 2];
-        _waitPlayer = _players[(_round + 1) % 2];
+        _gameState.TurnPlayer = _gameState.Players[_gameState.Round % 2];
+        _gameState.WaitPlayer = _gameState.Players[(_gameState.Round + 1) % 2];
     }
     
     private void DisplayRoundInit()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {TurnPlayer.Samurai?.Name} (J{TurnPlayer.Id})");
+        _view.WriteLine($"Ronda de {_gameState.TurnPlayer.Samurai?.Name} (J{_gameState.TurnPlayer.Id})");
     }
     
     private List<Unit> GetAliveMonstersOrderedBySpeed()
     {
         var monsters = new List<Unit>();
-        foreach (var monster in TurnPlayer.Table.Monsters)
+        foreach (var monster in _gameState.TurnPlayer.Table.Monsters)
             if (monster != null && monster.IsAlive()) monsters.Add(monster);
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }
@@ -62,7 +54,7 @@ public class RoundManager
     private void DisplayPlayersTables()
     {
         _view.WriteLine(Params.Separator);
-        foreach (var player in _players) DisplayPlayerTable(player);
+        foreach (var player in _gameState.Players) DisplayPlayerTable(player);
     }
     
     private void DisplayPlayerTable(Player player)

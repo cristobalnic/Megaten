@@ -8,8 +8,7 @@ public class Player
     public Samurai? Samurai { get; private set; }
     public readonly List<Unit> Units = [];
     public readonly Table Table = new();
-    public int FullTurns { get; set; }
-    public int BlinkingTurns { get; set; }
+    public TurnState TurnState = new();
     
     public Player(int id)
     {
@@ -37,10 +36,4 @@ public class Player
     }
     
     public bool IsTeamValid() => Samurai != null;
-    
-    public void ResetRemainingTurns()
-    {
-        FullTurns = Table.Monsters.Count(monster => monster != null && monster.IsAlive());
-        BlinkingTurns = 0;
-    }
 }

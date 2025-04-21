@@ -7,12 +7,12 @@ namespace Shin_Megami_Tensei.GameLoop.Actions;
 public class UseSkillAction
 {
     private readonly View _view;
-    private readonly TurnManager _turnManager;
+    private readonly GameState _gameState;
     
-    public UseSkillAction(View view, TurnManager turnManager)
+    public UseSkillAction(View view, GameState gameState)
     {
         _view = view;
-        _turnManager = turnManager;
+        _gameState = gameState;
     }
 
     internal void ExecuteUseSkill(Unit monster)

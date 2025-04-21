@@ -1,5 +1,4 @@
 ﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.GameLoop;
 using Shin_Megami_Tensei.GameSetup;
 using Shin_Megami_Tensei.MegatenErrorHandling;
@@ -10,9 +9,7 @@ public class Game
 {
     private readonly View _view;
     private readonly string _teamsFolder;
-    
-    private readonly List<Player> _players = [new(1), new(2)];
-    
+    private readonly GameState _gameState;
     private readonly TeamLoader _teamLoader;
     private readonly RoundManager _roundManager;
     
@@ -20,8 +17,10 @@ public class Game
     {
         _view = view;
         _teamsFolder = teamsFolder;
-        _teamLoader = new TeamLoader(_view, _teamsFolder, _players);
-        _roundManager = new RoundManager(_view, _players);
+        _gameState = new GameState();
+        _teamLoader = new TeamLoader(_view, _teamsFolder, _gameState.Players);
+        _roundManager = new RoundManager(_view, _gameState);
+        
     }
 
     public void Play()
@@ -46,8 +45,8 @@ public class Game
     {
         SetupView.DisplayTeamFileSelection(_view, _teamsFolder);
         _teamLoader.LoadTeams();
-        TeamValidator.ValidateTeams(_players);
-        TableSetup.SetupTable(_players);
+        TeamValidator.ValidateTeams(_gameState.Players);
+        TableSetup.SetupTable(_gameState.Players);
     }
     
     private void StartGame()
