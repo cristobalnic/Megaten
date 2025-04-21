@@ -7,8 +7,8 @@ public class RoundManager
 {
     private readonly View _view;
     private readonly List<Player> _players;
-    
-    private Player _turnPlayer;
+
+    public Player TurnPlayer;
     private Player _waitPlayer;
     
     private int _round;
@@ -19,21 +19,21 @@ public class RoundManager
     {
         _view = view;
         _players = players;
-        _turnPlayer = _players[0];
+        TurnPlayer = _players[0];
         _waitPlayer = _players[1];
-        _turnManager = new TurnManager(_view);
+        _turnManager = new TurnManager(_view, this);
     }
 
     public void PlayRound()
     {
         SetPlayersRoles();
         DisplayRoundInit();
-        _turnPlayer.ResetRemainingTurns();
+        TurnPlayer.ResetRemainingTurns();
         var orderedMonsters = GetAliveMonstersOrderedBySpeed();
-        while (_turnPlayer.FullTurns > 0)
+        while (TurnPlayer.FullTurns > 0)
         {
             DisplayPlayersTables();
-            _turnManager.PlayTurn(orderedMonsters, _turnPlayer, _waitPlayer);
+            _turnManager.PlayTurn(orderedMonsters, TurnPlayer, _waitPlayer);
             orderedMonsters = ReorderMonsters(orderedMonsters);
         }
         _round++;
@@ -41,20 +41,20 @@ public class RoundManager
     
     private void SetPlayersRoles()
     {
-        _turnPlayer = _players[_round % 2];
+        TurnPlayer = _players[_round % 2];
         _waitPlayer = _players[(_round + 1) % 2];
     }
     
     private void DisplayRoundInit()
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {_turnPlayer.Samurai?.Name} (J{_turnPlayer.Id})");
+        _view.WriteLine($"Ronda de {TurnPlayer.Samurai?.Name} (J{TurnPlayer.Id})");
     }
     
     private List<Unit> GetAliveMonstersOrderedBySpeed()
     {
         var monsters = new List<Unit>();
-        foreach (var monster in _turnPlayer.Table.Monsters)
+        foreach (var monster in TurnPlayer.Table.Monsters)
             if (monster != null && monster.IsAlive()) monsters.Add(monster);
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }

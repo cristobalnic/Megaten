@@ -11,13 +11,16 @@ public class TurnManager
     public int FullTurnsUsed;
     public int BlinkingTurnsUsed;
     public int BlinkingTurnsObtained;
-    
+
+    private RoundManager _roundManager;
     private ActionManager _actionManager;
     
-    public TurnManager(View view)
+    
+    public TurnManager(View view, RoundManager roundManager)
     {
         _view = view;
-        _actionManager = new ActionManager(view,this);
+        _roundManager = roundManager;
+        _actionManager = new ActionManager(view,this, roundManager);
     }
 
 
@@ -33,7 +36,7 @@ public class TurnManager
     private void DisplayPlayerAvailableTurns(Player turnPlayer)
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Full Turns: {turnPlayer.FullTurns}");
+        _view.WriteLine($"Full Turns: {_roundManager.TurnPlayer.FullTurns}");
         _view.WriteLine($"Blinking Turns: {turnPlayer.BlinkingTurns}");
     }
     
