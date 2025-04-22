@@ -7,17 +7,19 @@ namespace Shin_Megami_Tensei.GameLoop.Actions;
 public class SurrenderAction
 {
     private readonly View _view;
+    private readonly GameState _gameState;
     
-    public SurrenderAction(View view)
+    public SurrenderAction(View view, GameState gameState)
     {
         _view = view;
+        _gameState = gameState;
     }
 
-    internal void ExecuteSurrender(Player turnPlayer, Player waitPlayer)
+    internal void ExecuteSurrender()
     {
-        _view.WriteLine($"{turnPlayer.Samurai?.Name} (J{turnPlayer.Id}) se rinde");
+        _view.WriteLine($"{_gameState.TurnPlayer.Samurai?.Name} (J{_gameState.TurnPlayer.Id}) se rinde");
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ganador: {waitPlayer.Samurai?.Name} (J{waitPlayer.Id})");
+        _view.WriteLine($"Ganador: {_gameState.WaitPlayer.Samurai?.Name} (J{_gameState.WaitPlayer.Id})");
         throw new EndGameException();
     }
 }

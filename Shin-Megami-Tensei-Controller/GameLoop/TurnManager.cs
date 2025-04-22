@@ -25,7 +25,7 @@ public class TurnManager
         DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
         TryToExecuteAction(orderedMonsters);
         UpdateTurnState();
-        DisplayWinnerIfExists(_gameState.TurnPlayer, _gameState.WaitPlayer);
+        DisplayWinnerIfExists();
     }
     
     private void DisplayPlayerAvailableTurns()
@@ -57,7 +57,7 @@ public class TurnManager
         try
         {
             _actionManager.DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
-            _actionManager.PlayerActionExecution(orderedMonsters[0], _gameState.TurnPlayer, _gameState.WaitPlayer);
+            _actionManager.PlayerActionExecution(orderedMonsters[0]);
         }
         catch (CancelObjectiveSelectionException)
         {
@@ -73,19 +73,30 @@ public class TurnManager
         turnState.ResetUsage();
     }
     
-    private void DisplayWinnerIfExists(Player turnPlayer, Player waitPlayer)
+    private void DisplayWinnerIfExists()
     {
-        if (waitPlayer.Table.Monsters.All(monster => monster == null || !monster.IsAlive()))
+        var turnPlayer = _gameState.TurnPlayer;
+        var waitPlayer = _gameState.WaitPlayer;
+
+        if (HasLost(waitPlayer))
         {
-            _view.WriteLine(Params.Separator);
-            _view.WriteLine($"Ganador: {turnPlayer.Samurai?.Name} (J{turnPlayer.Id})");
-            throw new EndGameException();
+            DeclareWinner(turnPlayer);
         }
-        if (turnPlayer.Table.Monsters.All(monster => monster == null || !monster.IsAlive()))
+        else if (HasLost(turnPlayer))
         {
-            _view.WriteLine(Params.Separator);
-            _view.WriteLine($"Ganador: {waitPlayer.Samurai?.Name} (J{waitPlayer.Id})");
-            throw new EndGameException();
+            DeclareWinner(waitPlayer);
         }
+    }
+
+    private bool HasLost(Player player)
+    {
+        return player.Table.Monsters.All(monster => monster == null || !monster.IsAlive());
+    }
+
+    private void DeclareWinner(Player winner)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Ganador: {winner.Samurai?.Name} (J{winner.Id})");
+        throw new EndGameException();
     }
 }

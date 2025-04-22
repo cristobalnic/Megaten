@@ -16,21 +16,21 @@ public class ShootAction
         _gameState = gameState;
     }
 
-    internal void ExecuteShoot(Unit monster, Player waitPlayer)
+    internal void ExecuteShoot(Unit monster)
     {
         _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
-        ActionsUtils.DisplayTargetSelection(_view, waitPlayer);
-        Unit defenderMonster = Actions.ActionsUtils.GetPlayerObjective(_view, waitPlayer);
+        ActionsUtils.DisplayTargetSelection(_view, _gameState.WaitPlayer);
+        Unit defenderMonster = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer);
         int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetShootDamage(monster))));
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monster.Name} dispara a {defenderMonster.Name}");
-        DealDamage(defenderMonster, damage, defenderMonster.Affinity.Gun, waitPlayer);
+        DealDamage(defenderMonster, damage, defenderMonster.Affinity.Gun);
     }
 
     private static double GetShootDamage(Unit monster) =>
         monster.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
     
-    private void DealDamage(Unit monster, int damage, AffinityType affinityType, Player waitPlayer)
+    private void DealDamage(Unit monster, int damage, AffinityType affinityType)
     {
         // AffinityTypes available: Neutral, Weak, Resist, Null, Repel, Drain
 
@@ -47,6 +47,6 @@ public class ShootAction
         
 
         _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
-        if (!monster.IsAlive()) waitPlayer.Table.HandleDeath(monster);
+        if (!monster.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(monster);
     }
 }
