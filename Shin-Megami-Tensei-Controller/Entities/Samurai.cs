@@ -15,4 +15,9 @@ public class Samurai(UnitData unitData) : Unit(unitData)
         
         Skills.Add(new Skill(skillData));
     }
+
+    public override void Summon(Unit summoner, Unit monsterSummon, Table summonerTable)
+    {
+        throw new NotImplementedException();
+    }
 }

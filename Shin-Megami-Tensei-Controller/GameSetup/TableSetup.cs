@@ -10,7 +10,7 @@ public static class TableSetup
         {
             player.Table.SetSamurai(player.Samurai);
             foreach (var monster in player.Units) player.Table.AddMonster(monster);
-            player.Table.FillEmptySlotsToNull();
+            player.Table.FillEmptySlots();
         }
     }
 }

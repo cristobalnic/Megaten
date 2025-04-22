@@ -19,8 +19,8 @@ public class ShootAction
     internal void ExecuteShoot(Unit attacker)
     {
         _view.WriteLine($"Seleccione un objetivo para {attacker.Name}");
-        ActionsUtils.DisplayTargetSelection(_view, _gameState.WaitPlayer);
-        Unit target = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer);
+        ActionsUtils.DisplayMonsterSelection(_view, _gameState.WaitPlayer.Table.Monsters);
+        Unit target = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer.Table.Monsters);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{attacker.Name} dispara a {target.Name}");
         int baseDamage = Convert.ToInt32(Math.Floor(Math.Max(0, GetShootDamage(attacker))));

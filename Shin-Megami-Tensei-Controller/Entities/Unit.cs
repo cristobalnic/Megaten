@@ -18,8 +18,9 @@ public abstract class Unit
         Affinity= unitData.Affinity;
     }
     
-    public bool IsAlive()
-    {
-        return Stats.Hp > 0;
-    }
+    public bool IsAlive() => Stats.Hp > 0;
+
+    public bool IsEmpty() => Name == "Vacío";
+
+    public abstract void Summon(Unit summoner, Unit monsterSummon, Table summonerTable);
 }

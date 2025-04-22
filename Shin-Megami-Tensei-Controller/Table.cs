@@ -5,8 +5,8 @@ namespace Shin_Megami_Tensei;
 public class Table
 {
     public Samurai? Samurai;
-    public readonly List<Unit?> Monsters = [];
-    private readonly List<Unit?> _reserve = [];
+    public readonly List<Unit> Monsters = [];
+    public readonly List<Unit> Reserve = [];
 
 
     public void SetSamurai(Samurai? samurai)
@@ -23,7 +23,7 @@ public class Table
         }
         else
         {
-            _reserve.Add(monster);
+            Reserve.Add(monster);
         }
     }
 
@@ -32,19 +32,28 @@ public class Table
         for (int i = 0; i < Monsters.Count; i++)
         {
             if (Monsters[i] != deadMonster || deadMonster is Samurai) continue;
-            Monsters[i] = null;
-            _reserve.Add(deadMonster);
+            Monsters[i] = Monster.EmptySlot;
+            Reserve.Add(deadMonster);
             break;
         }
     }
 
-    public void FillEmptySlotsToNull()
+    public void FillEmptySlots()
     {
         int emptySlots = Params.MaxUnitsAllowedInTablePerSide - Monsters.Count;
 
         for (int i = 0; i < emptySlots; i++)
         {
-            Monsters.Add(null);
+            Monsters.Add(Monster.EmptySlot);
         }
+    }
+
+    public void ReplaceMonster(Unit activeMonster, Unit reserveMonster)
+    {
+        int activeIndex = Monsters.IndexOf(activeMonster);
+        int reserveIndex = Reserve.IndexOf(reserveMonster);
+        
+        Monsters[activeIndex] = reserveMonster;
+        Reserve[reserveIndex] = activeMonster;
     }
 }

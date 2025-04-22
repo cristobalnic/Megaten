@@ -9,19 +9,19 @@ public class TurnState
     private int _blinkingTurnsUsed;
     private int _blinkingTurnsGained;
 
-    public void UseFullTurn(int amount = 1)
+    private void UseFullTurn(int amount = 1)
     {
         FullTurns -= amount;
         _fullTurnsUsed += amount;
     }
 
-    public void UseBlinkingTurn(int amount = 1)
+    private void UseBlinkingTurn(int amount = 1)
     {
         BlinkingTurns -= amount;
         _blinkingTurnsUsed += amount;
     }
 
-    public void GainBlinkingTurn(int amount = 1)
+    private void GainBlinkingTurn(int amount = 1)
     {
         BlinkingTurns += amount;
         _blinkingTurnsGained += amount;
@@ -42,7 +42,7 @@ public class TurnState
 
     public void ResetRemainingTurns(Table table)
     {
-        FullTurns = table.Monsters.Count(monster => monster != null && monster.IsAlive());
+        FullTurns = table.Monsters.Count(monster => !monster.IsEmpty() && monster.IsAlive());
         BlinkingTurns = 0;
     }
 

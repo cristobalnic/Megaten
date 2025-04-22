@@ -47,7 +47,7 @@ public class RoundManager
     {
         var monsters = new List<Unit>();
         foreach (var monster in _gameState.TurnPlayer.Table.Monsters)
-            if (monster != null && monster.IsAlive()) monsters.Add(monster);
+            if (!monster.IsEmpty() && monster.IsAlive()) monsters.Add(monster);
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }
     
@@ -63,7 +63,7 @@ public class RoundManager
         char label = 'A';
         foreach (var monster in player.Table.Monsters)
         {
-            if (monster == null)
+            if (monster.IsEmpty())
                 _view.WriteLine($"{label}-");
             else
                 _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");

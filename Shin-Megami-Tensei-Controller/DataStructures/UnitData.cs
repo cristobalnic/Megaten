@@ -3,7 +3,7 @@
 public struct UnitData
 {
     public required string Name { get; set; }
-    public required Stats Stats { get; set; }
-    public required Affinity Affinity { get; set; }
+    public Stats Stats { get; set; }
+    public Affinity Affinity { get; set; }
     public List<string> Skills { get; set; }
 }

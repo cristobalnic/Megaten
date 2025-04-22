@@ -21,7 +21,7 @@ public class ActionManager
         _attackAction = new AttackAction(view, gameState);
         _shootAction = new ShootAction(view, gameState);
         _useSkillAction = new UseSkillAction(view, gameState);
-        _summonAction = new SummonAction(view);
+        _summonAction = new SummonAction(view, gameState);
         _passTurnAction = new PassTurnAction(gameState);
         _surrenderAction = new SurrenderAction(view, gameState);
     }
@@ -50,7 +50,7 @@ public class ActionManager
         if (action == "Atacar") _attackAction.ExecuteAttack(monster);
         else if (action == "Disparar") _shootAction.ExecuteShoot(monster);
         else if (action == "Usar Habilidad") _useSkillAction.ExecuteUseSkill(monster);
-        else if (action == "Invocar") _summonAction.ExecuteSummon();
+        else if (action == "Invocar") _summonAction.ExecuteSummon(monster);
         else if (action == "Pasar Turno") _passTurnAction.ExecutePassTurn();
         else if (action == "Rendirse") _surrenderAction.ExecuteSurrender();
         

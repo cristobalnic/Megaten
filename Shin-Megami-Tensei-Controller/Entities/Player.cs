@@ -8,7 +8,7 @@ public class Player
     public Samurai? Samurai { get; private set; }
     public readonly List<Unit> Units = [];
     public readonly Table Table = new();
-    public TurnState TurnState = new();
+    public readonly TurnState TurnState = new();
     
     public Player(int id)
     {

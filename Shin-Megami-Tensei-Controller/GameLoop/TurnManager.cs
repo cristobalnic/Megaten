@@ -7,8 +7,8 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class TurnManager
 {
     private readonly View _view;
-    private GameState _gameState;
-    private ActionManager _actionManager;
+    private readonly GameState _gameState;
+    private readonly ActionManager _actionManager;
     
     
     public TurnManager(View view, GameState gameState)
@@ -90,7 +90,7 @@ public class TurnManager
 
     private bool HasLost(Player player)
     {
-        return player.Table.Monsters.All(monster => monster == null || !monster.IsAlive());
+        return player.Table.Monsters.All(monster => monster.IsEmpty() || !monster.IsAlive());
     }
 
     private void DeclareWinner(Player winner)
