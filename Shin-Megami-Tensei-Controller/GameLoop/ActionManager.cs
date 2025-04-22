@@ -22,7 +22,7 @@ public class ActionManager
         _shootAction = new ShootAction(view, gameState);
         _useSkillAction = new UseSkillAction(view, gameState);
         _summonAction = new SummonAction(view);
-        _passTurnAction = new PassTurnAction();
+        _passTurnAction = new PassTurnAction(gameState);
         _surrenderAction = new SurrenderAction(view, gameState);
     }
 

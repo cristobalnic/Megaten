@@ -16,37 +16,26 @@ public class AttackAction
         _gameState = gameState;
     }
 
-    internal void ExecuteAttack(Unit monster)
+    internal void ExecuteAttack(Unit attacker)
     {
-        _view.WriteLine($"Seleccione un objetivo para {monster.Name}");
+        _view.WriteLine($"Seleccione un objetivo para {attacker.Name}");
         ActionsUtils.DisplayTargetSelection(_view, _gameState.WaitPlayer);
-        Unit defenderMonster = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer);
-        int damage = Convert.ToInt32(Math.Floor(Math.Max(0, GetAttackDamage(monster))));
+        Unit target = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer);
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"{monster.Name} ataca a {defenderMonster.Name}");
-        DealDamage(defenderMonster, damage, defenderMonster.Affinity.Phys);
+        _view.WriteLine($"{attacker.Name} ataca a {target.Name}");
+        double baseDamage = GetAttackDamage(attacker);
+        DealDamage(attacker, target, baseDamage, target.Affinity.Phys);
     }
 
     private static double GetAttackDamage(Unit monster) =>
         monster.Stats.Str * Params.AttackDamageModifier * Params.AttackAndShootDamageMultiplier;
     
-    private void DealDamage(Unit monster, int damage, AffinityType affinityType)
+    private void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
     {
-        // AffinityTypes available: Neutral, Weak, Resist, Null, Repel, Drain
+        var affinityHandler = new AffinityHandler(_view, _gameState.TurnPlayer.TurnState);
+        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
 
-        if (affinityType == AffinityType.Neutral)
-        {
-            monster.Stats.Hp = Math.Max(0, monster.Stats.Hp - damage);
-            _view.WriteLine($"{monster.Name} recibe {damage} de daño");
-            _gameState.TurnPlayer.TurnState.UseFullTurn();
-        }
-        else if (affinityType == AffinityType.Weak)
-        {
-            monster.Stats.Hp = Convert.ToInt32(Math.Floor(Math.Max(0, monster.Stats.Hp - damage * Params.WeakDamageMultiplier)));
-        }
-        
-
-        _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
-        if (!monster.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(monster);
+        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
     }
 }

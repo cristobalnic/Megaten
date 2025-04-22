@@ -22,7 +22,7 @@ public class RoundManager
         DisplayRoundInit();
         _gameState.TurnPlayer.TurnState.ResetRemainingTurns(_gameState.TurnPlayer.Table);
         var orderedMonsters = GetAliveMonstersOrderedBySpeed();
-        while (_gameState.TurnPlayer.TurnState.FullTurns > 0)
+        while (_gameState.TurnPlayer.TurnState.FullTurns > 0 || _gameState.TurnPlayer.TurnState.BlinkingTurns > 0)
         {
             DisplayPlayersTables();
             _turnManager.PlayTurn(orderedMonsters);

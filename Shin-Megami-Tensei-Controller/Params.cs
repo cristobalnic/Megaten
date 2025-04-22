@@ -35,4 +35,5 @@ public static class Params
         ];
 
     public const double WeakDamageMultiplier = 1.5;
+    public const double ResistDamageMultiplier = 0.5;
 }

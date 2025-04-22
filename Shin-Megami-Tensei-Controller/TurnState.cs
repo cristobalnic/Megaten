@@ -2,12 +2,12 @@
 
 public class TurnState
 {
-    public int FullTurns { get; private set; } = 0;
-    public int BlinkingTurns { get; private set; } = 0;
+    public int FullTurns { get; private set; }
+    public int BlinkingTurns { get; private set; }
 
-    private int _fullTurnsUsed = 0;
-    private int _blinkingTurnsUsed = 0;
-    private int _blinkingTurnsGained = 0;
+    private int _fullTurnsUsed;
+    private int _blinkingTurnsUsed;
+    private int _blinkingTurnsGained;
 
     public void UseFullTurn(int amount = 1)
     {
@@ -44,5 +44,62 @@ public class TurnState
     {
         FullTurns = table.Monsters.Count(monster => monster != null && monster.IsAlive());
         BlinkingTurns = 0;
+    }
+
+    public void UseTurnsForNeutralOrResist()
+    {
+        if (BlinkingTurns > 0)
+            UseBlinkingTurn();
+        else
+            UseFullTurn();
+    }
+
+    public void UseTurnsForWeak()
+    {
+        if (FullTurns > 0)
+        {
+            UseFullTurn();
+            GainBlinkingTurn();
+        }
+        else
+            UseBlinkingTurn();
+    }
+
+    public void UseTurnsForNull()
+    {
+        if (BlinkingTurns >= 2)
+            UseBlinkingTurn(2);
+        else if (BlinkingTurns == 1)
+        {
+            UseBlinkingTurn();
+            UseFullTurn();
+        }
+        else
+            UseFullTurn(2);
+    }
+
+    public void UseTurnsForRepelOrDrain()
+    {
+        UseFullTurn(FullTurns);
+        UseBlinkingTurn(BlinkingTurns);
+    }
+    
+    public void UseTurnsForMiss()
+    {
+        if (BlinkingTurns > 0)
+            UseBlinkingTurn();
+        else
+            UseFullTurn();
+    }
+
+    public void PassTurn()
+    {
+        if (BlinkingTurns > 0)
+            UseBlinkingTurn();
+        else
+        {
+            UseFullTurn();
+            GainBlinkingTurn();
+        }
     }
 }
