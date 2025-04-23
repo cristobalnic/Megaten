@@ -1,6 +1,5 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.GameLoop.Actions;
 
@@ -29,6 +28,6 @@ public class ShootAction
         _actionsUtils.DealDamage(attacker, target, baseDamage, target.Affinity.Gun);
     }
 
-    private static double GetShootDamage(Unit monster) =>
-        monster.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
+    private static double GetShootDamage(Unit attacker) =>
+        attacker.Stats.Skl * Params.ShootDamageModifier * Params.AttackAndShootDamageMultiplier;
 }

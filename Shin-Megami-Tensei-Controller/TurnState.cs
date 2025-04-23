@@ -74,8 +74,10 @@ public class TurnState
             UseBlinkingTurn();
             UseFullTurn();
         }
-        else
+        else if (FullTurns >= 2)
             UseFullTurn(2);
+        else
+            UseFullTurn();
     }
 
     public void UseTurnsForRepelOrDrain()
