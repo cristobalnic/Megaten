@@ -46,7 +46,7 @@ public class ActionManager
     public void PlayerActionExecution(Unit monster)
     {
         var action = GetPlayerAction(monster);
-        _view.WriteLine(Params.Separator);
+        if (action != "Pasar Turno") _view.WriteLine(Params.Separator);
         if (action == "Atacar") _attackAction.ExecuteAttack(monster);
         else if (action == "Disparar") _shootAction.ExecuteShoot(monster);
         else if (action == "Usar Habilidad") _useSkillAction.ExecuteUseSkill(monster);

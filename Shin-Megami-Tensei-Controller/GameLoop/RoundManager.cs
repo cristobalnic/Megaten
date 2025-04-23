@@ -26,11 +26,43 @@ public class RoundManager
         {
             DisplayPlayersTables();
             _turnManager.PlayTurn(orderedMonsters);
-            orderedMonsters = ReorderMonsters(orderedMonsters);
+            orderedMonsters = UpdateOrderedMonstersWithSummons(orderedMonsters, _gameState.TurnPlayer.Table.Monsters);
+            orderedMonsters = UpdateOrderedMonstersWithDeaths(orderedMonsters);
+            orderedMonsters = GetNewMonsterOrder(orderedMonsters);
         }
         _gameState.Round++;
     }
     
+    private List<Unit> UpdateOrderedMonstersWithSummons(List<Unit> orderedMonsters, List<Unit> tableMonsters)
+    {
+        var updatedMonsters = new List<Unit>(orderedMonsters);
+        foreach (var tableMonster in tableMonsters)
+        {
+            if (tableMonster.IsEmpty() || orderedMonsters.Contains(tableMonster)) continue;
+            bool replaced = false;
+            for (var i = 0; i < updatedMonsters.Count; i++)
+            {
+                if (tableMonsters.Contains(updatedMonsters[i])) continue;
+                updatedMonsters[i] = tableMonster;
+                replaced = true;
+                break;
+            }
+            if (!replaced) updatedMonsters.Add(tableMonster);
+        }
+        return updatedMonsters;
+    }
+    
+    private List<Unit> UpdateOrderedMonstersWithDeaths(List<Unit> orderedMonsters)
+    {
+        var updatedMonsters = new List<Unit>(orderedMonsters);
+        foreach (var monster in orderedMonsters)
+        {
+            if (monster.IsAlive()) continue;
+            updatedMonsters.Remove(monster);
+        }
+        return updatedMonsters;
+    }
+
     private void SetPlayersRoles()
     {
         _gameState.TurnPlayer = _gameState.Players[_gameState.Round % 2];
@@ -71,7 +103,7 @@ public class RoundManager
         }
     }
     
-    private static List<Unit> ReorderMonsters(List<Unit> orderedMonsters)
+    private static List<Unit> GetNewMonsterOrder(List<Unit> orderedMonsters)
     {
         var reorderedMonsters = new List<Unit>();
         reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));

@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.GameLoop;
 
 namespace Shin_Megami_Tensei.Entities;
 
@@ -22,5 +23,5 @@ public abstract class Unit
 
     public bool IsEmpty() => Name == "Vacío";
 
-    public abstract void Summon(Unit summoner, Unit monsterSummon, Table summonerTable);
+    public abstract void Summon(Unit monsterSummon, Table summonerTable, ActionsUtils actionsUtils);
 }

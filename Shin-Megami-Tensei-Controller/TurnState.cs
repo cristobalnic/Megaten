@@ -92,7 +92,7 @@ public class TurnState
             UseFullTurn();
     }
 
-    public void PassTurn()
+    public void PassTurnOrSummonTurn()
     {
         if (BlinkingTurns > 0)
             UseBlinkingTurn();

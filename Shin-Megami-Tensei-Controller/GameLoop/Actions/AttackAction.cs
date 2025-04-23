@@ -9,18 +9,20 @@ public class AttackAction
     
     private readonly View _view;
     private readonly GameState _gameState;
+    private readonly ActionsUtils _actionsUtils;
     
     public AttackAction(View view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;
+        _actionsUtils = new ActionsUtils(view);
     }
 
     internal void ExecuteAttack(Unit attacker)
     {
         _view.WriteLine($"Seleccione un objetivo para {attacker.Name}");
-        ActionsUtils.DisplayMonsterSelection(_view, _gameState.WaitPlayer.Table.Monsters);
-        Unit target = ActionsUtils.GetPlayerObjective(_view, _gameState.WaitPlayer.Table.Monsters);
+        _actionsUtils.DisplayMonsterSelection(_gameState.WaitPlayer.Table.Monsters);
+        Unit target = _actionsUtils.GetPlayerObjective(_gameState.WaitPlayer.Table.Monsters);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{attacker.Name} ataca a {target.Name}");
         double baseDamage = GetAttackDamage(attacker);

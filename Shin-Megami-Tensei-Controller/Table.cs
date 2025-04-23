@@ -6,7 +6,13 @@ public class Table
 {
     public Samurai? Samurai;
     public readonly List<Unit> Monsters = [];
-    public readonly List<Unit> Reserve = [];
+    public List<Unit> Reserve = [];
+    private readonly Player _player;
+
+    public Table(Player player)
+    {
+        _player = player;
+    }
 
 
     public void SetSamurai(Samurai? samurai)
@@ -34,6 +40,7 @@ public class Table
             if (Monsters[i] != deadMonster || deadMonster is Samurai) continue;
             Monsters[i] = Monster.EmptySlot;
             Reserve.Add(deadMonster);
+            ReorderReserve();
             break;
         }
     }
@@ -52,8 +59,19 @@ public class Table
     {
         int activeIndex = Monsters.IndexOf(activeMonster);
         int reserveIndex = Reserve.IndexOf(reserveMonster);
-        
         Monsters[activeIndex] = reserveMonster;
         Reserve[reserveIndex] = activeMonster;
+        ReorderReserve();
+    }
+
+    private void ReorderReserve()
+    {
+        List<Unit> reorderedReserve = [];
+        foreach (Unit monster in _player.Units)
+        {
+            if (!Reserve.Contains(monster)) continue;
+            reorderedReserve.Add(monster);
+        }
+        Reserve = reorderedReserve;
     }
 }

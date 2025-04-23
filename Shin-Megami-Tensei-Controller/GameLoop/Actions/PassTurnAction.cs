@@ -7,7 +7,7 @@ public class PassTurnAction
 
     internal void ExecutePassTurn()
     {
-        _gameState.TurnPlayer.TurnState.PassTurn();
+        _gameState.TurnPlayer.TurnState.PassTurnOrSummonTurn();
         _gameState.TurnPlayer.TurnState.Report();
     }
 }
