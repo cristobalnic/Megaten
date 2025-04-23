@@ -6,17 +6,17 @@ namespace Shin_Megami_Tensei.GameLoop.Actions;
 public class AttackAction
 {
     private readonly View _view;
-    private readonly ActionsUtils _actionsUtils;
+    private readonly SelectionUtils _selectionUtils;
     
     public AttackAction(View view, GameState gameState)
     {
         _view = view;
-        _actionsUtils = new ActionsUtils(view, gameState);
+        _selectionUtils = new SelectionUtils(view, gameState);
     }
 
     internal void ExecuteAttack(Unit attacker)
     {
-        var target = _actionsUtils.GetTarget(attacker);
+        var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
         HandleDamage(attacker, target);
     }
@@ -25,7 +25,7 @@ public class AttackAction
     {
         _view.WriteLine($"{attacker.Name} ataca a {target.Name}");
         double baseDamage = GetAttackDamage(attacker);
-        _actionsUtils.DealDamage(attacker, target, baseDamage, target.Affinity.Phys);
+        _selectionUtils.DealDamage(attacker, target, baseDamage, target.Affinity.Phys);
     }
 
     private static double GetAttackDamage(Unit attacker) =>

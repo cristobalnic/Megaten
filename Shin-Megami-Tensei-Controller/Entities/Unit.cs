@@ -23,5 +23,5 @@ public abstract class Unit
 
     public bool IsEmpty() => Name == "Vacío";
 
-    public abstract void Summon(Unit monsterSummon, Table summonerTable, ActionsUtils actionsUtils);
+    public abstract void Summon(Unit monsterSummon, Table summonerTable, SelectionUtils selectionUtils);
 }

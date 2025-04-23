@@ -17,10 +17,10 @@ public class Samurai(UnitData unitData) : Unit(unitData)
         Skills.Add(new Skill(skillData));
     }
 
-    public override void Summon(Unit monsterSummon, Table summonerTable, ActionsUtils actionsUtils)
+    public override void Summon(Unit monsterSummon, Table summonerTable, SelectionUtils selectionUtils)
     {
-        actionsUtils.DisplaySummonWithdrawSelection(summonerTable.Monsters);
-        Unit monsterWithdraw = actionsUtils.GetSummonWithdrawSelection(summonerTable.Monsters);
+        selectionUtils.DisplaySummonWithdrawSelection(summonerTable.Monsters);
+        Unit monsterWithdraw = selectionUtils.GetSummonWithdrawSelection(summonerTable.Monsters);
         summonerTable.ReplaceMonster(monsterWithdraw, monsterSummon);
     }
 }

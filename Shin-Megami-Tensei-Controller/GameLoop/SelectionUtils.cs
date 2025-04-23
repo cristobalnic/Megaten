@@ -5,11 +5,11 @@ using Shin_Megami_Tensei.MegatenErrorHandling;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
-public class ActionsUtils
+public class SelectionUtils
 {
     private View _view;
     private GameState _gameState;
-    public ActionsUtils(View view, GameState gameState)
+    public SelectionUtils(View view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;

@@ -18,6 +18,6 @@ public class Monster : Unit
         }
     }
 
-    public override void Summon(Unit monsterSummon, Table summonerTable, ActionsUtils actionsUtils) 
+    public override void Summon(Unit monsterSummon, Table summonerTable, SelectionUtils selectionUtils) 
         => summonerTable.ReplaceMonster(this, monsterSummon);
 }

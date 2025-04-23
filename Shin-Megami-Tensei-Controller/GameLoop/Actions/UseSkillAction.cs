@@ -9,13 +9,13 @@ public class UseSkillAction
 {
     private readonly View _view;
     private readonly GameState _gameState;
-    private readonly ActionsUtils _actionsUtils;
+    private readonly SelectionUtils _selectionUtils;
     
     public UseSkillAction(View view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;
-        _actionsUtils = new ActionsUtils(view, gameState);
+        _selectionUtils = new SelectionUtils(view, gameState);
     }
 
     internal void ExecuteUseSkill(Unit attacker)
@@ -23,36 +23,21 @@ public class UseSkillAction
         DisplaySkillSelection(attacker);
         Skill selectedSkill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);
-        var target = _actionsUtils.GetTarget(attacker);
+        var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
-        string attackPhrase = GetAttackPhrase(selectedSkill);
+        string attackPhrase = ActionUtils.GetAttackPhrase(selectedSkill.Type);
         AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
         double baseDamage = GetSkillDamage(attacker, selectedSkill);
         
         // IMPLEMENT HITS
         _view.WriteLine($"{attacker.Name} {attackPhrase} a {target.Name}");
-        _actionsUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
+        _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
         // WORK HERE!!!
         
         attacker.Stats.Mp -= selectedSkill.Cost;
     }
 
-    private string GetAttackPhrase(Skill selectedSkill)
-    {
-        if (selectedSkill.Type == SkillType.Phys)
-            return "ataca";
-        if (selectedSkill.Type == SkillType.Gun)
-            return "dispara";
-        if (selectedSkill.Type == SkillType.Fire)
-            return "lanza fuego";
-        if (selectedSkill.Type == SkillType.Ice)
-            return "lanza hielo";
-        if (selectedSkill.Type == SkillType.Elec)
-            return "lanza electricidad";
-        if (selectedSkill.Type == SkillType.Force)
-            return "lanza viento";
-        throw new NotImplementedException("Skill type not implemented for Attack Phrase");
-    }
+    
 
     private void DisplaySkillSelection(Unit attacker)
     {
