@@ -14,7 +14,7 @@ public class SummonAction
     {
         _view = view;
         _gameState = gameState;
-        _actionsUtils = new ActionsUtils(view);
+        _actionsUtils = new ActionsUtils(view, gameState);
     }
 
     internal void ExecuteSummon(Unit summoner)

@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 
 namespace Shin_Megami_Tensei.GameLoop;
@@ -7,9 +8,11 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class ActionsUtils
 {
     private View _view;
-    public ActionsUtils(View view)
+    private GameState _gameState;
+    public ActionsUtils(View view, GameState gameState)
     {
         _view = view;
+        _gameState = gameState;
     }
     
     public void DisplayMonsterSelection(List<Unit> monsters)
@@ -70,5 +73,22 @@ public class ActionsUtils
             throw new CancelObjectiveSelectionException();
         }
         return validMonsters[summonSelection-1];
+    }
+
+    public void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
+    {
+        var affinityHandler = new AffinityHandler(_view, _gameState.TurnPlayer.TurnState);
+        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
+
+        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
+    }
+
+    public Unit GetTarget(Unit attacker)
+    {
+        _view.WriteLine($"Seleccione un objetivo para {attacker.Name}");
+        DisplayMonsterSelection(_gameState.WaitPlayer.Table.Monsters);
+        Unit target = GetPlayerObjective(_gameState.WaitPlayer.Table.Monsters);
+        return target;
     }
 }
