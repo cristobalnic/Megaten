@@ -39,19 +39,19 @@ public class UseSkillAction
 
     private string GetAttackPhrase(Skill selectedSkill)
     {
-        if (selectedSkill.Type == "Phys")
+        if (selectedSkill.Type == SkillType.Phys)
             return "ataca";
-        if (selectedSkill.Type == "Gun")
+        if (selectedSkill.Type == SkillType.Gun)
             return "dispara";
-        if (selectedSkill.Type is "Fire")
+        if (selectedSkill.Type == SkillType.Fire)
             return "lanza fuego";
-        if (selectedSkill.Type is "Ice")
+        if (selectedSkill.Type == SkillType.Ice)
             return "lanza hielo";
-        if (selectedSkill.Type is "Elec")
+        if (selectedSkill.Type == SkillType.Elec)
             return "lanza electricidad";
-        if (selectedSkill.Type is "Force")
+        if (selectedSkill.Type == SkillType.Force)
             return "lanza viento";
-        throw new NotImplementedException("Skill type not implemented PHRASE");
+        throw new NotImplementedException("Skill type not implemented for Attack Phrase");
     }
 
     private void DisplaySkillSelection(Unit attacker)
@@ -81,12 +81,12 @@ public class UseSkillAction
     
     private double GetSkillDamage(Unit attacker, Skill skill)
     {
-        if (skill.Type == "Phys")
+        if (skill.Type == SkillType.Phys)
             return Math.Sqrt(attacker.Stats.Str * skill.Power);
-        if (skill.Type == "Gun")
+        if (skill.Type == SkillType.Gun)
             return Math.Sqrt(attacker.Stats.Skl * skill.Power);
-        if (skill.Type is "Fire" or "Ice" or "Elec" or "Force" or "Almighty")
+        if (skill.Type is SkillType.Fire or SkillType.Ice or SkillType.Elec or SkillType.Force or SkillType.Almighty)
             return Math.Sqrt(attacker.Stats.Mag * skill.Power);
-        throw new NotImplementedException("Skill type not implemented DAMAGE");
+        throw new NotImplementedException("Skill type not implemented for Damage calculation");
     }
 }

@@ -1,11 +1,12 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.Entities;
 
 public class Skill
 {
     public readonly string Name;
-    public readonly string Type;
+    public readonly SkillType Type;
     public readonly int Cost;
     public readonly int Power;
     public readonly string Target;

@@ -18,23 +18,18 @@ public struct Affinity
     public required AffinityType Panic { get; set; }
     public required AffinityType Poison { get; set; }
 
-    public AffinityType GetAffinity(string selectedSkillType)
+    public AffinityType GetAffinity(SkillType selectedSkillType)
     {
         return selectedSkillType switch
         {
-            "Phys" => Phys,
-            "Gun" => Gun,
-            "Fire" => Fire,
-            "Ice" => Ice,
-            "Elec" => Elec,
-            "Force" => Force,
-            "Light" => Light,
-            "Dark" => Dark,
-            "Bind" => Bind,
-            "Sleep" => Sleep,
-            "Sick" => Sick,
-            "Panic" => Panic,
-            "Poison" => Poison,
+            SkillType.Phys => Phys,
+            SkillType.Gun => Gun,
+            SkillType.Fire => Fire,
+            SkillType.Ice => Ice,
+            SkillType.Elec => Elec,
+            SkillType.Force => Force,
+            SkillType.Light => Light,
+            SkillType.Dark => Dark,
             _ => throw new ArgumentException($"Invalid skill type: {selectedSkillType}")
         };
     }
