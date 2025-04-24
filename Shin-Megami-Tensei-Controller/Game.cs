@@ -2,12 +2,13 @@
 using Shin_Megami_Tensei.GameLoop;
 using Shin_Megami_Tensei.GameSetup;
 using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei;
 
 public class Game
 {
-    private readonly View _view;
+    private readonly ConsoleView _view;
     private readonly string _teamsFolder;
     private readonly GameState _gameState;
     private readonly TeamLoader _teamLoader;
@@ -15,12 +16,11 @@ public class Game
     
     public Game(View view, string teamsFolder)
     {
-        _view = view;
+        _view = ConsoleView.SetConsoleView(view);
         _teamsFolder = teamsFolder;
         _gameState = new GameState();
         _teamLoader = new TeamLoader(_view, _teamsFolder, _gameState.Players);
         _roundManager = new RoundManager(_view, _gameState);
-        
     }
 
     public void Play()

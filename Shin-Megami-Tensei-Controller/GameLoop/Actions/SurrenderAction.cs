@@ -1,14 +1,14 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+﻿using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop.Actions;
 
 public class SurrenderAction
 {
-    private readonly View _view;
+    private readonly IView _view;
     private readonly GameState _gameState;
     
-    public SurrenderAction(View view, GameState gameState)
+    public SurrenderAction(IView view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;

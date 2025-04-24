@@ -1,17 +1,17 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Utils;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameSetup;
 
 public class TeamLoader
 {
-    private readonly View _view;
+    private readonly IView _view;
     private readonly DataLoader _dataLoader;
     private readonly string _teamsFolder;
     private readonly List<Player> _players;
     
-    public TeamLoader(View view, string teamsFolder, List<Player> players)
+    public TeamLoader(IView view, string teamsFolder, List<Player> players)
     {
         _view = view;
         _dataLoader = new DataLoader();

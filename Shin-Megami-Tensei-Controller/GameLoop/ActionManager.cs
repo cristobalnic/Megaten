@@ -1,12 +1,12 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.GameLoop.Actions;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
 public class ActionManager
 {
-    private readonly View _view;
+    private readonly IView _view;
 
     private readonly AttackAction _attackAction;
     private readonly ShootAction _shootAction;
@@ -15,7 +15,7 @@ public class ActionManager
     private readonly PassTurnAction _passTurnAction;
     private readonly SurrenderAction _surrenderAction;
     
-    public ActionManager(View view, GameState gameState)
+    public ActionManager(IView view, GameState gameState)
     {
         _view = view;
         _attackAction = new AttackAction(view, gameState);

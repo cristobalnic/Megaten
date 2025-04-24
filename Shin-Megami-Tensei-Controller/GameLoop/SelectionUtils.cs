@@ -1,15 +1,15 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
 public class SelectionUtils
 {
-    private View _view;
+    private IView _view;
     private GameState _gameState;
-    public SelectionUtils(View view, GameState gameState)
+    public SelectionUtils(IView view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;

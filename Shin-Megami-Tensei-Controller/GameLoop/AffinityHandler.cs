@@ -1,15 +1,15 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
 public class AffinityHandler
 {
-    private readonly View _view;
+    private readonly IView _view;
     private readonly TurnState _turnState;
 
-    public AffinityHandler(View view, TurnState turnState)
+    public AffinityHandler(IView view, TurnState turnState)
     {
         _view = view;
         _turnState = turnState;

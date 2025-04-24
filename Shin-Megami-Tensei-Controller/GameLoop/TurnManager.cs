@@ -1,17 +1,17 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
 public class TurnManager
 {
-    private readonly View _view;
+    private readonly IView _view;
     private readonly GameState _gameState;
     private readonly ActionManager _actionManager;
     
     
-    public TurnManager(View view, GameState gameState)
+    public TurnManager(IView view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;

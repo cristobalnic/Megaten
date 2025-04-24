@@ -1,14 +1,14 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop.Actions;
 
 public class ShootAction
 {
-    private readonly View _view;
+    private readonly IView _view;
     private readonly SelectionUtils _selectionUtils;
     
-    public ShootAction(View view, GameState gameState)
+    public ShootAction(IView view, GameState gameState)
     {
         _view = view;
         _selectionUtils = new SelectionUtils(view, gameState);
