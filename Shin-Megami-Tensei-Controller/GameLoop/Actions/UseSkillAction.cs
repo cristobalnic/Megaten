@@ -30,14 +30,19 @@ public class UseSkillAction
         double baseDamage = GetSkillDamage(attacker, selectedSkill);
         
         // IMPLEMENT HITS
-        _view.WriteLine($"{attacker.Name} {attackPhrase} a {target.Name}");
-        _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
+        int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
+        for (int i = 0; i < hitNumber; i++)
+        {
+            _view.WriteLine($"{attacker.Name} {attackPhrase} a {target.Name}");
+            _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
+        }
+        TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
         // WORK HERE!!!
         
         attacker.Stats.Mp -= selectedSkill.Cost;
+        _gameState.TurnPlayer.KSkillsUsed++;
     }
-
-    
 
     private void DisplaySkillSelection(Unit attacker)
     {

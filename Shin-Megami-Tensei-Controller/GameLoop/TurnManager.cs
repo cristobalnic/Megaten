@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Views;
 
@@ -98,5 +99,17 @@ public class TurnManager
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"Ganador: {winner.Samurai?.Name} (J{winner.Id})");
         throw new EndGameException();
+    }
+
+    public static void HandleTurns(Player turnPlayer, AffinityType targetAffinity)
+    {
+        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist)
+            turnPlayer.TurnState.UseTurnsForNeutralOrResist();
+        else if (targetAffinity is AffinityType.Weak)
+            turnPlayer.TurnState.UseTurnsForWeak();
+        else if (targetAffinity is AffinityType.Null)
+            turnPlayer.TurnState.UseTurnsForNull();
+        else if (targetAffinity is AffinityType.Repel or AffinityType.Drain)
+            turnPlayer.TurnState.UseTurnsForRepelOrDrain();
     }
 }

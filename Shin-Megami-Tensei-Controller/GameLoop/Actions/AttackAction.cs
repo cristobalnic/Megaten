@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop.Actions;
@@ -6,11 +7,13 @@ namespace Shin_Megami_Tensei.GameLoop.Actions;
 public class AttackAction
 {
     private readonly IView _view;
+    private readonly GameState _gameState;
     private readonly SelectionUtils _selectionUtils;
     
     public AttackAction(IView view, GameState gameState)
     {
         _view = view;
+        _gameState = gameState;
         _selectionUtils = new SelectionUtils(view, gameState);
     }
 
@@ -25,7 +28,10 @@ public class AttackAction
     {
         _view.WriteLine($"{attacker.Name} ataca a {target.Name}");
         double baseDamage = GetAttackDamage(attacker);
-        _selectionUtils.DealDamage(attacker, target, baseDamage, target.Affinity.Phys);
+        AffinityType targetAffinity = target.Affinity.Phys;
+        _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
+        TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 
     private static double GetAttackDamage(Unit attacker) =>

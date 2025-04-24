@@ -7,12 +7,10 @@ namespace Shin_Megami_Tensei.GameLoop;
 public class AffinityHandler
 {
     private readonly IView _view;
-    private readonly TurnState _turnState;
 
-    public AffinityHandler(IView view, TurnState turnState)
+    public AffinityHandler(IView view)
     {
         _view = view;
-        _turnState = turnState;
     }
 
     public void HandleAffinityEffect(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
@@ -36,7 +34,6 @@ public class AffinityHandler
         int damage = GetRoundedIntDamage(baseDamage);
         ApplyDamage(target, damage);
         DisplayDamageMessage(target, damage);
-        _turnState.UseTurnsForNeutralOrResist();
     }
     
     private void HandleWeak(Unit attacker, Unit target, double baseDamage)
@@ -46,7 +43,6 @@ public class AffinityHandler
         _view.WriteLine($"{target.Name} es débil contra el ataque de {attacker.Name}");
         ApplyDamage(target, damage);
         DisplayDamageMessage(target, damage);
-        _turnState.UseTurnsForWeak();
     }
     
     private void HandleResist(Unit attacker, Unit target, double baseDamage)
@@ -56,14 +52,11 @@ public class AffinityHandler
         _view.WriteLine($"{target.Name} es resistente el ataque de {attacker.Name}");
         ApplyDamage(target, damage);
         DisplayDamageMessage(target, damage);
-        _turnState.UseTurnsForNeutralOrResist();
     }
 
     private void HandleNull(Unit attacker, Unit target)
     {
         _view.WriteLine($"{target.Name} bloquea el ataque de {attacker.Name}");
-        _turnState.UseTurnsForNull();
-        DisplayHpMessage(target);
     }
 
     private void HandleRepel(Unit attacker, Unit target, double baseDamage)
@@ -71,7 +64,6 @@ public class AffinityHandler
         int damage = GetRoundedIntDamage(baseDamage);
         ApplyDamage(attacker, damage);
         DisplayRepeledDamageMessage(target, damage, attacker);
-        _turnState.UseTurnsForRepelOrDrain();   
     }
 
     private void HandleDrain(Unit target, double baseDamage)
@@ -79,7 +71,6 @@ public class AffinityHandler
         int drainDamage = GetRoundedIntDamage(baseDamage);
         ApplyDrain(target, drainDamage);
         DisplayDrainDamageMessage(target, drainDamage);
-        _turnState.UseTurnsForRepelOrDrain();
     }
 
     private static void ApplyDamage(Unit target, int damage) 
@@ -91,23 +82,19 @@ public class AffinityHandler
     private void DisplayDamageMessage(Unit monster, int damage)
     {
         _view.WriteLine($"{monster.Name} recibe {damage} de daño");
-        DisplayHpMessage(monster);
     }
 
     private void DisplayRepeledDamageMessage(Unit target, int repelDamage, Unit attacker)
     {
         _view.WriteLine($"{target.Name} devuelve {repelDamage} daño a {attacker.Name}");
-        DisplayHpMessage(attacker);
     }
     
     private void DisplayDrainDamageMessage(Unit target, int drainDamage)
     {
         _view.WriteLine($"{target.Name} absorbe {drainDamage} daño");
-        DisplayHpMessage(target);
     }
 
-    private void DisplayHpMessage(Unit monster) 
-        => _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
+    
     
     private static int GetRoundedIntDamage(double damage)
     {

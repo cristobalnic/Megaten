@@ -77,7 +77,7 @@ public class SelectionUtils
 
     public void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
     {
-        var affinityHandler = new AffinityHandler(_view, _gameState.TurnPlayer.TurnState);
+        var affinityHandler = new AffinityHandler(_view);
         affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
 
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);

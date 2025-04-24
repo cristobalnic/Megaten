@@ -9,6 +9,7 @@ public class Player
     public readonly List<Unit> Units = [];
     public readonly Table Table;
     public readonly TurnState TurnState = new();
+    public int KSkillsUsed = 0;
     
     public Player(int id)
     {
