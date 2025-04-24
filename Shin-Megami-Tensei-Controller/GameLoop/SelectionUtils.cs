@@ -15,17 +15,7 @@ public class SelectionUtils
         _gameState = gameState;
     }
     
-    public void DisplayMonsterSelection(List<Unit> monsters)
-    {
-        char label = '1';
-        foreach (var monster in monsters)
-        {
-            if (monster.IsEmpty() || !monster.IsAlive()) continue;
-            _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
-            label++;
-        }
-        _view.WriteLine($"{label}-Cancelar");
-    }
+    
     
     public void DisplaySummonWithdrawSelection(List<Unit> monsters)
     {
@@ -86,8 +76,8 @@ public class SelectionUtils
 
     public Unit GetTarget(Unit attacker)
     {
-        _view.WriteLine($"Seleccione un objetivo para {attacker.Name}");
-        DisplayMonsterSelection(_gameState.WaitPlayer.Table.Monsters);
+        var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
+        _view.DisplayMonsterSelection(_gameState.WaitPlayer.Table.Monsters, selectionPhrase);
         Unit target = GetPlayerObjective(_gameState.WaitPlayer.Table.Monsters);
         return target;
     }

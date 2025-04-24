@@ -11,4 +11,7 @@ public interface IView
     void DisplayDamageMessage(Unit target, int damage);
     void DisplayRepeledDamageMessage(Unit target, int damage, Unit attacker);
     void DisplayDrainDamageMessage(Unit target, int drainDamage);
+    void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase);
+    void DisplayPlayersTables(List<Player> gameStatePlayers);
+    void DisplayRoundInit(Player turnPlayer);
 }

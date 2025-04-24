@@ -1,7 +1,6 @@
 ﻿using Shin_Megami_Tensei_View;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.GameLoop;
 
 namespace Shin_Megami_Tensei.Views;
 
@@ -18,7 +17,51 @@ public class ConsoleView : IView
 
     public string ReadLine() 
         => _view.ReadLine();
-
+    
+    
+    public void DisplayRoundInit(Player turnPlayer)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Ronda de {turnPlayer.Samurai?.Name} (J{turnPlayer.Id})");
+    }
+    
+    public void DisplayPlayersTables(List<Player> players)
+    {
+        _view.WriteLine(Params.Separator);
+        foreach (var player in players)
+        {
+            var phrase = $"Equipo de {player.Table.Samurai?.Name} (J{player.Id})";
+            DisplayPlayerTable(player.Table.Monsters, phrase);
+        }
+    }
+    
+    private void DisplayPlayerTable(List<Unit> monsters, string displayPhrase)
+    {
+        _view.WriteLine(displayPhrase);
+        char label = 'A';
+        foreach (var monster in monsters)
+        {
+            if (monster.IsEmpty())
+                _view.WriteLine($"{label}-");
+            else
+                _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
+            label++;
+        }
+    }
+    
+    public void DisplayMonsterSelection(List<Unit> monsters, string displayPhrase)
+    {
+        _view.WriteLine(displayPhrase);
+        char label = '1';
+        foreach (var monster in monsters)
+        {
+            if (monster.IsEmpty() || !monster.IsAlive()) continue;
+            _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
+            label++;
+        }
+        _view.WriteLine($"{label}-Cancelar");
+    }
+    
     public void DisplayHpMessage(Unit monster) 
         => _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
     

@@ -18,22 +18,65 @@ public class RoundManager
 
     public void PlayRound()
     {
-        SetPlayersRoles();
-        DisplayRoundInit();
-        _gameState.TurnPlayer.TurnState.ResetRemainingTurns(_gameState.TurnPlayer.Table);
-        var orderedMonsters = GetAliveMonstersOrderedBySpeed();
-        while (_gameState.TurnPlayer.TurnState.FullTurns > 0 || _gameState.TurnPlayer.TurnState.BlinkingTurns > 0)
-        {
-            DisplayPlayersTables();
-            _turnManager.PlayTurn(orderedMonsters);
-            orderedMonsters = UpdateOrderedMonstersWithSummons(orderedMonsters, _gameState.TurnPlayer.Table.Monsters);
-            orderedMonsters = UpdateOrderedMonstersWithDeaths(orderedMonsters);
-            orderedMonsters = GetNewMonsterOrder(orderedMonsters);
-        }
+        PrepareRound();
+        ExecuteTurns();
         _gameState.Round++;
     }
+
+    private void PrepareRound()
+    {
+        SetPlayersRoles();
+        _view.DisplayRoundInit(_gameState.TurnPlayer);
+        ResetPlayerTurnState();
+    }
+    private void SetPlayersRoles()
+    {
+        _gameState.TurnPlayer = _gameState.Players[_gameState.Round % 2];
+        _gameState.WaitPlayer = _gameState.Players[(_gameState.Round + 1) % 2];
+    }
+    private void ResetPlayerTurnState()
+    {
+        _gameState.TurnPlayer.TurnState.ResetRemainingTurns(_gameState.TurnPlayer.Table);
+    }
+
+    private void ExecuteTurns()
+    {
+        var orderedMonsters = GetAliveMonstersOrderedBySpeed();
+        while (HasRemainingTurns())
+        {
+            _view.DisplayPlayersTables(_gameState.Players);
+            _turnManager.PlayTurn(orderedMonsters);
+            orderedMonsters = UpdateUnitOrder(orderedMonsters);
+        }
+    }
+    private List<Unit> GetAliveMonstersOrderedBySpeed()
+    {
+        var monsters = new List<Unit>();
+        foreach (var monster in _gameState.TurnPlayer.Table.Monsters)
+            if (!monster.IsEmpty() && monster.IsAlive()) monsters.Add(monster);
+        return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
+    }
+    private bool HasRemainingTurns()
+    {
+        var turnState = _gameState.TurnPlayer.TurnState;
+        return turnState.FullTurns > 0 || turnState.BlinkingTurns > 0;
+    }
     
-    private List<Unit> UpdateOrderedMonstersWithSummons(List<Unit> orderedMonsters, List<Unit> tableMonsters)
+    private List<Unit> UpdateUnitOrder(List<Unit> currentOrder)
+    {
+        currentOrder = UpdateOrderedUnitsWithSummons(currentOrder, _gameState.TurnPlayer.Table.Monsters);
+        currentOrder = UpdateOrderedUnitsWithDeaths(currentOrder);
+        return GetNewUnitOrder(currentOrder);
+    }
+
+    private static List<Unit> GetNewUnitOrder(List<Unit> orderedMonsters)
+    {
+        var reorderedMonsters = new List<Unit>();
+        reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));
+        reorderedMonsters.Add(orderedMonsters[0]);
+        return reorderedMonsters;
+    }
+    private List<Unit> UpdateOrderedUnitsWithSummons(List<Unit> orderedMonsters, List<Unit> tableMonsters)
     {
         var updatedMonsters = new List<Unit>(orderedMonsters);
         foreach (var tableMonster in tableMonsters)
@@ -51,8 +94,7 @@ public class RoundManager
         }
         return updatedMonsters;
     }
-    
-    private List<Unit> UpdateOrderedMonstersWithDeaths(List<Unit> orderedMonsters)
+    private List<Unit> UpdateOrderedUnitsWithDeaths(List<Unit> orderedMonsters)
     {
         var updatedMonsters = new List<Unit>(orderedMonsters);
         foreach (var monster in orderedMonsters)
@@ -61,53 +103,5 @@ public class RoundManager
             updatedMonsters.Remove(monster);
         }
         return updatedMonsters;
-    }
-
-    private void SetPlayersRoles()
-    {
-        _gameState.TurnPlayer = _gameState.Players[_gameState.Round % 2];
-        _gameState.WaitPlayer = _gameState.Players[(_gameState.Round + 1) % 2];
-    }
-    
-    private void DisplayRoundInit()
-    {
-        _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {_gameState.TurnPlayer.Samurai?.Name} (J{_gameState.TurnPlayer.Id})");
-    }
-    
-    private List<Unit> GetAliveMonstersOrderedBySpeed()
-    {
-        var monsters = new List<Unit>();
-        foreach (var monster in _gameState.TurnPlayer.Table.Monsters)
-            if (!monster.IsEmpty() && monster.IsAlive()) monsters.Add(monster);
-        return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
-    }
-    
-    private void DisplayPlayersTables()
-    {
-        _view.WriteLine(Params.Separator);
-        foreach (var player in _gameState.Players) DisplayPlayerTable(player);
-    }
-    
-    private void DisplayPlayerTable(Player player)
-    {
-        _view.WriteLine($"Equipo de {player.Table.Samurai?.Name} (J{player.Id})");
-        char label = 'A';
-        foreach (var monster in player.Table.Monsters)
-        {
-            if (monster.IsEmpty())
-                _view.WriteLine($"{label}-");
-            else
-                _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
-            label++;
-        }
-    }
-    
-    private static List<Unit> GetNewMonsterOrder(List<Unit> orderedMonsters)
-    {
-        var reorderedMonsters = new List<Unit>();
-        reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));
-        reorderedMonsters.Add(orderedMonsters[0]);
-        return reorderedMonsters;
     }
 }
