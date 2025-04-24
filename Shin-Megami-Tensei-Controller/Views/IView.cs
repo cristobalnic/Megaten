@@ -7,4 +7,8 @@ public interface IView
     void WriteLine(string message);
     string ReadLine();
     void DisplayHpMessage(Unit target);
+    void DisplayAttackMessage(Unit attacker, Skill selectedSkill, Unit target);
+    void DisplayDamageMessage(Unit target, int damage);
+    void DisplayRepeledDamageMessage(Unit target, int damage, Unit attacker);
+    void DisplayDrainDamageMessage(Unit target, int drainDamage);
 }

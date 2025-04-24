@@ -5,19 +5,16 @@ namespace Shin_Megami_Tensei.GameLoop;
 
 public class ActionUtils
 {
-    public static string GetAttackPhrase(SkillType attackType)
+    public static int GetRoundedIntDamage(double damage)
     {
-        return attackType switch
-        {
-            SkillType.Phys => "ataca",
-            SkillType.Gun => "dispara",
-            SkillType.Fire => "lanza fuego",
-            SkillType.Ice => "lanza hielo",
-            SkillType.Elec => "lanza electricidad",
-            SkillType.Force => "lanza viento",
-            _ => throw new NotImplementedException("Skill type not implemented for Attack Phrase")
-        };
+        return Convert.ToInt32(Math.Floor(Math.Max(0, damage)));
     }
+
+    public static void ApplyDamage(Unit target, int damage) 
+        => target.Stats.Hp = Math.Max(0, target.Stats.Hp - damage);
+
+    public static void ApplyDrain(Unit target, int damage) 
+        => target.Stats.Hp = Math.Min(target.Stats.MaxHp, target.Stats.Hp + damage);
     
     public static int GetHits(string hitsString, Player turnPlayer)
     {

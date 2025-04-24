@@ -31,27 +31,27 @@ public class AffinityHandler
 
     private void HandleNeutral(Unit target, double baseDamage)
     {
-        int damage = GetRoundedIntDamage(baseDamage);
-        ApplyDamage(target, damage);
-        DisplayDamageMessage(target, damage);
+        int damage = ActionUtils.GetRoundedIntDamage(baseDamage);
+        ActionUtils.ApplyDamage(target, damage);
+        _view.DisplayDamageMessage(target, damage);
     }
     
     private void HandleWeak(Unit attacker, Unit target, double baseDamage)
     {
         double weakDamage = baseDamage * Params.WeakDamageMultiplier;
-        int damage = GetRoundedIntDamage(weakDamage);
+        int damage = ActionUtils.GetRoundedIntDamage(weakDamage);
         _view.WriteLine($"{target.Name} es débil contra el ataque de {attacker.Name}");
-        ApplyDamage(target, damage);
-        DisplayDamageMessage(target, damage);
+        ActionUtils.ApplyDamage(target, damage);
+        _view.DisplayDamageMessage(target, damage);
     }
     
     private void HandleResist(Unit attacker, Unit target, double baseDamage)
     {
         double resistDamage = baseDamage * Params.ResistDamageMultiplier;
-        int damage = GetRoundedIntDamage(resistDamage);
+        int damage = ActionUtils.GetRoundedIntDamage(resistDamage);
         _view.WriteLine($"{target.Name} es resistente el ataque de {attacker.Name}");
-        ApplyDamage(target, damage);
-        DisplayDamageMessage(target, damage);
+        ActionUtils.ApplyDamage(target, damage);
+        _view.DisplayDamageMessage(target, damage);
     }
 
     private void HandleNull(Unit attacker, Unit target)
@@ -61,45 +61,25 @@ public class AffinityHandler
 
     private void HandleRepel(Unit attacker, Unit target, double baseDamage)
     {
-        int damage = GetRoundedIntDamage(baseDamage);
-        ApplyDamage(attacker, damage);
-        DisplayRepeledDamageMessage(target, damage, attacker);
+        int damage = ActionUtils.GetRoundedIntDamage(baseDamage);
+        ActionUtils.ApplyDamage(attacker, damage);
+        _view.DisplayRepeledDamageMessage(target, damage, attacker);
     }
 
     private void HandleDrain(Unit target, double baseDamage)
     {
-        int drainDamage = GetRoundedIntDamage(baseDamage);
-        ApplyDrain(target, drainDamage);
-        DisplayDrainDamageMessage(target, drainDamage);
-    }
-
-    private static void ApplyDamage(Unit target, int damage) 
-        => target.Stats.Hp = Math.Max(0, target.Stats.Hp - damage);
-
-    private static void ApplyDrain(Unit target, int damage) 
-        => target.Stats.Hp = Math.Min(target.Stats.MaxHp, target.Stats.Hp + damage);
-
-    private void DisplayDamageMessage(Unit monster, int damage)
-    {
-        _view.WriteLine($"{monster.Name} recibe {damage} de daño");
-    }
-
-    private void DisplayRepeledDamageMessage(Unit target, int repelDamage, Unit attacker)
-    {
-        _view.WriteLine($"{target.Name} devuelve {repelDamage} daño a {attacker.Name}");
-    }
-    
-    private void DisplayDrainDamageMessage(Unit target, int drainDamage)
-    {
-        _view.WriteLine($"{target.Name} absorbe {drainDamage} daño");
+        int drainDamage = ActionUtils.GetRoundedIntDamage(baseDamage);
+        ActionUtils.ApplyDrain(target, drainDamage);
+        _view.DisplayDrainDamageMessage(target, drainDamage);
     }
 
     
+
     
-    private static int GetRoundedIntDamage(double damage)
-    {
-        return Convert.ToInt32(Math.Floor(Math.Max(0, damage)));
-    }
+
+    
+    
+    
 }
 
 

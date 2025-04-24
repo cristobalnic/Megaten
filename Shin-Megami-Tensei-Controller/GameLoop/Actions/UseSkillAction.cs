@@ -25,23 +25,51 @@ public class UseSkillAction
         _view.WriteLine(Params.Separator);
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
-        string attackPhrase = ActionUtils.GetAttackPhrase(selectedSkill.Type);
+        
+        if (selectedSkill.Type is SkillType.Dark or SkillType.Light)
+        {
+            // UseInstantKillSkill(attacker, selectedSkill, target);
+        }
+        else 
+            UseAttackSkill(attacker, selectedSkill, target);
+
+        attacker.Stats.Mp -= selectedSkill.Cost;
+        _gameState.TurnPlayer.KSkillsUsed++;
+    }
+
+    // private void UseInstantKillSkill(Unit attacker, Skill selectedSkill, Unit target)
+    // {
+    //     bool skillHasMissed = HasSkillMissed(attacker, selectedSkill, target);
+    //     
+    //     if (skillHasMissed)
+    //     {
+    //         _view.WriteLine($"{attacker.Name} ha fallado con el ataque");
+    //         _view.DisplayHpMessage(target);
+    //     }
+    //     
+    //     
+    //    
+    // }
+    //
+    // private bool HasSkillMissed(Unit attacker, Skill selectedSkill, Unit target)    
+    // {
+    //     AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
+    //     
+    //     if 
+    // }
+
+    private void UseAttackSkill(Unit attacker, Skill selectedSkill, Unit target)
+    {
         AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
         double baseDamage = GetSkillDamage(attacker, selectedSkill);
-        
-        // IMPLEMENT HITS
         int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
-            _view.WriteLine($"{attacker.Name} {attackPhrase} a {target.Name}");
+            _view.DisplayAttackMessage(attacker, selectedSkill, target);
             _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
         }
         TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
-        // WORK HERE!!!
-        
-        attacker.Stats.Mp -= selectedSkill.Cost;
-        _gameState.TurnPlayer.KSkillsUsed++;
     }
 
     private void DisplaySkillSelection(Unit attacker)
