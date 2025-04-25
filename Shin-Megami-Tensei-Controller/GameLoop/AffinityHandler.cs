@@ -27,6 +27,26 @@ public static class AffinityHandler
         else
             ActionUtils.ApplyDamage(target, damage);
     }
+
+    public static AffinityType GetTargetAffinity(Skill skill, Unit target)
+    {
+        return target.Affinity.GetAffinity(skill.Type);
+    }
+
+    public static bool HasInstantKillSkillMissed(Unit attacker, Skill skill, Unit target, AffinityType targetAffinity)
+    {
+        if (targetAffinity is AffinityType.Neutral)
+            return !(attacker.Stats.Lck + skill.Power >= target.Stats.Lck);
+        if (targetAffinity is AffinityType.Resist)
+            return !(attacker.Stats.Lck + skill.Power >= 2 * target.Stats.Lck);
+        return false;
+    }
+
+    public static void ExecuteInstantKillByAffinityRules(Unit attacker, Unit target, AffinityType targetAffinity)
+    {
+        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
+            ActionUtils.ExecuteInstantKill(target);
+    }
 }
 
 

@@ -25,7 +25,13 @@ public class UseSkillAction
         _view.WriteLine(Params.Separator);
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
-        UseAttackSkill(attacker, skill, target);
+
+        if (skill.Type is SkillType.Light or SkillType.Dark)
+            UseInstantKillSkill(attacker, skill, target);
+        else
+            UseAttackSkill(attacker, skill, target);
+        
+        
         attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
@@ -41,20 +47,20 @@ public class UseSkillAction
         return attacker.Skills[skillSelection-1];
     }
     
-    private void UseAttackSkill(Unit attacker, Skill selectedSkill, Unit target)
+    private void UseAttackSkill(Unit attacker, Skill skill, Unit target)
     {
-        AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
+        AffinityType targetAffinity = target.Affinity.GetAffinity(skill.Type);
         
-        double baseDamage = GetSkillDamage(attacker, selectedSkill);
+        double baseDamage = GetSkillDamage(attacker, skill);
         var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
         var damage = ActionUtils.GetRoundedIntDamage(affinityDamage);
 
-        int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
+        int hitNumber = ActionUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
             AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
             
-            _view.DisplayAttackMessage(attacker, selectedSkill, target);
+            _view.DisplayAttackMessage(attacker, skill, target);
             _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
             _view.DisplayAttackResultMessage(attacker, damage, target, targetAffinity);
             
@@ -65,6 +71,32 @@ public class UseSkillAction
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 
+    
+    
+    
+    private void UseInstantKillSkill(Unit attacker, Skill skill, Unit target)
+    {
+        AffinityType targetAffinity = AffinityHandler.GetTargetAffinity(skill, target);
+        
+        bool hasMissed = AffinityHandler.HasInstantKillSkillMissed(attacker, skill, target, targetAffinity);
+
+        
+        if (!hasMissed) AffinityHandler.ExecuteInstantKillByAffinityRules(attacker, target, targetAffinity);
+        
+
+        _view.DisplayAttackMessage(attacker, skill, target);
+        if (!hasMissed) _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
+        _view.DisplayInstantKillSkillResultMessage(attacker, target, targetAffinity, hasMissed);
+        
+        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
+        
+        if (!hasMissed) TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        else _gameState.TurnPlayer.TurnState.UseTurnsForMiss();
+        
+        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
+    }
+    
     private double GetSkillDamage(Unit attacker, Skill skill)
     {
         if (skill.Type == SkillType.Phys)
@@ -73,26 +105,6 @@ public class UseSkillAction
             return Math.Sqrt(attacker.Stats.Skl * skill.Power);
         if (skill.Type is SkillType.Fire or SkillType.Ice or SkillType.Elec or SkillType.Force or SkillType.Almighty)
             return Math.Sqrt(attacker.Stats.Mag * skill.Power);
-        throw new NotImplementedException("Skill type not implemented for Damage calculation");
+        throw new NotImplementedException($"Skill type {skill.Type} not implemented for Damage calculation");
     }
-    
-    // private void UseInstantKillSkill(Unit attacker, Skill selectedSkill, Unit target)
-    // {
-    //     bool skillHasMissed = HasSkillMissed(attacker, selectedSkill, target);
-    //     
-    //     if (skillHasMissed)
-    //     {
-    //         _view.WriteLine($"{attacker.Name} ha fallado con el ataque");
-    //         _view.DisplayHpMessage(target);
-    //     }
-    // }
-    //
-    // private bool HasSkillMissed(Unit attacker, Skill selectedSkill, Unit target)    
-    // {
-    //     AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
-    // }
-
-
-
-
 }

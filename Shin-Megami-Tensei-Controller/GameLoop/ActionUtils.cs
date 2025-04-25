@@ -15,6 +15,9 @@ public class ActionUtils
     public static void ApplyDrain(Unit target, int damage) 
         => target.Stats.Hp = Math.Min(target.Stats.MaxHp, target.Stats.Hp + damage);
     
+    public static void ExecuteInstantKill(Unit target) 
+        => target.Stats.Hp = 0;
+
     public static int GetHits(string hitsString, Player turnPlayer)
     {
         if (hitsString.Contains('-'))

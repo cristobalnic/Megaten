@@ -18,9 +18,9 @@ public struct Affinity
     public required AffinityType Panic { get; set; }
     public required AffinityType Poison { get; set; }
 
-    public AffinityType GetAffinity(SkillType selectedSkillType)
+    public AffinityType GetAffinity(SkillType skillType)
     {
-        return selectedSkillType switch
+        return skillType switch
         {
             SkillType.Phys => Phys,
             SkillType.Gun => Gun,
@@ -30,7 +30,8 @@ public struct Affinity
             SkillType.Force => Force,
             SkillType.Light => Light,
             SkillType.Dark => Dark,
-            _ => throw new ArgumentException($"Invalid skill type: {selectedSkillType}")
+            SkillType.Almighty => AffinityType.Neutral,
+            _ => throw new ArgumentException($"Skill type has no corresponding affinity: {skillType}")
         };
     }
 }

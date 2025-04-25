@@ -65,8 +65,8 @@ public class ConsoleView : IView
     public void DisplayHpMessage(Unit monster) 
         => _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
     
-    public void DisplayAttackMessage(Unit attacker, Skill selectedSkill, Unit target) 
-        => _view.WriteLine($"{attacker.Name} {GetAttackPhrase(selectedSkill.Type)} a {target.Name}");
+    public void DisplayAttackMessage(Unit attacker, Skill skill, Unit target) 
+        => _view.WriteLine($"{attacker.Name} {GetAttackPhrase(skill.Type)} a {target.Name}");
 
     
     public void DisplayAffinityDetectionMessage(Unit attacker, Unit target, AffinityType affinityType)
@@ -76,6 +76,24 @@ public class ConsoleView : IView
         else if (affinityType == AffinityType.Resist)
             _view.WriteLine($"{target.Name} es resistente el ataque de {attacker.Name}");
     }
+
+    public void DisplayInstantKillSkillResultMessage(Unit attacker, Unit target, AffinityType targetAffinity, bool skillHasMissed)
+    {
+        if (skillHasMissed)
+        {
+            _view.WriteLine($"{attacker.Name} ha fallado el ataque");
+        }
+        else
+        {
+            if (targetAffinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
+                _view.WriteLine($"{target.Name} ha sido eliminado");
+            else if (targetAffinity is AffinityType.Null)
+                _view.WriteLine($"{target.Name} bloquea el ataque de {attacker.Name}");
+            else
+                throw new NotImplementedException($"Affinity type {targetAffinity} not implemented for Instant Kill Skill Result Message");
+        }
+    }
+
     public void DisplayAttackResultMessage(Unit attacker, int damage, Unit target, AffinityType affinityType)
     {
         var message = affinityType switch
