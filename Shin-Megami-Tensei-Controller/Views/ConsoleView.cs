@@ -24,7 +24,7 @@ public class ConsoleView : IView
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"Ronda de {turnPlayer.Samurai?.Name} (J{turnPlayer.Id})");
     }
-    
+
     public void DisplayPlayersTables(List<Player> players)
     {
         _view.WriteLine(Params.Separator);
@@ -91,5 +91,19 @@ public class ConsoleView : IView
             SkillType.Dark => "ataca con oscuridad",
             _ => throw new NotImplementedException("Skill type not implemented for Attack Phrase")
         };
+    }
+    
+    public void DisplaySkillSelection(Unit attacker)
+    {
+        _view.WriteLine($"Seleccione una habilidad para que {attacker.Name} use");
+        int label = 1;
+        foreach (var skill in attacker.Skills)
+        {
+            if (attacker.Stats.Mp < skill.Cost)
+                continue;
+            _view.WriteLine($"{label}-{skill.Name} MP:{skill.Cost}");
+            label++;
+        }
+        _view.WriteLine($"{label}-Cancelar");
     }
 }

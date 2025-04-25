@@ -14,4 +14,5 @@ public interface IView
     void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase);
     void DisplayPlayersTables(List<Player> gameStatePlayers);
     void DisplayRoundInit(Player turnPlayer);
+    void DisplaySkillSelection(Unit attacker);
 }
