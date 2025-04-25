@@ -70,7 +70,7 @@ public class TurnManager
     {
         var turnState = _gameState.TurnPlayer.TurnState;
         _view.WriteLine(Params.Separator);
-        _view.WriteLine(turnState.Report());
+        _view.WriteLine(turnState.GetReport());
         turnState.ResetUsage();
     }
     
@@ -91,7 +91,7 @@ public class TurnManager
 
     private bool HasLost(Player player)
     {
-        return player.Table.Monsters.All(monster => monster.IsEmpty() || !monster.IsAlive());
+        return player.Table.ActiveUnits.All(monster => monster.IsEmpty() || !monster.IsAlive());
     }
 
     private void DeclareWinner(Player winner)

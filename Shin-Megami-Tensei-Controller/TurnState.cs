@@ -34,7 +34,7 @@ public class TurnState
         _blinkingTurnsGained = 0;
     }
 
-    public string Report()
+    public string GetReport()
     {
         return $"Se han consumido {_fullTurnsUsed} Full Turn(s) y {_blinkingTurnsUsed} Blinking Turn(s)\n" +
                $"Se han obtenido {_blinkingTurnsGained} Blinking Turn(s)";
@@ -42,7 +42,7 @@ public class TurnState
 
     public void ResetRemainingTurns(Table table)
     {
-        FullTurns = table.Monsters.Count(monster => !monster.IsEmpty() && monster.IsAlive());
+        FullTurns = table.ActiveUnits.Count(monster => !monster.IsEmpty() && monster.IsAlive());
         BlinkingTurns = 0;
     }
 
@@ -67,17 +67,13 @@ public class TurnState
 
     public void UseTurnsForNull()
     {
-        if (BlinkingTurns >= 2)
-            UseBlinkingTurn(2);
-        else if (BlinkingTurns == 1)
+        for (int i = 0; i < 2; i++)
         {
-            UseBlinkingTurn();
-            UseFullTurn();
+            if (BlinkingTurns > 0)
+                UseBlinkingTurn();
+            else if (FullTurns > 0)
+                UseFullTurn();
         }
-        else if (FullTurns >= 2)
-            UseFullTurn(2);
-        else
-            UseFullTurn();
     }
 
     public void UseTurnsForRepelOrDrain()

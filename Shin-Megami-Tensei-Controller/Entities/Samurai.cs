@@ -19,8 +19,8 @@ public class Samurai(UnitData unitData) : Unit(unitData)
 
     public override void Summon(Unit monsterSummon, Table summonerTable, SelectionUtils selectionUtils)
     {
-        selectionUtils.DisplaySummonWithdrawSelection(summonerTable.Monsters);
-        Unit monsterWithdraw = selectionUtils.GetSummonWithdrawSelection(summonerTable.Monsters);
+        selectionUtils.DisplaySummonWithdrawSelection(summonerTable.ActiveUnits);
+        Unit monsterWithdraw = selectionUtils.GetSummonWithdrawSelection(summonerTable.ActiveUnits);
         summonerTable.ReplaceMonster(monsterWithdraw, monsterSummon);
     }
 }

@@ -31,7 +31,7 @@ public class ConsoleView : IView
         foreach (var player in players)
         {
             var phrase = $"Equipo de {player.Table.Samurai?.Name} (J{player.Id})";
-            DisplayPlayerTable(player.Table.Monsters, phrase);
+            DisplayPlayerTable(player.Table.ActiveUnits, phrase);
         }
     }
     
@@ -49,14 +49,17 @@ public class ConsoleView : IView
         }
     }
     
-    public void DisplayMonsterSelection(List<Unit> monsters, string displayPhrase, bool onlyDead = false)
+    public void DisplayMonsterSelection(List<Unit> monsters, string displayPhrase, bool showOnlyDead = false, bool showAll = false)
     {
         _view.WriteLine(displayPhrase);
         char label = '1';
         foreach (var monster in monsters)
         {
-            if ((monster.IsEmpty() || !monster.IsAlive()) && !onlyDead) continue;
-            if (onlyDead && monster.IsAlive()) continue;
+            if (!showAll)
+            {
+                if ((monster.IsEmpty() || !monster.IsAlive()) && !showOnlyDead) continue;
+                if (showOnlyDead && monster.IsAlive()) continue;
+            }
             _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
             label++;
         }

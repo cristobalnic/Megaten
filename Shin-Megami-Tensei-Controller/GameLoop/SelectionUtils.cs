@@ -33,7 +33,7 @@ public class SelectionUtils
         _view.WriteLine($"{label}-Cancelar");
     }
     
-    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false)
+    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false, bool showAll = false)
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
         List<Unit> validMonsters = new List<Unit>();
@@ -42,6 +42,10 @@ public class SelectionUtils
             if ((monster.IsEmpty() || !monster.IsAlive()) && !onlyDead) continue;
             if (onlyDead && monster.IsAlive()) continue;
             validMonsters.Add(monster);
+        }
+        if (showAll)
+        {
+            validMonsters = monsters;
         }
         if (objectiveSelection > validMonsters.Count)
         {
@@ -70,8 +74,8 @@ public class SelectionUtils
     {
         var player = _gameState.WaitPlayer;
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(player.Table.Monsters, selectionPhrase);
-        Unit target = GetTargetMonster(player.Table.Monsters);
+        _view.DisplayMonsterSelection(player.Table.ActiveUnits, selectionPhrase);
+        Unit target = GetTargetMonster(player.Table.ActiveUnits);
         return target;
     }
     
@@ -79,8 +83,8 @@ public class SelectionUtils
     {
         var player = _gameState.TurnPlayer;
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(player.Table.Monsters, selectionPhrase);
-        Unit target = GetTargetMonster(player.Table.Monsters);
+        _view.DisplayMonsterSelection(player.Table.ActiveUnits, selectionPhrase);
+        Unit target = GetTargetMonster(player.Table.ActiveUnits);
         return target;
     }
 

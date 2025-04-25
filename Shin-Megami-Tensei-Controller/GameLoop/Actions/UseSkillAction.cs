@@ -28,6 +28,8 @@ public class UseSkillAction
             UseInstantKillSkill(attacker, skill);
         else if (skill.Type is SkillType.Heal)
             UseHealSkill(attacker, skill);
+        else if (skill.Type is SkillType.Special)
+            UseSpecialSkill();
         else
             UseAttackSkill(attacker, skill);
 
@@ -35,6 +37,8 @@ public class UseSkillAction
         attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
+
+    
 
     private Skill GetSelectedSkill(Unit attacker)
     {
@@ -142,7 +146,14 @@ public class UseSkillAction
         }
         else
         {
-            var beneficiary = _selectionUtils.GetAllyTarget(attacker);
+            var summonAction = new SummonAction(_view, _gameState);
+            summonAction.ExecuteHealSummon(attacker, skill);
         }
+    }
+    
+    private void UseSpecialSkill()
+    {
+        var summonAction = new SummonAction(_view, _gameState);
+        summonAction.ExecuteSpecialSummon();
     }
 }

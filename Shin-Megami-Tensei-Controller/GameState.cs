@@ -9,7 +9,7 @@ public class GameState
     public Player WaitPlayer { get; set; }
 
     public int Round = 0;
-    
+
     public GameState()
     {
         var player1 = new Player(1);

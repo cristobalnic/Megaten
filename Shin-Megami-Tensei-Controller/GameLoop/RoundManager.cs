@@ -41,18 +41,18 @@ public class RoundManager
 
     private void ExecuteTurns()
     {
-        var orderedMonsters = GetAliveMonstersOrderedBySpeed();
+        _gameState.TurnPlayer.Table.OrderedUnits = GetAliveMonstersOrderedBySpeed();
         while (HasRemainingTurns())
         {
             _view.DisplayPlayersTables(_gameState.Players);
-            _turnManager.PlayTurn(orderedMonsters);
-            orderedMonsters = UpdateUnitOrder(orderedMonsters);
+            _turnManager.PlayTurn(_gameState.TurnPlayer.Table.OrderedUnits);
+            _gameState.TurnPlayer.Table.OrderedUnits = UpdateUnitOrder(_gameState.TurnPlayer.Table.OrderedUnits);
         }
     }
     private List<Unit> GetAliveMonstersOrderedBySpeed()
     {
         var monsters = new List<Unit>();
-        foreach (var monster in _gameState.TurnPlayer.Table.Monsters)
+        foreach (var monster in _gameState.TurnPlayer.Table.ActiveUnits)
             if (!monster.IsEmpty() && monster.IsAlive()) monsters.Add(monster);
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
     }
@@ -64,40 +64,43 @@ public class RoundManager
     
     private List<Unit> UpdateUnitOrder(List<Unit> currentOrder)
     {
-        currentOrder = UpdateOrderedUnitsWithSummons(currentOrder, _gameState.TurnPlayer.Table.Monsters);
+        currentOrder = UpdateOrderedUnitsWithSummons(currentOrder, _gameState.TurnPlayer.Table.ActiveUnits);
         currentOrder = UpdateOrderedUnitsWithDeaths(currentOrder);
         return GetNewUnitOrder(currentOrder);
     }
 
-    private static List<Unit> GetNewUnitOrder(List<Unit> orderedMonsters)
+    private static List<Unit> GetNewUnitOrder(List<Unit> orderedUnits)
     {
-        var reorderedMonsters = new List<Unit>();
-        reorderedMonsters.AddRange(orderedMonsters.GetRange(1, orderedMonsters.Count - 1));
-        reorderedMonsters.Add(orderedMonsters[0]);
-        return reorderedMonsters;
+        var reorderedUnits = new List<Unit>();
+        reorderedUnits.AddRange(orderedUnits.GetRange(1, orderedUnits.Count - 1));
+        reorderedUnits.Add(orderedUnits[0]);
+        return reorderedUnits;
     }
-    private List<Unit> UpdateOrderedUnitsWithSummons(List<Unit> orderedMonsters, List<Unit> tableMonsters)
+    private List<Unit> UpdateOrderedUnitsWithSummons(List<Unit> orderedUnits, List<Unit> activeUnits)
     {
-        var updatedMonsters = new List<Unit>(orderedMonsters);
-        foreach (var tableMonster in tableMonsters)
+        var updatedMonsters = new List<Unit>(orderedUnits);
+        foreach (var unit in activeUnits)
         {
-            if (tableMonster.IsEmpty() || orderedMonsters.Contains(tableMonster)) continue;
+            if (unit.IsEmpty()) continue; // Skip empty slots
+            if (orderedUnits.Contains(unit)) continue; // Already in the order
             bool replaced = false;
             for (var i = 0; i < updatedMonsters.Count; i++)
             {
-                if (tableMonsters.Contains(updatedMonsters[i])) continue;
-                updatedMonsters[i] = tableMonster;
-                replaced = true;
-                break;
+                if (!activeUnits.Contains(updatedMonsters[i])) // Already in the order
+                {
+                    updatedMonsters[i] = unit;
+                    replaced = true;
+                    break;
+                }
             }
-            if (!replaced) updatedMonsters.Add(tableMonster);
+            if (!replaced) updatedMonsters.Add(unit);
         }
         return updatedMonsters;
     }
-    private List<Unit> UpdateOrderedUnitsWithDeaths(List<Unit> orderedMonsters)
+    private List<Unit> UpdateOrderedUnitsWithDeaths(List<Unit> orderedUnits)
     {
-        var updatedMonsters = new List<Unit>(orderedMonsters);
-        foreach (var monster in orderedMonsters)
+        var updatedMonsters = new List<Unit>(orderedUnits);
+        foreach (var monster in orderedUnits)
         {
             if (monster.IsAlive()) continue;
             updatedMonsters.Remove(monster);

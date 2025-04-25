@@ -5,9 +5,10 @@ namespace Shin_Megami_Tensei;
 public class Table
 {
     public Samurai? Samurai;
-    public readonly List<Unit> Monsters = [];
+    public readonly List<Unit> ActiveUnits = [];
     public List<Unit> Reserve = [];
     private readonly Player _player;
+    public List<Unit> OrderedUnits = [];
 
     public Table(Player player)
     {
@@ -23,9 +24,9 @@ public class Table
 
     public void AddMonster(Unit monster)
     {
-        if (Monsters.Count < Params.MaxUnitsAllowedInTablePerSide)
+        if (ActiveUnits.Count < Params.MaxUnitsAllowedInTablePerSide)
         {
-            Monsters.Add(monster);
+            ActiveUnits.Add(monster);
         }
         else
         {
@@ -35,10 +36,10 @@ public class Table
 
     public void HandleDeath(Unit deadMonster)
     {
-        for (int i = 0; i < Monsters.Count; i++)
+        for (int i = 0; i < ActiveUnits.Count; i++)
         {
-            if (Monsters[i] != deadMonster || deadMonster is Samurai) continue;
-            Monsters[i] = Monster.EmptySlot;
+            if (ActiveUnits[i] != deadMonster || deadMonster is Samurai) continue;
+            ActiveUnits[i] = Monster.EmptySlot;
             Reserve.Add(deadMonster);
             ReorderReserve();
             break;
@@ -47,19 +48,22 @@ public class Table
 
     public void FillEmptySlots()
     {
-        int emptySlots = Params.MaxUnitsAllowedInTablePerSide - Monsters.Count;
+        int emptySlots = Params.MaxUnitsAllowedInTablePerSide - ActiveUnits.Count;
 
         for (int i = 0; i < emptySlots; i++)
         {
-            Monsters.Add(Monster.EmptySlot);
+            ActiveUnits.Add(Monster.EmptySlot);
         }
     }
 
     public void ReplaceMonster(Unit activeMonster, Unit reserveMonster)
     {
-        int activeIndex = Monsters.IndexOf(activeMonster);
+        int activeIndex = ActiveUnits.IndexOf(activeMonster);
         int reserveIndex = Reserve.IndexOf(reserveMonster);
-        Monsters[activeIndex] = reserveMonster;
+        
+        
+        
+        ActiveUnits[activeIndex] = reserveMonster;
         Reserve[reserveIndex] = activeMonster;
         ReorderReserve();
     }
