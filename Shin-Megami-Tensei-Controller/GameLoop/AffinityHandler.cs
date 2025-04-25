@@ -16,27 +16,23 @@ public class AffinityHandler
     public void HandleAffinityEffect(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
     {
         _view.DisplayAffinityDetectionMessage(attacker, target, affinityType);
-        
-        if (affinityType == AffinityType.Weak)
-        {
-            baseDamage *= Params.WeakDamageMultiplier;
-        }
-        else if (affinityType == AffinityType.Resist)
-        {
-            baseDamage *= Params.ResistDamageMultiplier;
-        }
-        else if (affinityType == AffinityType.Null)
-        {
-            baseDamage = 0;
-        }
-        
-        var damage = ActionUtils.GetRoundedIntDamage(baseDamage);
+        var finalDamage = GetDamageModifiedByAffinity(baseDamage, affinityType);
+        var damage = ActionUtils.GetRoundedIntDamage(finalDamage);
         ActuallyDealDamage(attacker, damage, target, affinityType);
-            
         _view.DisplayAttackResultMessage(attacker, damage, target, affinityType);
     }
 
-    
+    private static double GetDamageModifiedByAffinity(double baseDamage, AffinityType affinityType)
+    {
+        if (affinityType == AffinityType.Weak)
+            baseDamage *= Params.WeakDamageMultiplier;
+        else if (affinityType == AffinityType.Resist)
+            baseDamage *= Params.ResistDamageMultiplier;
+        else if (affinityType == AffinityType.Null)
+            baseDamage = 0;
+        return baseDamage;
+    }
+
 
     private static void ActuallyDealDamage(Unit attacker, int damage, Unit target, AffinityType affinityType)
     {
