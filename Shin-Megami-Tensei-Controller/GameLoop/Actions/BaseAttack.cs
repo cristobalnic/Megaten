@@ -21,26 +21,26 @@ public abstract class BaseAttack
     {
         var target = _selectionUtils.GetTarget(attacker);
         AffinityType affinity = GetAffinity(target);
+        _view.WriteLine(Params.Separator);
         HandleDamage(attacker, target, affinity);
         TurnManager.HandleTurns(_gameState.TurnPlayer, affinity);
     }
 
-    private void HandleDamage(Unit attacker, Unit target, AffinityType affinity)
+    private void HandleDamage(Unit attacker, Unit target, AffinityType targetAffinity)
     {
-        _view.WriteLine(Params.Separator);
+        var baseDamage = GetBaseDamage(attacker);
+        var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
+        var damage = ActionUtils.GetRoundedIntDamage(affinityDamage);
+        AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+        
         _view.WriteLine(GetActionMessage(attacker, target));
-        double baseDamage = GetBaseDamage(attacker);
-        DealDamage(attacker, target, baseDamage, affinity);
-        _view.DisplayHpMessage(affinity == AffinityType.Repel ? attacker : target);
-    }
-
-    private void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
-    {
-        var affinityHandler = new AffinityHandler(_view);
-        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
-
+        _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
+        _view.DisplayAttackResultMessage(attacker, damage, target, targetAffinity);
+        
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
+        
+        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 
     protected abstract string GetActionMessage(Unit attacker, Unit target);

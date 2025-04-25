@@ -44,32 +44,26 @@ public class UseSkillAction
     private void UseAttackSkill(Unit attacker, Skill selectedSkill, Unit target)
     {
         AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
+        
         double baseDamage = GetSkillDamage(attacker, selectedSkill);
+        var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
+        var damage = ActionUtils.GetRoundedIntDamage(affinityDamage);
+
         int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
+            AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+            
             _view.DisplayAttackMessage(attacker, selectedSkill, target);
-            DealDamage(attacker, target, baseDamage, targetAffinity);
+            _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
+            _view.DisplayAttackResultMessage(attacker, damage, target, targetAffinity);
+            
+            if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+            if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
         }
         TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
-
-    private void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
-    {
-        var affinityHandler = new AffinityHandler(_view);
-        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
-        
-        // baseDamage = GetDamageModifiedByAffinity(baseDamage, affinityType);
-        
-        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
-        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-    }
-
-    // private double GetDamageModifiedByAffinity(double baseDamage, AffinityType affinityType)
-    // {
-    //     throw new NotImplementedException();
-    // }
 
     private double GetSkillDamage(Unit attacker, Skill skill)
     {
