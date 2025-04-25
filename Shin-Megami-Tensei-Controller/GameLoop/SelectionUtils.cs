@@ -33,13 +33,14 @@ public class SelectionUtils
         _view.WriteLine($"{label}-Cancelar");
     }
     
-    public Unit GetPlayerObjective(List<Unit> monsters)
+    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false)
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
         List<Unit> validMonsters = new List<Unit>();
         foreach (var monster in monsters)
         {
-            if (monster.IsEmpty() || !monster.IsAlive()) continue;
+            if ((monster.IsEmpty() || !monster.IsAlive()) && !onlyDead) continue;
+            if (onlyDead && monster.IsAlive()) continue;
             validMonsters.Add(monster);
         }
         if (objectiveSelection > validMonsters.Count)
@@ -67,9 +68,27 @@ public class SelectionUtils
 
     public Unit GetTarget(Unit attacker)
     {
+        var player = _gameState.WaitPlayer;
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(_gameState.WaitPlayer.Table.Monsters, selectionPhrase);
-        Unit target = GetPlayerObjective(_gameState.WaitPlayer.Table.Monsters);
+        _view.DisplayMonsterSelection(player.Table.Monsters, selectionPhrase);
+        Unit target = GetTargetMonster(player.Table.Monsters);
+        return target;
+    }
+    
+    public Unit GetAllyTarget(Unit attacker)
+    {
+        var player = _gameState.TurnPlayer;
+        var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
+        _view.DisplayMonsterSelection(player.Table.Monsters, selectionPhrase);
+        Unit target = GetTargetMonster(player.Table.Monsters);
+        return target;
+    }
+
+    public Unit GetDeadAllyTarget(Unit attacker)
+    {
+        var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
+        _view.DisplayMonsterSelection(_gameState.TurnPlayer.GetAllUnits(), selectionPhrase, onlyDead: true);
+        Unit target = GetTargetMonster(_gameState.TurnPlayer.GetAllUnits(), onlyDead: true);
         return target;
     }
 }

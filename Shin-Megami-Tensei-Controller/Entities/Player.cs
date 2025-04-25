@@ -38,4 +38,12 @@ public class Player
     }
     
     public bool IsTeamValid() => Samurai != null;
+
+    public List<Unit> GetAllUnits()
+    {
+        var allUnits = new List<Unit>();
+        if (Samurai != null) allUnits.Add(Samurai);
+        allUnits.AddRange(Units);
+        return allUnits;
+    }
 }

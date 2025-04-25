@@ -85,14 +85,6 @@ public class TurnState
         UseFullTurn(FullTurns);
         UseBlinkingTurn(BlinkingTurns);
     }
-    
-    public void UseTurnsForMiss()
-    {
-        if (BlinkingTurns > 0)
-            UseBlinkingTurn();
-        else
-            UseFullTurn();
-    }
 
     public void PassTurnOrSummonTurn()
     {
@@ -103,5 +95,13 @@ public class TurnState
             UseFullTurn();
             GainBlinkingTurn();
         }
+    }
+
+    public void UseTurnsForNonOffensiveSkill()
+    {
+        if (BlinkingTurns > 0)
+            UseBlinkingTurn();
+        else
+            UseFullTurn();
     }
 }

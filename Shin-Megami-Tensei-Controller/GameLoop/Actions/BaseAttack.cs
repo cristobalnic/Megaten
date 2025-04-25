@@ -30,7 +30,7 @@ public abstract class BaseAttack
     {
         var baseDamage = GetBaseDamage(attacker);
         var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = ActionUtils.GetRoundedIntDamage(affinityDamage);
+        var damage = ActionUtils.GetRoundedInt(affinityDamage);
         AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
         
         _view.WriteLine(GetActionMessage(attacker, target));

@@ -21,7 +21,7 @@ public class SummonAction
     {
         var selectionPhrase = "Seleccione un monstruo para invocar";
         _view.DisplayMonsterSelection(_gameState.TurnPlayer.Table.Reserve, selectionPhrase);
-        Unit monsterSummon = _selectionUtils.GetPlayerObjective(_gameState.TurnPlayer.Table.Reserve);
+        Unit monsterSummon = _selectionUtils.GetTargetMonster(_gameState.TurnPlayer.Table.Reserve);
         summoner.Summon(monsterSummon, _gameState.TurnPlayer.Table, _selectionUtils);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monsterSummon.Name} ha sido invocado");

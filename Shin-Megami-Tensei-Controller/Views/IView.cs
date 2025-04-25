@@ -10,7 +10,7 @@ public interface IView
     void DisplayHpMessage(Unit target);
     void DisplayAttackMessage(Unit attacker, Skill skill, Unit target);
     void DisplayAttackResultMessage(Unit attacker, int damage, Unit target, AffinityType affinityType);
-    void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase);
+    void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase, bool onlyDead = false);
     void DisplayPlayersTables(List<Player> gameStatePlayers);
     void DisplayRoundInit(Player turnPlayer);
     void DisplaySkillSelection(Unit attacker);

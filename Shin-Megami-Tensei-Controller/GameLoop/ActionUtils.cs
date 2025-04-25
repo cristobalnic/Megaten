@@ -4,7 +4,7 @@ namespace Shin_Megami_Tensei.GameLoop;
 
 public class ActionUtils
 {
-    public static int GetRoundedIntDamage(double damage)
+    public static int GetRoundedInt(double damage)
     {
         return Convert.ToInt32(Math.Floor(Math.Max(0, damage)));
     }
