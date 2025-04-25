@@ -20,72 +20,16 @@ public class UseSkillAction
 
     internal void ExecuteUseSkill(Unit attacker)
     {
-        DisplaySkillSelection(attacker);
-        Skill selectedSkill = GetSelectedSkill(attacker);
+        _view.DisplaySkillSelection(attacker);
+        Skill skill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
-        
-        if (selectedSkill.Type is SkillType.Dark or SkillType.Light)
-        {
-            // UseInstantKillSkill(attacker, selectedSkill, target);
-        }
-        else 
-            UseAttackSkill(attacker, selectedSkill, target);
-
-        attacker.Stats.Mp -= selectedSkill.Cost;
+        UseAttackSkill(attacker, skill, target);
+        attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
-
-    // private void UseInstantKillSkill(Unit attacker, Skill selectedSkill, Unit target)
-    // {
-    //     bool skillHasMissed = HasSkillMissed(attacker, selectedSkill, target);
-    //     
-    //     if (skillHasMissed)
-    //     {
-    //         _view.WriteLine($"{attacker.Name} ha fallado con el ataque");
-    //         _view.DisplayHpMessage(target);
-    //     }
-    //     
-    //     
-    //    
-    // }
-    //
-    // private bool HasSkillMissed(Unit attacker, Skill selectedSkill, Unit target)    
-    // {
-    //     AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
-    //     
-    //     if 
-    // }
-
-    private void UseAttackSkill(Unit attacker, Skill selectedSkill, Unit target)
-    {
-        AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
-        double baseDamage = GetSkillDamage(attacker, selectedSkill);
-        int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
-        for (int i = 0; i < hitNumber; i++)
-        {
-            _view.DisplayAttackMessage(attacker, selectedSkill, target);
-            _selectionUtils.DealDamage(attacker, target, baseDamage, targetAffinity);
-        }
-        TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
-        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
-    }
-
-    private void DisplaySkillSelection(Unit attacker)
-    {
-        _view.WriteLine($"Seleccione una habilidad para que {attacker.Name} use");
-        int label = 1;
-        foreach (var skill in attacker.Skills)
-        {
-            if (attacker.Stats.Mp < skill.Cost)
-                continue;
-            _view.WriteLine($"{label}-{skill.Name} MP:{skill.Cost}");
-            label++;
-        }
-        _view.WriteLine($"{label}-Cancelar");
-    }
-
+    
     private Skill GetSelectedSkill(Unit attacker)
     {
         var affordableSkills = attacker.Skills.Where(skill => attacker.Stats.Mp >= skill.Cost).ToList();
@@ -95,6 +39,29 @@ public class UseSkillAction
             throw new CancelObjectiveSelectionException();
         }
         return attacker.Skills[skillSelection-1];
+    }
+    
+    private void UseAttackSkill(Unit attacker, Skill selectedSkill, Unit target)
+    {
+        AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
+        double baseDamage = GetSkillDamage(attacker, selectedSkill);
+        int hitNumber = ActionUtils.GetHits(selectedSkill.Hits, _gameState.TurnPlayer);
+        for (int i = 0; i < hitNumber; i++)
+        {
+            _view.DisplayAttackMessage(attacker, selectedSkill, target);
+            DealDamage(attacker, target, baseDamage, targetAffinity);
+        }
+        TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
+    }
+
+    private void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
+    {
+        var affinityHandler = new AffinityHandler(_view);
+        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
+
+        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
     }
     
     private double GetSkillDamage(Unit attacker, Skill skill)
@@ -107,4 +74,24 @@ public class UseSkillAction
             return Math.Sqrt(attacker.Stats.Mag * skill.Power);
         throw new NotImplementedException("Skill type not implemented for Damage calculation");
     }
+    
+    // private void UseInstantKillSkill(Unit attacker, Skill selectedSkill, Unit target)
+    // {
+    //     bool skillHasMissed = HasSkillMissed(attacker, selectedSkill, target);
+    //     
+    //     if (skillHasMissed)
+    //     {
+    //         _view.WriteLine($"{attacker.Name} ha fallado con el ataque");
+    //         _view.DisplayHpMessage(target);
+    //     }
+    // }
+    //
+    // private bool HasSkillMissed(Unit attacker, Skill selectedSkill, Unit target)    
+    // {
+    //     AffinityType targetAffinity = target.Affinity.GetAffinity(selectedSkill.Type);
+    // }
+
+
+
+
 }

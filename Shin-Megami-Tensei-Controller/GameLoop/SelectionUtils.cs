@@ -65,15 +65,6 @@ public class SelectionUtils
         return validMonsters[summonSelection-1];
     }
 
-    public void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
-    {
-        var affinityHandler = new AffinityHandler(_view);
-        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
-
-        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
-        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-    }
-
     public Unit GetTarget(Unit attacker)
     {
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";

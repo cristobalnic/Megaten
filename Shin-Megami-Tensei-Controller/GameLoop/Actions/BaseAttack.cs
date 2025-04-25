@@ -20,18 +20,27 @@ public abstract class BaseAttack
     internal void Execute(Unit attacker)
     {
         var target = _selectionUtils.GetTarget(attacker);
-        _view.WriteLine(Params.Separator);
-        HandleDamage(attacker, target);
+        AffinityType affinity = GetAffinity(target);
+        HandleDamage(attacker, target, affinity);
+        TurnManager.HandleTurns(_gameState.TurnPlayer, affinity);
     }
 
-    protected void HandleDamage(Unit attacker, Unit target)
+    private void HandleDamage(Unit attacker, Unit target, AffinityType affinity)
     {
+        _view.WriteLine(Params.Separator);
         _view.WriteLine(GetActionMessage(attacker, target));
         double baseDamage = GetBaseDamage(attacker);
-        AffinityType affinity = GetAffinity(target);
-        _selectionUtils.DealDamage(attacker, target, baseDamage, affinity);
-        TurnManager.HandleTurns(_gameState.TurnPlayer, affinity);
+        DealDamage(attacker, target, baseDamage, affinity);
         _view.DisplayHpMessage(affinity == AffinityType.Repel ? attacker : target);
+    }
+
+    private void DealDamage(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
+    {
+        var affinityHandler = new AffinityHandler(_view);
+        affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
+
+        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
+        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
     }
 
     protected abstract string GetActionMessage(Unit attacker, Unit target);
