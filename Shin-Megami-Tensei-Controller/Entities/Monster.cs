@@ -7,7 +7,6 @@ namespace Shin_Megami_Tensei.Entities;
 public class Monster : Unit
 {
     private readonly DataLoader _dataLoader = new();
-    public static readonly Monster EmptySlot = new(new UnitData { Name = "Vacío" , Skills = []});
     
     public Monster(UnitData unitData) : base(unitData)
     {

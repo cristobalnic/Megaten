@@ -41,12 +41,12 @@ public class RoundManager
 
     private void ExecuteTurns()
     {
-        _gameState.TurnPlayer.Table.OrderedUnits = GetAliveMonstersOrderedBySpeed();
+        var orderedUnits = GetAliveMonstersOrderedBySpeed();
         while (HasRemainingTurns())
         {
             _view.DisplayPlayersTables(_gameState.Players);
-            _turnManager.PlayTurn(_gameState.TurnPlayer.Table.OrderedUnits);
-            _gameState.TurnPlayer.Table.OrderedUnits = UpdateUnitOrder(_gameState.TurnPlayer.Table.OrderedUnits);
+            _turnManager.PlayTurn(orderedUnits);
+            orderedUnits = UpdateUnitOrder(orderedUnits);
         }
     }
     private List<Unit> GetAliveMonstersOrderedBySpeed()

@@ -8,7 +8,6 @@ public class Table
     public readonly List<Unit> ActiveUnits = [];
     public List<Unit> Reserve = [];
     private readonly Player _player;
-    public List<Unit> OrderedUnits = [];
 
     public Table(Player player)
     {
@@ -39,7 +38,7 @@ public class Table
         for (int i = 0; i < ActiveUnits.Count; i++)
         {
             if (ActiveUnits[i] != deadMonster || deadMonster is Samurai) continue;
-            ActiveUnits[i] = Monster.EmptySlot;
+            ActiveUnits[i] = EmptySlot.Build();
             Reserve.Add(deadMonster);
             ReorderReserve();
             break;
@@ -52,7 +51,7 @@ public class Table
 
         for (int i = 0; i < emptySlots; i++)
         {
-            ActiveUnits.Add(Monster.EmptySlot);
+            ActiveUnits.Add(EmptySlot.Build());
         }
     }
 
