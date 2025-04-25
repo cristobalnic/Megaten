@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop.Actions;
@@ -51,7 +52,7 @@ public class SummonAction
         if (!monsterSummon.IsAlive())
         {
             _view.WriteLine($"{attacker.Name} revive a {monsterSummon.Name}");
-            var healAmount = ActionUtils.GetRoundedInt(monsterSummon.Stats.MaxHp * (skill.Power * 0.01));
+            var healAmount = AttackUtils.GetRoundedInt(monsterSummon.Stats.MaxHp * (skill.Power * 0.01));
             int currentHp = monsterSummon.Stats.Hp;
             monsterSummon.Stats.Hp = Math.Min(monsterSummon.Stats.MaxHp, currentHp + healAmount);
             int healed = monsterSummon.Stats.Hp - currentHp;

@@ -1,9 +1,10 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
-public static class AffinityHandler
+public static class AffinityUtils
 {
     public static double GetDamageByAffinityRules(double baseDamage, AffinityType affinityType)
     {
@@ -20,12 +21,12 @@ public static class AffinityHandler
     public static void DealDamageByAffinityRules(Unit attacker, int damage, Unit target, AffinityType affinityType)
     {
         if (affinityType == AffinityType.Repel)
-            ActionUtils.ApplyDamage(attacker, damage);
+            AttackUtils.ApplyDamage(attacker, damage);
         
         else if (affinityType == AffinityType.Drain)
-            ActionUtils.ApplyDrain(target, damage);
+            AttackUtils.ApplyDrain(target, damage);
         else
-            ActionUtils.ApplyDamage(target, damage);
+            AttackUtils.ApplyDamage(target, damage);
     }
 
     public static AffinityType GetTargetAffinity(Skill skill, Unit target)
@@ -45,7 +46,7 @@ public static class AffinityHandler
     public static void ExecuteInstantKillByAffinityRules(Unit attacker, Unit target, AffinityType targetAffinity)
     {
         if (targetAffinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
-            ActionUtils.ExecuteInstantKill(target);
+            AttackUtils.ExecuteInstantKill(target);
     }
 }
 

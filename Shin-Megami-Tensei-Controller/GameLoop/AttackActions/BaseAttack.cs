@@ -2,7 +2,7 @@
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.Actions;
+namespace Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 
 public abstract class BaseAttack
 {
@@ -29,9 +29,9 @@ public abstract class BaseAttack
     private void HandleDamage(Unit attacker, Unit target, AffinityType targetAffinity)
     {
         var baseDamage = GetBaseDamage(attacker);
-        var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = ActionUtils.GetRoundedInt(affinityDamage);
-        AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
+        var damage = AttackUtils.GetRoundedInt(affinityDamage);
+        AffinityUtils.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
         
         _view.WriteLine(GetActionMessage(attacker, target));
         _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);

@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Views;
 
@@ -20,7 +21,6 @@ public class UseSkillAction
 
     internal void ExecuteUseSkill(Unit attacker)
     {
-        _view.DisplaySkillSelection(attacker);
         Skill skill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);
 
@@ -32,8 +32,7 @@ public class UseSkillAction
             UseSpecialSkill();
         else
             UseAttackSkill(attacker, skill);
-
-
+        
         attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
@@ -42,6 +41,7 @@ public class UseSkillAction
 
     private Skill GetSelectedSkill(Unit attacker)
     {
+        _view.DisplaySkillSelection(attacker);
         var affordableSkills = attacker.Skills.Where(skill => attacker.Stats.Mp >= skill.Cost).ToList();
         var skillSelection = int.Parse(_view.ReadLine());
         if (skillSelection > affordableSkills.Count)
@@ -59,13 +59,13 @@ public class UseSkillAction
         AffinityType targetAffinity = target.Affinity.GetAffinity(skill.Type);
         
         double baseDamage = GetSkillDamage(attacker, skill);
-        var affinityDamage = AffinityHandler.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = ActionUtils.GetRoundedInt(affinityDamage);
+        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
+        var damage = AttackUtils.GetRoundedInt(affinityDamage);
 
-        int hitNumber = ActionUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
+        int hitNumber = AttackUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
-            AffinityHandler.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+            AffinityUtils.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
             
             _view.DisplayAttackMessage(attacker, skill, target);
             _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
@@ -94,12 +94,12 @@ public class UseSkillAction
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
         
-        AffinityType targetAffinity = AffinityHandler.GetTargetAffinity(skill, target);
+        AffinityType targetAffinity = AffinityUtils.GetTargetAffinity(skill, target);
         
-        bool hasMissed = AffinityHandler.HasInstantKillSkillMissed(attacker, skill, target, targetAffinity);
+        bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(attacker, skill, target, targetAffinity);
 
         
-        if (!hasMissed) AffinityHandler.ExecuteInstantKillByAffinityRules(attacker, target, targetAffinity);
+        if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(attacker, target, targetAffinity);
         
 
         _view.DisplayAttackMessage(attacker, skill, target);
@@ -123,7 +123,7 @@ public class UseSkillAction
             var beneficiary = _selectionUtils.GetAllyTarget(attacker);
             _view.WriteLine(Params.Separator);
             _view.WriteLine($"{attacker.Name} cura a {beneficiary.Name}");
-            var healAmount = ActionUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
+            var healAmount = AttackUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
             int currentHp = beneficiary.Stats.Hp;
             beneficiary.Stats.Hp = Math.Min(beneficiary.Stats.MaxHp, currentHp + healAmount);
             int healed = beneficiary.Stats.Hp - currentHp;
@@ -134,7 +134,7 @@ public class UseSkillAction
         else if (skill.Effect.Contains("KO"))
         {
             var beneficiary = _selectionUtils.GetDeadAllyTarget(attacker);
-            var healAmount = ActionUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
+            var healAmount = AttackUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
             _view.WriteLine(Params.Separator);
             _view.WriteLine($"{attacker.Name} revive a {beneficiary.Name}");
             int currentHp = beneficiary.Stats.Hp;

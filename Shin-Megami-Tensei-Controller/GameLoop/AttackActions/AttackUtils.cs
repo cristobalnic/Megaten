@@ -1,8 +1,8 @@
 ﻿using Shin_Megami_Tensei.Entities;
 
-namespace Shin_Megami_Tensei.GameLoop;
+namespace Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 
-public class ActionUtils
+public static class AttackUtils
 {
     public static int GetRoundedInt(double damage)
     {

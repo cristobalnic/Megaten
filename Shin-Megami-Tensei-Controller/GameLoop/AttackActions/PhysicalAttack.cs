@@ -2,7 +2,7 @@
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.Actions;
+namespace Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
 
 public class PhysicalAttack : BaseAttack
 {

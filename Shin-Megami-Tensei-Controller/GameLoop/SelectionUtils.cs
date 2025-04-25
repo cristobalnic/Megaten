@@ -1,5 +1,4 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Views;
 
