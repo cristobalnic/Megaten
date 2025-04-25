@@ -15,71 +15,39 @@ public class AffinityHandler
 
     public void HandleAffinityEffect(Unit attacker, Unit target, double baseDamage, AffinityType affinityType)
     {
-        if (affinityType == AffinityType.Neutral)
-            HandleNeutral(target, baseDamage);
-        else if (affinityType == AffinityType.Weak)
-            HandleWeak(attacker, target, baseDamage);
+        _view.DisplayAffinityDetectionMessage(attacker, target, affinityType);
+        
+        if (affinityType == AffinityType.Weak)
+        {
+            baseDamage *= Params.WeakDamageMultiplier;
+        }
         else if (affinityType == AffinityType.Resist)
-            HandleResist(attacker, target, baseDamage);
+        {
+            baseDamage *= Params.ResistDamageMultiplier;
+        }
         else if (affinityType == AffinityType.Null)
-            HandleNull(attacker, target);
-        else if (affinityType == AffinityType.Repel)
-            HandleRepel(attacker, target, baseDamage);
+        {
+            baseDamage = 0;
+        }
+        
+        var damage = ActionUtils.GetRoundedIntDamage(baseDamage);
+        ActuallyDealDamage(attacker, damage, target, affinityType);
+            
+        _view.DisplayAttackResultMessage(attacker, damage, target, affinityType);
+    }
+
+    
+
+    private static void ActuallyDealDamage(Unit attacker, int damage, Unit target, AffinityType affinityType)
+    {
+        if (affinityType == AffinityType.Repel)
+            ActionUtils.ApplyDamage(attacker, damage);
+        
         else if (affinityType == AffinityType.Drain)
-            HandleDrain(target, baseDamage);
+            ActionUtils.ApplyDrain(target, damage);
+        else
+            ActionUtils.ApplyDamage(target, damage);
     }
-
-    private void HandleNeutral(Unit target, double baseDamage)
-    {
-        int damage = ActionUtils.GetRoundedIntDamage(baseDamage);
-        ActionUtils.ApplyDamage(target, damage);
-        _view.DisplayDamageMessage(target, damage);
-    }
-    
-    private void HandleWeak(Unit attacker, Unit target, double baseDamage)
-    {
-        double weakDamage = baseDamage * Params.WeakDamageMultiplier;
-        int damage = ActionUtils.GetRoundedIntDamage(weakDamage);
-        _view.WriteLine($"{target.Name} es débil contra el ataque de {attacker.Name}");
-        ActionUtils.ApplyDamage(target, damage);
-        _view.DisplayDamageMessage(target, damage);
-    }
-    
-    private void HandleResist(Unit attacker, Unit target, double baseDamage)
-    {
-        double resistDamage = baseDamage * Params.ResistDamageMultiplier;
-        int damage = ActionUtils.GetRoundedIntDamage(resistDamage);
-        _view.WriteLine($"{target.Name} es resistente el ataque de {attacker.Name}");
-        ActionUtils.ApplyDamage(target, damage);
-        _view.DisplayDamageMessage(target, damage);
-    }
-
-    private void HandleNull(Unit attacker, Unit target)
-    {
-        _view.WriteLine($"{target.Name} bloquea el ataque de {attacker.Name}");
-    }
-
-    private void HandleRepel(Unit attacker, Unit target, double baseDamage)
-    {
-        int damage = ActionUtils.GetRoundedIntDamage(baseDamage);
-        ActionUtils.ApplyDamage(attacker, damage);
-        _view.DisplayRepeledDamageMessage(target, damage, attacker);
-    }
-
-    private void HandleDrain(Unit target, double baseDamage)
-    {
-        int drainDamage = ActionUtils.GetRoundedIntDamage(baseDamage);
-        ActionUtils.ApplyDrain(target, drainDamage);
-        _view.DisplayDrainDamageMessage(target, drainDamage);
-    }
-
-    
-
-    
-
-    
-    
-    
 }
 
 

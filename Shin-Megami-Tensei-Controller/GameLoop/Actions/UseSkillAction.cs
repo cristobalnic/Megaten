@@ -59,11 +59,18 @@ public class UseSkillAction
     {
         var affinityHandler = new AffinityHandler(_view);
         affinityHandler.HandleAffinityEffect(attacker, target, baseDamage, affinityType);
-
+        
+        // baseDamage = GetDamageModifiedByAffinity(baseDamage, affinityType);
+        
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
     }
-    
+
+    // private double GetDamageModifiedByAffinity(double baseDamage, AffinityType affinityType)
+    // {
+    //     throw new NotImplementedException();
+    // }
+
     private double GetSkillDamage(Unit attacker, Skill skill)
     {
         if (skill.Type == SkillType.Phys)

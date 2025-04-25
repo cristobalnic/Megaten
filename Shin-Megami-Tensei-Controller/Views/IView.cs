@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.Views;
 
@@ -8,11 +9,10 @@ public interface IView
     string ReadLine();
     void DisplayHpMessage(Unit target);
     void DisplayAttackMessage(Unit attacker, Skill selectedSkill, Unit target);
-    void DisplayDamageMessage(Unit target, int damage);
-    void DisplayRepeledDamageMessage(Unit target, int damage, Unit attacker);
-    void DisplayDrainDamageMessage(Unit target, int drainDamage);
+    void DisplayAttackResultMessage(Unit attacker, int damage, Unit target, AffinityType affinityType);
     void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase);
     void DisplayPlayersTables(List<Player> gameStatePlayers);
     void DisplayRoundInit(Player turnPlayer);
     void DisplaySkillSelection(Unit attacker);
+    void DisplayAffinityDetectionMessage(Unit attacker, Unit target, AffinityType affinityType);
 }

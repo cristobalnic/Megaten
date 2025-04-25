@@ -68,14 +68,26 @@ public class ConsoleView : IView
     public void DisplayAttackMessage(Unit attacker, Skill selectedSkill, Unit target) 
         => _view.WriteLine($"{attacker.Name} {GetAttackPhrase(selectedSkill.Type)} a {target.Name}");
 
-    public void DisplayDamageMessage(Unit monster, int damage) 
-        => _view.WriteLine($"{monster.Name} recibe {damage} de daño");
-
-    public void DisplayRepeledDamageMessage(Unit target, int repelDamage, Unit attacker) 
-        => _view.WriteLine($"{target.Name} devuelve {repelDamage} daño a {attacker.Name}");
-
-    public void DisplayDrainDamageMessage(Unit target, int drainDamage) 
-        => _view.WriteLine($"{target.Name} absorbe {drainDamage} daño");
+    
+    public void DisplayAffinityDetectionMessage(Unit attacker, Unit target, AffinityType affinityType)
+    {
+        if (affinityType == AffinityType.Weak)
+            _view.WriteLine($"{target.Name} es débil contra el ataque de {attacker.Name}");
+        else if (affinityType == AffinityType.Resist)
+            _view.WriteLine($"{target.Name} es resistente el ataque de {attacker.Name}");
+    }
+    public void DisplayAttackResultMessage(Unit attacker, int damage, Unit target, AffinityType affinityType)
+    {
+        var message = affinityType switch
+        {
+            AffinityType.Neutral or AffinityType.Weak or AffinityType.Resist => $"{target.Name} recibe {damage} de daño",
+            AffinityType.Null => $"{target.Name} bloquea el ataque de {attacker.Name}",
+            AffinityType.Repel => $"{target.Name} devuelve {damage} daño a {attacker.Name}",
+            AffinityType.Drain => $"{target.Name} absorbe {damage} daño",
+            _ => throw new NotImplementedException("Affinity type not implemented for Attack Result Message")
+        };
+        _view.WriteLine(message);
+    }
 
     private static string GetAttackPhrase(SkillType attackType)
     {
