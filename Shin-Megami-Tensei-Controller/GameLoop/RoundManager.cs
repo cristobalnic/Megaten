@@ -81,7 +81,7 @@ public class RoundManager
         var updatedMonsters = new List<Unit>(orderedUnits);
         foreach (var unit in activeUnits)
         {
-            if (unit.IsEmpty()) continue; // Skip empty slots
+            if (unit.IsEmpty() || !unit.IsAlive()) continue; // Skip empty slots
             if (orderedUnits.Contains(unit)) continue; // Already in the order
             bool replaced = false;
             for (var i = 0; i < updatedMonsters.Count; i++)
