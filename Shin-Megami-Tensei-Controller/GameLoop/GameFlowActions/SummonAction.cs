@@ -1,8 +1,8 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
+using Shin_Megami_Tensei.GameLoop.AttackActions;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.Actions;
+namespace Shin_Megami_Tensei.GameLoop.GameFlowActions;
 
 public class SummonAction
 {

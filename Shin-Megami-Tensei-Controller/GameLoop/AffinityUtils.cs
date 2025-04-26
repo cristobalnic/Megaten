@@ -1,6 +1,7 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
+using Shin_Megami_Tensei.GameLoop.AttackActions;
 
 namespace Shin_Megami_Tensei.GameLoop;
 
@@ -18,15 +19,15 @@ public static class AffinityUtils
         return baseDamage;
     }
 
-    public static void DealDamageByAffinityRules(Unit attacker, int damage, Unit target, AffinityType affinityType)
+    public static void DealDamageByAffinityRules(CombatRecord combatRecord)
     {
-        if (affinityType == AffinityType.Repel)
-            AttackUtils.ApplyDamage(attacker, damage);
+        if (combatRecord.Affinity == AffinityType.Repel)
+            AttackUtils.ApplyDamage(combatRecord.Attacker, combatRecord.Damage);
         
-        else if (affinityType == AffinityType.Drain)
-            AttackUtils.ApplyDrain(target, damage);
+        else if (combatRecord.Affinity == AffinityType.Drain)
+            AttackUtils.ApplyDrain(combatRecord.Target, combatRecord.Damage);
         else
-            AttackUtils.ApplyDamage(target, damage);
+            AttackUtils.ApplyDamage(combatRecord.Target, combatRecord.Damage);
     }
 
     public static AffinityType GetTargetAffinity(Skill skill, Unit target)
@@ -34,19 +35,19 @@ public static class AffinityUtils
         return target.Affinity.GetAffinity(skill.Type);
     }
 
-    public static bool HasInstantKillSkillMissed(Unit attacker, Skill skill, Unit target, AffinityType targetAffinity)
+    public static bool HasInstantKillSkillMissed(CombatRecord combatRecord, Skill skill)
     {
-        if (targetAffinity is AffinityType.Neutral)
-            return !(attacker.Stats.Lck + skill.Power >= target.Stats.Lck);
-        if (targetAffinity is AffinityType.Resist)
-            return !(attacker.Stats.Lck + skill.Power >= 2 * target.Stats.Lck);
+        if (combatRecord.Affinity is AffinityType.Neutral)
+            return !(combatRecord.Attacker.Stats.Lck + skill.Power >= combatRecord.Target.Stats.Lck);
+        if (combatRecord.Affinity is AffinityType.Resist)
+            return !(combatRecord.Attacker.Stats.Lck + skill.Power >= 2 * combatRecord.Target.Stats.Lck);
         return false;
     }
 
-    public static void ExecuteInstantKillByAffinityRules(Unit attacker, Unit target, AffinityType targetAffinity)
+    public static void ExecuteInstantKillByAffinityRules(CombatRecord combatRecord)
     {
-        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
-            AttackUtils.ExecuteInstantKill(target);
+        if (combatRecord.Affinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
+            AttackUtils.ExecuteInstantKill(combatRecord.Target);
     }
 }
 

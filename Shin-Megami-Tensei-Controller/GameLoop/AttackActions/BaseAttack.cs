@@ -1,8 +1,9 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
+namespace Shin_Megami_Tensei.GameLoop.AttackActions;
 
 public abstract class BaseAttack
 {
@@ -22,28 +23,29 @@ public abstract class BaseAttack
         var target = _selectionUtils.GetTarget(attacker);
         AffinityType affinity = GetAffinity(target);
         _view.WriteLine(Params.Separator);
-        HandleDamage(attacker, target, affinity);
+        CombatRecord combatRecord = new CombatRecord(attacker, target, 0, affinity);
+        HandleDamage(combatRecord);
         TurnManager.HandleTurns(_gameState.TurnPlayer, affinity);
     }
 
-    private void HandleDamage(Unit attacker, Unit target, AffinityType targetAffinity)
+    private void HandleDamage(CombatRecord combatRecord)
     {
-        var baseDamage = GetBaseDamage(attacker);
-        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = AttackUtils.GetRoundedInt(affinityDamage);
-        AffinityUtils.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+        var baseDamage = GetBaseDamage(combatRecord.Attacker);
+        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, combatRecord.Affinity);
+        combatRecord.Damage = AttackUtils.GetRoundedInt(affinityDamage);
+        AffinityUtils.DealDamageByAffinityRules(combatRecord);
         
-        _view.WriteLine(GetActionMessage(attacker, target));
-        _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
-        _view.DisplayAttackResultMessage(attacker, damage, target, targetAffinity);
+        _view.WriteLine(GetActionMessage(combatRecord));
+        _view.DisplayAffinityDetectionMessage(combatRecord);
+        _view.DisplayAttackResultMessage(combatRecord);
         
-        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
-        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
+        if (!combatRecord.Target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(combatRecord.Target);
+        if (!combatRecord.Attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(combatRecord.Attacker);
         
-        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
+        _view.DisplayHpMessage(combatRecord.Affinity == AffinityType.Repel ? combatRecord.Attacker : combatRecord.Target);
     }
 
-    protected abstract string GetActionMessage(Unit attacker, Unit target);
+    protected abstract string GetActionMessage(CombatRecord combatRecord);
     protected abstract double GetBaseDamage(Unit attacker);
     protected abstract AffinityType GetAffinity(Unit target);
 }

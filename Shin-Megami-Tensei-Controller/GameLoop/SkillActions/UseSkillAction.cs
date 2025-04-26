@@ -1,38 +1,38 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.GameLoop.Actions.AttackActions;
+using Shin_Megami_Tensei.GameLoop.AttackActions;
+using Shin_Megami_Tensei.GameLoop.GameFlowActions;
 using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.Actions;
+namespace Shin_Megami_Tensei.GameLoop.SkillActions;
 
 public class UseSkillAction
 {
     private readonly IView _view;
     private readonly GameState _gameState;
     private readonly SelectionUtils _selectionUtils;
+    private readonly SkillHandlerFactory _skillHandlerFactory;
     
     public UseSkillAction(IView view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;
         _selectionUtils = new SelectionUtils(view, gameState);
+        _skillHandlerFactory = new SkillHandlerFactory(_view, _gameState);
     }
 
     internal void ExecuteUseSkill(Unit attacker)
     {
         Skill skill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);
-
-        if (skill.Type is SkillType.Light or SkillType.Dark)
-            UseInstantKillSkill(attacker, skill);
-        else if (skill.Type is SkillType.Heal)
-            UseHealSkill(attacker, skill);
-        else if (skill.Type is SkillType.Special)
-            UseSpecialSkill();
-        else
-            UseAttackSkill(attacker, skill);
+        var strategy = _skillHandlerFactory.GetSkillStrategy(skill);
         
+        
+        
+        strategy.Execute(attacker, skill);
+
         attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
@@ -50,8 +50,8 @@ public class UseSkillAction
         }
         return attacker.Skills[skillSelection-1];
     }
-    
-    private void UseAttackSkill(Unit attacker, Skill skill)
+
+    public void UseAttackSkill(Unit attacker, Skill skill)
     {
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
@@ -61,15 +61,17 @@ public class UseSkillAction
         double baseDamage = GetSkillDamage(attacker, skill);
         var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
         var damage = AttackUtils.GetRoundedInt(affinityDamage);
+        
+        CombatRecord combatRecord = new CombatRecord(attacker, target, damage, targetAffinity);
 
-        int hitNumber = AttackUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
+        int hitNumber = SkillUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
-            AffinityUtils.DealDamageByAffinityRules(attacker, damage, target, targetAffinity);
+            AffinityUtils.DealDamageByAffinityRules(combatRecord);
             
-            _view.DisplayAttackMessage(attacker, skill, target);
-            _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
-            _view.DisplayAttackResultMessage(attacker, damage, target, targetAffinity);
+            _view.DisplayAttackMessage(combatRecord, skill);
+            _view.DisplayAffinityDetectionMessage(combatRecord);
+            _view.DisplayAttackResultMessage(combatRecord);
             
             if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
             if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
@@ -88,23 +90,26 @@ public class UseSkillAction
             return Math.Sqrt(attacker.Stats.Mag * skill.Power);
         throw new NotImplementedException($"Skill type {skill.Type} not implemented for Damage calculation");
     }
-    
-    private void UseInstantKillSkill(Unit attacker, Skill skill)
+
+    public void UseInstantKillSkill(Unit attacker, Skill skill)
     {
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
         
         AffinityType targetAffinity = AffinityUtils.GetTargetAffinity(skill, target);
-        
-        bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(attacker, skill, target, targetAffinity);
 
+        CombatRecord combatRecord = new CombatRecord(attacker, target, 0, targetAffinity);
         
-        if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(attacker, target, targetAffinity);
+        bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(combatRecord, skill);
+        
+        
+        
+        if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(combatRecord);
         
 
-        _view.DisplayAttackMessage(attacker, skill, target);
-        if (!hasMissed) _view.DisplayAffinityDetectionMessage(attacker, target, targetAffinity);
-        _view.DisplayInstantKillSkillResultMessage(attacker, target, targetAffinity, hasMissed);
+        _view.DisplayAttackMessage(combatRecord, skill);
+        if (!hasMissed) _view.DisplayAffinityDetectionMessage(combatRecord);
+        _view.DisplayInstantKillSkillResultMessage(combatRecord, hasMissed);
         
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
@@ -114,8 +119,8 @@ public class UseSkillAction
         
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
-    
-    private void UseHealSkill(Unit attacker, Skill skill)
+
+    public void UseHealSkill(Unit attacker, Skill skill)
     {
         if (skill.Effect.Contains("eals"))
         {
@@ -150,8 +155,8 @@ public class UseSkillAction
             summonAction.ExecuteHealSummon(attacker, skill);
         }
     }
-    
-    private void UseSpecialSkill()
+
+    public void UseSpecialSkill()
     {
         var summonAction = new SummonAction(_view, _gameState);
         summonAction.ExecuteSpecialSummon();

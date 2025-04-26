@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei.GameLoop.Actions;
+﻿namespace Shin_Megami_Tensei.GameLoop.GameFlowActions;
 
 public class PassTurnAction
 {
