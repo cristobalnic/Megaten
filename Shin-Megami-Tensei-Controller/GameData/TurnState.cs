@@ -1,31 +1,32 @@
-﻿namespace Shin_Megami_Tensei.GameData;
+﻿using Shin_Megami_Tensei.Enums;
+
+namespace Shin_Megami_Tensei.GameData;
 
 public class TurnState
 {
-    public int FullTurns { get; private set; }
-    public int BlinkingTurns { get; private set; }
-
+    private int _fullTurns;
+    private int _blinkingTurns;
     private int _fullTurnsUsed;
     private int _blinkingTurnsUsed;
     private int _blinkingTurnsGained;
     
-    public bool AreTurnsAvailable() => FullTurns > 0 || BlinkingTurns > 0;
+    public bool AreTurnsAvailable() => _fullTurns > 0 || _blinkingTurns > 0;
     
     private void UseFullTurn(int amount = 1)
     {
-        FullTurns -= amount;
+        _fullTurns -= amount;
         _fullTurnsUsed += amount;
     }
 
     private void UseBlinkingTurn(int amount = 1)
     {
-        BlinkingTurns -= amount;
+        _blinkingTurns -= amount;
         _blinkingTurnsUsed += amount;
     }
 
     private void GainBlinkingTurn(int amount = 1)
     {
-        BlinkingTurns += amount;
+        _blinkingTurns += amount;
         _blinkingTurnsGained += amount;
     }
 
@@ -39,11 +40,11 @@ public class TurnState
     public string GetAvailableTurnsReport()
     {
         return $"{Params.Separator}\n" +
-               $"Full Turns: {FullTurns}\n" +
-               $"Blinking Turns: {BlinkingTurns}";
+               $"Full Turns: {_fullTurns}\n" +
+               $"Blinking Turns: {_blinkingTurns}";
     }
     
-    public string GetTurnUsageReport()
+    public string GetUsageReport()
     {
         return $"Se han consumido {_fullTurnsUsed} Full Turn(s) y {_blinkingTurnsUsed} Blinking Turn(s)\n" +
                $"Se han obtenido {_blinkingTurnsGained} Blinking Turn(s)";
@@ -51,21 +52,21 @@ public class TurnState
 
     public void ResetRemainingTurns(Table table)
     {
-        FullTurns = table.ActiveUnits.Count(monster => !monster.IsEmpty() && monster.IsAlive());
-        BlinkingTurns = 0;
+        _fullTurns = table.ActiveUnits.Count(monster => !monster.IsEmpty() && monster.IsAlive());
+        _blinkingTurns = 0;
     }
 
-    public void UseTurnsForNeutralOrResist()
+    private void UseTurnsForNeutralOrResist()
     {
-        if (BlinkingTurns > 0)
+        if (_blinkingTurns > 0)
             UseBlinkingTurn();
         else
             UseFullTurn();
     }
 
-    public void UseTurnsForWeak()
+    private void UseTurnsForWeak()
     {
-        if (FullTurns > 0)
+        if (_fullTurns > 0)
         {
             UseFullTurn();
             GainBlinkingTurn();
@@ -74,26 +75,26 @@ public class TurnState
             UseBlinkingTurn();
     }
 
-    public void UseTurnsForNull()
+    private void UseTurnsForNull()
     {
         for (int i = 0; i < 2; i++)
         {
-            if (BlinkingTurns > 0)
+            if (_blinkingTurns > 0)
                 UseBlinkingTurn();
-            else if (FullTurns > 0)
+            else if (_fullTurns > 0)
                 UseFullTurn();
         }
     }
 
-    public void UseTurnsForRepelOrDrain()
+    private void UseTurnsForRepelOrDrain()
     {
-        UseFullTurn(FullTurns);
-        UseBlinkingTurn(BlinkingTurns);
+        UseFullTurn(_fullTurns);
+        UseBlinkingTurn(_blinkingTurns);
     }
 
-    public void PassTurnOrSummonTurn()
+    public void UseTurnsForPassOrSummon()
     {
-        if (BlinkingTurns > 0)
+        if (_blinkingTurns > 0)
             UseBlinkingTurn();
         else
         {
@@ -104,9 +105,21 @@ public class TurnState
 
     public void UseTurnsForNonOffensiveSkill()
     {
-        if (BlinkingTurns > 0)
+        if (_blinkingTurns > 0)
             UseBlinkingTurn();
         else
             UseFullTurn();
+    }
+
+    public void UseTurnsByTargetAffinity(AffinityType targetAffinity)
+    {
+        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist)
+            UseTurnsForNeutralOrResist();
+        else if (targetAffinity is AffinityType.Weak)
+            UseTurnsForWeak();
+        else if (targetAffinity is AffinityType.Null)
+            UseTurnsForNull();
+        else if (targetAffinity is AffinityType.Repel or AffinityType.Drain)
+            UseTurnsForRepelOrDrain();
     }
 }

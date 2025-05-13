@@ -2,7 +2,6 @@
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.GameLoop;
 using Shin_Megami_Tensei.GameSetup;
-using Shin_Megami_Tensei.Utils;
 
 namespace Shin_Megami_Tensei.Entities;
 

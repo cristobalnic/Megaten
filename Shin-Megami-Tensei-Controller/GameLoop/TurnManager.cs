@@ -25,7 +25,7 @@ public class TurnManager
     {
         DisplayPlayerAvailableTurns();
         DisplayPlayerMonstersOrderedBySpeed(orderedMonsters);
-        TryToExecuteAction(orderedMonsters);
+        TryToExecuteAction(orderedMonsters[0]);
         UpdateTurnState();
         DisplayWinnerIfExists();
     }
@@ -50,16 +50,16 @@ public class TurnManager
         }
     }
     
-    private void TryToExecuteAction(List<Unit> orderedMonsters)
+    private void TryToExecuteAction(Unit monster)
     {
         try
         {
-            _actionManager.DisplayPlayerActionSelectionMenu(orderedMonsters[0]);
-            _actionManager.PlayerActionExecution(orderedMonsters[0]);
+            _actionManager.DisplayPlayerActionSelectionMenu(monster);
+            _actionManager.PlayerActionExecution(monster);
         }
         catch (CancelObjectiveSelectionException)
         {
-            TryToExecuteAction(orderedMonsters);
+            TryToExecuteAction(monster);
         }
     }
     
@@ -67,7 +67,7 @@ public class TurnManager
     {
         var turnState = _gameState.TurnPlayer.TurnState;
         _view.WriteLine(Params.Separator);
-        _view.WriteLine(turnState.GetTurnUsageReport());
+        _view.WriteLine(turnState.GetUsageReport());
         turnState.ResetUsage();
     }
     
@@ -96,17 +96,5 @@ public class TurnManager
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"Ganador: {winner.Samurai.Name} (J{winner.Id})");
         throw new EndGameException();
-    }
-
-    public static void HandleTurns(Player turnPlayer, AffinityType targetAffinity)
-    {
-        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist)
-            turnPlayer.TurnState.UseTurnsForNeutralOrResist();
-        else if (targetAffinity is AffinityType.Weak)
-            turnPlayer.TurnState.UseTurnsForWeak();
-        else if (targetAffinity is AffinityType.Null)
-            turnPlayer.TurnState.UseTurnsForNull();
-        else if (targetAffinity is AffinityType.Repel or AffinityType.Drain)
-            turnPlayer.TurnState.UseTurnsForRepelOrDrain();
     }
 }

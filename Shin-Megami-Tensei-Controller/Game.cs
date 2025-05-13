@@ -1,5 +1,4 @@
-﻿using Shin_Megami_Tensei_View;
-using Shin_Megami_Tensei_View.ConsoleLib;
+﻿using Shin_Megami_Tensei_View.ConsoleLib;
 using Shin_Megami_Tensei.ErrorHandling;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.GameLoop;

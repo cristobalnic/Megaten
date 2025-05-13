@@ -27,7 +27,7 @@ public abstract class BaseAttack
         _view.WriteLine(Params.Separator);
         CombatRecord combatRecord = new CombatRecord(attacker, target, 0, affinity);
         HandleDamage(combatRecord);
-        TurnManager.HandleTurns(_gameState.TurnPlayer, affinity);
+        _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(affinity);
     }
 
     private void HandleDamage(CombatRecord combatRecord)

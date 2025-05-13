@@ -74,7 +74,7 @@ public class UseSkillAction
             if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
             if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
         }
-        TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 
@@ -102,7 +102,7 @@ public class UseSkillAction
         _view.DisplayInstantKillSkillResultMessage(combatRecord, hasMissed);
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-        if (!hasMissed) TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
+        if (!hasMissed) _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
         else _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }

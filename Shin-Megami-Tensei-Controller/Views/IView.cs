@@ -1,6 +1,5 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.Views;
 

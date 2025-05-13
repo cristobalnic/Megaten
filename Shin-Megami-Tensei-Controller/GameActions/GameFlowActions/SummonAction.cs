@@ -28,7 +28,7 @@ public class SummonAction
         summoner.Summon(monsterSummon, _gameState.TurnPlayer.Table, _selectionUtils);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monsterSummon.Name} ha sido invocado");
-        _gameState.TurnPlayer.TurnState.PassTurnOrSummonTurn();
+        _gameState.TurnPlayer.TurnState.UseTurnsForPassOrSummon();
     }
 
     internal void ExecuteSpecialSummon()

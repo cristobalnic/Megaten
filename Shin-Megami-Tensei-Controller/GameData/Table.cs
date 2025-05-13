@@ -46,20 +46,13 @@ public class Table
     public void FillEmptySlots()
     {
         int emptySlots = Params.MaxUnitsAllowedInTablePerSide - ActiveUnits.Count;
-
-        for (int i = 0; i < emptySlots; i++)
-        {
-            ActiveUnits.Add(EmptySlot.Build());
-        }
+        for (int i = 0; i < emptySlots; i++) ActiveUnits.Add(EmptySlot.Build());
     }
 
     public void ReplaceMonster(Unit activeMonster, Unit reserveMonster)
     {
         int activeIndex = ActiveUnits.IndexOf(activeMonster);
         int reserveIndex = Reserve.IndexOf(reserveMonster);
-        
-        
-        
         ActiveUnits[activeIndex] = reserveMonster;
         Reserve[reserveIndex] = activeMonster;
         ReorderReserve();
