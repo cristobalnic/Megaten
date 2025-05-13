@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.MegatenErrorHandling;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
@@ -44,6 +45,8 @@ public class TeamLoader
     {
         if (unitRawData.StartsWith("[Samurai]"))
         {
+            if (!currentPlayer.Samurai.IsEmpty())
+                throw new InvalidTeamException();
             _dataLoader.LoadSamuraiUnitToPlayer(unitRawData, currentPlayer);
             _dataLoader.LoadSkillsToSamurai(unitRawData, currentPlayer.Samurai);
         }

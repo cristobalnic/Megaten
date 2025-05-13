@@ -16,9 +16,9 @@ public class SurrenderAction
 
     internal void ExecuteSurrender()
     {
-        _view.WriteLine($"{_gameState.TurnPlayer.Samurai?.Name} (J{_gameState.TurnPlayer.Id}) se rinde");
+        _view.WriteLine($"{_gameState.TurnPlayer.Samurai.Name} (J{_gameState.TurnPlayer.Id}) se rinde");
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ganador: {_gameState.WaitPlayer.Samurai?.Name} (J{_gameState.WaitPlayer.Id})");
+        _view.WriteLine($"Ganador: {_gameState.WaitPlayer.Samurai.Name} (J{_gameState.WaitPlayer.Id})");
         throw new EndGameException();
     }
 }

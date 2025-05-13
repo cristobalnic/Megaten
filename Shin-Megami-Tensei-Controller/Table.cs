@@ -4,7 +4,6 @@ namespace Shin_Megami_Tensei;
 
 public class Table
 {
-    public Samurai? Samurai;
     public readonly List<Unit> ActiveUnits = [];
     public List<Unit> Reserve = [];
     private readonly Player _player;
@@ -15,10 +14,9 @@ public class Table
     }
 
 
-    public void SetSamurai(Samurai? samurai)
+    public void AddSamuraiToTable(Samurai samurai)
     {
-        Samurai = samurai;
-        if (Samurai != null) AddMonster(Samurai);
+        AddMonster(samurai);
     }
 
     public void AddMonster(Unit monster)

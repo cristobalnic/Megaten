@@ -18,7 +18,7 @@ public class EmptySlot : Unit
     {
         var unitData = new UnitData
         {
-            Name = "Vacío",
+            Name = Params.EmptyUnitName,
         };
         return new EmptySlot(unitData);
     }

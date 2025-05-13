@@ -23,7 +23,7 @@ public class ConsoleView : IView
     public void DisplayRoundInit(Player turnPlayer)
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ronda de {turnPlayer.Samurai?.Name} (J{turnPlayer.Id})");
+        _view.WriteLine($"Ronda de {turnPlayer.Samurai.Name} (J{turnPlayer.Id})");
     }
 
     public void DisplayPlayersTables(List<Player> players)
@@ -31,7 +31,7 @@ public class ConsoleView : IView
         _view.WriteLine(Params.Separator);
         foreach (var player in players)
         {
-            var phrase = $"Equipo de {player.Table.Samurai?.Name} (J{player.Id})";
+            var phrase = $"Equipo de {player.Samurai.Name} (J{player.Id})";
             DisplayPlayerTable(player.Table.ActiveUnits, phrase);
         }
     }

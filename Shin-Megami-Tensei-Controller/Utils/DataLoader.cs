@@ -46,14 +46,14 @@ public class DataLoader
         currentPlayer.SetSamurai(samurai);
     }
 
-    public  void LoadSkillsToSamurai(string samuraiRawData, Samurai? samurai)
+    public  void LoadSkillsToSamurai(string samuraiRawData, Samurai samurai)
     {
         if (!samuraiRawData.Contains('(')) return;
         var samuraiSkillsNames = StringFormatter.GetSamuraiSkills(samuraiRawData);
         foreach (var skillName in samuraiSkillsNames)
         {
             var skillData = GetSkillDataFromJson(skillName);
-            samurai?.EquipSkill(skillData);
+            samurai.EquipSkill(skillData);
         }
     }
 

@@ -2,9 +2,9 @@
 
 public static class Params
 {
-    public static string SamuraiPath { get; } = "data/samurai.json";
-    public static string MonsterPath { get; } = "data/monsters.json";
-    public static string SkillPath { get; } = "data/skills.json";
+    public static string SamuraiPath => "data/samurai.json";
+    public static string MonsterPath => "data/monsters.json";
+    public static string SkillPath => "data/skills.json";
     public const int MaxUnitsAllowed = 7;
     public const int RequiredSamurais = 1;
     public const int MaxSamuraiSkillsAllowed = 8;
@@ -36,4 +36,5 @@ public static class Params
 
     public const double WeakDamageMultiplier = 1.5;
     public const double ResistDamageMultiplier = 0.5;
+    public const string EmptyUnitName = "Vacío";
 }

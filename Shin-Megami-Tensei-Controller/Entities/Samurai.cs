@@ -6,6 +6,8 @@ namespace Shin_Megami_Tensei.Entities;
 
 public class Samurai(UnitData unitData) : Unit(unitData)
 {
+    internal static readonly Samurai Empty = new(new UnitData { Name = Params.EmptyUnitName });
+    
     public void EquipSkill(SkillData skillData)
     {
         if (Skills.Count >= Params.MaxSamuraiSkillsAllowed)

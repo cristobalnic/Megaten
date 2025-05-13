@@ -97,7 +97,7 @@ public class TurnManager
     private void DeclareWinner(Player winner)
     {
         _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Ganador: {winner.Samurai?.Name} (J{winner.Id})");
+        _view.WriteLine($"Ganador: {winner.Samurai.Name} (J{winner.Id})");
         throw new EndGameException();
     }
 

@@ -21,7 +21,7 @@ public abstract class Unit
     
     public bool IsAlive() => Stats.Hp > 0;
 
-    public bool IsEmpty() => Name == "Vacío";
+    public bool IsEmpty() => Name == Params.EmptyUnitName;
 
     public abstract void Summon(Unit monsterSummon, Table summonerTable, SelectionUtils selectionUtils);
 }

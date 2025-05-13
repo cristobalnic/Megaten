@@ -8,7 +8,7 @@ public static class TableSetup
     {
         foreach (var player in players)
         {
-            player.Table.SetSamurai(player.Samurai);
+            player.Table.AddSamuraiToTable(player.Samurai);
             foreach (var monster in player.Units) player.Table.AddMonster(monster);
             player.Table.FillEmptySlots();
         }
