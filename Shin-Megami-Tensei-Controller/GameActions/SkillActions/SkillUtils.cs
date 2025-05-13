@@ -1,6 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 
-namespace Shin_Megami_Tensei.GameLoop.SkillActions;
+namespace Shin_Megami_Tensei.GameActions.SkillActions;
 
 public class SkillUtils
 {

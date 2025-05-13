@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
@@ -42,7 +43,7 @@ public class RoundManager
     private void ExecuteTurns()
     {
         var orderedUnits = GetAliveMonstersOrderedBySpeed();
-        while (HasRemainingTurns())
+        while (_gameState.TurnPlayer.HasRemainingTurns())
         {
             _view.DisplayPlayersTables(_gameState.Players);
             _turnManager.PlayTurn(orderedUnits);
@@ -55,11 +56,6 @@ public class RoundManager
         foreach (var monster in _gameState.TurnPlayer.Table.ActiveUnits)
             if (!monster.IsEmpty() && monster.IsAlive()) monsters.Add(monster);
         return monsters.OrderByDescending(monster => monster.Stats.Spd).ToList();
-    }
-    private bool HasRemainingTurns()
-    {
-        var turnState = _gameState.TurnPlayer.TurnState;
-        return turnState.FullTurns > 0 || turnState.BlinkingTurns > 0;
     }
     
     private List<Unit> UpdateUnitOrder(List<Unit> currentOrder)

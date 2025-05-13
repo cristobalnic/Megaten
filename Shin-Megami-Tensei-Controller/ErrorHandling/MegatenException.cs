@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei.MegatenErrorHandling;
+﻿namespace Shin_Megami_Tensei.ErrorHandling;
 
 public abstract class MegatenException : ApplicationException
 {

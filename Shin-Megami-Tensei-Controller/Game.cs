@@ -1,8 +1,10 @@
 ﻿using Shin_Megami_Tensei_View;
+using Shin_Megami_Tensei_View.ConsoleLib;
+using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.GameLoop;
 using Shin_Megami_Tensei.GameSetup;
-using Shin_Megami_Tensei.MegatenErrorHandling;
-using Shin_Megami_Tensei.Views;
+using ConsoleView = Shin_Megami_Tensei.Views.ConsoleView;
 
 namespace Shin_Megami_Tensei;
 
@@ -43,7 +45,7 @@ public class Game
     
     private void SetupGame()
     {
-        SetupView.DisplayTeamFileSelection(_view, _teamsFolder);
+        ViewSetup.DisplayTeamFileSelection(_view, _teamsFolder);
         _teamLoader.LoadTeams();
         TeamValidator.ValidateTeams(_gameState.Players);
         TableSetup.SetupTable(_gameState.Players);

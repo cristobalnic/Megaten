@@ -1,7 +1,8 @@
-﻿using Shin_Megami_Tensei.MegatenErrorHandling;
+﻿using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.GameFlowActions;
+namespace Shin_Megami_Tensei.GameActions.GameFlowActions;
 
 public class SurrenderAction
 {

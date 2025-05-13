@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.GameLoop;
 
 namespace Shin_Megami_Tensei.Entities;

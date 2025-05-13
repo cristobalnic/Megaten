@@ -1,6 +1,6 @@
 using Shin_Megami_Tensei.Entities;
 
-namespace Shin_Megami_Tensei;
+namespace Shin_Megami_Tensei.GameData;
 
 public class GameState
 {

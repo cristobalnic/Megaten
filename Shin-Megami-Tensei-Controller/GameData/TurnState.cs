@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei;
+﻿namespace Shin_Megami_Tensei.GameData;
 
 public class TurnState
 {
@@ -8,7 +8,9 @@ public class TurnState
     private int _fullTurnsUsed;
     private int _blinkingTurnsUsed;
     private int _blinkingTurnsGained;
-
+    
+    public bool AreTurnsAvailable() => FullTurns > 0 || BlinkingTurns > 0;
+    
     private void UseFullTurn(int amount = 1)
     {
         FullTurns -= amount;
@@ -34,7 +36,14 @@ public class TurnState
         _blinkingTurnsGained = 0;
     }
 
-    public string GetReport()
+    public string GetAvailableTurnsReport()
+    {
+        return $"{Params.Separator}\n" +
+               $"Full Turns: {FullTurns}\n" +
+               $"Blinking Turns: {BlinkingTurns}";
+    }
+    
+    public string GetTurnUsageReport()
     {
         return $"Se han consumido {_fullTurnsUsed} Full Turn(s) y {_blinkingTurnsUsed} Blinking Turn(s)\n" +
                $"Se han obtenido {_blinkingTurnsGained} Blinking Turn(s)";

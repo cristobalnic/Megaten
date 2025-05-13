@@ -1,12 +1,14 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.GameLoop.AttackActions;
-using Shin_Megami_Tensei.GameLoop.GameFlowActions;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameActions.AttackActions;
+using Shin_Megami_Tensei.GameActions.GameFlowActions;
+using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.GameLoop;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop.SkillActions;
+namespace Shin_Megami_Tensei.GameActions.SkillActions;
 
 public class UseSkillAction
 {

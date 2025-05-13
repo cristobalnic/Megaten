@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;

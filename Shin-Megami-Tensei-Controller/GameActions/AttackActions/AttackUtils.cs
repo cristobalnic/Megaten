@@ -1,6 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 
-namespace Shin_Megami_Tensei.GameLoop.AttackActions;
+namespace Shin_Megami_Tensei.GameActions.AttackActions;
 
 public static class AttackUtils
 {

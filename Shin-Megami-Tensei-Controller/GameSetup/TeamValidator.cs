@@ -1,5 +1,5 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.ErrorHandling;
 
 namespace Shin_Megami_Tensei.GameSetup;
 

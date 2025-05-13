@@ -2,7 +2,7 @@
 
 namespace Shin_Megami_Tensei.GameSetup;
 
-public static class SetupView
+public static class ViewSetup
 {
     internal static void DisplayTeamFileSelection(IView view, string teamsFolder)
     {

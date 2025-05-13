@@ -2,9 +2,11 @@
 using System.Text.Json.Serialization;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.Utils;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace Shin_Megami_Tensei.Utils;
+namespace Shin_Megami_Tensei.GameSetup;
 
 public class DataLoader
 {

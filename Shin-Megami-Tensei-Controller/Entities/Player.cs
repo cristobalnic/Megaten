@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.MegatenErrorHandling;
+﻿using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameData;
 
 namespace Shin_Megami_Tensei.Entities;
 
@@ -39,4 +40,6 @@ public class Player
         allUnits.AddRange(Units);
         return allUnits;
     }
+
+    public bool HasRemainingTurns() => TurnState.AreTurnsAvailable();
 }

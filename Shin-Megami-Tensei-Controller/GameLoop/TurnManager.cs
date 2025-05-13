@@ -1,6 +1,7 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.MegatenErrorHandling;
+using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
@@ -29,13 +30,9 @@ public class TurnManager
         DisplayWinnerIfExists();
     }
     
-    private void DisplayPlayerAvailableTurns()
-    {
-        _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Full Turns: {_gameState.TurnPlayer.TurnState.FullTurns}");
-        _view.WriteLine($"Blinking Turns: {_gameState.TurnPlayer.TurnState.BlinkingTurns}");
-    }
-    
+    private void DisplayPlayerAvailableTurns() 
+        => _view.WriteLine(_gameState.TurnPlayer.TurnState.GetAvailableTurnsReport());
+
     private void DisplayPlayerMonstersOrderedBySpeed(List<Unit> orderedMonsters)
     {
         _view.WriteLine(Params.Separator);
@@ -70,7 +67,7 @@ public class TurnManager
     {
         var turnState = _gameState.TurnPlayer.TurnState;
         _view.WriteLine(Params.Separator);
-        _view.WriteLine(turnState.GetReport());
+        _view.WriteLine(turnState.GetTurnUsageReport());
         turnState.ResetUsage();
     }
     
