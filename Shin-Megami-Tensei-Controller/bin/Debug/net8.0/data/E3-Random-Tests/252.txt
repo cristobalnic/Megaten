@@ -401,29 +401,127 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 251
 ----------------------------------------
-Ronda de Kei (J1)
+Ronda de Aleph (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:257/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:202/202 MP:196/196
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:197/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aleph
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Aleph use
+1-Recarmdra MP:2
+2-Nihil Claw MP:11
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Tamaki HP:999/999 MP:542/542
+2-Cabracan HP:483/483 MP:216/216
+3-Churel HP:197/197 MP:190/190
+4-Kresnik HP:624/624 MP:124/124
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph ataca a Churel
+Churel recibe 157 de daño
+Churel termina con HP:40/197
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1309/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:40/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kama
-2-Koumokuten
-3-Kingu
-4-Kei
+1-Cabracan
+2-Kresnik
+3-Churel
+4-Tamaki
 ----------------------------------------
-Seleccione una acción para Kama
+Seleccione una acción para Cabracan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cabracan
+1-Aleph HP:1309/1309 MP:613/613
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Cabracan ataca a Aleph
+Aleph es resistente el ataque de Cabracan
+Aleph recibe 20 de daño
+Aleph termina con HP:1289/1309
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1289/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:40/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kresnik
+2-Churel
+3-Tamaki
+4-Cabracan
+----------------------------------------
+Seleccione una acción para Kresnik
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -433,40 +531,27 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:257/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:202/202 MP:196/196
+Equipo de Aleph (J1)
+A-Aleph HP:1289/1309 MP:613/613
+B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:40/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Koumokuten
-2-Kingu
-3-Kei
-4-Kama
+1-Churel
+2-Tamaki
+3-Cabracan
+4-Kresnik
 ----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lham Dearg HP:91/91 MP:19/19
-2-Alraune HP:427/427 MP:192/192
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koumokuten
+Seleccione una acción para Churel
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -476,204 +561,187 @@ INPUT: 4
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:257/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:202/202 MP:196/196
+Equipo de Aleph (J1)
+A-Aleph HP:1289/1309 MP:613/613
+B-
 C-
 D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kingu
-2-Kei
-3-Kama
-4-Koumokuten
-----------------------------------------
-Seleccione una acción para Kingu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kingu
-1-Tadano HP:388/388 MP:193/193
-2-Yurlungur HP:202/202 MP:196/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kingu ataca a Yurlungur
-Yurlungur recibe 34 de daño
-Yurlungur termina con HP:168/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:257/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:168/202 MP:196/196
-C-
-D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:999/999 MP:542/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:40/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kei
-2-Kama
-3-Koumokuten
-4-Kingu
+1-Tamaki
+2-Cabracan
+3-Kresnik
+4-Churel
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Tamaki
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:257/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:168/202 MP:196/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kama
-2-Koumokuten
-3-Kingu
-4-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Kama
-1-Kei HP:760/760 MP:398/398
-2-Kingu HP:464/464 MP:91/91
-3-Kama HP:574/574 MP:257/257
-4-Koumokuten HP:378/378 MP:170/170
-5-Cancelar
-INPUT: 2
+Seleccione una habilidad para que Tamaki use
+1-Recarmdra MP:2
+2-Breath MP:24
+3-Thunder Reign MP:22
+4-Judgement Light MP:45
+5-Critical Wave MP:10
+6-Rapid Needle MP:9
+7-Megidolaon MP:60
+8-Cancelar
+INPUT: 1
 ----------------------------------------
-Kama cura a Kingu
-Kingu recibe 464 de HP
-Kingu termina con HP:464/464
+Tamaki cura a Cabracan
+Cabracan recibe 241 de HP
+Cabracan termina con HP:483/483
+Tamaki cura a Churel
+Churel recibe 98 de HP
+Churel termina con HP:138/197
+Tamaki cura a Kresnik
+Kresnik recibe 312 de HP
+Kresnik termina con HP:624/624
+Tamaki termina con HP:0/999
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:168/202 MP:196/196
+Equipo de Aleph (J1)
+A-Aleph HP:1289/1309 MP:613/613
+B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Koumokuten
-2-Kingu
-3-Kei
-4-Kama
+1-Cabracan
+2-Kresnik
+3-Churel
 ----------------------------------------
-Seleccione una acción para Koumokuten
+Seleccione una acción para Cabracan
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:388/388 MP:193/193
-2-Yurlungur HP:168/202 MP:196/196
-3-Cancelar
-INPUT: 2
+Seleccione un objetivo para Cabracan
+1-Aleph HP:1289/1309 MP:613/613
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Koumokuten ataca a Yurlungur
-Yurlungur recibe 30 de daño
-Yurlungur termina con HP:138/202
+Cabracan ataca a Aleph
+Aleph es resistente el ataque de Cabracan
+Aleph recibe 20 de daño
+Aleph termina con HP:1269/1309
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tadano (J2)
+Ronda de Aleph (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Kingu HP:464/464 MP:91/91
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:138/202 MP:196/196
+Equipo de Aleph (J1)
+A-Aleph HP:1269/1309 MP:613/613
+B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:624/624 MP:124/124
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Yurlungur
-2-Tadano
+1-Aleph
 ----------------------------------------
-Seleccione una acción para Yurlungur
+Seleccione una acción para Aleph
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aleph
+1-Cabracan HP:483/483 MP:216/216
+2-Churel HP:138/197 MP:190/190
+3-Kresnik HP:624/624 MP:124/124
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aleph ataca a Kresnik
+Kresnik recibe 157 de daño
+Kresnik termina con HP:467/624
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Aleph (J1)
+A-Aleph HP:1269/1309 MP:613/613
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:124/124
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Cabracan
+2-Kresnik
+3-Churel
+----------------------------------------
+Seleccione una acción para Cabracan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cabracan
+1-Aleph HP:1269/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cabracan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Cabracan
+1-Aleph HP:1269/1309 MP:613/613
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Cabracan
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -684,60 +752,7 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Yurlungur use
-1-Blast Arrow MP:16
-2-Ice Breath MP:21
-3-Dekaja MP:10
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Yurlungur dispara a Kei
-Kei es resistente el ataque de Yurlungur
-Kei recibe 33 de daño
-Kei termina con HP:727/760
-Yurlungur dispara a Kingu
-Kingu recibe 67 de daño
-Kingu termina con HP:397/464
-Yurlungur dispara a Kama
-Kama bloquea el ataque de Yurlungur
-Kama termina con HP:574/574
-Yurlungur dispara a Koumokuten
-Koumokuten recibe 67 de daño
-Koumokuten termina con HP:311/378
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:727/760 MP:398/398
-B-Kingu HP:397/464 MP:91/91
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:311/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:138/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Koumokuten
-3-Kingu
-4-Kei
-----------------------------------------
-Seleccione una acción para Kama
+Seleccione una acción para Cabracan
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -747,2266 +762,223 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:727/760 MP:398/398
-B-Kingu HP:397/464 MP:91/91
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:311/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:138/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kingu
-3-Kei
-4-Kama
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:388/388 MP:193/193
-2-Yurlungur HP:138/202 MP:180/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Koumokuten ataca a Yurlungur
-Yurlungur recibe 30 de daño
-Yurlungur termina con HP:108/202
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:727/760 MP:398/398
-B-Kingu HP:397/464 MP:91/91
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:311/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:108/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kingu
-2-Kei
-3-Kama
-4-Koumokuten
-----------------------------------------
-Seleccione una acción para Kingu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kingu
-1-Tadano HP:388/388 MP:193/193
-2-Yurlungur HP:108/202 MP:180/196
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Kingu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kingu use
-1-Zanma MP:8
-2-Recarmdra MP:2
-3-Shock MP:21
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Kingu cura a Kei
-Kei recibe 380 de HP
-Kei termina con HP:760/760
-Kingu cura a Kama
-Kama recibe 287 de HP
-Kama termina con HP:574/574
-Kingu cura a Koumokuten
-Koumokuten recibe 189 de HP
-Koumokuten termina con HP:378/378
-Kingu cura a Lham Dearg
-Lham Dearg recibe 45 de HP
-Lham Dearg termina con HP:91/91
-Kingu cura a Alraune
-Alraune recibe 213 de HP
-Alraune termina con HP:427/427
-Kingu termina con HP:0/464
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:241/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:108/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Koumokuten
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Kama
-1-Kei HP:760/760 MP:398/398
-2-Kama HP:574/574 MP:241/257
-3-Koumokuten HP:378/378 MP:170/170
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Kama cura a Kei
-Kei recibe 760 de HP
-Kei termina con HP:760/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:170/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:193/193
-B-Yurlungur HP:108/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:388/388 MP:193/193
-2-Yurlungur HP:108/202 MP:180/196
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Tadano
-Tadano es resistente el ataque de Koumokuten
-Tadano recibe 41 de daño
-Tadano termina con HP:347/388
-Koumokuten ataca a Yurlungur
-Yurlungur recibe 82 de daño
-Yurlungur termina con HP:26/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:347/388 MP:193/193
-B-Yurlungur HP:26/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yurlungur
-2-Tadano
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:347/388 MP:193/193
-B-Yurlungur HP:26/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Yurlungur
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:347/388 MP:193/193
-B-Yurlungur HP:26/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yurlungur
-2-Tadano
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:347/388 MP:193/193
-B-Yurlungur HP:26/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Yurlungur
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Javelin Rain MP:21
-2-Mediarama MP:22
-3-Gather Spirit Energy MP:25
-4-Bufu MP:5
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Javelin Rain MP:21
-2-Mediarama MP:22
-3-Gather Spirit Energy MP:25
-4-Bufu MP:5
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano cura a Yurlungur
-Yurlungur recibe 101 de HP
-Yurlungur termina con HP:127/202
-Tadano cura a Tadano
-Tadano recibe 194 de HP
-Tadano termina con HP:388/388
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:171/193
-B-Yurlungur HP:127/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Koumokuten
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kama
-1-Tadano HP:388/388 MP:171/193
-2-Yurlungur HP:127/202 MP:180/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kama ataca a Yurlungur
-Yurlungur recibe 48 de daño
-Yurlungur termina con HP:79/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:153/170
-Equipo de Tadano (J2)
-A-Tadano HP:388/388 MP:171/193
-B-Yurlungur HP:79/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lham Dearg HP:91/91 MP:19/19
-2-Alraune HP:427/427 MP:192/192
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:388/388 MP:171/193
-2-Yurlungur HP:79/202 MP:180/196
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:388/388 MP:171/193
-2-Yurlungur HP:79/202 MP:180/196
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten lanza electricidad a Tadano
-Tadano recibe 98 de daño
-Tadano termina con HP:290/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:139/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-Yurlungur HP:79/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Kama
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Yurlungur HP:79/202 MP:180/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kei ataca a Yurlungur
-Yurlungur recibe 19 de daño
-Yurlungur termina con HP:60/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:139/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-Yurlungur HP:60/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yurlungur
-2-Tadano
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:139/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-Yurlungur HP:60/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Yurlungur
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:760/760 MP:398/398
-2-Kama HP:574/574 MP:225/257
-3-Koumokuten HP:378/378 MP:139/170
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano dispara a Kama
-Kama bloquea el ataque de Tadano
-Kama termina con HP:574/574
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:139/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-Yurlungur HP:60/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Koumokuten
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kama
-1-Tadano HP:290/388 MP:171/193
-2-Yurlungur HP:60/202 MP:180/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kama ataca a Yurlungur
-Yurlungur recibe 48 de daño
-Yurlungur termina con HP:12/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:139/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-Yurlungur HP:12/202 MP:180/196
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:290/388 MP:171/193
-2-Yurlungur HP:12/202 MP:180/196
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Koumokuten lanza electricidad a Yurlungur
-Yurlungur es resistente el ataque de Koumokuten
-Yurlungur recibe 49 de daño
-Yurlungur termina con HP:0/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1269/1309 MP:613/613
 B-
 C-
 D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Kama
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lham Dearg HP:91/91 MP:19/19
-2-Alraune HP:427/427 MP:192/192
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Vacío (Puesto 2)
-2-Kama HP:574/574 MP:225/257 (Puesto 3)
-3-Koumokuten HP:378/378 MP:125/170 (Puesto 4)
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Alraune ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:760/760 MP:378/398
-2-Alraune HP:427/427 MP:192/192
-3-Koumokuten HP:378/378 MP:125/170
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano dispara a Kei
-Kei es resistente el ataque de Tadano
-Kei recibe 10 de daño
-Kei termina con HP:750/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:124/124
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
+1-Kresnik
+2-Churel
+3-Cabracan
 ----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Koumokuten
-3-Alraune
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Alraune
+Seleccione una acción para Kresnik
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:574/574 MP:225/257
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kama ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Kama HP:574/574 MP:225/257
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kei
-2-Koumokuten
-3-Kama
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lham Dearg HP:91/91 MP:19/19
-2-Alraune HP:427/427 MP:192/192
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Vacío (Puesto 2)
-2-Kama HP:574/574 MP:225/257 (Puesto 3)
-3-Koumokuten HP:378/378 MP:125/170 (Puesto 4)
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Lham Dearg ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:750/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:750/760 MP:378/398
-2-Lham Dearg HP:91/91 MP:19/19
-3-Koumokuten HP:378/378 MP:125/170
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano dispara a Kei
-Kei es resistente el ataque de Tadano
-Kei recibe 10 de daño
-Kei termina con HP:740/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kei
-3-Lham Dearg
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:290/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kei
-2-Lham Dearg
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:290/388 MP:171/193
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kei dispara a Tadano
-Tadano recibe 15 de daño
-Tadano termina con HP:275/388
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:275/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lham Dearg
-2-Koumokuten
-3-Kei
-----------------------------------------
-Seleccione una acción para Lham Dearg
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:574/574 MP:225/257
-2-Alraune HP:427/427 MP:192/192
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Alraune ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:275/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kei
-3-Alraune
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:574/574 MP:225/257
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kama ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:275/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Alraune
-3-Kama
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:275/388 MP:171/193
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kei dispara a Tadano
-Tadano recibe 15 de daño
-Tadano termina con HP:260/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:192/192
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:740/760 MP:378/398
-2-Alraune HP:427/427 MP:192/192
-3-Kama HP:574/574 MP:225/257
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano ataca a Alraune
-Alraune recibe 16 de daño
-Alraune termina con HP:411/427
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
+Seleccione una acción para Kresnik
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Alraune use
-1-Madness Needle MP:11
-2-Life Drain MP:5
-3-Stun Needles MP:14
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Alraune use
-1-Madness Needle MP:11
-2-Life Drain MP:5
-3-Stun Needles MP:14
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Lham Dearg ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Kama
-3-Lham Dearg
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Kama HP:574/574 MP:225/257
-Equipo de Tadano (J2)
-A-Tadano HP:260/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kama
-2-Lham Dearg
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kama dispara a Tadano
-Tadano recibe 113 de daño
-Tadano termina con HP:147/388
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Lham Dearg HP:91/91 MP:19/19
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lham Dearg
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Lham Dearg
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Alraune HP:411/427 MP:192/192
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Alraune ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kei
-2-Kama
-3-Alraune
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:147/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Javelin Rain MP:21
-2-Mediarama MP:22
-3-Gather Spirit Energy MP:25
-4-Bufu MP:5
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Tadano
+Seleccione una acción para Kresnik
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:740/760 MP:378/398
-2-Alraune HP:411/427 MP:192/192
-3-Kama HP:574/574 MP:199/257
+Seleccione una habilidad para que Kresnik use
+1-Hamaon MP:10
+2-Agilao MP:8
+3-Heaven's Bow MP:26
 4-Cancelar
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Tadano dispara a Kama
-Kama bloquea el ataque de Tadano
-Kama termina con HP:574/574
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
+Seleccione un objetivo para Kresnik
+1-Aleph HP:1269/1309 MP:613/613
+2-Cancelar
 INPUT: 1
 ----------------------------------------
-Koumokuten ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Kresnik lanza fuego a Aleph
+Aleph recibe 86 de daño
+Aleph termina con HP:1183/1309
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1183/1309 MP:613/613
 B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:116/124
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kei
-2-Koumokuten
-3-Alraune
+1-Churel
+2-Cabracan
+3-Kresnik
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Churel
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1183/1309 MP:613/613
 B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:116/124
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Koumokuten
-2-Alraune
-3-Kei
+1-Cabracan
+2-Kresnik
+3-Churel
 ----------------------------------------
-Seleccione una acción para Koumokuten
+Seleccione una acción para Cabracan
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:147/388 MP:171/193
+Seleccione un objetivo para Cabracan
+1-Aleph HP:1183/1309 MP:613/613
 2-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Cabracan ataca a Aleph
+Aleph es resistente el ataque de Cabracan
+Aleph recibe 20 de daño
+Aleph termina con HP:1163/1309
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:411/427 MP:192/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:147/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1163/1309 MP:613/613
 B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:116/124
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
+1-Kresnik
+2-Churel
+3-Cabracan
 ----------------------------------------
-Seleccione una acción para Alraune
+Seleccione una acción para Kresnik
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Alraune use
-1-Madness Needle MP:11
-2-Life Drain MP:5
-3-Stun Needles MP:14
+Seleccione una habilidad para que Kresnik use
+1-Hamaon MP:10
+2-Agilao MP:8
+3-Heaven's Bow MP:26
 4-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Alraune
-1-Tadano HP:147/388 MP:171/193
+Seleccione un objetivo para Kresnik
+1-Aleph HP:1163/1309 MP:613/613
 2-Cancelar
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Alraune lanza un ataque todo poderoso a Tadano
-El ataque drena 41 HP de Tadano
-Tadano termina con HP:106/388
-Alraune termina con HP:427/427
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:106/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-----------------------------------------
-Seleccione una acción para Tadano
+Seleccione una acción para Kresnik
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:740/760 MP:378/398
-2-Alraune HP:427/427 MP:187/192
-3-Koumokuten HP:378/378 MP:125/170
-4-Cancelar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:427/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:106/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1163/1309 MP:613/613
 B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:116/124
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tadano
+1-Churel
+2-Cabracan
+3-Kresnik
 ----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:740/760 MP:378/398
-2-Alraune HP:427/427 MP:187/192
-3-Koumokuten HP:378/378 MP:125/170
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano dispara a Alraune
-Alraune es resistente el ataque de Tadano
-Alraune recibe 10 de daño
-Alraune termina con HP:417/427
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:106/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Koumokuten
+Seleccione una acción para Churel
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:106/388 MP:171/193
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Tadano
-Tadano es resistente el ataque de Koumokuten
-Tadano recibe 15 de daño
-Tadano termina con HP:91/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:91/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:91/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kei
-2-Koumokuten
-3-Alraune
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Spirit Drain MP:5
-2-Megidola MP:40
-3-Sabbatma MP:20
+Seleccione una habilidad para que Churel use
+1-Energy Drain MP:10
+2-Shibaboo MP:5
+3-Mudoon MP:10
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tadano HP:91/388 MP:171/193
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kei dispara a Tadano
-Tadano recibe 15 de daño
-Tadano termina con HP:76/388
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:574/574 MP:199/257
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kama ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Kama
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Alraune
+Seleccione una acción para Churel
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -3016,286 +988,43 @@ INPUT: 4
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tadano (J2)
+Ronda de Aleph (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Kama HP:574/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
+Equipo de Aleph (J1)
+A-Aleph HP:1163/1309 MP:613/613
 B-
 C-
 D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:0/999 MP:540/542
+B-Cabracan HP:483/483 MP:216/216
+C-Churel HP:138/197 MP:190/190
+D-Kresnik HP:467/624 MP:116/124
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tadano
+1-Aleph
 ----------------------------------------
-Seleccione una acción para Tadano
+Seleccione una acción para Aleph
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Kei HP:740/760 MP:378/398
-2-Alraune HP:417/427 MP:187/192
-3-Kama HP:574/574 MP:199/257
-4-Cancelar
 INPUT: 3
 ----------------------------------------
-Tadano ataca a Kama
-Kama es resistente el ataque de Tadano
-Kama recibe 8 de daño
-Kama termina con HP:566/574
+Seleccione una habilidad para que Aleph use
+1-Recarmdra MP:2
+2-Nihil Claw MP:11
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Aleph termina con HP:0/1309
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Kama HP:566/574 MP:199/257
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Alraune
-3-Kei
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kama
-1-Tadano HP:76/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Koumokuten HP:378/378 MP:125/170
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Alraune HP:417/427 MP:187/192
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Alraune
-2-Kei
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:566/574 MP:199/257
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Alraune
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kama HP:566/574 MP:199/257
-2-Lham Dearg HP:91/91 MP:19/19
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kama ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Kama HP:566/574 MP:199/257
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Koumokuten
-3-Kama
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Kama HP:566/574 MP:199/257
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Kama
-3-Kei
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Tadano HP:76/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:740/760 MP:378/398
-B-
-C-Kama HP:566/574 MP:199/257
-D-Koumokuten HP:378/378 MP:125/170
-Equipo de Tadano (J2)
-A-Tadano HP:76/388 MP:171/193
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kama
-2-Kei
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kama
-1-Tadano HP:76/388 MP:171/193
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kama
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kama dispara a Tadano
-Tadano recibe 113 de daño
-Tadano termina con HP:0/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ganador: Kei (J1)
+Ganador: Tamaki (J2)

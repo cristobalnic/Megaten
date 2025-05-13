@@ -1,8 +1,9 @@
 Player 1 Team
-[Samurai] Kyouji (Hamaon,Megaton Press,Mudo,Myriad Arrows,Energy Drain,Agi,Ice Breath)
-White Rider
-Wicker Man
+[Samurai] Tadano (Recarmdra,Titanomachia,Mediarahan,Mudoon,Refrigerate,Nihil Claw,Sabbatma,Mazio)
+Succubus
 Player 2 Team
-[Samurai] Kei (Desperate Hit,Glacial Blast,Mazanma,Mabufu,Recarmdra)
-Nergal
-Ippon-Datara
+[Samurai] Yu (Bar Toss,Mahama,Glacial Blast,Life Drain,Recarmdra,Myriad Arrows,Titanomachia)
+Python
+Magatsuhi
+Valkyrie
+Aniel

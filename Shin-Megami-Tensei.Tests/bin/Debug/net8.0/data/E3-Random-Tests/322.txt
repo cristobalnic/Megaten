@@ -401,413 +401,66 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 321
 ----------------------------------------
-Ronda de Kyouji (J1)
+Ronda de Tadano (J1)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Succubus HP:268/268 MP:260/260
+C-
 D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Kyouji
-3-Wicker Man
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para White Rider
-1-Kei HP:760/760 MP:398/398
-2-Nergal HP:644/644 MP:288/288
-3-Ippon-Datara HP:256/256 MP:56/56
-4-Cancelar
-INPUT: 3
-----------------------------------------
-White Rider ataca a Ippon-Datara
-Ippon-Datara recibe 56 de daño
-Ippon-Datara termina con HP:200/256
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:200/256 MP:56/56
-D-
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:455/455 MP:103/103
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kyouji
-2-Wicker Man
-3-White Rider
+1-Succubus
+2-Tadano
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Succubus
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Succubus HP:268/268 MP:260/260
+C-
 D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:200/256 MP:56/56
-D-
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:455/455 MP:103/103
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Wicker Man
-2-White Rider
-3-Kyouji
+1-Tadano
+2-Succubus
 ----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:200/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Kyouji
-3-Wicker Man
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para White Rider
-1-Kei HP:760/760 MP:398/398
-2-Nergal HP:644/644 MP:288/288
-3-Ippon-Datara HP:200/256 MP:56/56
-4-Cancelar
-INPUT: 3
-----------------------------------------
-White Rider ataca a Ippon-Datara
-Ippon-Datara recibe 56 de daño
-Ippon-Datara termina con HP:144/256
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:144/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Ippon-Datara
-3-Kei
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:144/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Ippon-Datara
-2-Kei
-3-Nergal
-----------------------------------------
-Seleccione una acción para Ippon-Datara
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:144/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Nergal
-3-Ippon-Datara
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Kyouji HP:999/999 MP:0/0
-2-White Rider HP:672/672 MP:301/301
-3-Wicker Man HP:126/126 MP:55/55
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Kyouji HP:999/999 MP:0/0
-2-White Rider HP:672/672 MP:301/301
-3-Wicker Man HP:126/126 MP:55/55
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Desperate Hit MP:40
-2-Glacial Blast MP:22
-3-Mazanma MP:20
-4-Mabufu MP:11
-5-Recarmdra MP:2
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Desperate Hit MP:40
-2-Glacial Blast MP:22
-3-Mazanma MP:20
-4-Mabufu MP:11
-5-Recarmdra MP:2
-6-Cancelar
-INPUT: 5
-----------------------------------------
-Kei cura a Nergal
-Nergal recibe 322 de HP
-Nergal termina con HP:644/644
-Kei cura a Ippon-Datara
-Ippon-Datara recibe 128 de HP
-Ippon-Datara termina con HP:256/256
-Kei termina con HP:0/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ippon-Datara
-2-Nergal
-----------------------------------------
-Seleccione una acción para Ippon-Datara
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nergal
-2-Ippon-Datara
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Kyouji
-3-Wicker Man
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Wicker Man
-3-White Rider
-----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -820,83 +473,49 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Yu HP:597/597 MP:347/347
+2-Python HP:637/637 MP:286/286
+3-Magatsuhi HP:851/851 MP:170/170
+4-Valkyrie HP:455/455 MP:103/103
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Yu
+Yu recibe 20 de daño
+Yu termina con HP:577/597
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:55/55
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Succubus HP:268/268 MP:260/260
+C-
 D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:256/256 MP:56/56
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Wicker Man
-2-White Rider
-3-Kyouji
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Wicker Man use
-1-Zan MP:5
-2-Pandemic Bomb MP:11
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Wicker Man
-1-Nergal HP:644/644 MP:288/288
-2-Ippon-Datara HP:256/256 MP:56/56
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Wicker Man lanza viento a Ippon-Datara
-Ippon-Datara recibe 33 de daño
-Ippon-Datara termina con HP:223/256
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:50/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:223/256 MP:56/56
-D-
+Equipo de Yu (J2)
+A-Yu HP:577/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:455/455 MP:103/103
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-White Rider
-2-Kyouji
-3-Wicker Man
+1-Succubus
+2-Tadano
 ----------------------------------------
-Seleccione una acción para White Rider
+Seleccione una acción para Succubus
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -906,141 +525,292 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:50/55
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Succubus HP:268/268 MP:260/260
+C-
 D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
-C-Ippon-Datara HP:223/256 MP:56/56
-D-
+Equipo de Yu (J2)
+A-Yu HP:577/597 MP:347/347
+B-Python HP:637/637 MP:286/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:455/455 MP:103/103
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kyouji
-2-Wicker Man
-3-White Rider
+1-Tadano
+2-Succubus
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Recarmdra MP:2
+2-Titanomachia MP:30
+3-Mediarahan MP:40
+4-Mudoon MP:10
+5-Refrigerate MP:26
+6-Nihil Claw MP:11
+7-Sabbatma MP:20
+8-Mazio MP:11
+9-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Nergal HP:644/644 MP:288/288
-2-Ippon-Datara HP:223/256 MP:56/56
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kyouji dispara a Ippon-Datara
-Ippon-Datara recibe 911 de daño
-Ippon-Datara termina con HP:0/256
+Tadano ataca a Yu
+Yu es resistente el ataque de Tadano
+Yu recibe 36 de daño
+Yu termina con HP:541/597
+Tadano ataca a Python
+Python recibe 72 de daño
+Python termina con HP:565/637
+Tadano ataca a Magatsuhi
+Magatsuhi recibe 72 de daño
+Magatsuhi termina con HP:779/851
+Tadano ataca a Valkyrie
+Valkyrie es resistente el ataque de Tadano
+Valkyrie recibe 36 de daño
+Valkyrie termina con HP:419/455
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J2)
+Ronda de Yu (J2)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:672/672 MP:301/301
-C-Wicker Man HP:126/126 MP:50/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:288/288
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:163/193
+B-Succubus HP:268/268 MP:260/260
 C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:347/347
+B-Python HP:565/637 MP:286/286
+C-Magatsuhi HP:779/851 MP:170/170
+D-Valkyrie HP:419/455 MP:103/103
 ----------------------------------------
-Full Turns: 1
+Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nergal
+1-Python
+2-Magatsuhi
+3-Yu
+4-Valkyrie
 ----------------------------------------
-Seleccione una acción para Nergal
+Seleccione una acción para Python
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nergal dispara a Kyouji
-Kyouji bloquea el ataque de Nergal
-Kyouji termina con HP:999/999
-Nergal dispara a White Rider
-White Rider recibe 125 de daño
-White Rider termina con HP:547/672
-Nergal dispara a Wicker Man
-Wicker Man recibe 125 de daño
-Wicker Man termina con HP:1/126
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:547/672 MP:301/301
-C-Wicker Man HP:1/126 MP:50/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:262/288
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Kyouji
-3-Wicker Man
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que White Rider use
-1-Thunder Reign MP:22
-2-Dekaja MP:10
-3-Luster Candy MP:50
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para White Rider
+Seleccione una acción para Python
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para White Rider
-1-Nergal HP:644/644 MP:262/288
+Seleccione un objetivo para Python
+1-Tadano HP:388/388 MP:163/193
+2-Succubus HP:268/268 MP:260/260
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Python ataca a Succubus
+Succubus recibe 53 de daño
+Succubus termina con HP:215/268
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:347/347
+B-Python HP:565/637 MP:286/286
+C-Magatsuhi HP:779/851 MP:170/170
+D-Valkyrie HP:419/455 MP:103/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Magatsuhi
+2-Yu
+3-Valkyrie
+4-Python
+----------------------------------------
+Seleccione una acción para Magatsuhi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Aniel HP:567/567 MP:255/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Aniel ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:347/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:419/455 MP:103/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Valkyrie
+3-Python
+4-Aniel
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Glacial Blast MP:22
+4-Life Drain MP:5
+5-Recarmdra MP:2
+6-Myriad Arrows MP:30
+7-Titanomachia MP:30
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Yu lanza hielo a Tadano
+Tadano recibe 157 de daño
+Tadano termina con HP:231/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:419/455 MP:103/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Valkyrie
+2-Python
+3-Aniel
+4-Yu
+----------------------------------------
+Seleccione una acción para Valkyrie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Valkyrie use
+1-Tetrakarn MP:50
+2-Javelin Rain MP:21
+3-Mortal Jihad MP:13
+4-Blood Ritual MP:25
+5-Cancelar
+INPUT: 4
+----------------------------------------
+El ataque de Valkyrie ha aumentado
+La defensa de Valkyrie ha aumentado
+Valkyrie termina con HP:1/455
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Yu
+4-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:779/851 MP:170/170
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para White Rider
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Python
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1050,26 +820,162 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-White Rider HP:547/672 MP:301/301
-C-Wicker Man HP:1/126 MP:50/55
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:396/398
-B-Nergal HP:644/644 MP:262/288
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
 C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
 ----------------------------------------
-Full Turns: 2
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kyouji
-2-Wicker Man
-3-White Rider
+1-Aniel
+2-Yu
+3-Valkyrie
+4-Python
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aniel
+1-Tadano HP:231/388 MP:163/193
+2-Succubus HP:215/268 MP:260/260
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aniel
+1-Tadano HP:231/388 MP:163/193
+2-Succubus HP:215/268 MP:260/260
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:779/851 MP:170/170
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Succubus
+2-Tadano
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Succubus use
+1-Energy Drain MP:10
+2-Lullaby MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Succubus use
+1-Energy Drain MP:10
+2-Lullaby MP:11
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Succubus
+----------------------------------------
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1082,7 +988,91 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Succubus
+2-Tadano
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Succubus
+1-Yu HP:541/597 MP:325/347
+2-Python HP:565/637 MP:286/286
+3-Aniel HP:567/567 MP:255/255
+4-Valkyrie HP:1/455 MP:78/103
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:565/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Succubus
+----------------------------------------
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1091,16 +1081,1013 @@ Seleccione una acción para Kyouji
 6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Nergal HP:644/644 MP:262/288
-2-Cancelar
-INPUT: 1
+Seleccione un objetivo para Tadano
+1-Yu HP:541/597 MP:325/347
+2-Python HP:565/637 MP:286/286
+3-Aniel HP:567/567 MP:255/255
+4-Valkyrie HP:1/455 MP:78/103
+5-Cancelar
+INPUT: 2
 ----------------------------------------
-Kyouji dispara a Nergal
-Nergal recibe 911 de daño
-Nergal termina con HP:0/644
+Tadano dispara a Python
+Python recibe 20 de daño
+Python termina con HP:545/637
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Kyouji (J1)
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:545/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Yu
+3-Aniel
+4-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:541/597 MP:325/347
+B-Python HP:545/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:1/455 MP:78/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Aniel
+3-Valkyrie
+4-Python
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Glacial Blast MP:22
+4-Life Drain MP:5
+5-Recarmdra MP:2
+6-Myriad Arrows MP:30
+7-Titanomachia MP:30
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Yu cura a Python
+Python recibe 318 de HP
+Python termina con HP:637/637
+Yu cura a Aniel
+Aniel recibe 283 de HP
+Aniel termina con HP:567/567
+Yu cura a Valkyrie
+Valkyrie recibe 227 de HP
+Valkyrie termina con HP:228/455
+Yu cura a Magatsuhi
+Magatsuhi recibe 425 de HP
+Magatsuhi termina con HP:851/851
+Yu termina con HP:0/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Valkyrie
+3-Python
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Valkyrie
+2-Python
+3-Aniel
+----------------------------------------
+Seleccione una acción para Valkyrie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:851/851 MP:170/170
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:215/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aniel
+2-Valkyrie
+3-Python
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aniel
+1-Tadano HP:231/388 MP:163/193
+2-Succubus HP:215/268 MP:260/260
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Aniel ataca a Succubus
+Succubus recibe 47 de daño
+Succubus termina con HP:168/268
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:168/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Valkyrie
+2-Python
+3-Aniel
+----------------------------------------
+Seleccione una acción para Valkyrie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:168/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:286/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Python
+1-Tadano HP:231/388 MP:163/193
+2-Succubus HP:168/268 MP:260/260
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Python lanza electricidad a Succubus
+Succubus recibe 135 de daño
+Succubus termina con HP:33/268
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:33/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Succubus
+2-Tadano
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:33/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:228/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Succubus
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Python HP:637/637 MP:272/286
+2-Aniel HP:567/567 MP:255/255
+3-Valkyrie HP:228/455 MP:78/103
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tadano ataca a Valkyrie
+Valkyrie es resistente el ataque de Tadano
+Valkyrie recibe 7 de daño
+Valkyrie termina con HP:221/455
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:33/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:221/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Succubus
+2-Tadano
+----------------------------------------
+Seleccione una acción para Succubus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:33/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:221/455 MP:78/103
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Succubus
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Python HP:637/637 MP:272/286
+2-Aniel HP:567/567 MP:255/255
+3-Valkyrie HP:221/455 MP:78/103
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tadano ataca a Valkyrie
+Valkyrie es resistente el ataque de Tadano
+Valkyrie recibe 7 de daño
+Valkyrie termina con HP:214/455
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-Succubus HP:33/268 MP:260/260
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Tadano HP:231/388 MP:163/193
+2-Succubus HP:33/268 MP:260/260
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Python ataca a Succubus
+Succubus recibe 53 de daño
+Succubus termina con HP:0/268
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Valkyrie
+3-Python
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:231/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Valkyrie
+2-Python
+3-Aniel
+----------------------------------------
+Seleccione una acción para Valkyrie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Valkyrie
+1-Tadano HP:231/388 MP:163/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Valkyrie ataca a Tadano
+Tadano es resistente el ataque de Valkyrie
+Tadano recibe 23 de daño
+Tadano termina con HP:208/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:208/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Python use
+1-Fog Breath MP:45
+2-Bufudyne MP:14
+3-Ziodyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:208/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:255/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Aniel
+2-Valkyrie
+3-Python
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:851/851 MP:170/170
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Aniel use
+1-Ziodyne MP:14
+2-Diarama MP:9
+3-Pulinpa MP:5
+4-Hamaon MP:10
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Aniel
+1-Tadano HP:208/388 MP:163/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Aniel ataca con luz a Tadano
+Tadano bloquea el ataque de Aniel
+Tadano termina con HP:208/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:208/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:245/255
+D-Valkyrie HP:214/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Python HP:637/637 MP:272/286
+2-Aniel HP:567/567 MP:245/255
+3-Valkyrie HP:214/455 MP:78/103
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Tadano ataca a Valkyrie
+Valkyrie es resistente el ataque de Tadano
+Valkyrie recibe 7 de daño
+Valkyrie termina con HP:207/455
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:208/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:245/255
+D-Valkyrie HP:207/455 MP:78/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Aniel
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:851/851 MP:170/170
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Tadano HP:208/388 MP:163/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Python ataca a Tadano
+Tadano es resistente el ataque de Python
+Tadano recibe 26 de daño
+Tadano termina con HP:182/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:182/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Aniel HP:567/567 MP:245/255
+D-Valkyrie HP:207/455 MP:78/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Valkyrie
+3-Python
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Magatsuhi HP:851/851 MP:170/170
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Magatsuhi ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:182/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:207/455 MP:78/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Valkyrie
+2-Python
+3-Magatsuhi
+----------------------------------------
+Seleccione una acción para Valkyrie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Valkyrie use
+1-Tetrakarn MP:50
+2-Javelin Rain MP:21
+3-Mortal Jihad MP:13
+4-Blood Ritual MP:25
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Valkyrie ataca a Tadano
+Tadano es resistente el ataque de Valkyrie
+Tadano recibe 57 de daño
+Tadano termina con HP:125/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:125/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:207/455 MP:57/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Magatsuhi
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Python
+1-Tadano HP:125/388 MP:163/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Python ataca a Tadano
+Tadano es resistente el ataque de Python
+Tadano recibe 26 de daño
+Tadano termina con HP:99/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:99/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Magatsuhi HP:851/851 MP:170/170
+D-Valkyrie HP:207/455 MP:57/103
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Python HP:637/637 MP:272/286
+2-Magatsuhi HP:851/851 MP:170/170
+3-Valkyrie HP:207/455 MP:57/103
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Tadano ataca a Magatsuhi
+Magatsuhi recibe 16 de daño
+Magatsuhi termina con HP:835/851
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:99/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Python HP:637/637 MP:272/286
+C-Magatsuhi HP:835/851 MP:170/170
+D-Valkyrie HP:207/455 MP:57/103
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Python
+2-Magatsuhi
+3-Valkyrie
+----------------------------------------
+Seleccione una acción para Python
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Aniel HP:567/567 MP:245/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Aniel ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:99/388 MP:163/193
+B-
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:323/347
+B-Aniel HP:567/567 MP:245/255
+C-Magatsuhi HP:835/851 MP:170/170
+D-Valkyrie HP:207/455 MP:57/103
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Magatsuhi
+2-Valkyrie
+3-Aniel
+----------------------------------------
+Seleccione una acción para Magatsuhi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Magatsuhi use
+1-Acid Breath MP:45
+2-Shivering Taboo MP:40
+3-Poison Breath MP:11
+4-Bufudyne MP:14
+5-Death's Door MP:10
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Magatsuhi
+1-Tadano HP:99/388 MP:163/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Magatsuhi lanza hielo a Tadano
+Tadano recibe 124 de daño
+Tadano termina con HP:0/388
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Yu (J2)

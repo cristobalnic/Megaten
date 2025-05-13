@@ -1,10 +1,7 @@
 Player 1 Team
-[Samurai] Kei (Spirit Drain,Megidola,Sabbatma)
-Kingu
-Kama
-Koumokuten
-Lham Dearg
-Alraune
+[Samurai] Aleph (Recarmdra,Nihil Claw)
 Player 2 Team
-[Samurai] Tadano (Javelin Rain,Mediarama,Gather Spirit Energy,Bufu)
-Yurlungur
+[Samurai] Tamaki (Recarmdra,Breath,Thunder Reign,Judgement Light,Critical Wave,Rapid Needle,Megidolaon)
+Cabracan
+Churel
+Kresnik

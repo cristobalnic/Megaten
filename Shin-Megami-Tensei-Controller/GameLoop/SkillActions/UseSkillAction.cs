@@ -28,11 +28,7 @@ public class UseSkillAction
         Skill skill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);
         var strategy = _skillHandlerFactory.GetSkillStrategy(skill);
-        
-        
-        
         strategy.Execute(attacker, skill);
-
         attacker.Stats.Mp -= skill.Cost;
         _gameState.TurnPlayer.KSkillsUsed++;
     }
@@ -95,28 +91,17 @@ public class UseSkillAction
     {
         var target = _selectionUtils.GetTarget(attacker);
         _view.WriteLine(Params.Separator);
-        
         AffinityType targetAffinity = AffinityUtils.GetTargetAffinity(skill, target);
-
         CombatRecord combatRecord = new CombatRecord(attacker, target, 0, targetAffinity);
-        
         bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(combatRecord, skill);
-        
-        
-        
         if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(combatRecord);
-        
-
         _view.DisplayAttackMessage(combatRecord, skill);
         if (!hasMissed) _view.DisplayAffinityDetectionMessage(combatRecord);
         _view.DisplayInstantKillSkillResultMessage(combatRecord, hasMissed);
-        
         if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-        
         if (!hasMissed) TurnManager.HandleTurns(_gameState.TurnPlayer, targetAffinity);
         else _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 

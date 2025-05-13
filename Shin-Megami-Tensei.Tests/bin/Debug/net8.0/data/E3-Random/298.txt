@@ -1,16 +1,4 @@
 Player 1 Team
-[Samurai] Kyouji (Mudoon,Blood Ritual)
-Master Therion
-Black Maria
-Gu Huo Niao
-Loki
-Patrimpas
-Asmodeus
+[Samurai] Joker (Recarmdra,Mabufula,Mazandyne,Floral Gust)
 Player 2 Team
-[Samurai] Kei (Mahamaon,Recarm,Hamaon,Shining Seal,Fatal Sword,Bufu,Glacial Blast,Titanomachia)
-Atropos
-Ose
-Dominion
-Hua Po
-Alilat
-Sedna
+[Samurai] Nanashi (Recarmdra,Blood Ritual,Hamaon,Ice Breath,Desperate Hit,Zandyne,Sea of Chaos,Glacial Blast)

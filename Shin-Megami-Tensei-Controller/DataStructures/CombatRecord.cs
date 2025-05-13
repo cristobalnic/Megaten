@@ -5,10 +5,10 @@ namespace Shin_Megami_Tensei.DataStructures;
 
 public struct CombatRecord
 {
-    public Unit Attacker;
-    public Unit Target;
+    public readonly Unit Attacker;
+    public readonly Unit Target;
     public int Damage;
-    public AffinityType Affinity;
+    public readonly AffinityType Affinity;
     
     public CombatRecord(Unit attacker, Unit target, int damage, AffinityType affinity)
     {

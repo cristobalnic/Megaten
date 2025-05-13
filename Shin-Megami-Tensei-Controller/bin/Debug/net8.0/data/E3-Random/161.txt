@@ -1,15 +1,14 @@
 Player 1 Team
-[Samurai] Joker (Serpent of Sheol,Recarmdra)
-Pisaca
-Chemtrail
-Sedna
-Jueyuan
-Lham Dearg
-Gu Huo Niao
-Apsu
+[Samurai] Joker (Gather Spirit Energy,Ziodyne,Sabbatma,Axel Claw,Recarmdra,Mazionga,Mamudo)
+Nebiros
+Plasma
+Nidhoggr
+Pixie
+Gryphon
+Yomotsu-Ikusa
 Player 2 Team
-[Samurai] Aleph (Sabbatma,Refrigerate,Megido,Sea of Chaos,Titanomachia,Diarama,Needle Shot,Megidoplasma)
-Black Maria
-Sedna
-Dantalion
-Israfel
+[Samurai] Itsuki (Recarmdra,Zanma,Sea of Chaos,Judgement Light,Myriad Arrows,Serpent of Sheol)
+Arachne
+Heimdall
+Strix
+Mithras

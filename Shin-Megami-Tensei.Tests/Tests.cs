@@ -78,6 +78,16 @@ public class Tests
     [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-Random")]
     public void TestE3_Random(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
+
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-Special")]
+    public void TestE4_Special(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E4-RandomSpecial")]
+    public void TestE4_SpecialRandom(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
     
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string teamsfolder)
     {

@@ -1,9 +1,6 @@
 Player 1 Team
-[Samurai] Kei (Megidolaon,Damascus Claw,Heat Wave,Mabufula,Grand Tack,Megidoplasma,Dia,Bufu)
-Dybbuk
+[Samurai] Tadano (Recarmdra,Hamaon,Zanma)
+Decarabia
+Pallas Athena
 Player 2 Team
-[Samurai] Tamaki (Media,Breath,Mudoon,Berserker God)
-Kelpie
-Black Rider
-Dominion
-Anzu
+[Samurai] Demi-Fiend (Recarmdra,Gather Spirit Energy,Media,Great Logos,Plasma Discharge,Wind Breath,Mazio)

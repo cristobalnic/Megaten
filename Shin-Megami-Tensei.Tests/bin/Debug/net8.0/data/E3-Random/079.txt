@@ -1,16 +1,12 @@
 Player 1 Team
-[Samurai] Kotone (Agidyne,Blood Ritual,Berserker God,Hades Blast)
-Archangel
-Raphael
-Alilat
-Pele
+[Samurai] Flynn (Recarmdra,Hamaon,Mortal Jihad,Mudoon,Bufu,Ice Breath)
+Magatsuhi
 Ometeotl
+Hitokoto-Nushi
+Throne
+Taraka
 Tuofei
 Player 2 Team
-[Samurai] Kei (Mahama,Zan,Megaton Press)
-Nidhoggr
-Succubus
-Parvati
-Master Therion
-Samael
-Ometeotl
+[Samurai] Tamaki (Recarmdra,Mudo,Nihil Claw,Megaton Press)
+Gremlin
+Tam Lin

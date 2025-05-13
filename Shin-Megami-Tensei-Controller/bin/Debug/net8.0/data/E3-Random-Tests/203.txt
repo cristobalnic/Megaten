@@ -401,164 +401,16 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 202
 ----------------------------------------
-Ronda de Tadano (J1)
+Ronda de Shujinko (J1)
 ----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:117/117
-C-Tlazolteotl HP:315/315 MP:306/306
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Kukunochi HP:254/254 MP:246/246
 C-
 D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tlazolteotl
-2-Tadano
-3-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tlazolteotl
-1-Itsuki HP:1136/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:117/117
-C-Tlazolteotl HP:315/315 MP:306/306
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-3-Tlazolteotl
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1136/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano dispara a Itsuki
-Itsuki recibe 20 de daño
-Itsuki termina con HP:1116/1136
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:117/117
-C-Tlazolteotl HP:315/315 MP:306/306
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
 C-
 D-
 ----------------------------------------
@@ -566,199 +418,10 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Gu Huo Niao
-2-Tlazolteotl
-3-Tadano
+1-Shujinko
+2-Kukunochi
 ----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Gu Huo Niao use
-1-Agilao MP:8
-2-Patra MP:5
-3-Lullaby MP:11
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Gu Huo Niao
-1-Itsuki HP:1116/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Gu Huo Niao lanza fuego a Itsuki
-Itsuki es débil contra el ataque de Gu Huo Niao
-Itsuki recibe 92 de daño
-Itsuki termina con HP:1024/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-Tlazolteotl HP:315/315 MP:306/306
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tlazolteotl
-2-Tadano
-3-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tlazolteotl use
-1-Mabufula MP:20
-2-Posumudi MP:5
-3-Recarmdra MP:2
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Tlazolteotl cura a Tadano
-Tadano recibe 194 de HP
-Tadano termina con HP:388/388
-Tlazolteotl cura a Gu Huo Niao
-Gu Huo Niao recibe 61 de HP
-Gu Huo Niao termina con HP:122/122
-Tlazolteotl termina con HP:0/315
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Gu Huo Niao
-2-Tadano
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Gu Huo Niao
-1-Itsuki HP:1024/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -767,1279 +430,28 @@ Seleccione una acción para Tadano
 6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1024/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano dispara a Itsuki
-Itsuki recibe 20 de daño
-Itsuki termina con HP:1004/1136
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:388/388 MP:193/193
-2-Gu Huo Niao HP:122/122 MP:109/117
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki dispara a Tadano
-Tadano recibe 61 de daño
-Tadano termina con HP:327/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Itsuki
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Itsuki use
-1-Media MP:12
-2-Recarm MP:20
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J1)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1004/1136 MP:413/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano ataca a Erlkonig
-Erlkonig recibe 16 de daño
-Erlkonig termina con HP:655/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:655/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Gu Huo Niao
-2-Tadano
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1004/1136 MP:413/413
-B-Erlkonig HP:655/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1004/1136 MP:413/413
-2-Erlkonig HP:655/671 MP:134/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano ataca a Itsuki
-Itsuki recibe 16 de daño
-Itsuki termina con HP:988/1136
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:327/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:655/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:327/388 MP:193/193
-2-Gu Huo Niao HP:122/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:327/388 MP:193/193
-2-Gu Huo Niao HP:122/122 MP:109/117
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki ataca a Tadano
-Tadano es resistente el ataque de Itsuki
-Tadano recibe 22 de daño
-Tadano termina con HP:305/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:305/388 MP:193/193
-B-Gu Huo Niao HP:122/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:655/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Itsuki
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Tadano HP:305/388 MP:193/193
-2-Gu Huo Niao HP:122/122 MP:109/117
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Erlkonig ataca a Gu Huo Niao
-Gu Huo Niao recibe 51 de daño
-Gu Huo Niao termina con HP:71/122
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J1)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:305/388 MP:193/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:655/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Mahamaon MP:30
-2-Fatal Sword MP:8
-3-Samarecarm MP:40
-4-Bufu MP:5
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:988/1136 MP:413/413
-2-Erlkonig HP:655/671 MP:134/134
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano lanza hielo a Erlkonig
-Erlkonig recibe 47 de daño
-Erlkonig termina con HP:608/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:305/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:608/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Gu Huo Niao
-2-Tadano
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Gu Huo Niao use
-1-Agilao MP:8
-2-Patra MP:5
-3-Lullaby MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Gu Huo Niao use
-1-Agilao MP:8
-2-Patra MP:5
-3-Lullaby MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Gu Huo Niao use
-1-Agilao MP:8
-2-Patra MP:5
-3-Lullaby MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Gu Huo Niao
-1-Itsuki HP:988/1136 MP:413/413
-2-Erlkonig HP:608/671 MP:134/134
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Gu Huo Niao ataca a Erlkonig
-Erlkonig recibe 12 de daño
-Erlkonig termina con HP:596/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:305/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:596/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:305/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:305/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:596/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Itsuki
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Tadano HP:305/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Erlkonig use
-1-Maziodyne MP:32
-2-Stun Needles MP:14
-3-Myriad Arrows MP:30
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Tadano HP:305/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Erlkonig ataca a Tadano
-Tadano es resistente el ataque de Erlkonig
-Tadano recibe 25 de daño
-Tadano termina con HP:280/388
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:280/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:988/1136 MP:413/413
-B-Erlkonig HP:596/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Itsuki use
-1-Media MP:12
-2-Recarm MP:20
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Itsuki use
-1-Media MP:12
-2-Recarm MP:20
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki cura a Erlkonig
-Erlkonig recibe 167 de HP
-Erlkonig termina con HP:671/671
-Itsuki cura a Itsuki
-Itsuki recibe 284 de HP
-Itsuki termina con HP:1136/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J1)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:280/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1136/1136 MP:401/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1136/1136 MP:401/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1136/1136 MP:401/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano dispara a Itsuki
-Itsuki recibe 20 de daño
-Itsuki termina con HP:1116/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:280/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:671/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Gu Huo Niao
-2-Tadano
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Gu Huo Niao
-1-Itsuki HP:1116/1136 MP:401/413
-2-Erlkonig HP:671/671 MP:134/134
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Gu Huo Niao ataca a Erlkonig
-Erlkonig recibe 12 de daño
-Erlkonig termina con HP:659/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:280/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:659/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:280/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki ataca a Tadano
-Tadano es resistente el ataque de Itsuki
-Tadano recibe 22 de daño
-Tadano termina con HP:258/388
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:258/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:659/671 MP:134/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Itsuki
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Tadano HP:258/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Tadano HP:258/388 MP:188/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Erlkonig use
-1-Maziodyne MP:32
-2-Stun Needles MP:14
-3-Myriad Arrows MP:30
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Erlkonig dispara a Tadano
-Tadano recibe 143 de daño
-Tadano termina con HP:115/388
-Erlkonig dispara a Gu Huo Niao
-Gu Huo Niao devuelve 143 daño a Erlkonig
-Erlkonig dispara a Gu Huo Niao
-Gu Huo Niao devuelve 143 daño a Erlkonig
-Erlkonig termina con HP:373/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J1)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Gu Huo Niao
-2-Tadano
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Gu Huo Niao use
-1-Agilao MP:8
-2-Patra MP:5
-3-Lullaby MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Gu Huo Niao
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:188/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1116/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Mahamaon MP:30
-2-Fatal Sword MP:8
-3-Samarecarm MP:40
-4-Bufu MP:5
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:1116/1136 MP:401/413
-2-Erlkonig HP:373/671 MP:104/134
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tadano ataca a Itsuki
-Itsuki recibe 65 de daño
-Itsuki termina con HP:1051/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:180/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1051/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Itsuki use
-1-Media MP:12
-2-Recarm MP:20
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:115/388 MP:180/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:180/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1051/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Itsuki
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:180/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:1051/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Erlkonig
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:115/388 MP:180/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:115/388 MP:180/193
-2-Gu Huo Niao HP:71/122 MP:109/117
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Itsuki dispara a Gu Huo Niao
-Gu Huo Niao devuelve 61 daño a Itsuki
-Itsuki termina con HP:990/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tadano (J1)
-----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:180/193
-B-Gu Huo Niao HP:71/122 MP:109/117
-C-
-D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:990/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tadano
-2-Gu Huo Niao
-----------------------------------------
-Seleccione una acción para Tadano
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Mahamaon MP:30
-2-Fatal Sword MP:8
-3-Samarecarm MP:40
-4-Bufu MP:5
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Tlazolteotl HP:0/315 MP:304/306
+Seleccione un objetivo para Shujinko
+1-Kyouji HP:999/999 MP:0/0
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Tadano revive a Tlazolteotl
-Tlazolteotl recibe 315 de HP
-Tlazolteotl termina con HP:315/315
+Shujinko dispara a Kyouji
+Kyouji bloquea el ataque de Shujinko
+Kyouji termina con HP:999/999
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:140/193
-B-Gu Huo Niao HP:71/122 MP:109/117
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Kukunochi HP:254/254 MP:246/246
 C-
 D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:990/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
 C-
 D-
 ----------------------------------------
@@ -2047,34 +459,43 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Gu Huo Niao
-2-Tadano
+1-Kyouji
 ----------------------------------------
-Seleccione una acción para Gu Huo Niao
+Seleccione una acción para Kyouji
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Shujinko HP:1317/1317 MP:625/625
+2-Kukunochi HP:254/254 MP:246/246
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Tlazolteotl HP:315/315 MP:304/306
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tlazolteotl ha sido invocado
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:140/193
-B-Tlazolteotl HP:315/315 MP:304/306
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Kukunochi HP:254/254 MP:246/246
 C-
 D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:990/1136 MP:401/413
-B-Erlkonig HP:373/671 MP:104/134
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
 C-
 D-
 ----------------------------------------
@@ -2082,49 +503,45 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tadano
-2-Tlazolteotl
+1-Kyouji
 ----------------------------------------
-Seleccione una acción para Tadano
+Seleccione una acción para Kyouji
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Shujinko HP:1317/1317 MP:625/625
+2-Kukunochi HP:254/254 MP:246/246
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Tadano use
-1-Mahamaon MP:30
-2-Fatal Sword MP:8
-3-Samarecarm MP:40
-4-Bufu MP:5
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Tadano
-1-Itsuki HP:990/1136 MP:401/413
-2-Erlkonig HP:373/671 MP:104/134
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tadano lanza hielo a Erlkonig
-Erlkonig recibe 47 de daño
-Erlkonig termina con HP:326/671
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Itsuki (J2)
+Ronda de Shujinko (J1)
 ----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:135/193
-B-Tlazolteotl HP:315/315 MP:304/306
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Kukunochi HP:254/254 MP:246/246
 C-
 D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:990/1136 MP:401/413
-B-Erlkonig HP:326/671 MP:104/134
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
 C-
 D-
 ----------------------------------------
@@ -2132,10 +549,10 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Itsuki
-2-Erlkonig
+1-Shujinko
+2-Kukunochi
 ----------------------------------------
-Seleccione una acción para Itsuki
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -2144,27 +561,64 @@ Seleccione una acción para Itsuki
 6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Tadano HP:115/388 MP:135/193
-2-Tlazolteotl HP:315/315 MP:304/306
-3-Cancelar
+Seleccione un objetivo para Shujinko
+1-Kyouji HP:999/999 MP:0/0
+2-Cancelar
 INPUT: 2
 ----------------------------------------
-Itsuki dispara a Tlazolteotl
-Tlazolteotl recibe 61 de daño
-Tlazolteotl termina con HP:254/315
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Recarmdra MP:2
+2-Mazanma MP:20
+3-Mudo MP:6
+4-Energy Drain MP:10
+5-Maziodyne MP:32
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Kyouji HP:999/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca con oscuridad a Kyouji
+Kyouji bloquea el ataque de Shujinko
+Kyouji termina con HP:999/999
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Tadano (J1)
-A-Tadano HP:115/388 MP:135/193
-B-Tlazolteotl HP:254/315 MP:304/306
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:619/625
+B-Kukunochi HP:254/254 MP:246/246
 C-
 D-
-Equipo de Itsuki (J2)
-A-Itsuki HP:990/1136 MP:401/413
-B-Erlkonig HP:326/671 MP:104/134
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
 C-
 D-
 ----------------------------------------
@@ -2172,35 +626,291 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Erlkonig
-2-Itsuki
+1-Kyouji
 ----------------------------------------
-Seleccione una acción para Erlkonig
+Seleccione una acción para Kyouji
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Shujinko HP:1317/1317 MP:619/625
+2-Kukunochi HP:254/254 MP:246/246
+3-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Erlkonig use
-1-Maziodyne MP:32
-2-Stun Needles MP:14
-3-Myriad Arrows MP:30
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Erlkonig dispara a Tadano
-Tadano recibe 143 de daño
-Erlkonig dispara a Tadano
-Tadano recibe 143 de daño
-Tadano termina con HP:0/388
-Erlkonig dispara a Tlazolteotl
-Tlazolteotl recibe 143 de daño
-Erlkonig dispara a Tlazolteotl
-Tlazolteotl recibe 143 de daño
-Tlazolteotl termina con HP:0/315
+Kyouji ataca a Kukunochi
+Kukunochi recibe 614 de daño
+Kukunochi termina con HP:0/254
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Itsuki (J2)
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:619/625
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Kyouji HP:999/999 MP:0/0
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Kyouji HP:999/999 MP:0/0
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Kyouji
+Kyouji bloquea el ataque de Shujinko
+Kyouji termina con HP:999/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kyouji (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:619/625
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kyouji
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:619/625
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kyouji
+----------------------------------------
+Seleccione una acción para Kyouji
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kyouji
+1-Shujinko HP:1317/1317 MP:619/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kyouji dispara a Shujinko
+Shujinko es resistente el ataque de Kyouji
+Shujinko recibe 455 de daño
+Shujinko termina con HP:862/1317
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:862/1317 MP:619/625
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:862/1317 MP:619/625
+B-
+C-
+D-
+Equipo de Kyouji (J2)
+A-Kyouji HP:999/999 MP:0/0
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Recarmdra MP:2
+2-Mazanma MP:20
+3-Mudo MP:6
+4-Energy Drain MP:10
+5-Maziodyne MP:32
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko revive a Kukunochi
+Kukunochi recibe 127 de HP
+Kukunochi termina con HP:127/254
+Shujinko termina con HP:0/1317
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Kyouji (J2)

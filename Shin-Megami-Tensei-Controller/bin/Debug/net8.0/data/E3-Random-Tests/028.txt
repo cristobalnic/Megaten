@@ -401,96 +401,302 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 27
 ----------------------------------------
-Ronda de Kotone (J1)
+Ronda de Tamaki (J1)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:409/409 MP:396/396
-D-Pabilsag HP:241/241 MP:67/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Apsaras HP:85/85 MP:81/81
-D-Karasu Tengu HP:238/238 MP:107/107
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:126/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:275/275 MP:54/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pendragon use
+1-Ice Breath MP:21
+2-Titanomachia MP:30
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:126/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:275/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Tamaki
+3-Pendragon
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Wicker Man HP:126/126 MP:55/55
+3-Da Peng HP:634/634 MP:126/126
+4-Halphas HP:275/275 MP:54/54
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Astaroth ataca a Halphas
+Halphas recibe 33 de daño
+Halphas termina con HP:242/275
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:126/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:242/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pendragon
+3-Astaroth
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:126/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:242/275 MP:54/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Wicker Man HP:126/126 MP:55/55
+3-Da Peng HP:634/634 MP:126/126
+4-Halphas HP:242/275 MP:54/54
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pendragon ataca a Wicker Man
+Wicker Man recibe 55 de daño
+Wicker Man termina con HP:71/126
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:242/275 MP:54/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Tamaki
+3-Pendragon
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:242/275 MP:54/54
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pendragon
+3-Astaroth
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Wicker Man HP:71/126 MP:55/55
+3-Da Peng HP:634/634 MP:126/126
+4-Halphas HP:242/275 MP:54/54
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Tamaki ataca a Halphas
+Halphas recibe 18 de daño
+Halphas termina con HP:224/275
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:224/275 MP:54/54
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tenkai
-2-Kotone
-3-Pabilsag
-4-Patrimpas
+1-Demi-Fiend
+2-Da Peng
+3-Halphas
+4-Wicker Man
 ----------------------------------------
-Seleccione una acción para Tenkai
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tenkai
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tenkai
-1-Nahobino HP:453/453 MP:389/389
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Apsaras HP:85/85 MP:81/81
-4-Karasu Tengu HP:238/238 MP:107/107
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Tenkai ataca a Tsuchigumo
-Tsuchigumo recibe 43 de daño
-Tsuchigumo termina con HP:237/280
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:409/409 MP:396/396
-D-Pabilsag HP:241/241 MP:67/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Tsuchigumo HP:237/280 MP:126/126
-C-Apsaras HP:85/85 MP:81/81
-D-Karasu Tengu HP:238/238 MP:107/107
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Pabilsag
-3-Patrimpas
-4-Tenkai
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Madness Nails MP:26
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -502,27 +708,27 @@ INPUT: 5
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:409/409 MP:396/396
-D-Pabilsag HP:241/241 MP:67/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Tsuchigumo HP:237/280 MP:126/126
-C-Apsaras HP:85/85 MP:81/81
-D-Karasu Tengu HP:238/238 MP:107/107
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:406/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:126/126
+D-Halphas HP:224/275 MP:54/54
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Pabilsag
-2-Patrimpas
-3-Tenkai
-4-Kotone
+1-Da Peng
+2-Halphas
+3-Wicker Man
+4-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Pabilsag
+Seleccione una acción para Da Peng
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -530,71 +736,25 @@ Seleccione una acción para Pabilsag
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
+1-Atropos HP:277/277 MP:269/269
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Seleccione una acción para Pabilsag
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Pabilsag
+Seleccione una acción para Da Peng
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Pabilsag use
-1-Toxic Sting MP:9
-2-Posumudi MP:5
-3-Blast Arrow MP:16
+Seleccione una habilidad para que Da Peng use
+1-Zandyne MP:14
+2-Panic Voice MP:15
+3-Mabufula MP:20
 4-Cancelar
-INPUT: 3
+INPUT: 4
 ----------------------------------------
-Pabilsag dispara a Nahobino
-Nahobino recibe 64 de daño
-Nahobino termina con HP:389/453
-Pabilsag dispara a Tsuchigumo
-Tsuchigumo recibe 64 de daño
-Tsuchigumo termina con HP:173/280
-Pabilsag dispara a Apsaras
-Apsaras recibe 64 de daño
-Apsaras termina con HP:21/85
-Pabilsag dispara a Karasu Tengu
-Karasu Tengu recibe 64 de daño
-Karasu Tengu termina con HP:174/238
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:409/409 MP:396/396
-D-Pabilsag HP:241/241 MP:51/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:389/453 MP:389/389
-B-Tsuchigumo HP:173/280 MP:126/126
-C-Apsaras HP:21/85 MP:81/81
-D-Karasu Tengu HP:174/238 MP:107/107
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Patrimpas
-2-Tenkai
-3-Kotone
-4-Pabilsag
-----------------------------------------
-Seleccione una acción para Patrimpas
+Seleccione una acción para Da Peng
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -602,10 +762,112 @@ Seleccione una acción para Patrimpas
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Cancelar
+1-Atropos HP:277/277 MP:269/269
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Da Peng
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Da Peng use
+1-Zandyne MP:14
+2-Panic Voice MP:15
+3-Mabufula MP:20
+4-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Patrimpas
+Seleccione un objetivo para Da Peng
+1-Tamaki HP:999/999 MP:542/542
+2-Pendragon HP:719/719 MP:143/143
+3-Astaroth HP:406/406 MP:181/181
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Da Peng lanza viento a Astaroth
+Astaroth recibe 106 de daño
+Astaroth termina con HP:300/406
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:300/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:224/275 MP:54/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Halphas
+2-Wicker Man
+3-Demi-Fiend
+4-Da Peng
+----------------------------------------
+Seleccione una acción para Halphas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Atropos HP:277/277 MP:269/269
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Halphas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Halphas
+1-Tamaki HP:999/999 MP:542/542
+2-Pendragon HP:719/719 MP:143/143
+3-Astaroth HP:300/406 MP:181/181
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Halphas ataca a Astaroth
+Astaroth recibe 15 de daño
+Astaroth termina con HP:285/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:285/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:224/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wicker Man
+2-Demi-Fiend
+3-Da Peng
+4-Halphas
+----------------------------------------
+Seleccione una acción para Wicker Man
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -615,27 +877,128 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:409/409 MP:396/396
-D-Pabilsag HP:241/241 MP:51/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:389/453 MP:389/389
-B-Tsuchigumo HP:173/280 MP:126/126
-C-Apsaras HP:21/85 MP:81/81
-D-Karasu Tengu HP:174/238 MP:107/107
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:285/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:224/275 MP:54/54
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tenkai
-2-Kotone
-3-Pabilsag
-4-Patrimpas
+1-Demi-Fiend
+2-Da Peng
+3-Halphas
+4-Wicker Man
 ----------------------------------------
-Seleccione una acción para Tenkai
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tamaki HP:999/999 MP:542/542
+2-Pendragon HP:719/719 MP:143/143
+3-Astaroth HP:285/406 MP:181/181
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Tamaki
+Tamaki es resistente el ataque de Demi-Fiend
+Tamaki recibe 84 de daño
+Tamaki termina con HP:915/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:285/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:224/275 MP:54/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Da Peng
+2-Halphas
+3-Wicker Man
+4-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Da Peng
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Da Peng
+1-Tamaki HP:915/999 MP:542/542
+2-Pendragon HP:719/719 MP:143/143
+3-Astaroth HP:285/406 MP:181/181
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Da Peng ataca a Astaroth
+Astaroth recibe 48 de daño
+Astaroth termina con HP:237/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:224/275 MP:54/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Wicker Man HP:71/126 MP:55/55
+3-Da Peng HP:634/634 MP:112/126
+4-Halphas HP:224/275 MP:54/54
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -646,7 +1009,7 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Tenkai
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -657,95 +1020,903 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Tenkai
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Wicker Man HP:71/126 MP:55/55
+3-Da Peng HP:634/634 MP:112/126
+4-Halphas HP:224/275 MP:54/54
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pendragon ataca a Halphas
+Halphas recibe 55 de daño
+Halphas termina con HP:169/275
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Tamaki
+3-Pendragon
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:542/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-Wicker Man HP:71/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pendragon
+3-Astaroth
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Recarmdra MP:2
+2-Blood Ritual MP:25
+3-Mazionga MP:20
+4-Desperate Hit MP:40
+5-Mazandyne MP:32
+6-Ziodyne MP:14
+7-Myriad Arrows MP:30
+8-Dia MP:5
+9-Cancelar
+INPUT: 7
+----------------------------------------
+Tamaki dispara a Demi-Fiend
+Demi-Fiend recibe 68 de daño
+Demi-Fiend termina con HP:1159/1227
+Tamaki dispara a Wicker Man
+Wicker Man recibe 68 de daño
+Wicker Man termina con HP:3/126
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:512/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-Wicker Man HP:3/126 MP:55/55
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Demi-Fiend HP:1159/1227 MP:834/834
+2-Wicker Man HP:3/126 MP:55/55
+3-Da Peng HP:634/634 MP:112/126
+4-Halphas HP:169/275 MP:54/54
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pendragon ataca a Wicker Man
+Wicker Man recibe 55 de daño
+Wicker Man termina con HP:0/126
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:512/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Da Peng
+3-Halphas
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tamaki HP:915/999 MP:512/542
+2-Pendragon HP:719/719 MP:143/143
+3-Astaroth HP:237/406 MP:181/181
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:512/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Da Peng
+2-Halphas
+3-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Da Peng
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:915/999 MP:512/542
+B-Pendragon HP:719/719 MP:143/143
+C-Astaroth HP:237/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:54/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Halphas
+2-Demi-Fiend
+3-Da Peng
+----------------------------------------
+Seleccione una acción para Halphas
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Tenkai use
+Seleccione una habilidad para que Halphas use
+1-Tarukaja MP:15
+2-Heat Wave MP:11
+3-Rakukaja MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Halphas ataca a Tamaki
+Tamaki es resistente el ataque de Halphas
+Tamaki recibe 22 de daño
+Tamaki termina con HP:893/999
+Halphas ataca a Pendragon
+Pendragon recibe 44 de daño
+Pendragon termina con HP:675/719
+Halphas ataca a Astaroth
+Astaroth recibe 44 de daño
+Astaroth termina con HP:193/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:193/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Da Peng
+3-Halphas
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tamaki HP:893/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:193/406 MP:181/181
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Demi-Fiend dispara a Astaroth
+Astaroth recibe 114 de daño
+Astaroth termina con HP:79/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:43/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Demi-Fiend HP:1159/1227 MP:834/834
+2-Da Peng HP:634/634 MP:112/126
+3-Halphas HP:169/275 MP:43/54
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Pendragon ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pendragon
+Demi-Fiend termina con HP:1159/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:181/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:169/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Tamaki
+3-Pendragon
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Astaroth lanza hielo a Demi-Fiend
+Demi-Fiend bloquea el ataque de Astaroth
+Demi-Fiend termina con HP:1159/1227
+Astaroth lanza hielo a Da Peng
+Da Peng recibe 93 de daño
+Da Peng termina con HP:541/634
+Astaroth lanza hielo a Halphas
+Halphas recibe 93 de daño
+Halphas termina con HP:76/275
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1159/1227 MP:834/834
+B-
+C-Da Peng HP:541/634 MP:112/126
+D-Halphas HP:76/275 MP:43/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+2-Da Peng
+3-Halphas
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Recarmdra MP:2
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend cura a Da Peng
+Da Peng recibe 317 de HP
+Da Peng termina con HP:634/634
+Demi-Fiend cura a Halphas
+Halphas recibe 137 de HP
+Halphas termina con HP:213/275
+Demi-Fiend revive a Wicker Man
+Wicker Man recibe 63 de HP
+Wicker Man termina con HP:63/126
+Demi-Fiend cura a Atropos
+Atropos recibe 138 de HP
+Atropos termina con HP:277/277
+Demi-Fiend termina con HP:0/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Da Peng HP:634/634 MP:112/126
+D-Halphas HP:213/275 MP:43/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Da Peng
+2-Halphas
+----------------------------------------
+Seleccione una acción para Da Peng
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Da Peng
+1-Tamaki HP:893/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:79/406 MP:149/181
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Da Peng
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wicker Man HP:63/126 MP:55/55
+2-Atropos HP:277/277 MP:269/269
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Atropos ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:277/277 MP:269/269
+D-Halphas HP:213/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Halphas
+2-Atropos
+----------------------------------------
+Seleccione una acción para Halphas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wicker Man HP:63/126 MP:55/55
+2-Da Peng HP:634/634 MP:112/126
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Halphas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:79/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:277/277 MP:269/269
+D-Halphas HP:213/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Atropos
+2-Halphas
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Tamaki HP:893/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:79/406 MP:149/181
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Tamaki HP:893/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:79/406 MP:149/181
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Atropos ataca a Astaroth
+Astaroth recibe 29 de daño
+Astaroth termina con HP:50/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:277/277 MP:269/269
+D-Halphas HP:213/275 MP:43/54
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pendragon
+1-Atropos HP:277/277 MP:269/269
+2-Halphas HP:213/275 MP:43/54
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Pendragon ataca a Halphas
+Halphas recibe 55 de daño
+Halphas termina con HP:158/275
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:149/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:277/277 MP:269/269
+D-Halphas HP:158/275 MP:43/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Tamaki
+3-Pendragon
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Atropos HP:277/277 MP:269/269
+2-Halphas HP:158/275 MP:43/54
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Astaroth lanza hielo a Atropos
+Atropos recibe 93 de daño
+Atropos termina con HP:184/277
+Astaroth lanza hielo a Halphas
+Halphas recibe 93 de daño
+Halphas termina con HP:65/275
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:117/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:269/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pendragon
+3-Astaroth
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:117/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:269/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pendragon
+2-Astaroth
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Pendragon
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:893/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:117/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:269/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Atropos
+2-Halphas
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Tamaki HP:893/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:50/406 MP:117/181
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Atropos ataca a Tamaki
+Tamaki es resistente el ataque de Atropos
+Tamaki recibe 14 de daño
+Tamaki termina con HP:879/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:117/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:269/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Halphas
+2-Atropos
+----------------------------------------
+Seleccione una acción para Halphas
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-Astaroth HP:50/406 MP:117/181
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:269/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Atropos
+2-Halphas
+----------------------------------------
+Seleccione una acción para Atropos
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Atropos use
 1-Hamaon MP:10
-2-Megidola MP:40
-3-Blood Ritual MP:25
-4-Titanomachia MP:30
+2-Tathlum Shot MP:7
+3-Ziodyne MP:14
+4-Zandyne MP:14
 5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Atropos
+1-Tamaki HP:879/999 MP:512/542
+2-Pendragon HP:675/719 MP:143/143
+3-Astaroth HP:50/406 MP:117/181
+4-Cancelar
 INPUT: 3
 ----------------------------------------
-El ataque de Tenkai ha aumentado
-La defensa de Tenkai ha aumentado
-Tenkai termina con HP:1/409
+Atropos ataca con luz a Astaroth
+Astaroth ha sido eliminado
+Astaroth termina con HP:0/406
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:51/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:389/453 MP:389/389
-B-Tsuchigumo HP:173/280 MP:126/126
-C-Apsaras HP:21/85 MP:81/81
-D-Karasu Tengu HP:174/238 MP:107/107
+Ronda de Tamaki (J1)
 ----------------------------------------
-Full Turns: 1
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:675/719 MP:143/143
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:184/277 MP:259/269
+D-Halphas HP:65/275 MP:43/54
+----------------------------------------
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kotone
-2-Pabilsag
-3-Patrimpas
-4-Tenkai
+1-Pendragon
+2-Tamaki
 ----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:51/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:389/453 MP:389/389
-B-Tsuchigumo HP:173/280 MP:126/126
-C-Apsaras HP:21/85 MP:81/81
-D-Karasu Tengu HP:174/238 MP:107/107
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pabilsag
-2-Patrimpas
-3-Tenkai
-4-Kotone
-----------------------------------------
-Seleccione una acción para Pabilsag
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pabilsag use
-1-Toxic Sting MP:9
-2-Posumudi MP:5
-3-Blast Arrow MP:16
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pabilsag
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -756,1747 +1927,280 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Pabilsag
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pabilsag use
-1-Toxic Sting MP:9
-2-Posumudi MP:5
-3-Blast Arrow MP:16
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Pabilsag dispara a Nahobino
-Nahobino recibe 64 de daño
-Nahobino termina con HP:325/453
-Pabilsag dispara a Tsuchigumo
-Tsuchigumo recibe 64 de daño
-Tsuchigumo termina con HP:109/280
-Pabilsag dispara a Apsaras
-Apsaras recibe 64 de daño
-Apsaras termina con HP:0/85
-Pabilsag dispara a Karasu Tengu
-Karasu Tengu recibe 64 de daño
-Karasu Tengu termina con HP:110/238
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:35/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:389/389
-B-Tsuchigumo HP:109/280 MP:126/126
-C-
-D-Karasu Tengu HP:110/238 MP:107/107
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tsuchigumo
-3-Karasu Tengu
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Tsuchigumo HP:109/280 MP:126/126 (Puesto 2)
-2-Vacío (Puesto 3)
-3-Karasu Tengu HP:110/238 MP:107/107 (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Black Rider ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:35/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:389/389
-B-Tsuchigumo HP:109/280 MP:126/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-3-Nahobino
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:35/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:389/389
-B-Tsuchigumo HP:109/280 MP:126/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Nahobino
-3-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-Pabilsag HP:241/241 MP:35/67
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:389/389
-B-Tsuchigumo HP:109/280 MP:126/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tsuchigumo
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Recarmdra MP:2
-2-Mudo MP:6
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Kotone HP:597/597 MP:347/347
-2-Patrimpas HP:155/155 MP:149/149
-3-Tenkai HP:1/409 MP:371/396
-4-Pabilsag HP:241/241 MP:35/67
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Nahobino ataca con oscuridad a Pabilsag
-Pabilsag ha sido eliminado
-Pabilsag termina con HP:0/241
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-Tenkai HP:1/409 MP:371/396
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:383/389
-B-Tsuchigumo HP:109/280 MP:126/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-3-Nahobino
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tsuchigumo
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Karasu Tengu HP:110/238 MP:107/107
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Kotone HP:597/597 MP:347/347
-2-Patrimpas HP:155/155 MP:149/149
-3-Tenkai HP:1/409 MP:371/396
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Tsuchigumo lanza electricidad a Tenkai
-Tenkai recibe 62 de daño
-Tenkai termina con HP:0/409
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:383/389
-B-Tsuchigumo HP:109/280 MP:118/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Patrimpas
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Nahobino HP:325/453 MP:383/389
-2-Tsuchigumo HP:109/280 MP:118/126
-3-Black Rider HP:686/686 MP:307/307
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Kotone ataca a Tsuchigumo
-Tsuchigumo recibe 38 de daño
-Tsuchigumo termina con HP:71/280
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:383/389
-B-Tsuchigumo HP:71/280 MP:118/126
-C-
-D-Black Rider HP:686/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Patrimpas
-2-Kotone
-----------------------------------------
-Seleccione una acción para Patrimpas
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Patrimpas use
-1-Zanma MP:8
-2-Mazan MP:11
-3-Recarm MP:20
-4-Tetraja MP:15
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Patrimpas
-1-Tenkai HP:0/409 MP:371/396
-2-Pabilsag HP:0/241 MP:35/67
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Patrimpas
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Patrimpas
-1-Nahobino HP:325/453 MP:383/389
-2-Tsuchigumo HP:71/280 MP:118/126
-3-Black Rider HP:686/686 MP:307/307
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Patrimpas ataca a Black Rider
-Black Rider recibe 16 de daño
-Black Rider termina con HP:670/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:597/597 MP:347/347
-B-Patrimpas HP:155/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:383/389
-B-Tsuchigumo HP:71/280 MP:118/126
-C-
-D-Black Rider HP:670/686 MP:307/307
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Nahobino
-3-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Kotone termina con HP:427/597
-Black Rider lanza hielo a Patrimpas
-Patrimpas es resistente el ataque de Black Rider
-Patrimpas recibe 85 de daño
-Patrimpas termina con HP:70/155
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:70/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:325/453 MP:383/389
-B-Tsuchigumo HP:71/280 MP:118/126
-C-
-D-Black Rider HP:670/686 MP:285/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tsuchigumo
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Recarmdra MP:2
-2-Mudo MP:6
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino cura a Tsuchigumo
-Tsuchigumo recibe 140 de HP
-Tsuchigumo termina con HP:211/280
-Nahobino cura a Black Rider
-Black Rider recibe 343 de HP
-Black Rider termina con HP:686/686
-Nahobino revive a Apsaras
-Apsaras recibe 42 de HP
-Apsaras termina con HP:42/85
-Nahobino cura a Karasu Tengu
-Karasu Tengu recibe 119 de HP
-Karasu Tengu termina con HP:229/238
-Nahobino termina con HP:0/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:70/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:686/686 MP:285/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:427/597 MP:347/347
-2-Patrimpas HP:70/155 MP:149/149
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:427/597 MP:347/347
-2-Patrimpas HP:70/155 MP:149/149
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Black Rider ataca a Patrimpas
-Patrimpas recibe 57 de daño
-Patrimpas termina con HP:13/155
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:13/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:686/686 MP:285/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-2-Patrimpas
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Pendragon
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Kotone
-1-Tsuchigumo HP:211/280 MP:118/126
-2-Black Rider HP:686/686 MP:285/307
+Seleccione una habilidad para que Pendragon use
+1-Ice Breath MP:21
+2-Titanomachia MP:30
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Kotone ataca a Black Rider
-Black Rider recibe 38 de daño
-Black Rider termina con HP:648/686
+Pendragon ataca a Atropos
+Atropos recibe 132 de daño
+Atropos termina con HP:52/277
+Pendragon ataca a Halphas
+Halphas recibe 132 de daño
+Halphas termina con HP:0/275
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:13/155 MP:149/149
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:675/719 MP:113/143
 C-
 D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:648/686 MP:285/307
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:52/277 MP:259/269
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Patrimpas
-2-Kotone
+1-Tamaki
+2-Pendragon
 ----------------------------------------
-Seleccione una acción para Patrimpas
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Atropos HP:52/277 MP:259/269
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Atropos
+Atropos recibe 15 de daño
+Atropos termina con HP:37/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:675/719 MP:113/143
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:37/277 MP:259/269
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Atropos
+----------------------------------------
+Seleccione una acción para Atropos
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:13/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:648/686 MP:285/307
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-2-Patrimpas
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Tsuchigumo HP:211/280 MP:118/126
-2-Black Rider HP:648/686 MP:285/307
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Tsuchigumo HP:211/280 MP:118/126
-2-Black Rider HP:648/686 MP:285/307
+Seleccione un objetivo para Atropos
+1-Tamaki HP:879/999 MP:512/542
+2-Pendragon HP:675/719 MP:113/143
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Kotone dispara a Black Rider
-Black Rider recibe 57 de daño
-Black Rider termina con HP:591/686
+Atropos ataca a Pendragon
+Pendragon recibe 29 de daño
+Pendragon termina con HP:646/719
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Nahobino (J2)
+Ronda de Tamaki (J1)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:427/597 MP:347/347
-B-Patrimpas HP:13/155 MP:149/149
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:646/719 MP:113/143
 C-
 D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:591/686 MP:285/307
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:37/277 MP:259/269
+D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Black Rider
-2-Tsuchigumo
+1-Pendragon
+2-Tamaki
 ----------------------------------------
-Seleccione una acción para Black Rider
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:427/597 MP:347/347
-2-Patrimpas HP:13/155 MP:149/149
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 28 de daño
-Kotone termina con HP:399/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:399/597 MP:347/347
-B-Patrimpas HP:13/155 MP:149/149
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:118/126
-C-
-D-Black Rider HP:591/686 MP:285/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Kotone HP:399/597 MP:347/347
-2-Patrimpas HP:13/155 MP:149/149
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tsuchigumo lanza electricidad a Patrimpas
-Patrimpas recibe 70 de daño
-Patrimpas termina con HP:0/155
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:399/597 MP:347/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:591/686 MP:285/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
+INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Pendragon
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Madness Nails MP:26
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone ataca a Black Rider
-Black Rider recibe 146 de daño
-Black Rider termina con HP:445/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:399/597 MP:321/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:445/686 MP:285/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:399/597 MP:321/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:445/686 MP:285/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Kotone HP:399/597 MP:321/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Kotone HP:399/597 MP:321/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo ataca a Kotone
-Kotone es resistente el ataque de Tsuchigumo
-Kotone recibe 11 de daño
-Kotone termina con HP:388/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:388/597 MP:321/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:445/686 MP:285/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:388/597 MP:321/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:388/597 MP:321/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:388/597 MP:321/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider lanza un ataque todo poderoso a Kotone
-El ataque drena 53 HP de Kotone
-Kotone termina con HP:335/597
-Black Rider termina con HP:498/686
-El ataque drena 53 MP de Kotone
-Kotone termina con MP:268/347
-Black Rider termina con MP:307/307
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:335/597 MP:268/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:498/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Tsuchigumo HP:211/280 MP:110/126
-2-Black Rider HP:498/686 MP:307/307
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Kotone ataca a Black Rider
-Black Rider recibe 38 de daño
-Black Rider termina con HP:460/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:335/597 MP:268/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:460/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:335/597 MP:268/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 28 de daño
-Kotone termina con HP:307/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:307/597 MP:268/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:110/126
-C-
-D-Black Rider HP:460/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Kotone HP:307/597 MP:268/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo lanza electricidad a Kotone
-Kotone es resistente el ataque de Tsuchigumo
-Kotone recibe 35 de daño
-Kotone termina con HP:272/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:268/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:211/280 MP:102/126
-C-
-D-Black Rider HP:460/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Madness Nails MP:26
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone ataca a Tsuchigumo
-Tsuchigumo recibe 146 de daño
-Tsuchigumo termina con HP:65/280
-Kotone ataca a Black Rider
-Black Rider recibe 146 de daño
-Black Rider termina con HP:314/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Black Rider
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Apsaras HP:42/85 MP:81/81
-2-Karasu Tengu HP:229/238 MP:107/107
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Karasu Tengu ha sido invocado
+Seleccione una habilidad para que Pendragon use
+1-Ice Breath MP:21
+2-Titanomachia MP:30
+3-Cancelar
+INPUT: 3
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Karasu Tengu
-----------------------------------------
-Seleccione una acción para Tsuchigumo
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Apsaras HP:42/85 MP:81/81
-2-Black Rider HP:314/686 MP:307/307
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Apsaras ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Apsaras HP:42/85 MP:81/81
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Apsaras HP:42/85 MP:81/81
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Apsaras HP:42/85 MP:81/81
-2-Karasu Tengu HP:229/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kotone ataca a Apsaras
-Apsaras recibe 38 de daño
-Apsaras termina con HP:4/85
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:272/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Apsaras HP:4/85 MP:81/81
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Karasu Tengu
-2-Apsaras
-----------------------------------------
-Seleccione una acción para Karasu Tengu
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:646/719 MP:113/143
+C-
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:37/277 MP:259/269
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pendragon
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Karasu Tengu
-1-Kotone HP:272/597 MP:242/347
+Seleccione un objetivo para Tamaki
+1-Atropos HP:37/277 MP:259/269
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Karasu Tengu ataca a Kotone
-Kotone es resistente el ataque de Karasu Tengu
-Kotone recibe 9 de daño
-Kotone termina con HP:263/597
+Tamaki ataca a Atropos
+Atropos recibe 18 de daño
+Atropos termina con HP:19/277
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:263/597 MP:242/347
-B-
+Equipo de Tamaki (J1)
+A-Tamaki HP:879/999 MP:512/542
+B-Pendragon HP:646/719 MP:113/143
 C-
 D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Apsaras HP:4/85 MP:81/81
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:0/1227 MP:832/834
+B-
+C-Atropos HP:19/277 MP:259/269
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Apsaras
-2-Karasu Tengu
+1-Pendragon
+2-Tamaki
 ----------------------------------------
-Seleccione una acción para Apsaras
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Apsaras use
-1-Media MP:12
-2-Dormina MP:4
-3-Posumudi MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Apsaras
+Seleccione una acción para Pendragon
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tsuchigumo HP:65/280 MP:102/126
-2-Black Rider HP:314/686 MP:307/307
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:263/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Karasu Tengu HP:229/238 MP:107/107
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Karasu Tengu
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Karasu Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Karasu Tengu
-1-Kotone HP:263/597 MP:242/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Karasu Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Apsaras HP:4/85 MP:81/81
-2-Black Rider HP:314/686 MP:307/307
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Black Rider ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J1)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:263/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:263/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:65/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Pendragon
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Madness Nails MP:26
-2-Cancelar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Tsuchigumo HP:65/280 MP:102/126
-2-Black Rider HP:314/686 MP:307/307
+Seleccione una habilidad para que Pendragon use
+1-Ice Breath MP:21
+2-Titanomachia MP:30
 3-Cancelar
 INPUT: 1
 ----------------------------------------
-Kotone ataca a Tsuchigumo
-Tsuchigumo recibe 38 de daño
-Tsuchigumo termina con HP:27/280
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Kotone (J1)
-A-Kotone HP:263/597 MP:242/347
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:0/453 MP:381/389
-B-Tsuchigumo HP:27/280 MP:102/126
-C-
-D-Black Rider HP:314/686 MP:307/307
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Apsaras HP:4/85 MP:81/81
-2-Karasu Tengu HP:229/238 MP:107/107
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kotone HP:263/597 MP:242/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Black Rider lanza hielo a Kotone
-Kotone es resistente el ataque de Black Rider
-Kotone recibe 85 de daño
-Kotone termina con HP:0/597
+Pendragon lanza hielo a Atropos
+Atropos recibe 122 de daño
+Atropos termina con HP:0/277
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Nahobino (J2)
+Ganador: Tamaki (J1)

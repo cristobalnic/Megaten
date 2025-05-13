@@ -1,7 +1,5 @@
 Player 1 Team
-[Samurai] Tadano (Mahamaon,Fatal Sword,Samarecarm,Bufu)
-Gu Huo Niao
-Tlazolteotl
+[Samurai] Shujinko (Recarmdra,Mazanma,Mudo,Energy Drain,Maziodyne)
+Kukunochi
 Player 2 Team
-[Samurai] Itsuki (Media,Recarm)
-Erlkonig
+[Samurai] Kyouji (Recarmdra,Media,Bar Toss)

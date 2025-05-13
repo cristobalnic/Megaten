@@ -5,7 +5,7 @@ namespace Shin_Megami_Tensei.Entities;
 
 public class EmptySlot : Unit
 {
-    public EmptySlot(UnitData unitData) : base(unitData)
+    private EmptySlot(UnitData unitData) : base(unitData)
     {
     }
 

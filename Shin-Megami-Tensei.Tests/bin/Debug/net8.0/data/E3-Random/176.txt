@@ -1,12 +1,11 @@
 Player 1 Team
-[Samurai] Aleph (Ziodyne,Blood Ritual,Recarmdra,Life Drain,Needle Shot,Javelin Rain)
-Tam Lin
-Murmur
-Asmodeus
-Seth
-Knocker
-Player 2 Team
-[Samurai] Aleph (Agidyne,Maziodyne,Mazan)
+[Samurai] Tamaki (Mahama,Hamaon,Ragnarok,Mabufudyne,Dark Energy,Recarmdra)
+Tlazolteotl
 Pale Rider
-Zouchouten
-Orcus
+Virtue
+Player 2 Team
+[Samurai] Tamaki (Recarmdra,Mazio,Blast Arrow,Needle Shot)
+Bilwis
+Apis
+David
+Kaso

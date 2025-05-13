@@ -401,1166 +401,211 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 393
 ----------------------------------------
-Ronda de Kei (J1)
+Ronda de Tadano (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:398/398
-B-Dybbuk HP:66/66 MP:63/63
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Decarabia HP:273/273 MP:264/264
+C-Pallas Athena HP:577/577 MP:115/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-Dominion HP:287/287 MP:278/278
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kei
-2-Dybbuk
+1-Pallas Athena
+2-Decarabia
+3-Tadano
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Pallas Athena
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:542/542
-2-Kelpie HP:322/322 MP:144/144
-3-Black Rider HP:686/686 MP:307/307
-4-Dominion HP:287/287 MP:278/278
-5-Cancelar
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Kei dispara a Tamaki
-Tamaki es resistente el ataque de Kei
-Tamaki recibe 30 de daño
-Tamaki termina con HP:969/999
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:969/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-Dominion HP:287/287 MP:278/278
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dybbuk
-2-Kei
-----------------------------------------
-Seleccione una acción para Dybbuk
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Dybbuk use
-1-Mudo MP:6
-2-Patra MP:5
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
 3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:969/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-Dominion HP:287/287 MP:278/278
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kei
-2-Dybbuk
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:969/999 MP:542/542
-2-Kelpie HP:322/322 MP:144/144
-3-Black Rider HP:686/686 MP:307/307
-4-Dominion HP:287/287 MP:278/278
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:969/999 MP:542/542
-2-Kelpie HP:322/322 MP:144/144
-3-Black Rider HP:686/686 MP:307/307
-4-Dominion HP:287/287 MP:278/278
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:969/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-Dominion HP:287/287 MP:278/278
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Kelpie
-3-Dominion
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Anzu HP:596/596 MP:118/118
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:969/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:118/118
-D-Dominion HP:287/287 MP:278/278
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kelpie
-2-Dominion
-3-Tamaki
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:969/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:118/118
-D-Dominion HP:287/287 MP:278/278
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dominion
-2-Tamaki
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Dominion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Dominion
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Dominion use
-1-Mazionga MP:20
-2-Megido MP:25
-3-Recarmdra MP:2
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Dominion cura a Tamaki
-Tamaki recibe 499 de HP
-Tamaki termina con HP:999/999
-Dominion cura a Kelpie
-Kelpie recibe 161 de HP
-Kelpie termina con HP:322/322
-Dominion cura a Anzu
-Anzu recibe 298 de HP
-Anzu termina con HP:596/596
-Dominion cura a Black Rider
-Black Rider recibe 343 de HP
-Black Rider termina con HP:686/686
-Dominion termina con HP:0/287
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:118/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:760/760 MP:387/398
-2-Dybbuk HP:66/66 MP:63/63
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Kei termina con HP:632/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:542/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tamaki
-2-Anzu
-3-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:632/760 MP:387/398
-2-Dybbuk HP:66/66 MP:63/63
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
 3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Kelpie HP:322/322 MP:144/144 (Puesto 2)
-2-Anzu HP:596/596 MP:107/118 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Media MP:12
-2-Breath MP:24
-3-Mudoon MP:10
-4-Berserker God MP:12
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki cura a Kelpie
-Kelpie recibe 80 de HP
-Kelpie termina con HP:322/322
-Tamaki cura a Anzu
-Anzu recibe 149 de HP
-Anzu termina con HP:596/596
-Tamaki cura a Tamaki
-Tamaki recibe 249 de HP
-Tamaki termina con HP:999/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Dybbuk
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:322/322 MP:144/144
-C-Anzu HP:596/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Dybbuk
-2-Kei
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dybbuk
-1-Tamaki HP:999/999 MP:530/542
-2-Kelpie HP:322/322 MP:144/144
-3-Anzu HP:596/596 MP:107/118
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Dybbuk ataca a Kelpie
-Kelpie recibe 5 de daño
-Kelpie termina con HP:317/322
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Anzu HP:596/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Dybbuk
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Kelpie HP:317/322 MP:144/144
-3-Anzu HP:596/596 MP:107/118
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Kei dispara a Anzu
-Anzu recibe 15 de daño
-Anzu termina con HP:581/596
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Anzu HP:581/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:686/686 MP:307/307
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:317/322 MP:144/144
-C-Black Rider HP:686/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Kelpie
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:999/999 MP:530/542
-2-Kelpie HP:317/322 MP:144/144
-3-Black Rider HP:686/686 MP:307/307
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Kelpie cura a Kelpie
-Kelpie recibe 161 de HP
-Kelpie termina con HP:322/322
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:387/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Kelpie HP:322/322 MP:135/144
-C-Black Rider HP:686/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Dybbuk
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 6
-----------------------------------------
-Kei lanza un ataque todo poderoso a Tamaki
-Tamaki recibe 78 de daño
-Tamaki termina con HP:921/999
-Kei lanza un ataque todo poderoso a Kelpie
-Kelpie recibe 78 de daño
-Kelpie termina con HP:244/322
-Kei lanza un ataque todo poderoso a Black Rider
-Black Rider recibe 78 de daño
-Black Rider termina con HP:608/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Black Rider HP:608/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dybbuk
-2-Kei
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dybbuk
-1-Tamaki HP:921/999 MP:530/542
-2-Kelpie HP:244/322 MP:135/144
-3-Black Rider HP:608/686 MP:307/307
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Dybbuk ataca a Black Rider
-Black Rider recibe 5 de daño
-Black Rider termina con HP:603/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Anzu HP:581/596 MP:107/118
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:632/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Anzu HP:581/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:921/999 MP:530/542
-2-Kelpie HP:244/322 MP:135/144
-3-Anzu HP:581/596 MP:107/118
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:632/760 MP:346/398
-2-Dybbuk HP:66/66 MP:63/63
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie ataca a Kei
-Kei es resistente el ataque de Kelpie
-Kei recibe 12 de daño
-Kei termina con HP:620/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:620/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Anzu HP:581/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Anzu
-3-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:620/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Anzu HP:581/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:603/686 MP:307/307
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:620/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Anzu HP:581/596 MP:107/118
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:620/760 MP:346/398
-B-Dybbuk HP:66/66 MP:63/63
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:620/760 MP:346/398
-2-Dybbuk HP:66/66 MP:63/63
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Tamaki ataca a Dybbuk
-Dybbuk recibe 18 de daño
-Dybbuk termina con HP:48/66
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:620/760 MP:346/398
-B-Dybbuk HP:48/66 MP:63/63
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Decarabia HP:273/273 MP:264/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kei
-2-Dybbuk
+1-Decarabia
+2-Tadano
+3-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Decarabia
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Decarabia use
+1-Megido MP:25
+2-Sabbatma MP:20
+3-Tetrakarn MP:50
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Decarabia
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Decarabia
+1-Demi-Fiend HP:1227/1227 MP:834/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Decarabia ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Decarabia
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Decarabia HP:273/273 MP:264/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:834/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1573,7 +618,7 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1582,340 +627,334 @@ Seleccione una acción para Kei
 6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 7
+Seleccione una habilidad para que Demi-Fiend use
+1-Recarmdra MP:2
+2-Gather Spirit Energy MP:25
+3-Media MP:12
+4-Great Logos MP:70
+5-Plasma Discharge MP:22
+6-Wind Breath MP:21
+7-Mazio MP:11
+8-Cancelar
+INPUT: 5
 ----------------------------------------
-Seleccione un objetivo para Kei
-1-Kei HP:620/760 MP:346/398
-2-Dybbuk HP:48/66 MP:63/63
+Demi-Fiend lanza electricidad a Tadano
+Tadano recibe 273 de daño
+Tadano termina con HP:115/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:273/273 MP:264/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:812/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Decarabia
+3-Tadano
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
 3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Kei cura a Kei
-Kei recibe 190 de HP
-Kei termina con HP:760/760
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1227/1227 MP:812/834
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:1227/1227
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:341/398
-B-Dybbuk HP:48/66 MP:63/63
-C-
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:273/273 MP:264/264
+C-Pallas Athena HP:577/577 MP:102/115
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1227/1227 MP:812/834
+B-
+C-
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Dybbuk
-2-Kei
+1-Decarabia
+2-Tadano
+3-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Dybbuk
+Seleccione una acción para Decarabia
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dybbuk
-1-Tamaki HP:921/999 MP:530/542
-2-Anzu HP:581/596 MP:107/118
-3-Black Rider HP:603/686 MP:307/307
+Seleccione una habilidad para que Decarabia use
+1-Megido MP:25
+2-Sabbatma MP:20
+3-Tetrakarn MP:50
 4-Cancelar
 INPUT: 1
 ----------------------------------------
-Dybbuk ataca a Tamaki
-Tamaki es resistente el ataque de Dybbuk
-Tamaki recibe 2 de daño
-Tamaki termina con HP:919/999
+Decarabia lanza un ataque todo poderoso a Demi-Fiend
+Demi-Fiend recibe 103 de daño
+Demi-Fiend termina con HP:1124/1227
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tamaki (J2)
+Ronda de Demi-Fiend (J2)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:341/398
-B-Dybbuk HP:48/66 MP:63/63
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:273/273 MP:239/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1124/1227 MP:812/834
+B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tadano HP:115/388 MP:193/193
+2-Decarabia HP:273/273 MP:239/264
+3-Pallas Athena HP:577/577 MP:102/115
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tadano HP:115/388 MP:193/193
+2-Decarabia HP:273/273 MP:239/264
+3-Pallas Athena HP:577/577 MP:102/115
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Tadano HP:115/388 MP:193/193
+2-Decarabia HP:273/273 MP:239/264
+3-Pallas Athena HP:577/577 MP:102/115
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend ataca a Decarabia
+Decarabia recibe 168 de daño
+Decarabia termina con HP:105/273
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:105/273 MP:239/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1124/1227 MP:812/834
+B-
+C-
 D-
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Black Rider
-2-Anzu
-3-Tamaki
+1-Pallas Athena
+2-Decarabia
+3-Tadano
 ----------------------------------------
-Seleccione una acción para Black Rider
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:760/760 MP:341/398
-2-Dybbuk HP:48/66 MP:63/63
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Black Rider ataca a Dybbuk
-Dybbuk recibe 57 de daño
-Dybbuk termina con HP:0/66
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1124/1227 MP:812/834
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:341/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:760/760 MP:341/398
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1124/1227 MP:812/834
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:738/760
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:1124/1227
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:738/760 MP:341/398
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:105/273 MP:239/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1124/1227 MP:812/834
 B-
 C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
+1-Decarabia
+2-Tadano
+3-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Media MP:12
-2-Breath MP:24
-3-Mudoon MP:10
-4-Berserker God MP:12
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Anzu HP:581/596 MP:107/118 (Puesto 2)
-2-Black Rider HP:603/686 MP:307/307 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:738/760 MP:341/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki ataca a Kei
-Kei es resistente el ataque de Tamaki
-Kei recibe 9 de daño
-Kei termina con HP:729/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:341/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:581/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:919/999 MP:530/542
-2-Anzu HP:581/596 MP:107/118
-3-Black Rider HP:603/686 MP:307/307
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Kei ataca a Anzu
-Anzu recibe 66 de daño
-Anzu termina con HP:515/596
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:515/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
+Seleccione una acción para Decarabia
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1925,220 +964,26 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:105/273 MP:239/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1124/1227 MP:812/834
 B-
 C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Anzu HP:515/596 MP:107/118
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:729/760 MP:334/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Black Rider HP:603/686 MP:307/307
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Kelpie
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Anzu HP:515/596 MP:107/118
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Kelpie HP:244/322 MP:135/144
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:603/686 MP:307/307
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Black Rider HP:603/686 MP:307/307
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:729/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
 D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tamaki
-2-Anzu
-3-Black Rider
+1-Tadano
+2-Pallas Athena
+3-Decarabia
 ----------------------------------------
-Seleccione una acción para Tamaki
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -2147,320 +992,122 @@ Seleccione una acción para Tamaki
 6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:729/760 MP:334/398
+Seleccione un objetivo para Tadano
+1-Demi-Fiend HP:1124/1227 MP:812/834
 2-Cancelar
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Tamaki ataca a Kei
-Kei es resistente el ataque de Tamaki
-Kei recibe 9 de daño
-Kei termina con HP:720/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:720/760 MP:334/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 7
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Kei HP:720/760 MP:334/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kei cura a Kei
-Kei recibe 190 de HP
-Kei termina con HP:760/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 2
+1-Cancelar
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-----------------------------------------
-Seleccione una acción para Tamaki
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 2
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Seleccione un objetivo para Tadano
+1-Demi-Fiend HP:1124/1227 MP:812/834
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Tadano dispara a Demi-Fiend
+Demi-Fiend recibe 20 de daño
+Demi-Fiend termina con HP:1104/1227
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-Decarabia HP:105/273 MP:239/264
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
 B-
 C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Anzu
-2-Tamaki
-3-Black Rider
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Demi-Fiend
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
+Seleccione un objetivo para Demi-Fiend
+1-Tadano HP:115/388 MP:193/193
+2-Decarabia HP:105/273 MP:239/264
+3-Pallas Athena HP:577/577 MP:102/115
 4-Cancelar
-INPUT: 1
+INPUT: 4
 ----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:760/760 MP:329/398
-2-Cancelar
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Seleccione un objetivo para Demi-Fiend
+1-Tadano HP:115/388 MP:193/193
+2-Decarabia HP:105/273 MP:239/264
+3-Pallas Athena HP:577/577 MP:102/115
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Demi-Fiend dispara a Decarabia
+Decarabia es débil contra el ataque de Demi-Fiend
+Decarabia recibe 171 de daño
+Decarabia termina con HP:0/273
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
 B-
 C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
 D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:760/760 MP:329/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Black Rider HP:603/686 MP:307/307 (Puesto 2)
-2-Anzu HP:515/596 MP:107/118 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:760/760 MP:329/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -2472,721 +1119,432 @@ INPUT: 5
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J1)
+Ronda de Tadano (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:329/398
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
 B-
 C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:919/999 MP:530/542
-2-Black Rider HP:603/686 MP:307/307
-3-Anzu HP:515/596 MP:107/118
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 9
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 7
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Kei HP:760/760 MP:329/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kei cura a Kei
-Kei recibe 190 de HP
-Kei termina con HP:760/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Tamaki
-3-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
+1-Pallas Athena
+2-Tadano
 ----------------------------------------
-Seleccione una acción para Tamaki
+Seleccione una acción para Pallas Athena
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Kelpie HP:244/322 MP:135/144
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Black Rider HP:603/686 MP:307/307 (Puesto 2)
-2-Anzu HP:515/596 MP:107/118 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Kelpie ha sido invocado
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:760/760 MP:324/398
+Equipo de Tadano (J1)
+A-Tadano HP:115/388 MP:193/193
+B-
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:135/144
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
+1-Tadano
+2-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Black Rider
+Seleccione una acción para Tadano
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
+Seleccione una habilidad para que Tadano use
+1-Recarmdra MP:2
+2-Hamaon MP:10
+3-Zanma MP:8
+4-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:760/760 MP:324/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 28 de daño
-Kei termina con HP:732/760
+Tadano cura a Pallas Athena
+Pallas Athena recibe 288 de HP
+Pallas Athena termina con HP:577/577
+Tadano revive a Decarabia
+Decarabia recibe 136 de HP
+Decarabia termina con HP:136/273
+Tadano termina con HP:0/388
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:577/577 MP:102/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:135/144
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
+1-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1104/1227 MP:812/834
+2-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:732/760 MP:324/398
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:1104/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:577/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:812/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Pallas Athena HP:577/577 MP:89/115
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Demi-Fiend
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Demi-Fiend use
+1-Recarmdra MP:2
+2-Gather Spirit Energy MP:25
+3-Media MP:12
+4-Great Logos MP:70
+5-Plasma Discharge MP:22
+6-Wind Breath MP:21
+7-Mazio MP:11
+8-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
+Demi-Fiend ha cargado su siguiente ataque mágico a más del doble
 ----------------------------------------
-Seleccione una acción para Anzu
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:577/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+----------------------------------------
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1104/1227 MP:787/834
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:1104/1227 MP:787/834
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:1104/1227
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:577/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Demi-Fiend
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Pallas Athena HP:577/577 MP:89/115
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Demi-Fiend
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:577/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:919/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:135/144
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:919/999 MP:530/542
-2-Black Rider HP:603/686 MP:307/307
-3-Anzu HP:515/596 MP:107/118
-4-Kelpie HP:244/322 MP:135/144
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie cura a Tamaki
-Tamaki recibe 499 de HP
-Tamaki termina con HP:999/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:126/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Demi-Fiend
+1-Pallas Athena HP:577/577 MP:89/115
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Demi-Fiend ataca a Pallas Athena
+Pallas Athena es resistente el ataque de Demi-Fiend
+Pallas Athena recibe 84 de daño
+Pallas Athena termina con HP:493/577
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:493/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:136/273 MP:239/264
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Decarabia ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Decarabia HP:136/273 MP:239/264
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:603/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:126/144
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kei
+1-Decarabia
 ----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:603/686 MP:307/307
-3-Anzu HP:515/596 MP:107/118
-4-Kelpie HP:244/322 MP:126/144
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Kei dispara a Black Rider
-Black Rider recibe 15 de daño
-Black Rider termina con HP:588/686
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:588/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:126/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:732/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:588/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:126/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Decarabia
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
+Seleccione una habilidad para que Decarabia use
+1-Megido MP:25
+2-Sabbatma MP:20
+3-Tetrakarn MP:50
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Anzu
+Seleccione una acción para Decarabia
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:732/760 MP:324/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:710/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:710/760 MP:324/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:588/686 MP:307/307
-C-Anzu HP:515/596 MP:107/118
-D-Kelpie HP:244/322 MP:126/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:588/686 MP:307/307
-3-Anzu HP:515/596 MP:107/118
-4-Kelpie HP:244/322 MP:126/144
-5-Cancelar
 INPUT: 3
 ----------------------------------------
-Kelpie cura a Anzu
-Anzu recibe 298 de HP
-Anzu termina con HP:596/596
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:493/577 MP:89/115
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Pallas Athena ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:710/760 MP:324/398
+Ronda de Demi-Fiend (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:493/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:588/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:710/760 MP:324/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:710/760 MP:324/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:710/760 MP:324/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -3198,1378 +1556,116 @@ INPUT: 5
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:710/760 MP:324/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:493/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:1104/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:588/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:710/760 MP:324/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider lanza un ataque todo poderoso a Kei
-El ataque drena 53 HP de Kei
-Kei termina con HP:657/760
-Black Rider termina con HP:641/686
-El ataque drena 53 MP de Kei
-Kei termina con MP:271/398
-Black Rider termina con MP:307/307
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:657/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:641/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:657/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:641/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Kelpie
+Seleccione una acción para Demi-Fiend
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:657/760 MP:271/398
+Seleccione un objetivo para Demi-Fiend
+1-Pallas Athena HP:493/577 MP:89/115
 2-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una acción para Kelpie
+Seleccione una acción para Demi-Fiend
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:657/760 MP:271/398
+Seleccione un objetivo para Demi-Fiend
+1-Pallas Athena HP:493/577 MP:89/115
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Kelpie ataca a Kei
-Kei es resistente el ataque de Kelpie
-Kei recibe 12 de daño
-Kei termina con HP:645/760
+Demi-Fiend dispara a Pallas Athena
+Pallas Athena devuelve 114 daño a Demi-Fiend
+Demi-Fiend termina con HP:990/1227
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J1)
+Ronda de Tadano (J1)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:645/760 MP:271/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:493/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:990/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:641/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kei
+1-Pallas Athena
 ----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Pallas Athena
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:641/686 MP:307/307
-3-Anzu HP:596/596 MP:107/118
-4-Kelpie HP:244/322 MP:117/144
-5-Cancelar
-INPUT: 2
+Seleccione un objetivo para Pallas Athena
+1-Demi-Fiend HP:990/1227 MP:787/834
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Kei dispara a Black Rider
-Black Rider recibe 15 de daño
-Black Rider termina con HP:626/686
+Pallas Athena ataca a Demi-Fiend
+Demi-Fiend bloquea el ataque de Pallas Athena
+Demi-Fiend termina con HP:990/1227
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tamaki (J2)
+Ronda de Demi-Fiend (J2)
 ----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:645/760 MP:271/398
+Equipo de Tadano (J1)
+A-Tadano HP:0/388 MP:191/193
+B-
+C-Pallas Athena HP:493/577 MP:89/115
+D-
+Equipo de Demi-Fiend (J2)
+A-Demi-Fiend HP:990/1227 MP:787/834
 B-
 C-
 D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:645/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:645/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:623/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:623/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:117/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:623/760 MP:271/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:626/686 MP:307/307
-3-Anzu HP:596/596 MP:107/118
-4-Kelpie HP:244/322 MP:117/144
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Kelpie cura a Anzu
-Anzu recibe 298 de HP
-Anzu termina con HP:596/596
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:623/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:623/760 MP:271/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:623/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki dispara a Kei
-Kei es resistente el ataque de Tamaki
-Kei recibe 7 de daño
-Kei termina con HP:616/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:616/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
+1-Demi-Fiend
 ----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:616/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:616/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:594/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:594/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:626/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:626/686 MP:307/307
-3-Anzu HP:596/596 MP:107/118
-4-Kelpie HP:244/322 MP:108/144
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Kei dispara a Black Rider
-Black Rider recibe 15 de daño
-Black Rider termina con HP:611/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:594/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:594/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:594/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:572/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:572/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:572/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie ataca a Kei
-Kei es resistente el ataque de Kelpie
-Kei recibe 12 de daño
-Kei termina con HP:560/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:560/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:560/760 MP:271/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:560/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:560/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:560/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 22 de daño
-Kei termina con HP:538/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:538/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:611/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:611/686 MP:307/307
-3-Anzu HP:596/596 MP:107/118
-4-Kelpie HP:244/322 MP:108/144
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Kei ataca a Black Rider
-Black Rider recibe 19 de daño
-Black Rider termina con HP:592/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:538/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:538/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 28 de daño
-Kei termina con HP:510/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:510/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:510/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:510/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie ataca a Kei
-Kei es resistente el ataque de Kelpie
-Kei recibe 12 de daño
-Kei termina con HP:498/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:498/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:498/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:498/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 28 de daño
-Kei termina con HP:470/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:470/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:107/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:470/760 MP:271/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Kei termina con HP:278/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:278/760 MP:271/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:592/686 MP:307/307
-3-Anzu HP:596/596 MP:96/118
-4-Kelpie HP:244/322 MP:108/144
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:592/686 MP:307/307
-3-Anzu HP:596/596 MP:96/118
-4-Kelpie HP:244/322 MP:108/144
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
+Seleccione una acción para Demi-Fiend
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -4578,1069 +1674,20 @@ Seleccione una acción para Kei
 6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 7
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Kei HP:278/760 MP:271/398
-2-Cancelar
+Seleccione una habilidad para que Demi-Fiend use
+1-Recarmdra MP:2
+2-Gather Spirit Energy MP:25
+3-Media MP:12
+4-Great Logos MP:70
+5-Plasma Discharge MP:22
+6-Wind Breath MP:21
+7-Mazio MP:11
+8-Cancelar
 INPUT: 1
 ----------------------------------------
-Kei cura a Kei
-Kei recibe 190 de HP
-Kei termina con HP:468/760
+Demi-Fiend termina con HP:0/1227
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:468/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:468/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:468/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:108/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:999/999 MP:530/542
-2-Black Rider HP:592/686 MP:307/307
-3-Anzu HP:596/596 MP:96/118
-4-Kelpie HP:244/322 MP:108/144
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Kelpie cura a Tamaki
-Tamaki recibe 499 de HP
-Tamaki termina con HP:999/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:468/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:530/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:99/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:468/760 MP:266/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Media MP:12
-2-Breath MP:24
-3-Mudoon MP:10
-4-Berserker God MP:12
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:468/760 MP:266/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki ataca a Kei
-Kei es resistente el ataque de Tamaki
-Kei recibe 43 de daño
-Kei termina con HP:425/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:425/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:518/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:99/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:425/760 MP:266/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:425/760 MP:266/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 28 de daño
-Kei termina con HP:397/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:266/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:518/542
-B-Black Rider HP:592/686 MP:307/307
-C-Anzu HP:596/596 MP:96/118
-D-Kelpie HP:244/322 MP:99/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Megidolaon MP:60
-2-Damascus Claw MP:7
-3-Heat Wave MP:11
-4-Mabufula MP:20
-5-Grand Tack MP:11
-6-Megidoplasma MP:41
-7-Dia MP:5
-8-Bufu MP:5
-9-Cancelar
-INPUT: 6
-----------------------------------------
-Kei lanza un ataque todo poderoso a Tamaki
-Tamaki recibe 78 de daño
-Tamaki termina con HP:921/999
-Kei lanza un ataque todo poderoso a Black Rider
-Black Rider recibe 78 de daño
-Black Rider termina con HP:514/686
-Kei lanza un ataque todo poderoso a Anzu
-Anzu recibe 78 de daño
-Anzu termina con HP:518/596
-Kei lanza un ataque todo poderoso a Kelpie
-Kelpie recibe 78 de daño
-Kelpie termina con HP:166/322
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:166/322 MP:99/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:166/322 MP:99/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:397/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:166/322 MP:99/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Kei HP:397/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:921/999 MP:518/542
-2-Black Rider HP:514/686 MP:307/307
-3-Anzu HP:518/596 MP:96/118
-4-Kelpie HP:166/322 MP:99/144
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kelpie cura a Kelpie
-Kelpie recibe 161 de HP
-Kelpie termina con HP:322/322
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:90/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:397/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:397/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:90/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:397/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Black Rider
-1-Kei HP:397/760 MP:225/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider ataca a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 28 de daño
-Kei termina con HP:369/760
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:369/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:90/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:369/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:369/760 MP:225/398
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:369/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:90/144
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:921/999 MP:518/542
-2-Black Rider HP:514/686 MP:307/307
-3-Anzu HP:518/596 MP:96/118
-4-Kelpie HP:322/322 MP:90/144
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kelpie cura a Kelpie
-Kelpie recibe 161 de HP
-Kelpie termina con HP:322/322
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J1)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:369/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:514/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:81/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Tamaki HP:921/999 MP:518/542
-2-Black Rider HP:514/686 MP:307/307
-3-Anzu HP:518/596 MP:96/118
-4-Kelpie HP:322/322 MP:81/144
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Kei dispara a Black Rider
-Black Rider recibe 15 de daño
-Black Rider termina con HP:499/686
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:369/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:499/686 MP:307/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:81/144
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Black Rider
-2-Anzu
-3-Kelpie
-4-Tamaki
-----------------------------------------
-Seleccione una acción para Black Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Black Rider use
-1-Glacial Blast MP:22
-2-Energy Drain MP:10
-3-Silent Prayer MP:15
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Black Rider lanza hielo a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 85 de daño
-Black Rider lanza hielo a Kei
-Kei es resistente el ataque de Black Rider
-Kei recibe 85 de daño
-Kei termina con HP:199/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:199/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:499/686 MP:285/307
-C-Anzu HP:518/596 MP:96/118
-D-Kelpie HP:322/322 MP:81/144
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Anzu
-2-Kelpie
-3-Tamaki
-4-Black Rider
-----------------------------------------
-Seleccione una acción para Anzu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Anzu use
-1-Zionga MP:8
-2-Nihil Claw MP:11
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Anzu
-1-Kei HP:199/760 MP:225/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Anzu ataca a Kei
-Kei es resistente el ataque de Anzu
-Kei recibe 64 de daño
-Kei termina con HP:7/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:7/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:499/686 MP:285/307
-C-Anzu HP:518/596 MP:85/118
-D-Kelpie HP:322/322 MP:81/144
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kelpie
-2-Tamaki
-3-Black Rider
-4-Anzu
-----------------------------------------
-Seleccione una acción para Kelpie
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Kelpie use
-1-Diarama MP:9
-2-Tarunda MP:15
-3-Trafuri MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kelpie
-1-Tamaki HP:921/999 MP:518/542
-2-Black Rider HP:499/686 MP:285/307
-3-Anzu HP:518/596 MP:85/118
-4-Kelpie HP:322/322 MP:81/144
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Kelpie cura a Anzu
-Anzu recibe 298 de HP
-Anzu termina con HP:596/596
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kei (J1)
-A-Kei HP:7/760 MP:225/398
-B-
-C-
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:921/999 MP:518/542
-B-Black Rider HP:499/686 MP:285/307
-C-Anzu HP:596/596 MP:85/118
-D-Kelpie HP:322/322 MP:72/144
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Black Rider
-3-Anzu
-4-Kelpie
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Kei HP:7/760 MP:225/398
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki dispara a Kei
-Kei es resistente el ataque de Tamaki
-Kei recibe 7 de daño
-Kei termina con HP:0/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ganador: Tamaki (J2)
+Ganador: Tadano (J1)

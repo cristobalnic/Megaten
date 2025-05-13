@@ -401,291 +401,55 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 275
 ----------------------------------------
-Ronda de Itsuki (J1)
+Ronda de Nahobino (J1)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:296/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:287/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:265/265 MP:52/52
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:181/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
-Full Turns: 4
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:971/971 MP:527/527
-2-Dominion HP:287/287 MP:278/278
-3-Camazotz HP:180/180 MP:35/35
-4-Archangel HP:265/265 MP:52/52
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Michizane ataca a Dominion
-Dominion recibe 55 de daño
-Dominion termina con HP:232/287
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:296/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:296/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:971/971 MP:527/527
-2-Dominion HP:232/287 MP:278/278
-3-Camazotz HP:180/180 MP:35/35
-4-Archangel HP:265/265 MP:52/52
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Itsuki ataca a Archangel
-Archangel recibe 45 de daño
-Archangel termina con HP:220/265
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:296/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Suparna
-2-Michizane
-3-Demonee-Ho
-4-Itsuki
-----------------------------------------
-Seleccione una acción para Suparna
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:296/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Michizane ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:220/265 MP:52/52
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:181/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:971/971 MP:527/527
-2-Dominion HP:232/287 MP:278/278
-3-Camazotz HP:180/180 MP:35/35
-4-Archangel HP:220/265 MP:52/52
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Itsuki dispara a Archangel
-Archangel recibe 61 de daño
-Archangel termina con HP:159/265
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:159/265 MP:52/52
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Dominion
-3-Archangel
-4-Camazotz
-----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -694,174 +458,118 @@ Seleccione una acción para Flynn
 6: Rendirse
 INPUT: 5
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-Dominion HP:232/287 MP:278/278
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:159/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Dominion
-2-Archangel
-3-Camazotz
-4-Flynn
-----------------------------------------
-Seleccione una acción para Dominion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Dominion use
-1-Mazionga MP:20
-2-Megido MP:25
-3-Recarmdra MP:2
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Dominion cura a Flynn
-Flynn recibe 485 de HP
-Flynn termina con HP:971/971
-Dominion cura a Camazotz
-Camazotz recibe 90 de HP
-Camazotz termina con HP:180/180
-Dominion cura a Archangel
-Archangel recibe 132 de HP
-Archangel termina con HP:265/265
-Dominion cura a Python
-Python recibe 318 de HP
-Python termina con HP:637/637
-Dominion cura a Dantalion
-Dantalion recibe 98 de HP
-Dantalion termina con HP:197/197
-Dominion termina con HP:0/287
-----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1136/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:35/35
-D-Archangel HP:265/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:181/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Camazotz
-2-Flynn
-3-Archangel
+1-Astaroth
+2-Ghoul
+3-Nahobino
 ----------------------------------------
-Seleccione una acción para Camazotz
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Camazotz use
-1-Tetanus Cut MP:11
-2-Life Drain MP:5
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:453/453 MP:389/389
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:453/453 MP:389/389
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Itsuki HP:1136/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:160/160
-3-Suparna HP:175/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Camazotz lanza un ataque todo poderoso a Itsuki
-El ataque drena 20 HP de Itsuki
-Itsuki termina con HP:1116/1136
-Camazotz termina con HP:180/180
+Astaroth lanza hielo a Nahobino
+Nahobino recibe 93 de daño
+Nahobino termina con HP:360/453
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:175/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:30/35
-D-Archangel HP:265/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Archangel
-3-Camazotz
+1-Ghoul
+2-Nahobino
+3-Astaroth
 ----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Itsuki HP:1116/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:160/160
-3-Suparna HP:175/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Flynn dispara a Suparna
-Suparna recibe 110 de daño
-Suparna termina con HP:65/175
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:65/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:30/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Archangel
-2-Camazotz
-3-Flynn
-----------------------------------------
-Seleccione una acción para Archangel
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -871,236 +579,97 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:65/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:30/35
-D-Archangel HP:265/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Astaroth
+3-Ghoul
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ghoul
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Camazotz
-2-Flynn
-3-Archangel
+1-Ghoul
+2-Nahobino
+3-Astaroth
 ----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Camazotz use
-1-Tetanus Cut MP:11
-2-Life Drain MP:5
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Itsuki HP:1116/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:160/160
-3-Suparna HP:65/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Camazotz lanza un ataque todo poderoso a Suparna
-El ataque drena 20 HP de Suparna
-Suparna termina con HP:45/175
-Camazotz termina con HP:180/180
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Flynn HP:971/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:265/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:265/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:971/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:265/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:971/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:265/265 MP:52/52
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Itsuki ataca a Archangel
-Archangel recibe 45 de daño
-Archangel termina con HP:220/265
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Suparna
-2-Michizane
-3-Demonee-Ho
-4-Itsuki
-----------------------------------------
-Seleccione una acción para Suparna
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1111,110 +680,7 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Suparna
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:971/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:160/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:971/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Demonee-Ho use
-1-Iron Judgement MP:8
-2-Desperate Hit MP:40
-3-Breath MP:24
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Demonee-Ho
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1225,169 +691,52 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Demonee-Ho use
-1-Iron Judgement MP:8
-2-Desperate Hit MP:40
-3-Breath MP:24
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Flynn HP:971/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Demonee-Ho ataca a Flynn
-Flynn recibe 110 de daño
-Flynn termina con HP:861/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1116/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Archangel
-3-Camazotz
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Itsuki HP:1116/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:152/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn dispara a Itsuki
-Itsuki recibe 110 de daño
-Itsuki termina con HP:1006/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1006/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Archangel
-2-Camazotz
-3-Flynn
-----------------------------------------
-Seleccione una acción para Archangel
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1006/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
-B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Camazotz
-2-Flynn
-3-Archangel
-----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Itsuki HP:1006/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:152/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Camazotz ataca a Itsuki
-Itsuki recibe 11 de daño
-Itsuki termina con HP:995/1136
-----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:995/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Archangel
-3-Camazotz
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Nahobino HP:453/453 MP:389/389
+2-Astaroth HP:406/406 MP:149/181
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1399,70 +748,171 @@ INPUT: 5
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:995/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Archangel
-2-Camazotz
-3-Flynn
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Archangel
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:360/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ghoul
+3-Nahobino
+----------------------------------------
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Archangel
-1-Itsuki HP:995/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:152/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:285/296
-5-Cancelar
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:360/453 MP:389/389
+2-Cancelar
 INPUT: 1
 ----------------------------------------
-Archangel ataca a Itsuki
-Itsuki recibe 18 de daño
-Itsuki termina con HP:977/1136
+Astaroth ataca a Nahobino
+Nahobino recibe 33 de daño
+Nahobino termina con HP:327/453
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:327/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ghoul
+2-Nahobino
+3-Astaroth
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:327/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:453/453 MP:389/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Astaroth
+3-Ghoul
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nahobino use
+1-Recarmdra MP:2
+2-Bouncing Claw MP:4
+3-Maziodyne MP:32
+4-Maragidyne MP:32
+5-Die for Me! MP:45
+6-Cancelar
+INPUT: 1
+----------------------------------------
+Nahobino cura a Astaroth
+Astaroth recibe 203 de HP
+Astaroth termina con HP:406/406
+Nahobino cura a Ghoul
+Ghoul recibe 279 de HP
+Ghoul termina con HP:558/558
+Nahobino termina con HP:0/453
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:327/453 MP:389/389
 B-
-C-Camazotz HP:180/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:406/406 MP:149/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
-Full Turns: 4
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
+1-Astaroth
+2-Ghoul
 ----------------------------------------
-Seleccione una acción para Michizane
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1473,262 +923,165 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Michizane
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:180/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
 INPUT: 2
 ----------------------------------------
-Michizane ataca a Camazotz
-Camazotz recibe 55 de daño
-Camazotz termina con HP:125/180
+Astaroth lanza hielo a Nahobino
+Nahobino recibe 93 de daño
+Nahobino termina con HP:234/453
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:234/453 MP:389/389
 B-
-C-Camazotz HP:125/180 MP:25/35
-D-Archangel HP:220/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:125/180 MP:25/35
-3-Archangel HP:220/265 MP:52/52
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Demonee-Ho ataca a Archangel
-Archangel recibe 62 de daño
-Archangel termina con HP:158/265
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:861/971 MP:527/527
-B-
-C-Camazotz HP:125/180 MP:25/35
-D-Archangel HP:158/265 MP:52/52
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:861/971 MP:527/527
-2-Camazotz HP:125/180 MP:25/35
-3-Archangel HP:158/265 MP:52/52
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki ataca a Flynn
-Flynn recibe 45 de daño
-Flynn termina con HP:816/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:816/971 MP:527/527
-B-
-C-Camazotz HP:125/180 MP:25/35
-D-Archangel HP:158/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:406/406 MP:117/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Suparna
-2-Michizane
-3-Demonee-Ho
-4-Itsuki
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Suparna
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Suparna
-1-Flynn HP:816/971 MP:527/527
-2-Camazotz HP:125/180 MP:25/35
-3-Archangel HP:158/265 MP:52/52
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Suparna ataca a Flynn
-Flynn recibe 12 de daño
-Flynn termina con HP:804/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
-B-
-C-Camazotz HP:125/180 MP:25/35
-D-Archangel HP:158/265 MP:52/52
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Archangel
-3-Camazotz
-----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Astaroth HP:406/406 MP:117/181
+2-Ghoul HP:558/558 MP:111/111
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Nahobino dispara a Astaroth
+Astaroth recibe 83 de daño
+Astaroth termina con HP:323/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:234/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:323/406 MP:117/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ghoul
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:234/453 MP:389/389
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:234/453 MP:389/389
 B-
-C-Camazotz HP:125/180 MP:25/35
-D-Archangel HP:158/265 MP:52/52
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:323/406 MP:117/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Archangel
-2-Camazotz
-3-Flynn
+1-Ghoul
+2-Astaroth
 ----------------------------------------
-Seleccione una acción para Archangel
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:234/453 MP:389/389
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ghoul ataca a Nahobino
+Nahobino recibe 41 de daño
+Nahobino termina con HP:193/453
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:193/453 MP:389/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:323/406 MP:117/181
+C-Ghoul HP:558/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ghoul
+----------------------------------------
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1736,472 +1089,112 @@ Seleccione una acción para Archangel
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Python HP:637/637 MP:286/286
-2-Dantalion HP:197/197 MP:190/190
-3-Cancelar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Python ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
-B-
-C-Camazotz HP:125/180 MP:25/35
-D-Python HP:637/637 MP:286/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Camazotz
-2-Flynn
-3-Python
-----------------------------------------
-Seleccione una acción para Camazotz
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Archangel HP:158/265 MP:52/52
-2-Dantalion HP:197/197 MP:190/190
-3-Cancelar
 INPUT: 1
 ----------------------------------------
-Archangel ha sido invocado
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:193/453 MP:389/389
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Nahobino
+Nahobino recibe 33 de daño
+Nahobino termina con HP:160/453
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:160/453 MP:389/389
 B-
-C-Archangel HP:158/265 MP:52/52
-D-Python HP:637/637 MP:286/286
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:323/406 MP:117/181
+C-Ghoul HP:558/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Python
-3-Archangel
+1-Nahobino
 ----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
-B-
-C-Archangel HP:158/265 MP:52/52
-D-Python HP:637/637 MP:286/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-2-Archangel
-3-Flynn
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
-B-
-C-Archangel HP:158/265 MP:52/52
-D-Python HP:637/637 MP:286/286
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Archangel
-2-Flynn
-3-Python
-----------------------------------------
-Seleccione una acción para Archangel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:285/296
-Equipo de Flynn (J2)
-A-Flynn HP:804/971 MP:527/527
-B-
-C-Archangel HP:158/265 MP:52/52
-D-Python HP:637/637 MP:286/286
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Flynn HP:804/971 MP:527/527
-2-Archangel HP:158/265 MP:52/52
-3-Python HP:637/637 MP:286/286
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 2
+Seleccione un objetivo para Nahobino
+1-Astaroth HP:323/406 MP:117/181
+2-Ghoul HP:558/558 MP:111/111
+3-Cancelar
+INPUT: 3
 ----------------------------------------
-Michizane dispara a Flynn
-Flynn recibe 127 de daño
-Flynn termina con HP:677/971
-Michizane dispara a Archangel
-Archangel recibe 127 de daño
-Archangel termina con HP:31/265
-Michizane dispara a Python
-Python recibe 127 de daño
-Python termina con HP:510/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:152/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:677/971 MP:527/527
-B-
-C-Archangel HP:31/265 MP:52/52
-D-Python HP:510/637 MP:286/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Demonee-Ho use
-1-Iron Judgement MP:8
-2-Desperate Hit MP:40
-3-Breath MP:24
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Demonee-Ho use
-1-Iron Judgement MP:8
-2-Desperate Hit MP:40
-3-Breath MP:24
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Flynn HP:677/971 MP:527/527
-2-Archangel HP:31/265 MP:52/52
-3-Python HP:510/637 MP:286/286
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Demonee-Ho ataca a Archangel
-Archangel recibe 110 de daño
-Archangel termina con HP:0/265
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:677/971 MP:527/527
-B-
-C-
-D-Python HP:510/637 MP:286/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
+Seleccione una acción para Nahobino
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Flynn HP:677/971 MP:527/527
-2-Python HP:510/637 MP:286/286
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki ataca a Flynn
-Flynn recibe 45 de daño
-Flynn termina con HP:632/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:632/971 MP:527/527
-B-
-C-
-D-Python HP:510/637 MP:286/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Suparna
-2-Michizane
-3-Demonee-Ho
-4-Itsuki
-----------------------------------------
-Seleccione una acción para Suparna
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Suparna use
-1-Rakukaja MP:15
-2-Media MP:12
-3-Spirit Drain MP:5
-4-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Suparna
-1-Flynn HP:632/971 MP:527/527
-2-Python HP:510/637 MP:286/286
-3-Cancelar
-INPUT: 1
+Seleccione una habilidad para que Nahobino use
+1-Recarmdra MP:2
+2-Dia MP:5
+3-Zionga MP:8
+4-Blast Arrow MP:16
+5-Mazanma MP:20
+6-Megidoplasma MP:41
+7-Cancelar
+INPUT: 6
 ----------------------------------------
-Suparna lanza un ataque todo poderoso a Flynn
-El ataque drena 24 MP de Flynn
-Flynn termina con MP:503/527
-Suparna termina con MP:77/77
+Nahobino lanza un ataque todo poderoso a Astaroth
+Astaroth recibe 173 de daño
+Astaroth termina con HP:150/406
+Nahobino lanza un ataque todo poderoso a Ghoul
+Ghoul recibe 173 de daño
+Ghoul termina con HP:385/558
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Flynn (J2)
+Ronda de Nahobino (J2)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:977/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:632/971 MP:503/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:160/453 MP:348/389
 B-
 C-
-D-Python HP:510/637 MP:286/286
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:150/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Python
+1-Astaroth
+2-Ghoul
 ----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Itsuki HP:977/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:144/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:259/296
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn ataca a Itsuki
-Itsuki recibe 88 de daño
-Itsuki termina con HP:889/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:889/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:632/971 MP:503/527
-B-
-C-
-D-Python HP:510/637 MP:286/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-2-Flynn
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Python use
-1-Fog Breath MP:45
-2-Bufudyne MP:14
-3-Ziodyne MP:14
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:889/1136 MP:413/413
-2-Demonee-Ho HP:804/804 MP:144/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:259/296
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Python lanza electricidad a Itsuki
-Itsuki absorbe 135 daño
-Itsuki termina con HP:1024/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:632/971 MP:503/527
-B-
-C-
-D-Python HP:510/637 MP:272/286
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -2211,114 +1204,58 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:632/971 MP:503/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:160/453 MP:348/389
 B-
 C-
-D-Python HP:510/637 MP:272/286
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:150/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Suparna
-4-Michizane
+1-Ghoul
+2-Astaroth
 ----------------------------------------
-Seleccione una acción para Demonee-Ho
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Flynn HP:632/971 MP:503/527
-2-Python HP:510/637 MP:272/286
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Demonee-Ho ataca a Flynn
-Flynn recibe 62 de daño
-Flynn termina con HP:570/971
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:413/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:570/971 MP:503/527
-B-
-C-
-D-Python HP:510/637 MP:272/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Suparna
-3-Michizane
-4-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Itsuki use
-1-Heaven's Bow MP:26
-2-Zionga MP:8
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
 3-Damascus Claw MP:7
-4-Riot Gun MP:30
-5-Cancelar
-INPUT: 1
+4-Cancelar
+INPUT: 3
 ----------------------------------------
-Itsuki dispara a Flynn
-Flynn recibe 109 de daño
-Flynn termina con HP:461/971
-Itsuki dispara a Python
-Python recibe 109 de daño
-Python termina con HP:401/637
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:160/453 MP:348/389
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:461/971 MP:503/527
-B-
-C-
-D-Python HP:401/637 MP:272/286
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 4
 ----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Suparna
-2-Michizane
-3-Demonee-Ho
-4-Itsuki
-----------------------------------------
-Seleccione una acción para Suparna
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -2329,260 +1266,278 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Suparna
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Suparna
-1-Flynn HP:461/971 MP:503/527
-2-Python HP:401/637 MP:272/286
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:160/453 MP:348/389
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Ghoul ataca a Nahobino
+Nahobino recibe 41 de daño
+Nahobino termina con HP:119/453
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:119/453 MP:348/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:150/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Ghoul
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:119/453 MP:348/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:150/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Astaroth
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:119/453 MP:348/389
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:119/453 MP:348/389
+B-
+C-
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:150/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Astaroth HP:150/406 MP:117/181
+2-Ghoul HP:385/558 MP:111/111
 3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Suparna
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:259/296
-Equipo de Flynn (J2)
-A-Flynn HP:461/971 MP:503/527
-B-
-C-
-D-Python HP:401/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-4-Suparna
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
 INPUT: 1
 ----------------------------------------
-Michizane lanza electricidad a Flynn
-Flynn recibe 367 de daño
-Flynn termina con HP:94/971
-Michizane lanza electricidad a Python
-Python bloquea el ataque de Michizane
-Python termina con HP:401/637
+Nahobino dispara a Astaroth
+Astaroth recibe 83 de daño
+Astaroth termina con HP:67/406
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Flynn (J2)
+Ronda de Nahobino (J2)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:1024/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:237/296
-Equipo de Flynn (J2)
-A-Flynn HP:94/971 MP:503/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:119/453 MP:348/389
 B-
 C-
-D-Python HP:401/637 MP:272/286
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:67/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Python
+1-Astaroth
+2-Ghoul
 ----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Flynn use
-1-Wind Breath MP:21
-2-Desperate Hit MP:40
-3-Mabufudyne MP:32
-4-Agi MP:5
-5-Mortal Jihad MP:13
-6-Judgement Light MP:45
-7-Megidola MP:40
-8-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn lanza viento a Itsuki
-Itsuki recibe 164 de daño
-Itsuki termina con HP:860/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:860/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-Suparna HP:45/175 MP:77/77
-D-Michizane HP:658/658 MP:237/296
-Equipo de Flynn (J2)
-A-Flynn HP:94/971 MP:482/527
-B-
-C-
-D-Python HP:401/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-2-Flynn
-----------------------------------------
-Seleccione una acción para Python
+Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:860/1136 MP:387/413
-2-Demonee-Ho HP:804/804 MP:144/160
-3-Suparna HP:45/175 MP:77/77
-4-Michizane HP:658/658 MP:237/296
-5-Cancelar
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:119/453 MP:348/389
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Python ataca a Suparna
-Suparna recibe 53 de daño
-Suparna termina con HP:0/175
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Nahobino HP:119/453 MP:348/389
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Nahobino
+Nahobino recibe 33 de daño
+Nahobino termina con HP:86/453
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:860/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:237/296
-Equipo de Flynn (J2)
-A-Flynn HP:94/971 MP:482/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:86/453 MP:348/389
 B-
 C-
-D-Python HP:401/637 MP:272/286
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:67/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
+1-Ghoul
+2-Astaroth
 ----------------------------------------
-Seleccione una acción para Michizane
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 1
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 4
 ----------------------------------------
-Michizane lanza electricidad a Flynn
-Flynn recibe 146 de daño
-Flynn termina con HP:0/971
-Michizane lanza electricidad a Python
-Python bloquea el ataque de Michizane
-Python termina con HP:401/637
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:860/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:401/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:86/453 MP:348/389
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Seleccione una acción para Demonee-Ho
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
+Seleccione un objetivo para Ghoul
+1-Nahobino HP:86/453 MP:348/389
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Demonee-Ho
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -2592,810 +1547,42 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:860/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
+Equipo de Nahobino (J1)
+A-Nahobino HP:86/453 MP:348/389
 B-
 C-
-D-Python HP:401/637 MP:272/286
+D-
+Equipo de Nahobino (J2)
+A-Nahobino HP:0/453 MP:387/389
+B-Astaroth HP:67/406 MP:117/181
+C-Ghoul HP:385/558 MP:111/111
+D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Itsuki
-2-Michizane
-3-Demonee-Ho
+1-Astaroth
+2-Ghoul
 ----------------------------------------
-Seleccione una acción para Itsuki
+Seleccione una acción para Astaroth
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Python HP:401/637 MP:272/286
-2-Cancelar
-INPUT: 1
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 2
 ----------------------------------------
-Itsuki ataca a Python
-Python recibe 45 de daño
-Python termina con HP:356/637
+Astaroth lanza hielo a Nahobino
+Nahobino recibe 93 de daño
+Nahobino termina con HP:0/453
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:860/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:356/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:860/1136 MP:387/413
-2-Demonee-Ho HP:804/804 MP:144/160
-3-Michizane HP:658/658 MP:215/296
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Python ataca a Itsuki
-Itsuki recibe 53 de daño
-Itsuki termina con HP:807/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:356/637 MP:272/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:356/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:356/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Michizane
-3-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Python HP:356/637 MP:272/286
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Python HP:356/637 MP:272/286
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki dispara a Python
-Python recibe 61 de daño
-Python termina con HP:295/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:215/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:295/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Michizane lanza electricidad a Python
-Python bloquea el ataque de Michizane
-Python termina con HP:295/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:295/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:807/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:295/637 MP:272/286
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Python
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:807/1136 MP:387/413
-2-Demonee-Ho HP:804/804 MP:144/160
-3-Michizane HP:658/658 MP:193/296
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Python ataca a Itsuki
-Itsuki recibe 53 de daño
-Itsuki termina con HP:754/1136
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:295/637 MP:272/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Python HP:295/637 MP:272/286
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Michizane
-1-Python HP:295/637 MP:272/286
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Michizane ataca a Python
-Python recibe 55 de daño
-Python termina con HP:240/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:144/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:240/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Demonee-Ho use
-1-Iron Judgement MP:8
-2-Desperate Hit MP:40
-3-Breath MP:24
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Demonee-Ho lanza hielo a Python
-Python bloquea el ataque de Demonee-Ho
-Demonee-Ho lanza hielo a Python
-Python bloquea el ataque de Demonee-Ho
-Demonee-Ho lanza hielo a Python
-Python bloquea el ataque de Demonee-Ho
-Demonee-Ho lanza hielo a Python
-Python bloquea el ataque de Demonee-Ho
-Demonee-Ho lanza hielo a Python
-Python bloquea el ataque de Demonee-Ho
-Python termina con HP:240/637
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:804/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:240/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Python use
-1-Fog Breath MP:45
-2-Bufudyne MP:14
-3-Ziodyne MP:14
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:754/1136 MP:387/413
-2-Demonee-Ho HP:804/804 MP:120/160
-3-Michizane HP:658/658 MP:193/296
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Python ataca a Demonee-Ho
-Demonee-Ho es resistente el ataque de Python
-Demonee-Ho recibe 26 de daño
-Demonee-Ho termina con HP:778/804
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:240/637 MP:272/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:240/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Python HP:240/637 MP:272/286
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Demonee-Ho ataca a Python
-Python recibe 62 de daño
-Python termina con HP:178/637
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:178/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Itsuki
-2-Michizane
-3-Demonee-Ho
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Python HP:178/637 MP:272/286
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Itsuki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Itsuki
-1-Python HP:178/637 MP:272/286
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Itsuki ataca a Python
-Python recibe 45 de daño
-Python termina con HP:133/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:133/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:133/637 MP:272/286
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J2)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:754/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:133/637 MP:272/286
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Python
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:754/1136 MP:387/413
-2-Demonee-Ho HP:778/804 MP:120/160
-3-Michizane HP:658/658 MP:193/296
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Python
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Python
-1-Itsuki HP:754/1136 MP:387/413
-2-Demonee-Ho HP:778/804 MP:120/160
-3-Michizane HP:658/658 MP:193/296
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Python ataca a Itsuki
-Itsuki recibe 53 de daño
-Itsuki termina con HP:701/1136
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J1)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:701/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:193/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:133/637 MP:272/286
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Michizane
-2-Demonee-Ho
-3-Itsuki
-----------------------------------------
-Seleccione una acción para Michizane
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Michizane use
-1-Thunder Reign MP:22
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Concentrate MP:11
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Michizane dispara a Python
-Python recibe 127 de daño
-Python termina con HP:6/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Itsuki (J1)
-A-Itsuki HP:701/1136 MP:387/413
-B-Demonee-Ho HP:778/804 MP:120/160
-C-
-D-Michizane HP:658/658 MP:167/296
-Equipo de Flynn (J2)
-A-Flynn HP:0/971 MP:482/527
-B-
-C-
-D-Python HP:6/637 MP:272/286
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Demonee-Ho
-2-Itsuki
-3-Michizane
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Demonee-Ho
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Demonee-Ho
-1-Python HP:6/637 MP:272/286
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Demonee-Ho ataca a Python
-Python recibe 62 de daño
-Python termina con HP:0/637
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ganador: Itsuki (J1)
+Ganador: Nahobino (J2)

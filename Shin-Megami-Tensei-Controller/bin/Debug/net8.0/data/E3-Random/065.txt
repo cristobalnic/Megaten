@@ -1,10 +1,9 @@
 Player 1 Team
-[Samurai] Kotone (Oni-Kagura,Hamaon,Deadly Wind,Refrigerate)
-Lord Nan Dou
-Kama
+[Samurai] Demi-Fiend (Recarmdra,Concentrate,Oni-Kagura,Mazionga,Mazio,Mudoon,Energy Drain)
 Player 2 Team
-[Samurai] Itsuki (Sea of Chaos,Hama,Mediarahan,Life Drain,Myriad Arrows,Zan,Shock,Berserker God)
-Tlazolteotl
-Okiku-Mushi
-Kukunochi
-Murmur
+[Samurai] Tamaki (Recarmdra,Zandyne,Maragion,Megidolaon,Floral Gust,Hamaon)
+Naga
+Cabracan
+Kazfiel
+Yomotsu-Ikusa
+Sarasvati

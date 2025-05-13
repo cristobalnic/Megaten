@@ -1,15 +1,12 @@
 Player 1 Team
-[Samurai] Yu (Maragion)
-Ippon-Datara
-Tlazolteotl
+[Samurai] Joker (Recarmdra,Bufula,Iron Judgement,Mazionga,Hama)
+Heimdall
+Anzu
 Hel
-Nidhoggr
-Bishamonten
-Vivian
+Kikuri-Hime
 Player 2 Team
-[Samurai] Nahobino (Zan,Javelin Rain,Concentrate,Energy Drain,Madness Nails,Recarmdra)
-Dantalion
-Tsuchigumo
-Toubyou
-Kabuso
-Strix
+[Samurai] Kyouji (Recarmdra,Recarm,Axel Claw,Bufudyne,Scratch Dance)
+Sandman
+Xi Wangmu
+Pixie
+Matador

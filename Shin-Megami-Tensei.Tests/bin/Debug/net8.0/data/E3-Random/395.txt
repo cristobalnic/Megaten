@@ -1,14 +1,16 @@
 Player 1 Team
-[Samurai] Demi-Fiend (Iron Judgement,Mamudo)
-Gu Huo Niao
-Throne
-Peri
-Hitokoto-Nushi
-Mother Harlot
+[Samurai] Nahobino (Recarmdra,Mazio,Sabbatma,Maragidyne)
+Aniel
+Quetzalcoatl
+Angel
+Taown
+Alilat
+Apsaras
+Karasu Tengu
 Player 2 Team
-[Samurai] Tamaki (Bar Toss,Samarecarm,Mazionga,Heat Wave,Mamudoon,Media)
-Fuxi
-Chemtrail
-Dominion
-Enku
-Shax
+[Samurai] Nanashi (Recarmdra,Shining Seal,Ragnarok,Judgement,Mamudoon)
+Pixie
+Angel
+Nidhoggr
+Pisaca
+Xi Wangmu

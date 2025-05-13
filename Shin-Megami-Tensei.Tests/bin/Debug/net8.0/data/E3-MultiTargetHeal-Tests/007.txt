@@ -6,6 +6,7 @@ Elige un archivo para cargar los equipos
 4: 005.txt
 5: 006.txt
 6: 007.txt
+7: 008.txt
 INPUT: 6
 ----------------------------------------
 Ronda de Yu (J1)
@@ -993,6 +994,47 @@ Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Dormarth
+2-Kukunochi
+3-Kabuso
+----------------------------------------
+Seleccione una acción para Dormarth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Dormarth
+1-Flynn HP:722/971 MP:527/527
+2-Alilat HP:441/441 MP:428/428
+3-Aniel HP:567/567 MP:255/255
+4-Scathach HP:343/343 MP:153/153
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Dormarth ataca a Flynn
+Flynn recibe 29 de daño
+Flynn termina con HP:693/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:0/597 MP:345/347
+B-Kabuso HP:117/137 MP:131/131
+C-Kukunochi HP:254/254 MP:246/246
+D-Dormarth HP:277/277 MP:269/269
+Equipo de Flynn (J2)
+A-Flynn HP:693/971 MP:527/527
+B-Alilat HP:441/441 MP:428/428
+C-Aniel HP:567/567 MP:255/255
+D-Scathach HP:343/343 MP:153/153
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Kukunochi
 2-Kabuso
 3-Dormarth
@@ -1005,7 +1047,7 @@ Seleccione una acción para Kukunochi
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kukunochi
-1-Flynn HP:722/971 MP:527/527
+1-Flynn HP:693/971 MP:527/527
 2-Alilat HP:441/441 MP:428/428
 3-Aniel HP:567/567 MP:255/255
 4-Scathach HP:343/343 MP:153/153
@@ -1014,7 +1056,7 @@ INPUT: 1
 ----------------------------------------
 Kukunochi ataca a Flynn
 Flynn recibe 26 de daño
-Flynn termina con HP:696/971
+Flynn termina con HP:667/971
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -1025,12 +1067,12 @@ B-Kabuso HP:117/137 MP:131/131
 C-Kukunochi HP:254/254 MP:246/246
 D-Dormarth HP:277/277 MP:269/269
 Equipo de Flynn (J2)
-A-Flynn HP:696/971 MP:527/527
+A-Flynn HP:667/971 MP:527/527
 B-Alilat HP:441/441 MP:428/428
 C-Aniel HP:567/567 MP:255/255
 D-Scathach HP:343/343 MP:153/153
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -1046,7 +1088,7 @@ Seleccione una acción para Kabuso
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kabuso
-1-Flynn HP:696/971 MP:527/527
+1-Flynn HP:667/971 MP:527/527
 2-Alilat HP:441/441 MP:428/428
 3-Aniel HP:567/567 MP:255/255
 4-Scathach HP:343/343 MP:153/153
@@ -1055,47 +1097,6 @@ INPUT: 1
 ----------------------------------------
 Kabuso ataca a Flynn
 Flynn recibe 13 de daño
-Flynn termina con HP:683/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Yu (J1)
-A-Yu HP:0/597 MP:345/347
-B-Kabuso HP:117/137 MP:131/131
-C-Kukunochi HP:254/254 MP:246/246
-D-Dormarth HP:277/277 MP:269/269
-Equipo de Flynn (J2)
-A-Flynn HP:683/971 MP:527/527
-B-Alilat HP:441/441 MP:428/428
-C-Aniel HP:567/567 MP:255/255
-D-Scathach HP:343/343 MP:153/153
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dormarth
-2-Kukunochi
-3-Kabuso
-----------------------------------------
-Seleccione una acción para Dormarth
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dormarth
-1-Flynn HP:683/971 MP:527/527
-2-Alilat HP:441/441 MP:428/428
-3-Aniel HP:567/567 MP:255/255
-4-Scathach HP:343/343 MP:153/153
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Dormarth ataca a Flynn
-Flynn recibe 29 de daño
 Flynn termina con HP:654/971
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)

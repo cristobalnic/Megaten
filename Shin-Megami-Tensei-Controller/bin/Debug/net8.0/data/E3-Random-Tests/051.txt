@@ -401,27 +401,137 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 50
 ----------------------------------------
-Ronda de Kyouji (J1)
+Ronda de Nanashi (J1)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-Erlkonig HP:671/671 MP:134/134
-C-Huang Di HP:672/672 MP:301/301
-D-Pale Rider HP:693/693 MP:310/310
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Pale Rider HP:693/693 MP:310/310
+C-
+D-
 Equipo de Yu (J2)
 A-Yu HP:597/597 MP:347/347
-B-Power HP:407/407 MP:81/81
-C-Murmur HP:511/511 MP:229/229
-D-Wicker Man HP:126/126 MP:55/55
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:658/658 MP:296/296
 ----------------------------------------
-Full Turns: 4
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Pale Rider
-2-Huang Di
-3-Erlkonig
-4-Kyouji
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Yu HP:597/597 MP:347/347
+2-Decarabia HP:273/273 MP:264/264
+3-Ghoul HP:558/558 MP:111/111
+4-Michizane HP:658/658 MP:296/296
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider lanza viento a Michizane
+Michizane recibe 168 de daño
+Michizane termina con HP:490/658
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pale Rider use
+1-Pandemic Bomb MP:11
+2-Death's Door MP:10
+3-Deadly Wind MP:22
+4-Debilitate MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Yu HP:597/597 MP:347/347
+2-Decarabia HP:273/273 MP:264/264
+3-Ghoul HP:558/558 MP:111/111
+4-Michizane HP:490/658 MP:296/296
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Pale Rider
 1: Atacar
@@ -432,9 +542,9 @@ INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Pale Rider
 1-Yu HP:597/597 MP:347/347
-2-Power HP:407/407 MP:81/81
-3-Murmur HP:511/511 MP:229/229
-4-Wicker Man HP:126/126 MP:55/55
+2-Decarabia HP:273/273 MP:264/264
+3-Ghoul HP:558/558 MP:111/111
+4-Michizane HP:490/658 MP:296/296
 5-Cancelar
 INPUT: 1
 ----------------------------------------
@@ -443,785 +553,529 @@ Yu es resistente el ataque de Pale Rider
 Yu recibe 29 de daño
 Yu termina con HP:568/597
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-Erlkonig HP:671/671 MP:134/134
-C-Huang Di HP:672/672 MP:301/301
-D-Pale Rider HP:693/693 MP:310/310
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:140/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
 Equipo de Yu (J2)
 A-Yu HP:568/597 MP:347/347
-B-Power HP:407/407 MP:81/81
-C-Murmur HP:511/511 MP:229/229
-D-Wicker Man HP:126/126 MP:55/55
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
 ----------------------------------------
-Full Turns: 3
+Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Huang Di
-2-Erlkonig
-3-Kyouji
-4-Pale Rider
+1-Michizane
+2-Yu
+3-Ghoul
+4-Decarabia
 ----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Huang Di use
-1-Judgement MP:45
-2-Mediarahan MP:40
-3-Amrita MP:20
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Huang Di
+Seleccione una acción para Michizane
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Huang Di
+Seleccione un objetivo para Michizane
+1-Nanashi HP:140/140 MP:411/411
+2-Pale Rider HP:693/693 MP:288/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Michizane use
+1-Thunder Reign MP:22
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Concentrate MP:11
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koumokuten HP:378/378 MP:170/170
+2-Guedhe HP:511/511 MP:229/229
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Michizane
+1-Nanashi HP:140/140 MP:411/411
+2-Pale Rider HP:693/693 MP:288/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Michizane ataca a Nanashi
+Nanashi recibe 55 de daño
+Nanashi termina con HP:85/140
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Ghoul
+3-Decarabia
+4-Michizane
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Recarmdra MP:2
+2-Spirit Drain MP:5
+3-Axel Claw MP:15
+4-Mudo MP:6
+5-Shining Seal MP:75
+6-Invitation MP:45
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Nanashi HP:85/140 MP:411/411
+2-Pale Rider HP:693/693 MP:288/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Koumokuten HP:378/378 MP:170/170
+2-Guedhe HP:511/511 MP:229/229
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Decarabia HP:273/273 MP:264/264 (Puesto 2)
+2-Ghoul HP:558/558 MP:111/111 (Puesto 3)
+3-Michizane HP:490/658 MP:296/296 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Koumokuten ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:170/170
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Koumokuten
+3-Michizane
+4-Yu
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:693/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:170/170
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Michizane
+3-Yu
+4-Ghoul
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Nanashi HP:85/140 MP:411/411
+2-Pale Rider HP:693/693 MP:288/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Koumokuten lanza electricidad a Pale Rider
+Pale Rider es débil contra el ataque de Koumokuten
+Pale Rider recibe 147 de daño
+Pale Rider termina con HP:546/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:546/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:296/296
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Michizane
+2-Yu
+3-Ghoul
+4-Koumokuten
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Michizane use
+1-Thunder Reign MP:22
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Concentrate MP:11
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Michizane ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:546/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:285/296
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Ghoul
+3-Koumokuten
+4-Michizane
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:546/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:111/111
+D-Michizane HP:490/658 MP:285/296
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Koumokuten
+3-Michizane
+4-Yu
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Nanashi HP:85/140 MP:411/411
+2-Pale Rider HP:546/693 MP:288/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Ghoul ataca a Pale Rider
+Pale Rider recibe 97 de daño
+Ghoul ataca a Pale Rider
+Pale Rider recibe 97 de daño
+Ghoul ataca a Pale Rider
+Pale Rider recibe 97 de daño
+Pale Rider termina con HP:255/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:568/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:104/111
+D-Michizane HP:490/658 MP:285/296
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
 1-Yu HP:568/597 MP:347/347
-2-Power HP:407/407 MP:81/81
-3-Murmur HP:511/511 MP:229/229
-4-Wicker Man HP:126/126 MP:55/55
+2-Koumokuten HP:378/378 MP:156/170
+3-Ghoul HP:558/558 MP:104/111
+4-Michizane HP:490/658 MP:285/296
 5-Cancelar
 INPUT: 3
 ----------------------------------------
-Huang Di ataca a Murmur
-Murmur recibe 56 de daño
-Murmur termina con HP:455/511
+Pale Rider ataca a Ghoul
+Ghoul recibe 58 de daño
+Ghoul termina con HP:500/558
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-Erlkonig HP:671/671 MP:134/134
-C-Huang Di HP:672/672 MP:301/301
-D-Pale Rider HP:693/693 MP:310/310
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
+D-
 Equipo de Yu (J2)
 A-Yu HP:568/597 MP:347/347
-B-Power HP:407/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-Wicker Man HP:126/126 MP:55/55
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Kyouji
-3-Pale Rider
-4-Huang Di
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Erlkonig use
-1-Maziodyne MP:32
-2-Stun Needles MP:14
-3-Myriad Arrows MP:30
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Erlkonig lanza electricidad a Yu
-Yu es resistente el ataque de Erlkonig
-Yu recibe 51 de daño
-Yu termina con HP:517/597
-Erlkonig lanza electricidad a Power
-Power recibe 102 de daño
-Power termina con HP:305/407
-Erlkonig lanza electricidad a Murmur
-Murmur devuelve 102 daño a Erlkonig
-Erlkonig termina con HP:569/671
-Erlkonig lanza electricidad a Wicker Man
-Wicker Man es débil contra el ataque de Erlkonig
-Wicker Man recibe 153 de daño
-Wicker Man termina con HP:0/126
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:999/999 MP:0/0
-B-Erlkonig HP:569/671 MP:102/134
-C-Huang Di HP:672/672 MP:301/301
-D-Pale Rider HP:693/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:347/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yu
-2-Murmur
-3-Power
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Yu use
-1-Recarmdra MP:2
-2-Judgement MP:45
-3-Great Logos MP:70
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Yu lanza un ataque todo poderoso a Kyouji
-Kyouji recibe 174 de daño
-Kyouji termina con HP:825/999
-Yu lanza un ataque todo poderoso a Erlkonig
-Erlkonig recibe 174 de daño
-Erlkonig termina con HP:395/671
-Yu lanza un ataque todo poderoso a Huang Di
-Huang Di recibe 174 de daño
-Huang Di termina con HP:498/672
-Yu lanza un ataque todo poderoso a Pale Rider
-Pale Rider recibe 174 de daño
-Pale Rider termina con HP:519/693
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:825/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Power
-3-Yu
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Murmur
-1-Kyouji HP:825/999 MP:0/0
-2-Erlkonig HP:395/671 MP:102/134
-3-Huang Di HP:498/672 MP:301/301
-4-Pale Rider HP:519/693 MP:310/310
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Murmur ataca a Kyouji
-Kyouji recibe 42 de daño
-Kyouji termina con HP:783/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:500/558 MP:104/111
+D-Michizane HP:490/658 MP:285/296
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Power
-2-Yu
-3-Murmur
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Yu
-2-Murmur
-3-Power
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:455/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Huang Di
-3-Erlkonig
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pale Rider
-1-Yu HP:517/597 MP:277/347
-2-Power HP:305/407 MP:81/81
-3-Murmur HP:455/511 MP:229/229
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Pale Rider ataca a Murmur
-Murmur recibe 58 de daño
-Murmur termina con HP:397/511
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:517/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Huang Di
-2-Erlkonig
-3-Kyouji
-4-Pale Rider
-----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Huang Di
-1-Yu HP:517/597 MP:277/347
-2-Power HP:305/407 MP:81/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Huang Di ataca a Yu
-Yu es resistente el ataque de Huang Di
-Yu recibe 28 de daño
-Yu termina con HP:489/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Kyouji
-3-Pale Rider
-4-Huang Di
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Ancient of Days HP:498/498 MP:484/484
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ancient of Days ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:783/999 MP:0/0
-B-Ancient of Days HP:498/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
+1-Nanashi
 2-Pale Rider
-3-Huang Di
-4-Ancient of Days
 ----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Nanashi
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kyouji use
-1-Blood Ritual MP:25
-2-Cancelar
 INPUT: 1
 ----------------------------------------
-El ataque de Kyouji ha aumentado
-La defensa de Kyouji ha aumentado
-Kyouji termina con HP:1/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:498/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Huang Di
-3-Ancient of Days
-4-Kyouji
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pale Rider
-1-Yu HP:489/597 MP:277/347
-2-Power HP:305/407 MP:81/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pale Rider use
-1-Pandemic Bomb MP:11
-2-Death's Door MP:10
-3-Deadly Wind MP:22
-4-Debilitate MP:50
+Seleccione un objetivo para Nanashi
+1-Yu HP:568/597 MP:347/347
+2-Koumokuten HP:378/378 MP:156/170
+3-Ghoul HP:500/558 MP:104/111
+4-Michizane HP:490/658 MP:285/296
 5-Cancelar
 INPUT: 5
 ----------------------------------------
-Seleccione una acción para Pale Rider
+Seleccione una acción para Nanashi
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Pale Rider
-1-Yu HP:489/597 MP:277/347
-2-Power HP:305/407 MP:81/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pale Rider
+Seleccione una acción para Nanashi
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Yu HP:568/597 MP:347/347
+2-Koumokuten HP:378/378 MP:156/170
+3-Ghoul HP:500/558 MP:104/111
+4-Michizane HP:490/658 MP:285/296
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Nanashi ataca a Yu
+Yu es resistente el ataque de Nanashi
+Yu recibe 46 de daño
+Yu termina con HP:522/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:498/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Huang Di
-2-Ancient of Days
-3-Kyouji
-4-Pale Rider
-----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Yu (J2)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:498/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
 D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yu
-2-Murmur
-3-Power
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Yu
-1-Kyouji HP:1/999 MP:0/0
-2-Ancient of Days HP:498/498 MP:484/484
-3-Huang Di HP:498/672 MP:301/301
-4-Pale Rider HP:519/693 MP:310/310
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Yu ataca a Ancient of Days
-Ancient of Days recibe 49 de daño
-Ancient of Days termina con HP:449/498
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
 Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Power
-3-Yu
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:305/407 MP:81/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Power
-2-Yu
-3-Murmur
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Power use
-1-Tathlum Shot MP:7
-2-Diarama MP:9
-3-Megido MP:25
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Power
-1-Yu HP:489/597 MP:277/347
-2-Power HP:305/407 MP:81/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Power cura a Power
-Power recibe 203 de HP
-Power termina con HP:407/407
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yu
-2-Murmur
-3-Power
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:498/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Murmur
-2-Power
-3-Yu
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Murmur
-1-Kyouji HP:1/999 MP:0/0
-2-Ancient of Days HP:449/498 MP:484/484
-3-Huang Di HP:498/672 MP:301/301
-4-Pale Rider HP:519/693 MP:310/310
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Murmur ataca a Huang Di
-Huang Di recibe 42 de daño
-Huang Di termina con HP:456/672
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:456/672 MP:301/301
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
-D-
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:500/558 MP:104/111
+D-Michizane HP:490/658 MP:285/296
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Pale Rider
-2-Huang Di
-3-Ancient of Days
-4-Kyouji
+1-Michizane
+2-Yu
+3-Koumokuten
+4-Ghoul
 ----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pale Rider use
-1-Pandemic Bomb MP:11
-2-Death's Door MP:10
-3-Deadly Wind MP:22
-4-Debilitate MP:50
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pale Rider use
-1-Pandemic Bomb MP:11
-2-Death's Door MP:10
-3-Deadly Wind MP:22
-4-Debilitate MP:50
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Pale Rider
+Seleccione una acción para Michizane
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1229,121 +1083,54 @@ Seleccione una acción para Pale Rider
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Cancelar
-INPUT: 1
+1-Decarabia HP:273/273 MP:264/264
+2-Guedhe HP:511/511 MP:229/229
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 5
 ----------------------------------------
-Erlkonig ha sido invocado
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:264/264
+2-Guedhe HP:511/511 MP:229/229
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Enku ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:456/672 MP:301/301
-D-Erlkonig HP:395/671 MP:102/134
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:85/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:500/558 MP:104/111
+D-Enku HP:235/235 MP:228/228
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Huang Di
-2-Ancient of Days
-3-Kyouji
-4-Erlkonig
+1-Yu
+2-Koumokuten
+3-Ghoul
+4-Enku
 ----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Ancient of Days HP:449/498 MP:484/484
-C-Huang Di HP:456/672 MP:301/301
-D-Erlkonig HP:395/671 MP:102/134
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ancient of Days
-2-Kyouji
-3-Erlkonig
-4-Huang Di
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Pale Rider HP:519/693 MP:310/310
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Pale Rider HP:519/693 MP:310/310
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Berserker ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Huang Di HP:456/672 MP:301/301
-D-Erlkonig HP:395/671 MP:102/134
-Equipo de Yu (J2)
-A-Yu HP:489/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kyouji
-2-Erlkonig
-3-Huang Di
-4-Berserker
-----------------------------------------
-Seleccione una acción para Kyouji
+Seleccione una acción para Yu
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1352,42 +1139,144 @@ Seleccione una acción para Kyouji
 6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Kyouji
-1-Yu HP:489/597 MP:277/347
-2-Power HP:407/407 MP:72/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
+Seleccione un objetivo para Yu
+1-Nanashi HP:85/140 MP:411/411
+2-Pale Rider HP:255/693 MP:288/310
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Kyouji ataca a Yu
-Yu es resistente el ataque de Kyouji
-Yu recibe 384 de daño
-Yu termina con HP:105/597
+Yu ataca a Nanashi
+Nanashi recibe 49 de daño
+Nanashi termina con HP:36/140
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Huang Di HP:456/672 MP:301/301
-D-Erlkonig HP:395/671 MP:102/134
-Equipo de Yu (J2)
-A-Yu HP:105/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:500/558 MP:104/111
+D-Enku HP:235/235 MP:228/228
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Ghoul
+3-Enku
+4-Yu
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:264/264
+2-Michizane HP:490/658 MP:285/296
+3-Guedhe HP:511/511 MP:229/229
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Decarabia ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:255/693 MP:288/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:500/558 MP:104/111
+D-Enku HP:235/235 MP:228/228
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Enku
+3-Yu
+4-Decarabia
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Nanashi HP:36/140 MP:411/411
+2-Pale Rider HP:255/693 MP:288/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Ghoul lanza un ataque todo poderoso a Pale Rider
+El ataque drena 37 HP de Pale Rider
+Pale Rider termina con HP:218/693
+Ghoul termina con HP:537/558
+El ataque drena 37 MP de Pale Rider
+Pale Rider termina con MP:251/310
+Ghoul termina con MP:111/111
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:537/558 MP:111/111
+D-Enku HP:235/235 MP:228/228
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Erlkonig
-2-Huang Di
-3-Berserker
-4-Kyouji
+1-Enku
+2-Yu
+3-Decarabia
+4-Ghoul
 ----------------------------------------
-Seleccione una acción para Erlkonig
+Seleccione una acción para Enku
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Enku
+1-Nanashi HP:36/140 MP:411/411
+2-Pale Rider HP:218/693 MP:251/310
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Enku
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1395,179 +1284,305 @@ Seleccione una acción para Erlkonig
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Pale Rider HP:519/693 MP:310/310
-2-Ancient of Days HP:449/498 MP:484/484
-3-Naga HP:199/199 MP:39/39
-4-Cancelar
-INPUT: 2
+1-Michizane HP:490/658 MP:285/296
+2-Koumokuten HP:378/378 MP:156/170
+3-Guedhe HP:511/511 MP:229/229
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 4
 ----------------------------------------
-Ancient of Days ha sido invocado
+Haoma ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Huang Di HP:456/672 MP:301/301
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:105/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:537/558 MP:111/111
+D-Haoma HP:305/305 MP:296/296
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Huang Di
-2-Berserker
-3-Kyouji
-4-Ancient of Days
+1-Yu
+2-Decarabia
+3-Ghoul
+4-Haoma
 ----------------------------------------
-Seleccione una acción para Huang Di
+Seleccione una acción para Yu
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Pale Rider HP:519/693 MP:310/310
-3-Naga HP:199/199 MP:39/39
+1-Michizane HP:490/658 MP:285/296
+2-Koumokuten HP:378/378 MP:156/170
+3-Guedhe HP:511/511 MP:229/229
+4-Enku HP:235/235 MP:228/228
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Decarabia HP:273/273 MP:264/264 (Puesto 2)
+2-Ghoul HP:537/558 MP:111/111 (Puesto 3)
+3-Haoma HP:305/305 MP:296/296 (Puesto 4)
 4-Cancelar
 INPUT: 3
 ----------------------------------------
-Naga ha sido invocado
+Guedhe ha sido invocado
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Naga HP:199/199 MP:39/39
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:105/597 MP:277/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Decarabia HP:273/273 MP:264/264
+C-Ghoul HP:537/558 MP:111/111
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Berserker
-2-Kyouji
-3-Ancient of Days
-4-Naga
+1-Decarabia
+2-Ghoul
+3-Guedhe
+4-Yu
 ----------------------------------------
-Seleccione una acción para Berserker
+Seleccione una acción para Decarabia
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Pale Rider HP:519/693 MP:310/310
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Berserker
-1-Yu HP:105/597 MP:277/347
-2-Power HP:407/407 MP:72/81
-3-Murmur HP:397/511 MP:229/229
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Berserker
-1-Yu HP:105/597 MP:277/347
-2-Power HP:407/407 MP:72/81
-3-Murmur HP:397/511 MP:229/229
+Seleccione una habilidad para que Decarabia use
+1-Megido MP:25
+2-Sabbatma MP:20
+3-Tetrakarn MP:50
 4-Cancelar
 INPUT: 2
 ----------------------------------------
-Berserker ataca a Power
-Power recibe 52 de daño
-Power termina con HP:355/407
+Seleccione un monstruo para invocar
+1-Michizane HP:490/658 MP:285/296
+2-Koumokuten HP:378/378 MP:156/170
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Decarabia HP:273/273 MP:264/264 (Puesto 2)
+2-Ghoul HP:537/558 MP:111/111 (Puesto 3)
+3-Guedhe HP:511/511 MP:229/229 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Koumokuten ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:537/558 MP:111/111
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pale Rider
+2-Nanashi
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pale Rider
+1-Yu HP:522/597 MP:347/347
+2-Koumokuten HP:378/378 MP:156/170
+3-Ghoul HP:537/558 MP:111/111
+4-Guedhe HP:511/511 MP:229/229
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pale Rider ataca a Guedhe
+Guedhe recibe 58 de daño
+Guedhe termina con HP:453/511
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:537/558 MP:111/111
+D-Guedhe HP:453/511 MP:229/229
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nanashi
+2-Pale Rider
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nanashi
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nanashi
+1-Yu HP:522/597 MP:347/347
+2-Koumokuten HP:378/378 MP:156/170
+3-Ghoul HP:537/558 MP:111/111
+4-Guedhe HP:453/511 MP:229/229
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Nanashi dispara a Koumokuten
+Koumokuten recibe 31 de daño
+Koumokuten termina con HP:347/378
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Yu (J2)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Naga HP:199/199 MP:39/39
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:105/597 MP:277/347
-B-Power HP:355/407 MP:72/81
-C-Murmur HP:397/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:218/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:347/378 MP:156/170
+C-Ghoul HP:537/558 MP:111/111
+D-Guedhe HP:453/511 MP:229/229
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Guedhe
+2-Yu
+3-Koumokuten
+4-Ghoul
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Nanashi HP:36/140 MP:411/411
+2-Pale Rider HP:218/693 MP:251/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Guedhe ataca a Pale Rider
+Pale Rider recibe 42 de daño
+Pale Rider termina con HP:176/693
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:176/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:522/597 MP:347/347
+B-Koumokuten HP:347/378 MP:156/170
+C-Ghoul HP:537/558 MP:111/111
+D-Guedhe HP:453/511 MP:229/229
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Yu
-2-Murmur
-3-Power
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Yu
-1-Kyouji HP:1/999 MP:0/0
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Ancient of Days HP:449/498 MP:484/484
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Yu
-1-Kyouji HP:1/999 MP:0/0
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Ancient of Days HP:449/498 MP:484/484
-5-Cancelar
-INPUT: 5
+2-Koumokuten
+3-Ghoul
+4-Guedhe
 ----------------------------------------
 Seleccione una acción para Yu
 1: Atacar
@@ -1580,98 +1595,88 @@ INPUT: 3
 ----------------------------------------
 Seleccione una habilidad para que Yu use
 1-Recarmdra MP:2
-2-Judgement MP:45
-3-Great Logos MP:70
-4-Cancelar
+2-Spirit Drain MP:5
+3-Axel Claw MP:15
+4-Mudo MP:6
+5-Shining Seal MP:75
+6-Invitation MP:45
+7-Cancelar
 INPUT: 1
 ----------------------------------------
-Yu cura a Power
-Power recibe 203 de HP
-Power termina con HP:407/407
-Yu cura a Murmur
-Murmur recibe 255 de HP
-Murmur termina con HP:511/511
-Yu revive a Wicker Man
-Wicker Man recibe 63 de HP
-Wicker Man termina con HP:63/126
+Yu cura a Koumokuten
+Koumokuten recibe 189 de HP
+Koumokuten termina con HP:378/378
+Yu cura a Ghoul
+Ghoul recibe 279 de HP
+Ghoul termina con HP:558/558
+Yu cura a Guedhe
+Guedhe recibe 255 de HP
+Guedhe termina con HP:511/511
+Yu cura a Decarabia
+Decarabia recibe 136 de HP
+Decarabia termina con HP:273/273
+Yu cura a Michizane
+Michizane recibe 329 de HP
+Michizane termina con HP:658/658
+Yu cura a Enku
+Enku recibe 117 de HP
+Enku termina con HP:235/235
+Yu cura a Haoma
+Haoma recibe 152 de HP
+Haoma termina con HP:305/305
 Yu termina con HP:0/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:1/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Naga HP:199/199 MP:39/39
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:176/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:111/111
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Power
-2-Murmur
+1-Koumokuten
+2-Ghoul
+3-Guedhe
 ----------------------------------------
-Seleccione una acción para Power
+Seleccione una acción para Koumokuten
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Power
-1-Kyouji HP:1/999 MP:0/0
-2-Berserker HP:690/690 MP:136/136
-3-Naga HP:199/199 MP:39/39
-4-Ancient of Days HP:449/498 MP:484/484
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Power ataca a Kyouji
-Kyouji recibe 25 de daño
-Kyouji termina con HP:0/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Naga HP:199/199 MP:39/39
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:511/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Power
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Murmur
-1-Berserker HP:690/690 MP:136/136
-2-Naga HP:199/199 MP:39/39
-3-Ancient of Days HP:449/498 MP:484/484
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Murmur
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Koumokuten
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1681,73 +1686,26 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:690/690 MP:136/136
-C-Naga HP:199/199 MP:39/39
-D-Ancient of Days HP:449/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:72/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:176/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Ghoul HP:558/558 MP:111/111
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
-Full Turns: 0
+Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Power
-2-Murmur
+1-Ghoul
+2-Guedhe
+3-Koumokuten
 ----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Power use
-1-Tathlum Shot MP:7
-2-Diarama MP:9
-3-Megido MP:25
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Power lanza un ataque todo poderoso a Berserker
-Berserker recibe 73 de daño
-Berserker termina con HP:617/690
-Power lanza un ataque todo poderoso a Naga
-Naga recibe 73 de daño
-Naga termina con HP:126/199
-Power lanza un ataque todo poderoso a Ancient of Days
-Ancient of Days recibe 73 de daño
-Ancient of Days termina con HP:376/498
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:617/690 MP:136/136
-C-Naga HP:126/199 MP:39/39
-D-Ancient of Days HP:376/498 MP:484/484
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ancient of Days
-2-Berserker
-3-Naga
-----------------------------------------
-Seleccione una acción para Ancient of Days
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1755,75 +1713,53 @@ Seleccione una acción para Ancient of Days
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Pale Rider HP:519/693 MP:310/310
-4-Cancelar
-INPUT: 3
+1-Decarabia HP:273/273 MP:244/264
+2-Michizane HP:658/658 MP:285/296
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 5
 ----------------------------------------
-Pale Rider ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:617/690 MP:136/136
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Berserker
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Berserker
+Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Berserker use
-1-Charge MP:9
-2-Hades Blast MP:32
-3-Tarukaja MP:15
-4-Cancelar
-INPUT: 1
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:244/264
+2-Michizane HP:658/658 MP:285/296
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 3
 ----------------------------------------
-Berserker ha cargado su siguiente ataque físico o disparo a más del doble
+Enku ha sido invocado
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:617/690 MP:127/136
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:176/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Naga
-2-Pale Rider
-3-Berserker
+1-Guedhe
+2-Koumokuten
+3-Enku
 ----------------------------------------
-Seleccione una acción para Naga
+Seleccione una acción para Guedhe
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1833,24 +1769,81 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:617/690 MP:127/136
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:36/140 MP:411/411
+B-Pale Rider HP:176/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:156/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
-Full Turns: 1
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
+1-Koumokuten
+2-Enku
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Koumokuten ataca a Nanashi
+Nanashi recibe 82 de daño
+Nanashi termina con HP:0/140
+Koumokuten ataca a Pale Rider
+Pale Rider recibe 82 de daño
+Pale Rider termina con HP:94/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nanashi (J1)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:94/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Pale Rider
-2-Berserker
-3-Naga
 ----------------------------------------
 Seleccione una acción para Pale Rider
 1: Atacar
@@ -1859,196 +1852,308 @@ Seleccione una acción para Pale Rider
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Berserker HP:617/690 MP:127/136
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Berserker
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Berserker use
-1-Charge MP:9
-2-Hades Blast MP:32
-3-Tarukaja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Ancient of Days HP:376/498 MP:484/484
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Huang Di ha sido invocado
-----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Huang Di HP:456/672 MP:301/301
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:407/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:94/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Naga
-2-Pale Rider
-3-Huang Di
+1-Pale Rider
 ----------------------------------------
-Seleccione una acción para Naga
+Seleccione una acción para Pale Rider
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Ancient of Days HP:376/498 MP:484/484
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
 INPUT: 4
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Naga
-1-Power HP:407/407 MP:47/81
-2-Murmur HP:511/511 MP:229/229
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Naga ataca a Power
-Power recibe 12 de daño
-Power termina con HP:395/407
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Yu (J2)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Huang Di HP:456/672 MP:301/301
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:229/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:94/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Murmur
-2-Power
+1-Guedhe
+2-Koumokuten
+3-Enku
 ----------------------------------------
-Seleccione una acción para Murmur
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:94/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Enku
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Koumokuten
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Murmur
-1-Huang Di HP:456/672 MP:301/301
-2-Naga HP:126/199 MP:39/39
-3-Pale Rider HP:519/693 MP:310/310
-4-Cancelar
-INPUT: 4
+Seleccione un objetivo para Koumokuten
+1-Pale Rider HP:94/693 MP:251/310
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Murmur
+Koumokuten ataca a Pale Rider
+Pale Rider recibe 30 de daño
+Pale Rider termina con HP:64/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:64/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Enku HP:235/235 MP:228/228
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Enku
+2-Guedhe
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Enku
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:244/264
+2-Ghoul HP:558/558 MP:111/111
+3-Michizane HP:658/658 MP:285/296
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Michizane ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:64/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Michizane HP:658/658 MP:285/296
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Guedhe
+2-Koumokuten
+3-Michizane
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Pale Rider HP:64/693 MP:251/310
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Guedhe
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Guedhe
+1-Pale Rider HP:64/693 MP:251/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Guedhe ataca a Pale Rider
+Pale Rider recibe 42 de daño
+Pale Rider termina con HP:22/693
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:22/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Michizane HP:658/658 MP:285/296
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Michizane
+3-Guedhe
+----------------------------------------
+Seleccione una acción para Koumokuten
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Murmur use
-1-Madness Nails MP:26
-2-Mudoon MP:10
-3-Maziodyne MP:32
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
 4-Cancelar
-INPUT: 2
+INPUT: 4
 ----------------------------------------
-Seleccione un objetivo para Murmur
-1-Huang Di HP:456/672 MP:301/301
-2-Naga HP:126/199 MP:39/39
-3-Pale Rider HP:519/693 MP:310/310
-4-Cancelar
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:22/693 MP:251/310
+C-
+D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Michizane HP:658/658 MP:285/296
+D-Guedhe HP:511/511 MP:229/229
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Michizane
+2-Guedhe
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Michizane
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Murmur ataca con oscuridad a Pale Rider
-Pale Rider bloquea el ataque de Murmur
-Pale Rider termina con HP:519/693
+Seleccione un monstruo para invocar
+1-Decarabia HP:273/273 MP:244/264
+2-Ghoul HP:558/558 MP:111/111
+3-Enku HP:235/235 MP:228/228
+4-Haoma HP:305/305 MP:296/296
+5-Cancelar
+INPUT: 1
 ----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Decarabia ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kyouji (J1)
+Ronda de Nanashi (J1)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Huang Di HP:456/672 MP:301/301
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:22/693 MP:251/310
+C-
 D-
+Equipo de Yu (J2)
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:378/378 MP:139/170
+C-Decarabia HP:273/273 MP:244/264
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Pale Rider
-2-Huang Di
-3-Naga
 ----------------------------------------
 Seleccione una acción para Pale Rider
 1: Atacar
@@ -2058,11 +2163,19 @@ Seleccione una acción para Pale Rider
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Ancient of Days HP:376/498 MP:484/484
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 4
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Pale Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Pale Rider
 1: Atacar
@@ -2077,1400 +2190,60 @@ Seleccione una habilidad para que Pale Rider use
 3-Deadly Wind MP:22
 4-Debilitate MP:50
 5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Huang Di HP:456/672 MP:301/301
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Huang Di
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:395/671 MP:102/134
-2-Ancient of Days HP:376/498 MP:484/484
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Erlkonig ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Naga
-2-Pale Rider
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Erlkonig
-3-Naga
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Erlkonig
-1-Power HP:395/407 MP:47/81
-2-Murmur HP:511/511 MP:219/229
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Naga
-2-Pale Rider
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:395/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Power
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Murmur
-1-Erlkonig HP:395/671 MP:102/134
-2-Naga HP:126/199 MP:39/39
-3-Pale Rider HP:519/693 MP:310/310
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Murmur ataca a Erlkonig
-Erlkonig recibe 42 de daño
-Erlkonig termina con HP:353/671
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Power HP:395/407 MP:47/81
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Power
-2-Murmur
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Wicker Man HP:63/126 MP:55/55
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Wicker Man ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:63/126 MP:55/55
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Murmur
-2-Wicker Man
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Pale Rider HP:519/693 MP:310/310
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:63/126 MP:55/55
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Erlkonig
-3-Naga
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pale Rider use
-1-Pandemic Bomb MP:11
-2-Death's Door MP:10
-3-Deadly Wind MP:22
-4-Debilitate MP:50
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Huang Di HP:456/672 MP:301/301
-2-Ancient of Days HP:376/498 MP:484/484
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Berserker ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:63/126 MP:55/55
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Naga
-3-Berserker
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Huang Di HP:456/672 MP:301/301
-2-Pale Rider HP:519/693 MP:310/310
-3-Ancient of Days HP:376/498 MP:484/484
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Pale Rider ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:63/126 MP:55/55
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Naga
-2-Berserker
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Naga
-1-Wicker Man HP:63/126 MP:55/55
-2-Murmur HP:511/511 MP:219/229
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Naga ataca a Wicker Man
-Wicker Man recibe 12 de daño
-Wicker Man termina con HP:51/126
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:511/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Berserker
-2-Pale Rider
-3-Naga
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Berserker
-1-Wicker Man HP:51/126 MP:55/55
-2-Murmur HP:511/511 MP:219/229
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Berserker ataca a Murmur
-Murmur recibe 132 de daño
-Murmur termina con HP:379/511
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Wicker Man
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Wicker Man
-2-Murmur
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-2-Wicker Man
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:126/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Wicker Man
-2-Murmur
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Wicker Man use
-1-Zan MP:5
-2-Pandemic Bomb MP:11
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Wicker Man
-1-Pale Rider HP:519/693 MP:310/310
-2-Naga HP:126/199 MP:39/39
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Wicker Man ataca a Naga
-Naga recibe 8 de daño
-Naga termina con HP:118/199
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:118/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-Wicker Man HP:51/126 MP:55/55
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Berserker
-3-Naga
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Pale Rider
-1-Wicker Man HP:51/126 MP:55/55
-2-Murmur HP:379/511 MP:219/229
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Pale Rider ataca a Wicker Man
-Wicker Man recibe 58 de daño
-Wicker Man termina con HP:0/126
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:118/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Berserker
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:118/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Naga
-2-Pale Rider
-3-Berserker
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:353/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Ancient of Days HP:376/498 MP:484/484
+1-Koumokuten HP:378/378 MP:139/170
+2-Decarabia HP:273/273 MP:244/264
+3-Guedhe HP:511/511 MP:229/229
 4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Naga use
-1-Lunge MP:6
-2-Bufu MP:5
-3-Tarukaja MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Naga
-1-Murmur HP:379/511 MP:219/229
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:118/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:379/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Berserker
-3-Naga
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Pale Rider
-1-Murmur HP:379/511 MP:219/229
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Pale Rider ataca a Murmur
-Murmur recibe 58 de daño
-Murmur termina con HP:321/511
+Pale Rider lanza viento a Koumokuten
+Koumokuten recibe 168 de daño
+Koumokuten termina con HP:210/378
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Yu (J2)
 ----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:118/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
+Equipo de Nanashi (J1)
+A-Nanashi HP:0/140 MP:411/411
+B-Pale Rider HP:22/693 MP:229/310
+C-
 D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Murmur
-1-Pale Rider HP:519/693 MP:310/310
-2-Naga HP:118/199 MP:39/39
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Murmur ataca a Naga
-Naga recibe 42 de daño
-Naga termina con HP:76/199
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:76/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
 Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
-D-
+A-Yu HP:0/597 MP:345/347
+B-Koumokuten HP:210/378 MP:139/170
+C-Decarabia HP:273/273 MP:244/264
+D-Guedhe HP:511/511 MP:229/229
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Pale Rider
-2-Berserker
-3-Naga
+1-Guedhe
+2-Koumokuten
+3-Decarabia
 ----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:76/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Berserker
-2-Naga
-3-Pale Rider
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Naga HP:76/199 MP:39/39
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Naga
-2-Pale Rider
-3-Berserker
-----------------------------------------
-Seleccione una acción para Naga
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:353/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Ancient of Days HP:376/498 MP:484/484
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ancient of Days ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Pale Rider HP:519/693 MP:310/310
-C-Ancient of Days HP:376/498 MP:484/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Berserker
-3-Ancient of Days
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Erlkonig HP:353/671 MP:102/134
-2-Huang Di HP:456/672 MP:301/301
-3-Naga HP:76/199 MP:39/39
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Erlkonig ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:484/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:321/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Berserker
-2-Ancient of Days
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Berserker
+Seleccione una acción para Guedhe
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Berserker
-1-Murmur HP:321/511 MP:219/229
+Seleccione un objetivo para Guedhe
+1-Pale Rider HP:22/693 MP:229/310
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Berserker ataca a Murmur
-Murmur recibe 52 de daño
-Murmur termina con HP:269/511
+Guedhe ataca a Pale Rider
+Pale Rider recibe 42 de daño
+Pale Rider termina con HP:0/693
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:484/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Murmur HP:269/511 MP:219/229
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Murmur
-----------------------------------------
-Seleccione una acción para Murmur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Power HP:395/407 MP:47/81
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Power ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:353/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:484/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:395/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Power
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Power
-1-Erlkonig HP:353/671 MP:102/134
-2-Ancient of Days HP:376/498 MP:484/484
-3-Berserker HP:617/690 MP:127/136
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Power ataca a Erlkonig
-Erlkonig recibe 29 de daño
-Erlkonig termina con HP:324/671
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:484/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:395/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ancient of Days
-2-Berserker
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ancient of Days
-1-Power HP:395/407 MP:47/81
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ancient of Days use
-1-Damnation MP:65
-2-Shining Seal MP:75
-3-Gather Spirit Energy MP:25
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ancient of Days ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:459/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:395/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Berserker
-2-Erlkonig
-3-Ancient of Days
-----------------------------------------
-Seleccione una acción para Berserker
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Huang Di HP:456/672 MP:301/301
-2-Pale Rider HP:519/693 MP:310/310
-3-Naga HP:76/199 MP:39/39
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Huang Di ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:102/134
-C-Ancient of Days HP:376/498 MP:459/484
-D-Huang Di HP:456/672 MP:301/301
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:395/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Erlkonig
-2-Ancient of Days
-3-Huang Di
-----------------------------------------
-Seleccione una acción para Erlkonig
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Erlkonig use
-1-Maziodyne MP:32
-2-Stun Needles MP:14
-3-Myriad Arrows MP:30
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Erlkonig lanza electricidad a Power
-Power recibe 102 de daño
-Power termina con HP:293/407
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:70/134
-C-Ancient of Days HP:376/498 MP:459/484
-D-Huang Di HP:456/672 MP:301/301
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:293/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ancient of Days
-2-Huang Di
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ancient of Days use
-1-Damnation MP:65
-2-Shining Seal MP:75
-3-Gather Spirit Energy MP:25
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ancient of Days ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:70/134
-C-Ancient of Days HP:376/498 MP:434/484
-D-Huang Di HP:456/672 MP:301/301
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:293/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Power
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:70/134
-C-Ancient of Days HP:376/498 MP:434/484
-D-Huang Di HP:456/672 MP:301/301
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:293/407 MP:47/81
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Power
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Power
-1-Erlkonig HP:324/671 MP:70/134
-2-Ancient of Days HP:376/498 MP:434/484
-3-Huang Di HP:456/672 MP:301/301
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Murmur HP:269/511 MP:219/229
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Power
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Power use
-1-Tathlum Shot MP:7
-2-Diarama MP:9
-3-Megido MP:25
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Power
-1-Power HP:293/407 MP:47/81
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Power cura a Power
-Power recibe 203 de HP
-Power termina con HP:407/407
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kyouji (J1)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:70/134
-C-Ancient of Days HP:376/498 MP:434/484
-D-Huang Di HP:456/672 MP:301/301
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:407/407 MP:38/81
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Huang Di
-2-Ancient of Days
-3-Erlkonig
-----------------------------------------
-Seleccione una acción para Huang Di
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Pale Rider HP:519/693 MP:310/310
-2-Berserker HP:617/690 MP:127/136
-3-Naga HP:76/199 MP:39/39
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Berserker ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Kyouji (J1)
-A-Kyouji HP:0/999 MP:0/0
-B-Erlkonig HP:324/671 MP:70/134
-C-Ancient of Days HP:376/498 MP:434/484
-D-Berserker HP:617/690 MP:127/136
-Equipo de Yu (J2)
-A-Yu HP:0/597 MP:275/347
-B-
-C-Power HP:407/407 MP:38/81
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Ancient of Days
-2-Erlkonig
-3-Berserker
-----------------------------------------
-Seleccione una acción para Ancient of Days
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ancient of Days use
-1-Damnation MP:65
-2-Shining Seal MP:75
-3-Gather Spirit Energy MP:25
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Ancient of Days lanza un ataque todo poderoso a Power
-Power recibe 556 de daño
-Power termina con HP:0/407
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ganador: Kyouji (J1)
+Ganador: Yu (J2)
