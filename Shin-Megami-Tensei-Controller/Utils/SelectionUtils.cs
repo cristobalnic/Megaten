@@ -15,8 +15,6 @@ public class SelectionUtils
         _gameState = gameState;
     }
     
-    
-    
     public void DisplaySummonWithdrawSelection(List<Unit> monsters)
     {
         _view.WriteLine(Params.Separator);
@@ -94,5 +92,22 @@ public class SelectionUtils
         _view.DisplayMonsterSelection(_gameState.TurnPlayer.GetAllUnits(), selectionPhrase, onlyDead: true);
         Unit target = GetTargetMonster(_gameState.TurnPlayer.GetAllUnits(), onlyDead: true);
         return target;
+    }
+    
+    public void DisplayPlayerActionSelectionMenu(Unit monster)
+    {
+        _view.WriteLine(Params.Separator);
+        _view.WriteLine($"Seleccione una acción para {monster.Name}");
+        var actions = monster is Samurai ? Params.SamuraiActions : Params.MonsterActions;
+        DisplayItemList(actions, '1', ": ");
+    }
+    
+    private void DisplayItemList(string[] items, char counterLabel, string separator)
+    {
+        foreach (var item in items)
+        {
+            _view.WriteLine($"{counterLabel}{separator}{item}");
+            counterLabel++;
+        }
     }
 }

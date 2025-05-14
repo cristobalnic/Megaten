@@ -1,6 +1,7 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.ErrorHandling;
 using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameLoop;
@@ -10,13 +11,14 @@ public class TurnManager
     private readonly IView _view;
     private readonly GameState _gameState;
     private readonly ActionManager _actionManager;
-    
+    private readonly SelectionUtils _selectionUtils;
     
     public TurnManager(IView view, GameState gameState)
     {
         _view = view;
         _gameState = gameState;
         _actionManager = new ActionManager(view, gameState);
+        _selectionUtils = new SelectionUtils(view, gameState);
     }
 
 
@@ -53,7 +55,7 @@ public class TurnManager
     {
         try
         {
-            _actionManager.DisplayPlayerActionSelectionMenu(monster);
+            _selectionUtils.DisplayPlayerActionSelectionMenu(monster);
             _actionManager.PlayerActionExecution(monster);
         }
         catch (CancelObjectiveSelectionException)

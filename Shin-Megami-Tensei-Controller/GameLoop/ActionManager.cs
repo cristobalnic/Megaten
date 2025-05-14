@@ -28,24 +28,7 @@ public class ActionManager
         _passTurnAction = new PassTurnAction(gameState);
         _surrenderAction = new SurrenderAction(view, gameState);
     }
-
-    public void DisplayPlayerActionSelectionMenu(Unit monster)
-    {
-        _view.WriteLine(Params.Separator);
-        _view.WriteLine($"Seleccione una acción para {monster.Name}");
-        var actions = monster is Samurai ? Params.SamuraiActions : Params.MonsterActions;
-        DisplayItemList(actions, '1', ": ");
-    }
     
-    private void DisplayItemList(string[] items, char counterLabel, string separator)
-    {
-        foreach (var item in items)
-        {
-            _view.WriteLine($"{counterLabel}{separator}{item}");
-            counterLabel++;
-        }
-    }
-
     public void PlayerActionExecution(Unit monster)
     {
         var action = GetPlayerAction(monster);
