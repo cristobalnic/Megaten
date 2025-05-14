@@ -1,4 +1,4 @@
-﻿namespace Shin_Megami_Tensei.GameData;
+﻿namespace Shin_Megami_Tensei;
 
 public static class Params
 {

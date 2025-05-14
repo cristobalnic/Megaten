@@ -3,12 +3,12 @@ using Shin_Megami_Tensei.ErrorHandling;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameLoop;
+namespace Shin_Megami_Tensei.Utils;
 
 public class SelectionUtils
 {
-    private IView _view;
-    private GameState _gameState;
+    private readonly IView _view;
+    private readonly GameState _gameState;
     public SelectionUtils(IView view, GameState gameState)
     {
         _view = view;

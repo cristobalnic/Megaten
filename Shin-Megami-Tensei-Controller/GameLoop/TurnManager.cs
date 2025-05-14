@@ -1,5 +1,4 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.ErrorHandling;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;

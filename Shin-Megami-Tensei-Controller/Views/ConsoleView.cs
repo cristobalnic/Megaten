@@ -2,7 +2,6 @@
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
-using Shin_Megami_Tensei.GameData;
 
 namespace Shin_Megami_Tensei.Views;
 

@@ -5,8 +5,8 @@ namespace Shin_Megami_Tensei.DataStructures;
 
 public struct CombatRecord
 {
-    public readonly Unit Attacker;
-    public readonly Unit Target;
+    public Unit Attacker;
+    public Unit Target;
     public int Damage;
     public readonly AffinityType Affinity;
     
@@ -16,5 +16,10 @@ public struct CombatRecord
         Target = target;
         Damage = damage;
         Affinity = affinity;
+    }
+    
+    public void SwitchAttackerAndTarget()
+    {
+        (Attacker, Target) = (Target, Attacker);
     }
 }
