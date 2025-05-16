@@ -1750,7 +1750,6 @@ Seleccione un objetivo para Kei
 3-Plasma HP:179/179 MP:172/172
 4-Black Rider HP:686/686 MP:307/307
 5-Cancelar
-INPUT: 11
 INPUT: 1
 ----------------------------------------
 Kei lanza un ataque todo poderoso a Demi-Fiend
@@ -2079,7 +2078,6 @@ INPUT: 3
 Seleccione una habilidad para que Demi-Fiend use
 1-Mediarahan MP:40
 2-Cancelar
-INPUT: 11
 INPUT: 1
 ----------------------------------------
 Demi-Fiend cura a Pale Rider

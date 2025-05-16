@@ -427,7 +427,14 @@ Seleccione una acción para Ghoul
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 3
 ----------------------------------------
 Seleccione un objetivo para Ghoul
 1-Tamaki HP:999/999 MP:542/542
@@ -438,8 +445,8 @@ INPUT: 1
 ----------------------------------------
 Ghoul ataca a Tamaki
 Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 20 de daño
-Tamaki termina con HP:979/999
+Tamaki recibe 48 de daño
+Tamaki termina con HP:951/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -447,10 +454,10 @@ Se han obtenido 0 Blinking Turn(s)
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Yomotsu-Ikusa HP:445/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
+C-Ghoul HP:558/558 MP:104/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:979/999 MP:542/542
+A-Tamaki HP:951/999 MP:542/542
 B-Koumokuten HP:378/378 MP:170/170
 C-Master Therion HP:497/497 MP:223/223
 D-
@@ -470,52 +477,19 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Hamaon MP:10
-2-Great Logos MP:70
-3-Energy Drain MP:10
-4-Invitation MP:45
-5-Tathlum Shot MP:7
-6-Mudo MP:6
-7-Mediarama MP:22
-8-Cancelar
-INPUT: 8
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
+INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Joker
-1-Tamaki HP:979/999 MP:542/542
+1-Tamaki HP:951/999 MP:542/542
 2-Koumokuten HP:378/378 MP:170/170
 3-Master Therion HP:497/497 MP:223/223
 4-Cancelar
 INPUT: 1
 ----------------------------------------
-Joker ataca a Tamaki
+Joker dispara a Tamaki
 Tamaki es resistente el ataque de Joker
-Tamaki recibe 14 de daño
-Tamaki termina con HP:965/999
+Tamaki recibe 19 de daño
+Tamaki termina con HP:932/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -523,10 +497,10 @@ Se han obtenido 0 Blinking Turn(s)
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Yomotsu-Ikusa HP:445/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
+C-Ghoul HP:558/558 MP:104/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:965/999 MP:542/542
+A-Tamaki HP:932/999 MP:542/542
 B-Koumokuten HP:378/378 MP:170/170
 C-Master Therion HP:497/497 MP:223/223
 D-
@@ -544,21 +518,60 @@ Seleccione una acción para Yomotsu-Ikusa
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 4
 ----------------------------------------
-Seleccione un objetivo para Yomotsu-Ikusa
-1-Tamaki HP:965/999 MP:542/542
-2-Koumokuten HP:378/378 MP:170/170
-3-Master Therion HP:497/497 MP:223/223
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-Ghoul HP:558/558 MP:104/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:378/378 MP:170/170
+C-Master Therion HP:497/497 MP:223/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+3-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
 4-Cancelar
 INPUT: 1
 ----------------------------------------
-Yomotsu-Ikusa ataca a Tamaki
-Tamaki es resistente el ataque de Yomotsu-Ikusa
-Tamaki recibe 16 de daño
-Tamaki termina con HP:949/999
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:932/999 MP:542/542
+2-Koumokuten HP:378/378 MP:170/170
+3-Master Therion HP:497/497 MP:223/223
+4-Cancelar
+INPUT: 2
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Ghoul lanza un ataque todo poderoso a Koumokuten
+El ataque drena 37 HP de Koumokuten
+Koumokuten termina con HP:341/378
+Ghoul termina con HP:558/558
+El ataque drena 37 MP de Koumokuten
+Koumokuten termina con MP:133/170
+Ghoul termina con MP:111/111
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Tamaki (J2)
@@ -569,8 +582,8 @@ B-Yomotsu-Ikusa HP:445/445 MP:88/88
 C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:170/170
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
 C-Master Therion HP:497/497 MP:223/223
 D-
 ----------------------------------------
@@ -581,6 +594,173 @@ Orden:
 1-Master Therion
 2-Koumokuten
 3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Master Therion ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:497/497 MP:212/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:497/497 MP:212/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Agidyne MP:14
+2-Mediarama MP:22
+3-Mudoon MP:10
+4-Serpent of Sheol MP:45
+5-Great Logos MP:70
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Joker HP:597/597 MP:347/347
+2-Yomotsu-Ikusa HP:445/445 MP:88/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:497/497 MP:212/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Master Therion
 1: Atacar
@@ -603,153 +783,17 @@ Yomotsu-Ikusa termina con HP:404/445
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:170/170
-C-Master Therion HP:497/497 MP:223/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:170/170
-C-Master Therion HP:497/497 MP:223/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:170/170
-C-Master Therion HP:497/497 MP:223/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:558/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:170/170
-C-Master Therion HP:497/497 MP:223/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Joker HP:597/597 MP:347/347
-2-Yomotsu-Ikusa HP:404/445 MP:88/88
-3-Ghoul HP:558/558 MP:111/111
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 109 de daño
-Ghoul termina con HP:449/558
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
 Ronda de Joker (J1)
 ----------------------------------------
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:157/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:497/497 MP:212/223
 D-
 ----------------------------------------
 Full Turns: 3
@@ -773,12 +817,12 @@ Se han obtenido 1 Blinking Turn(s)
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:378/378 MP:157/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:497/497 MP:212/223
 D-
 ----------------------------------------
 Full Turns: 2
@@ -796,18 +840,18 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Joker
-1-Tamaki HP:949/999 MP:542/542
-2-Koumokuten HP:378/378 MP:157/170
-3-Master Therion HP:497/497 MP:223/223
+1-Tamaki HP:932/999 MP:542/542
+2-Koumokuten HP:341/378 MP:133/170
+3-Master Therion HP:497/497 MP:212/223
 4-Cancelar
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Joker dispara a Koumokuten
-Koumokuten recibe 39 de daño
-Koumokuten termina con HP:339/378
+Joker ataca a Master Therion
+Master Therion recibe 28 de daño
+Master Therion termina con HP:469/497
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -815,16 +859,565 @@ Se han obtenido 0 Blinking Turn(s)
 Equipo de Joker (J1)
 A-Joker HP:597/597 MP:347/347
 B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:949/999 MP:542/542
-B-Koumokuten HP:339/378 MP:157/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:932/999 MP:542/542
+B-Koumokuten HP:341/378 MP:133/170
+C-Master Therion HP:469/497 MP:212/223
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu-Ikusa
+2-Ghoul
+3-Joker
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu-Ikusa use
+1-Rapid Needle MP:9
+2-Fang Breaker MP:12
+3-Tathlum Shot MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yomotsu-Ikusa dispara a Tamaki
+Tamaki es resistente el ataque de Yomotsu-Ikusa
+Tamaki recibe 23 de daño
+Tamaki termina con HP:909/999
+Yomotsu-Ikusa dispara a Koumokuten
+Koumokuten recibe 47 de daño
+Koumokuten termina con HP:294/378
+Yomotsu-Ikusa dispara a Master Therion
+Master Therion recibe 47 de daño
+Master Therion termina con HP:422/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:422/497 MP:212/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+3-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:909/999 MP:542/542
+2-Koumokuten HP:294/378 MP:133/170
+3-Master Therion HP:422/497 MP:212/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:909/999 MP:542/542
+2-Koumokuten HP:294/378 MP:133/170
+3-Master Therion HP:422/497 MP:212/223
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Ghoul lanza un ataque todo poderoso a Master Therion
+El ataque drena 37 HP de Master Therion
+Master Therion termina con HP:385/497
+Ghoul termina con HP:558/558
+El ataque drena 37 MP de Master Therion
+Master Therion termina con MP:175/223
+Ghoul termina con MP:111/111
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:175/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:175/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:597/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:175/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:175/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:597/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Master Therion lanza fuego a Joker
+Joker recibe 296 de daño
+Joker termina con HP:301/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:301/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Koumokuten ataca a Ghoul
+Ghoul recibe 30 de daño
+Ghoul termina con HP:528/558
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+3-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Yomotsu-Ikusa
+3-Ghoul
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu-Ikusa
+2-Ghoul
+3-Joker
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:294/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+3-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:909/999 MP:542/542
+2-Koumokuten HP:294/378 MP:133/170
+3-Master Therion HP:385/497 MP:161/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:909/999 MP:542/542
+2-Koumokuten HP:294/378 MP:133/170
+3-Master Therion HP:385/497 MP:161/223
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ghoul ataca a Koumokuten
+Koumokuten recibe 41 de daño
+Koumokuten termina con HP:253/378
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+2-Yomotsu-Ikusa
+3-Ghoul
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Yomotsu-Ikusa
@@ -847,46 +1440,190 @@ Seleccione una acción para Yomotsu-Ikusa
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
+INPUT: 4
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:301/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Yomotsu-Ikusa
+Seleccione un objetivo para Tamaki
+1-Joker HP:301/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:528/558 MP:111/111
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki ataca a Joker
+Joker recibe 18 de daño
+Joker termina con HP:283/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:161/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Yomotsu-Ikusa
-1-Tamaki HP:949/999 MP:542/542
-2-Koumokuten HP:339/378 MP:157/170
-3-Master Therion HP:497/497 MP:223/223
+Seleccione un objetivo para Master Therion
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:528/558 MP:111/111
 4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Yomotsu-Ikusa ataca a Tamaki
-Tamaki es resistente el ataque de Yomotsu-Ikusa
-Tamaki recibe 16 de daño
-Tamaki termina con HP:933/999
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Master Therion ha cargado su siguiente ataque mágico a más del doble
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:542/542
-B-Koumokuten HP:339/378 MP:157/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:909/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:150/223
 D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -899,24 +1636,47 @@ Seleccione una acción para Ghoul
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:909/999 MP:542/542
+2-Koumokuten HP:253/378 MP:133/170
+3-Master Therion HP:385/497 MP:150/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Ghoul ataca a Tamaki
+Tamaki es resistente el ataque de Ghoul
+Tamaki recibe 20 de daño
+Tamaki termina con HP:889/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:542/542
-B-Koumokuten HP:339/378 MP:157/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:253/378 MP:133/170
+C-Master Therion HP:385/497 MP:150/223
 D-
 ----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
+Full Turns: 2
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Joker
@@ -930,59 +1690,112 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Hamaon MP:10
-2-Great Logos MP:70
-3-Energy Drain MP:10
-4-Invitation MP:45
-5-Tathlum Shot MP:7
-6-Mudo MP:6
-7-Mediarama MP:22
-8-Cancelar
-INPUT: 3
+INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Joker
-1-Tamaki HP:933/999 MP:542/542
-2-Koumokuten HP:339/378 MP:157/170
-3-Master Therion HP:497/497 MP:223/223
+1-Tamaki HP:889/999 MP:542/542
+2-Koumokuten HP:253/378 MP:133/170
+3-Master Therion HP:385/497 MP:150/223
 4-Cancelar
 INPUT: 2
 ----------------------------------------
-Joker lanza un ataque todo poderoso a Koumokuten
-El ataque drena 38 HP de Koumokuten
-Koumokuten termina con HP:301/378
-Joker termina con HP:597/597
-El ataque drena 38 MP de Koumokuten
-Koumokuten termina con MP:119/170
-Joker termina con MP:347/347
+Joker dispara a Koumokuten
+Koumokuten recibe 39 de daño
+Koumokuten termina con HP:214/378
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:214/378 MP:133/170
+C-Master Therion HP:385/497 MP:150/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yomotsu-Ikusa
+2-Ghoul
+3-Joker
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:528/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:214/378 MP:133/170
+C-Master Therion HP:385/497 MP:150/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+3-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:889/999 MP:542/542
+2-Koumokuten HP:214/378 MP:133/170
+3-Master Therion HP:385/497 MP:150/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:889/999 MP:542/542
+2-Koumokuten HP:214/378 MP:133/170
+3-Master Therion HP:385/497 MP:150/223
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ghoul lanza un ataque todo poderoso a Koumokuten
+El ataque drena 37 HP de Koumokuten
+Koumokuten termina con HP:177/378
+Ghoul termina con HP:558/558
+El ataque drena 37 MP de Koumokuten
+Koumokuten termina con MP:96/170
+Ghoul termina con MP:111/111
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -990,14 +1803,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Tamaki (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:542/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:223/223
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:177/378 MP:96/170
+C-Master Therion HP:385/497 MP:150/223
 D-
 ----------------------------------------
 Full Turns: 3
@@ -1013,11 +1826,14 @@ Seleccione una acción para Master Therion
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
 INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 4
 ----------------------------------------
 Seleccione una acción para Master Therion
 1: Atacar
@@ -1031,31 +1847,36 @@ Seleccione una habilidad para que Master Therion use
 2-Agidyne MP:14
 3-Concentrate MP:11
 4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:597/597 MP:347/347
-2-Yomotsu-Ikusa HP:404/445 MP:88/88
-3-Ghoul HP:449/558 MP:111/111
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
 4-Cancelar
-INPUT: 1
+INPUT: 3
 ----------------------------------------
-Master Therion lanza fuego a Joker
-Joker recibe 118 de daño
-Joker termina con HP:479/597
+Master Therion ha cargado su siguiente ataque mágico a más del doble
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:479/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:404/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:542/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:177/378 MP:96/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 2
@@ -1071,19 +1892,12 @@ Seleccione una acción para Koumokuten
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 3
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Koumokuten
-1-Joker HP:479/597 MP:347/347
-2-Yomotsu-Ikusa HP:404/445 MP:88/88
-3-Ghoul HP:449/558 MP:111/111
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
 4-Cancelar
 INPUT: 4
 ----------------------------------------
@@ -1092,24 +1906,56 @@ Seleccione una acción para Koumokuten
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
 INPUT: 4
 ----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:404/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Koumokuten lanza electricidad a Yomotsu-Ikusa
+Yomotsu-Ikusa recibe 98 de daño
+Yomotsu-Ikusa termina con HP:306/445
+----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:479/597 MP:347/347
-B-Yomotsu-Ikusa HP:404/445 MP:88/88
-C-Ghoul HP:449/558 MP:111/111
+A-Joker HP:283/597 MP:347/347
+B-Yomotsu-Ikusa HP:306/445 MP:79/88
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:542/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
+A-Tamaki HP:889/999 MP:542/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Tamaki
@@ -1135,9 +1981,9 @@ Seleccione una habilidad para que Tamaki use
 INPUT: 3
 ----------------------------------------
 Seleccione un objetivo para Tamaki
-1-Joker HP:479/597 MP:347/347
-2-Yomotsu-Ikusa HP:404/445 MP:88/88
-3-Ghoul HP:449/558 MP:111/111
+1-Joker HP:283/597 MP:347/347
+2-Yomotsu-Ikusa HP:306/445 MP:79/88
+3-Ghoul HP:558/558 MP:111/111
 4-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -1146,59 +1992,20 @@ Yomotsu-Ikusa es resistente el ataque de Tamaki
 Yomotsu-Ikusa ha sido eliminado
 Yomotsu-Ikusa termina con HP:0/445
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:479/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:479/597 MP:347/347
-2-Ghoul HP:449/558 MP:111/111
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Master Therion ataca a Joker
-Joker recibe 41 de daño
-Joker termina con HP:438/597
-----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Joker (J1)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:438/597 MP:347/347
+A-Joker HP:283/597 MP:347/347
 B-
-C-Ghoul HP:449/558 MP:111/111
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:933/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
+A-Tamaki HP:889/999 MP:532/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 2
@@ -1216,394 +2023,11 @@ Seleccione una acción para Ghoul
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Ghoul
-1-Tamaki HP:933/999 MP:532/542
-2-Koumokuten HP:301/378 MP:119/170
-3-Master Therion HP:497/497 MP:209/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul ataca a Tamaki
-Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 20 de daño
-Tamaki termina con HP:913/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:438/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:913/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Joker
-2-Ghoul
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:438/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:913/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
+1-Tamaki HP:889/999 MP:532/542
+2-Koumokuten HP:177/378 MP:82/170
+3-Master Therion HP:385/497 MP:139/223
 4-Cancelar
 INPUT: 4
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:913/999 MP:532/542
-2-Koumokuten HP:301/378 MP:119/170
-3-Master Therion HP:497/497 MP:209/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul ataca a Tamaki
-Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 20 de daño
-Tamaki termina con HP:893/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:438/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:209/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Master Therion ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:438/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:119/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Joker HP:438/597 MP:347/347
-2-Ghoul HP:449/558 MP:111/111
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten lanza electricidad a Joker
-Joker recibe 98 de daño
-Joker termina con HP:340/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:340/597 MP:347/347
-2-Ghoul HP:449/558 MP:111/111
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Master Therion ataca a Ghoul
-Ghoul recibe 41 de daño
-Ghoul termina con HP:408/558
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
-B-
-C-Ghoul HP:408/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:893/999 MP:532/542
-2-Koumokuten HP:301/378 MP:105/170
-3-Master Therion HP:497/497 MP:198/223
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
-B-
-C-Ghoul HP:408/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Ghoul
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
-B-
-C-Ghoul HP:408/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:893/999 MP:532/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
 ----------------------------------------
 Seleccione una acción para Ghoul
 1: Atacar
@@ -1620,16 +2044,51 @@ Seleccione una habilidad para que Ghoul use
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Ghoul
-1-Tamaki HP:893/999 MP:532/542
-2-Koumokuten HP:301/378 MP:105/170
-3-Master Therion HP:497/497 MP:198/223
+1-Tamaki HP:889/999 MP:532/542
+2-Koumokuten HP:177/378 MP:82/170
+3-Master Therion HP:385/497 MP:139/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ghoul use
+1-Energy Drain MP:10
+2-Tetanus Cut MP:11
+3-Damascus Claw MP:7
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:889/999 MP:532/542
+2-Koumokuten HP:177/378 MP:82/170
+3-Master Therion HP:385/497 MP:139/223
 4-Cancelar
 INPUT: 1
 ----------------------------------------
 Ghoul lanza un ataque todo poderoso a Tamaki
 El ataque drena 37 HP de Tamaki
-Tamaki termina con HP:856/999
-Ghoul termina con HP:445/558
+Tamaki termina con HP:852/999
+Ghoul termina con HP:558/558
 El ataque drena 37 MP de Tamaki
 Tamaki termina con MP:495/542
 Ghoul termina con MP:111/111
@@ -1637,330 +2096,15 @@ Ghoul termina con MP:111/111
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:340/597 MP:347/347
+A-Joker HP:283/597 MP:347/347
 B-
-C-Ghoul HP:445/558 MP:111/111
+C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:340/597 MP:347/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Master Therion ataca a Joker
-Joker recibe 41 de daño
-Joker termina con HP:299/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:445/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Joker HP:299/597 MP:347/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:445/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Joker HP:299/597 MP:347/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tamaki dispara a Ghoul
-Ghoul recibe 15 de daño
-Ghoul termina con HP:430/558
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:430/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:299/597 MP:347/347
-2-Ghoul HP:430/558 MP:111/111
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:430/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:430/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:497/497 MP:198/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:856/999 MP:495/542
-2-Koumokuten HP:301/378 MP:105/170
-3-Master Therion HP:497/497 MP:198/223
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ghoul ataca a Master Therion
-Master Therion recibe 41 de daño
-Master Therion termina con HP:456/497
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:299/597 MP:347/347
-B-
-C-Ghoul HP:430/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:456/497 MP:198/223
+A-Tamaki HP:852/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 1
@@ -1977,25 +2121,35 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
+INPUT: 1
 ----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Hamaon MP:10
-2-Great Logos MP:70
-3-Energy Drain MP:10
-4-Invitation MP:45
-5-Tathlum Shot MP:7
-6-Mudo MP:6
-7-Mediarama MP:22
-8-Cancelar
-INPUT: 7
+Seleccione un objetivo para Joker
+1-Tamaki HP:852/999 MP:495/542
+2-Koumokuten HP:177/378 MP:82/170
+3-Master Therion HP:385/497 MP:139/223
+4-Cancelar
+INPUT: 4
 ----------------------------------------
-Joker cura a Ghoul
-Ghoul recibe 279 de HP
-Ghoul termina con HP:558/558
-Joker cura a Joker
-Joker recibe 298 de HP
-Joker termina con HP:597/597
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:852/999 MP:495/542
+2-Koumokuten HP:177/378 MP:82/170
+3-Master Therion HP:385/497 MP:139/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Tamaki
+Tamaki es resistente el ataque de Joker
+Tamaki recibe 14 de daño
+Tamaki termina con HP:838/999
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -2003,14 +2157,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Tamaki (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
 C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:456/497 MP:198/223
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 3
@@ -2026,33 +2180,13 @@ Seleccione una acción para Master Therion
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+Seleccione un objetivo para Master Therion
+1-Joker HP:283/597 MP:347/347
+2-Ghoul HP:558/558 MP:111/111
+3-Cancelar
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
 ----------------------------------------
 Seleccione una acción para Master Therion
 1: Atacar
@@ -2066,25 +2200,154 @@ Seleccione una habilidad para que Master Therion use
 2-Agidyne MP:14
 3-Concentrate MP:11
 4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:283/597 MP:347/347
+2-Ghoul HP:558/558 MP:111/111
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Master Therion ha cargado su siguiente ataque mágico a más del doble
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
 C-Ghoul HP:558/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:105/170
-C-Master Therion HP:456/497 MP:187/223
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:558/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:82/170
+C-Master Therion HP:385/497 MP:139/223
+D-
+----------------------------------------
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -2100,7 +2363,20 @@ Seleccione una acción para Koumokuten
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Koumokuten
-1-Joker HP:597/597 MP:325/347
+1-Joker HP:283/597 MP:347/347
+2-Ghoul HP:558/558 MP:111/111
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:283/597 MP:347/347
 2-Ghoul HP:558/558 MP:111/111
 3-Cancelar
 INPUT: 3
@@ -2142,7 +2418,7 @@ Seleccione una habilidad para que Koumokuten use
 INPUT: 3
 ----------------------------------------
 Seleccione un objetivo para Koumokuten
-1-Joker HP:597/597 MP:325/347
+1-Joker HP:283/597 MP:347/347
 2-Ghoul HP:558/558 MP:111/111
 3-Cancelar
 INPUT: 2
@@ -2154,67 +2430,17 @@ Ghoul termina con HP:449/558
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:495/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:456/497 MP:187/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Joker HP:597/597 MP:325/347
-2-Ghoul HP:449/558 MP:111/111
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Tamaki ataca con oscuridad a Ghoul
-Ghoul bloquea el ataque de Tamaki
-Ghoul termina con HP:449/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
 Ronda de Joker (J1)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
 C-Ghoul HP:449/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:485/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:456/497 MP:187/223
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:177/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 2
@@ -2236,66 +2462,53 @@ Seleccione una habilidad para que Ghoul use
 2-Tetanus Cut MP:11
 3-Damascus Claw MP:7
 4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
 INPUT: 1
 ----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:838/999 MP:495/542
+2-Koumokuten HP:177/378 MP:69/170
+3-Master Therion HP:385/497 MP:139/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
 Seleccione una acción para Ghoul
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ghoul
+1-Tamaki HP:838/999 MP:495/542
+2-Koumokuten HP:177/378 MP:69/170
+3-Master Therion HP:385/497 MP:139/223
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ghoul ataca a Koumokuten
+Koumokuten recibe 41 de daño
+Koumokuten termina con HP:136/378
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
 C-Ghoul HP:449/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:485/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:456/497 MP:187/223
+A-Tamaki HP:838/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Joker
 2-Ghoul
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Joker use
-1-Hamaon MP:10
-2-Great Logos MP:70
-3-Energy Drain MP:10
-4-Invitation MP:45
-5-Tathlum Shot MP:7
-6-Mudo MP:6
-7-Mediarama MP:22
-8-Cancelar
-INPUT: 8
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -2307,65 +2520,16 @@ Seleccione una acción para Joker
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Joker
-1-Tamaki HP:856/999 MP:485/542
-2-Koumokuten HP:301/378 MP:92/170
-3-Master Therion HP:456/497 MP:187/223
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Joker dispara a Master Therion
-Master Therion recibe 39 de daño
-Master Therion termina con HP:417/497
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
-B-
-C-Ghoul HP:449/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:856/999 MP:485/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:417/497 MP:187/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
+1-Tamaki HP:838/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:139/223
 4-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:856/999 MP:485/542
-2-Koumokuten HP:301/378 MP:92/170
-3-Master Therion HP:417/497 MP:187/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul lanza un ataque todo poderoso a Tamaki
-El ataque drena 37 HP de Tamaki
+Joker dispara a Tamaki
+Tamaki es resistente el ataque de Joker
+Tamaki recibe 19 de daño
 Tamaki termina con HP:819/999
-Ghoul termina con HP:486/558
-El ataque drena 37 MP de Tamaki
-Tamaki termina con MP:448/542
-Ghoul termina con MP:111/111
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -2373,14 +2537,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Tamaki (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:597/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
-C-Ghoul HP:486/558 MP:111/111
+C-Ghoul HP:449/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:819/999 MP:448/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:417/497 MP:187/223
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 3
@@ -2396,68 +2560,131 @@ Seleccione una acción para Master Therion
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:597/597 MP:325/347
-2-Ghoul HP:486/558 MP:111/111
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Master Therion
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:449/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 4
 ----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:597/597 MP:325/347
-2-Ghoul HP:486/558 MP:111/111
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Master Therion lanza fuego a Joker
-Joker recibe 296 de daño
-Joker termina con HP:301/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
+A-Joker HP:283/597 MP:347/347
 B-
-C-Ghoul HP:486/558 MP:111/111
+C-Ghoul HP:449/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:819/999 MP:448/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:417/497 MP:173/223
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:449/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:139/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:283/597 MP:347/347
+2-Ghoul HP:449/558 MP:111/111
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion lanza fuego a Ghoul
+Ghoul es débil contra el ataque de Master Therion
+Ghoul recibe 444 de daño
+Ghoul termina con HP:5/558
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:283/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 2
 ----------------------------------------
 Orden:
 1-Koumokuten
@@ -2480,23 +2707,554 @@ Seleccione una acción para Koumokuten
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:283/597 MP:347/347
+2-Ghoul HP:5/558 MP:111/111
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Koumokuten ataca a Joker
+Joker recibe 30 de daño
+Joker termina con HP:253/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:253/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Joker HP:253/597 MP:347/347
+2-Ghoul HP:5/558 MP:111/111
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Joker
+Joker recibe 15 de daño
+Joker termina con HP:238/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
+A-Joker HP:238/597 MP:347/347
 B-
-C-Ghoul HP:486/558 MP:111/111
+C-Ghoul HP:5/558 MP:111/111
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:819/999 MP:448/542
-B-Koumokuten HP:301/378 MP:92/170
-C-Master Therion HP:417/497 MP:173/223
+A-Tamaki HP:819/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
 D-
 ----------------------------------------
 Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Ghoul
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:819/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:125/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Hamaon MP:10
+2-Great Logos MP:70
+3-Energy Drain MP:10
+4-Invitation MP:45
+5-Tathlum Shot MP:7
+6-Mudo MP:6
+7-Mediarama MP:22
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:819/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:125/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:819/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:125/223
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:819/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:125/223
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Joker ataca a Tamaki
+Tamaki es resistente el ataque de Joker
+Tamaki recibe 14 de daño
+Tamaki termina con HP:805/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ghoul
+2-Joker
+----------------------------------------
+Seleccione una acción para Ghoul
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:385/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+2-Ghoul
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:805/999 MP:495/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:385/497 MP:125/223
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Joker ataca a Master Therion
+Master Therion recibe 28 de daño
+Master Therion termina con HP:357/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-Ghoul HP:5/558 MP:111/111
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:125/223
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:238/597 MP:347/347
+2-Ghoul HP:5/558 MP:111/111
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Master Therion lanza fuego a Ghoul
+Ghoul es débil contra el ataque de Master Therion
+Ghoul recibe 177 de daño
+Ghoul termina con HP:0/558
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:238/597 MP:347/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Master Therion use
+1-Pandemic Bomb MP:11
+2-Agidyne MP:14
+3-Concentrate MP:11
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:238/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:238/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Master Therion ataca a Joker
+Joker recibe 41 de daño
+Joker termina con HP:197/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:197/597 MP:347/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:197/597 MP:347/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:805/999 MP:495/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
@@ -2520,33 +3278,128 @@ Seleccione una habilidad para que Tamaki use
 4-Serpent of Sheol MP:45
 5-Great Logos MP:70
 6-Cancelar
-INPUT: 2
+INPUT: 4
 ----------------------------------------
-Tamaki cura a Koumokuten
-Koumokuten recibe 189 de HP
-Koumokuten termina con HP:378/378
-Tamaki cura a Master Therion
-Master Therion recibe 248 de HP
-Master Therion termina con HP:497/497
-Tamaki cura a Tamaki
-Tamaki recibe 499 de HP
-Tamaki termina con HP:999/999
+Tamaki lanza un ataque todo poderoso a Joker
+El ataque drena 116 HP de Joker
+Joker termina con HP:81/597
+Tamaki termina con HP:921/999
+El ataque drena 116 MP de Joker
+Joker termina con MP:231/347
+Tamaki termina con MP:542/542
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
+A-Joker HP:81/597 MP:231/347
 B-
-C-Ghoul HP:486/558 MP:111/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:378/378 MP:92/170
-C-Master Therion HP:497/497 MP:173/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
 D-
 ----------------------------------------
 Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:81/597 MP:231/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:357/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Joker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Hamaon MP:10
+2-Great Logos MP:70
+3-Energy Drain MP:10
+4-Invitation MP:45
+5-Tathlum Shot MP:7
+6-Mudo MP:6
+7-Mediarama MP:22
+8-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione un objetivo para Joker
+1-Tamaki HP:921/999 MP:542/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:357/497 MP:111/223
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Joker dispara a Master Therion
+Master Therion recibe 76 de daño
+Master Therion termina con HP:281/497
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:81/597 MP:224/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:281/497 MP:111/223
+D-
+----------------------------------------
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -2573,177 +3426,15 @@ Master Therion ha cargado su siguiente ataque mágico a más del doble
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
+A-Joker HP:81/597 MP:224/347
 B-
-C-Ghoul HP:486/558 MP:111/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:378/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
-B-
-C-Ghoul HP:486/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:378/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Joker
-2-Ghoul
-----------------------------------------
-Seleccione una acción para Joker
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
-B-
-C-Ghoul HP:486/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:378/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:999/999 MP:426/542
-2-Koumokuten HP:378/378 MP:92/170
-3-Master Therion HP:497/497 MP:162/223
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Ghoul ataca a Koumokuten
-Koumokuten recibe 41 de daño
-Koumokuten termina con HP:337/378
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
-B-
-C-Ghoul HP:486/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Joker HP:301/597 MP:325/347
-2-Ghoul HP:486/558 MP:111/111
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Master Therion ataca a Ghoul
-Ghoul recibe 41 de daño
-Ghoul termina con HP:445/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:301/597 MP:325/347
-B-
-C-Ghoul HP:445/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:281/497 MP:100/223
 D-
 ----------------------------------------
 Full Turns: 2
@@ -2762,27 +3453,64 @@ Seleccione una acción para Koumokuten
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Koumokuten
-1-Joker HP:301/597 MP:325/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
+1-Joker HP:81/597 MP:224/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Koumokuten use
+1-Megaton Press MP:17
+2-Ziodyne MP:14
+3-Mortal Jihad MP:13
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:81/597 MP:224/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:81/597 MP:224/347
+2-Cancelar
 INPUT: 1
 ----------------------------------------
 Koumokuten ataca a Joker
 Joker recibe 30 de daño
-Joker termina con HP:271/597
+Joker termina con HP:51/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
+A-Joker HP:51/597 MP:224/347
 B-
-C-Ghoul HP:445/558 MP:111/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:281/497 MP:100/223
 D-
 ----------------------------------------
 Full Turns: 1
@@ -2800,76 +3528,20 @@ Seleccione una acción para Tamaki
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Joker HP:271/597 MP:325/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Joker HP:271/597 MP:325/347
-2-Ghoul HP:445/558 MP:111/111
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
+A-Joker HP:51/597 MP:224/347
 B-
-C-Ghoul HP:445/558 MP:111/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:281/497 MP:100/223
 D-
 ----------------------------------------
 Full Turns: 0
@@ -2885,14 +3557,11 @@ Seleccione una acción para Master Therion
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Master Therion
 1: Atacar
@@ -2907,75 +3576,21 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Joker (J1)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
+A-Joker HP:51/597 MP:224/347
 B-
-C-Ghoul HP:445/558 MP:111/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
-B-
-C-Ghoul HP:445/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:281/497 MP:100/223
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Joker
-2-Ghoul
 ----------------------------------------
 Seleccione una acción para Joker
 1: Atacar
@@ -2984,68 +3599,18 @@ Seleccione una acción para Joker
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
-B-
-C-Ghoul HP:445/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-2-Joker
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
+Seleccione un objetivo para Joker
+1-Tamaki HP:921/999 MP:542/542
+2-Koumokuten HP:136/378 MP:69/170
+3-Master Therion HP:281/497 MP:100/223
 4-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:999/999 MP:426/542
-2-Koumokuten HP:337/378 MP:92/170
-3-Master Therion HP:497/497 MP:162/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul ataca a Tamaki
-Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 48 de daño
-Ghoul ataca a Tamaki
-Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 48 de daño
-Tamaki termina con HP:903/999
+Joker dispara a Master Therion
+Master Therion recibe 39 de daño
+Master Therion termina con HP:242/497
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -3053,14 +3618,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Tamaki (J2)
 ----------------------------------------
 Equipo de Joker (J1)
-A-Joker HP:271/597 MP:325/347
+A-Joker HP:51/597 MP:224/347
 B-
-C-Ghoul HP:445/558 MP:104/111
+C-
 D-
 Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:162/223
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:242/497 MP:100/223
 D-
 ----------------------------------------
 Full Turns: 3
@@ -3076,6 +3641,211 @@ Seleccione una acción para Master Therion
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:51/597 MP:224/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:242/497 MP:100/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Koumokuten
+2-Tamaki
+3-Master Therion
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Koumokuten
+1-Joker HP:51/597 MP:224/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Koumokuten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:51/597 MP:224/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:242/497 MP:100/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Master Therion
+3-Koumokuten
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tamaki use
+1-Agidyne MP:14
+2-Mediarama MP:22
+3-Mudoon MP:10
+4-Serpent of Sheol MP:45
+5-Great Logos MP:70
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Joker HP:51/597 MP:224/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Joker
+Joker recibe 15 de daño
+Joker termina con HP:36/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:36/597 MP:224/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:242/497 MP:100/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Koumokuten
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
 Seleccione una habilidad para que Master Therion use
@@ -3083,7 +3853,135 @@ Seleccione una habilidad para que Master Therion use
 2-Agidyne MP:14
 3-Concentrate MP:11
 4-Cancelar
+INPUT: 3
+----------------------------------------
+Master Therion ha cargado su siguiente ataque mágico a más del doble
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Joker (J1)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:36/597 MP:224/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:921/999 MP:542/542
+B-Koumokuten HP:136/378 MP:69/170
+C-Master Therion HP:242/497 MP:89/223
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Joker
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Hamaon MP:10
+2-Great Logos MP:70
+3-Energy Drain MP:10
+4-Invitation MP:45
+5-Tathlum Shot MP:7
+6-Mudo MP:6
+7-Mediarama MP:22
+8-Cancelar
 INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yomotsu-Ikusa HP:0/445 MP:79/88
+2-Ghoul HP:0/558 MP:111/111
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Joker
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Joker use
+1-Hamaon MP:10
+2-Great Logos MP:70
+3-Energy Drain MP:10
+4-Invitation MP:45
+5-Tathlum Shot MP:7
+6-Mudo MP:6
+7-Mediarama MP:22
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Joker lanza un ataque todo poderoso a Tamaki
+Tamaki recibe 136 de daño
+Tamaki termina con HP:785/999
+Joker lanza un ataque todo poderoso a Koumokuten
+Koumokuten recibe 136 de daño
+Koumokuten termina con HP:0/378
+Joker lanza un ataque todo poderoso a Master Therion
+Master Therion recibe 136 de daño
+Master Therion termina con HP:106/497
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J2)
+----------------------------------------
+Equipo de Joker (J1)
+A-Joker HP:36/597 MP:154/347
+B-
+C-
+D-
+Equipo de Tamaki (J2)
+A-Tamaki HP:785/999 MP:542/542
+B-
+C-Master Therion HP:106/497 MP:89/223
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Master Therion
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Master Therion
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Master Therion
+1-Joker HP:36/597 MP:154/347
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Master Therion
 1: Atacar
@@ -3100,9 +3998,8 @@ Seleccione una habilidad para que Master Therion use
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Master Therion
-1-Joker HP:271/597 MP:325/347
-2-Ghoul HP:445/558 MP:104/111
-3-Cancelar
+1-Joker HP:36/597 MP:154/347
+2-Cancelar
 INPUT: 1
 ----------------------------------------
 Master Therion lanza fuego a Joker
@@ -3111,1634 +4008,5 @@ Joker termina con HP:0/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:445/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:92/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 82 de daño
-Ghoul termina con HP:363/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:903/999 MP:426/542
-2-Koumokuten HP:337/378 MP:75/170
-3-Master Therion HP:497/497 MP:148/223
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ghoul ataca a Master Therion
-Master Therion recibe 41 de daño
-Master Therion termina con HP:456/497
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:363/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Ghoul HP:363/558 MP:104/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 30 de daño
-Ghoul termina con HP:333/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:337/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:903/999 MP:426/542
-2-Koumokuten HP:337/378 MP:75/170
-3-Master Therion HP:456/497 MP:148/223
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Ghoul ataca a Koumokuten
-Koumokuten recibe 41 de daño
-Koumokuten termina con HP:296/378
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:296/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:296/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:903/999 MP:426/542
-B-Koumokuten HP:296/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:333/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 2
-----------------------------------------
-Tamaki cura a Koumokuten
-Koumokuten recibe 189 de HP
-Koumokuten termina con HP:378/378
-Tamaki cura a Master Therion
-Master Therion recibe 248 de HP
-Master Therion termina con HP:497/497
-Tamaki cura a Tamaki
-Tamaki recibe 499 de HP
-Tamaki termina con HP:999/999
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:333/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:404/542
-B-Koumokuten HP:378/378 MP:75/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Ghoul HP:333/558 MP:104/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Master Therion ataca a Ghoul
-Ghoul recibe 41 de daño
-Ghoul termina con HP:292/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:292/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:404/542
-B-Koumokuten HP:378/378 MP:75/170
-C-Master Therion HP:497/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:999/999 MP:404/542
-2-Koumokuten HP:378/378 MP:75/170
-3-Master Therion HP:497/497 MP:148/223
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ghoul ataca a Master Therion
-Master Therion recibe 41 de daño
-Master Therion termina con HP:456/497
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:292/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:404/542
-B-Koumokuten HP:378/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Ghoul HP:292/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:292/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:404/542
-B-Koumokuten HP:378/378 MP:75/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Ghoul HP:292/558 MP:104/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 109 de daño
-Ghoul termina con HP:183/558
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:183/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:404/542
-B-Koumokuten HP:378/378 MP:62/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:183/558 MP:104/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki ataca con oscuridad a Ghoul
-Ghoul bloquea el ataque de Tamaki
-Ghoul termina con HP:183/558
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:183/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:394/542
-B-Koumokuten HP:378/378 MP:62/170
-C-Master Therion HP:456/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:999/999 MP:394/542
-2-Koumokuten HP:378/378 MP:62/170
-3-Master Therion HP:456/497 MP:148/223
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Ghoul ataca a Master Therion
-Master Therion recibe 41 de daño
-Master Therion termina con HP:415/497
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:183/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:394/542
-B-Koumokuten HP:378/378 MP:62/170
-C-Master Therion HP:415/497 MP:148/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Master Therion ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:183/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:394/542
-B-Koumokuten HP:378/378 MP:62/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 82 de daño
-Ghoul termina con HP:101/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:101/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:394/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:101/558 MP:104/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Ghoul HP:101/558 MP:104/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tamaki ataca a Ghoul
-Ghoul recibe 18 de daño
-Ghoul termina con HP:83/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:83/558 MP:104/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:999/999 MP:394/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:999/999 MP:394/542
-2-Koumokuten HP:378/378 MP:45/170
-3-Master Therion HP:415/497 MP:137/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul lanza un ataque todo poderoso a Tamaki
-El ataque drena 37 HP de Tamaki
-Tamaki termina con HP:962/999
-Ghoul termina con HP:120/558
-El ataque drena 37 MP de Tamaki
-Tamaki termina con MP:357/542
-Ghoul termina con MP:111/111
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:120/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:962/999 MP:357/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Ghoul HP:120/558 MP:111/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:120/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:962/999 MP:357/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:120/558 MP:111/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:962/999 MP:357/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Tamaki use
-1-Agidyne MP:14
-2-Mediarama MP:22
-3-Mudoon MP:10
-4-Serpent of Sheol MP:45
-5-Great Logos MP:70
-6-Cancelar
-INPUT: 4
-----------------------------------------
-Tamaki lanza un ataque todo poderoso a Ghoul
-El ataque drena 30 HP de Ghoul
-Ghoul termina con HP:90/558
-Tamaki termina con HP:992/999
-El ataque drena 30 MP de Ghoul
-Ghoul termina con MP:81/111
-Tamaki termina con MP:342/542
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:81/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:992/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:81/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:992/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Joker (J1)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:81/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:992/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:81/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:992/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Ghoul
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Ghoul
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Ghoul use
-1-Energy Drain MP:10
-2-Tetanus Cut MP:11
-3-Damascus Claw MP:7
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Ghoul
-1-Tamaki HP:992/999 MP:342/542
-2-Koumokuten HP:378/378 MP:45/170
-3-Master Therion HP:415/497 MP:137/223
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Ghoul ataca a Tamaki
-Tamaki es resistente el ataque de Ghoul
-Tamaki recibe 48 de daño
-Tamaki termina con HP:944/999
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Tamaki (J2)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:74/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:944/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:90/558 MP:74/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:944/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koumokuten
-2-Tamaki
-3-Master Therion
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koumokuten use
-1-Megaton Press MP:17
-2-Ziodyne MP:14
-3-Mortal Jihad MP:13
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Ghoul HP:90/558 MP:74/111
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Koumokuten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koumokuten
-1-Ghoul HP:90/558 MP:74/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Koumokuten ataca a Ghoul
-Ghoul recibe 30 de daño
-Ghoul termina con HP:60/558
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:60/558 MP:74/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:944/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tamaki
-2-Master Therion
-3-Koumokuten
-----------------------------------------
-Seleccione una acción para Tamaki
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Joker (J1)
-A-Joker HP:0/597 MP:325/347
-B-
-C-Ghoul HP:60/558 MP:74/111
-D-
-Equipo de Tamaki (J2)
-A-Tamaki HP:944/999 MP:342/542
-B-Koumokuten HP:378/378 MP:45/170
-C-Master Therion HP:415/497 MP:137/223
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Master Therion
-2-Koumokuten
-3-Tamaki
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Master Therion
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Master Therion use
-1-Pandemic Bomb MP:11
-2-Agidyne MP:14
-3-Concentrate MP:11
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Master Therion
-1-Ghoul HP:60/558 MP:74/111
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Master Therion lanza fuego a Ghoul
-Ghoul es débil contra el ataque de Master Therion
-Ghoul recibe 444 de daño
-Ghoul termina con HP:0/558
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Ganador: Tamaki (J2)

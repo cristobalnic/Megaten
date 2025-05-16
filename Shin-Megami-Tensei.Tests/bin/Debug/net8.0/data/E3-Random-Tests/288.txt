@@ -430,10 +430,199 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:279/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:55/55
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Orcus
+3-Wicker Man
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Shujinko HP:1317/1317 MP:625/625
+2-Raphael HP:623/623 MP:279/279
+3-Orcus HP:567/567 MP:112/112
+4-Wicker Man HP:126/126 MP:55/55
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael cura a Raphael
+Raphael recibe 623 de HP
+Raphael termina con HP:623/623
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:263/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:55/55
+Equipo de Makoto (J2)
+A-Makoto HP:597/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orcus
+2-Wicker Man
+3-Shujinko
+4-Raphael
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Orcus
+1-Makoto HP:597/597 MP:347/347
+2-Yomotsu-Ikusa HP:445/445 MP:88/88
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Orcus ataca a Makoto
+Makoto es resistente el ataque de Orcus
+Makoto recibe 21 de daño
+Makoto termina con HP:576/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:263/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:55/55
+Equipo de Makoto (J2)
+A-Makoto HP:576/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wicker Man
+2-Shujinko
+3-Raphael
+4-Orcus
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wicker Man use
+1-Zan MP:5
+2-Pandemic Bomb MP:11
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wicker Man
+1-Makoto HP:576/597 MP:347/347
+2-Yomotsu-Ikusa HP:445/445 MP:88/88
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wicker Man use
+1-Zan MP:5
+2-Pandemic Bomb MP:11
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wicker Man
+1-Makoto HP:576/597 MP:347/347
+2-Yomotsu-Ikusa HP:445/445 MP:88/88
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Wicker Man lanza viento a Makoto
+Makoto es resistente el ataque de Wicker Man
+Makoto recibe 16 de daño
+Makoto termina con HP:560/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:263/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:560/597 MP:347/347
+B-Yomotsu-Ikusa HP:445/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Raphael
+3-Orcus
+4-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Shujinko
-1-Makoto HP:597/597 MP:347/347
+1-Makoto HP:560/597 MP:347/347
 2-Yomotsu-Ikusa HP:445/445 MP:88/88
 3-Cancelar
 INPUT: 2
@@ -445,14 +634,216 @@ Yomotsu-Ikusa termina con HP:217/445
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
 Equipo de Shujinko (J1)
 A-Shujinko HP:1317/1317 MP:625/625
-B-Raphael HP:623/623 MP:279/279
+B-Raphael HP:623/623 MP:263/279
 C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
+A-Makoto HP:560/597 MP:347/347
 B-Yomotsu-Ikusa HP:217/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:263/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:560/597 MP:347/347
+B-Yomotsu-Ikusa HP:217/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yomotsu-Ikusa
+2-Makoto
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yomotsu-Ikusa use
+1-Rapid Needle MP:9
+2-Fang Breaker MP:12
+3-Tathlum Shot MP:7
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Yomotsu-Ikusa
+1-Shujinko HP:1317/1317 MP:625/625
+2-Raphael HP:623/623 MP:263/279
+3-Orcus HP:567/567 MP:112/112
+4-Wicker Man HP:126/126 MP:50/55
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yomotsu-Ikusa
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Raphael HP:623/623 MP:263/279
+C-Orcus HP:567/567 MP:112/112
+D-Wicker Man HP:126/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:560/597 MP:347/347
+B-Yomotsu-Ikusa HP:217/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Dark Energy MP:25
+2-Fire Breath MP:21
+3-Thunder Reign MP:22
+4-Zionga MP:8
+5-Bufudyne MP:14
+6-Megidola MP:40
+7-Titanomachia MP:30
+8-Javelin Rain MP:21
+9-Cancelar
+INPUT: 9
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Dark Energy MP:25
+2-Fire Breath MP:21
+3-Thunder Reign MP:22
+4-Zionga MP:8
+5-Bufudyne MP:14
+6-Megidola MP:40
+7-Titanomachia MP:30
+8-Javelin Rain MP:21
+9-Cancelar
+INPUT: 6
+----------------------------------------
+Makoto lanza un ataque todo poderoso a Shujinko
+Shujinko recibe 122 de daño
+Shujinko termina con HP:1195/1317
+Makoto lanza un ataque todo poderoso a Raphael
+Raphael recibe 122 de daño
+Raphael termina con HP:501/623
+Makoto lanza un ataque todo poderoso a Orcus
+Orcus recibe 122 de daño
+Orcus termina con HP:445/567
+Makoto lanza un ataque todo poderoso a Wicker Man
+Wicker Man recibe 122 de daño
+Wicker Man termina con HP:4/126
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Orcus HP:445/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:560/597 MP:307/347
+B-Yomotsu-Ikusa HP:217/445 MP:88/88
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Raphael
+3-Orcus
+4-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:560/597 MP:307/347
+2-Yomotsu-Ikusa HP:217/445 MP:88/88
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Shujinko dispara a Yomotsu-Ikusa
+Yomotsu-Ikusa recibe 228 de daño
+Yomotsu-Ikusa termina con HP:0/445
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Orcus HP:445/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:560/597 MP:307/347
+B-
 C-
 D-
 ----------------------------------------
@@ -470,53 +861,39 @@ Seleccione una acción para Raphael
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:597/597 MP:347/347
-2-Yomotsu-Ikusa HP:217/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Tsuchigumo ha sido invocado
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Makoto HP:560/597 MP:307/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Orcus HP:445/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:217/445 MP:88/88
+A-Makoto HP:560/597 MP:307/347
+B-
 C-
 D-
 ----------------------------------------
@@ -527,36 +904,45 @@ Orden:
 1-Orcus
 2-Wicker Man
 3-Shujinko
-4-Tsuchigumo
+4-Raphael
 ----------------------------------------
 Seleccione una acción para Orcus
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Orcus
-1-Makoto HP:597/597 MP:347/347
-2-Yomotsu-Ikusa HP:217/445 MP:88/88
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Orcus ataca a Yomotsu-Ikusa
-Yomotsu-Ikusa recibe 43 de daño
-Yomotsu-Ikusa termina con HP:174/445
+Seleccione una habilidad para que Orcus use
+1-Mamudoon MP:30
+2-Energy Drain MP:10
+3-Tetrakarn MP:50
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Orcus
+1-Makoto HP:560/597 MP:307/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Orcus HP:445/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
+A-Makoto HP:560/597 MP:307/347
+B-
 C-
 D-
 ----------------------------------------
@@ -566,7 +952,7 @@ Blinking Turns: 0
 Orden:
 1-Wicker Man
 2-Shujinko
-3-Tsuchigumo
+3-Raphael
 4-Orcus
 ----------------------------------------
 Seleccione una acción para Wicker Man
@@ -577,27 +963,26 @@ Seleccione una acción para Wicker Man
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Wicker Man
-1-Makoto HP:597/597 MP:347/347
-2-Yomotsu-Ikusa HP:174/445 MP:88/88
-3-Cancelar
+1-Makoto HP:560/597 MP:307/347
+2-Cancelar
 INPUT: 1
 ----------------------------------------
 Wicker Man ataca a Makoto
 Makoto es resistente el ataque de Wicker Man
 Makoto recibe 4 de daño
-Makoto termina con HP:593/597
+Makoto termina con HP:556/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Orcus HP:445/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
+A-Makoto HP:556/597 MP:307/347
+B-
 C-
 D-
 ----------------------------------------
@@ -606,7 +991,174 @@ Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Tsuchigumo
+2-Raphael
+3-Orcus
+4-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:501/623 MP:263/279 (Puesto 2)
+2-Orcus HP:445/567 MP:112/112 (Puesto 3)
+3-Wicker Man HP:4/126 MP:50/55 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:556/597 MP:307/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Lilith HP:380/380 MP:369/369
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:501/623 MP:263/279 (Puesto 2)
+2-Orcus HP:445/567 MP:112/112 (Puesto 3)
+3-Wicker Man HP:4/126 MP:50/55 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1195/1317 MP:625/625
+B-Raphael HP:501/623 MP:263/279
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:556/597 MP:307/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Lilith
+3-Wicker Man
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Orcus HP:445/567 MP:112/112
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Orcus ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1195/1317 MP:625/625
+B-Orcus HP:445/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:556/597 MP:307/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1195/1317 MP:625/625
+2-Orcus HP:445/567 MP:112/112
+3-Lilith HP:380/380 MP:369/369
+4-Wicker Man HP:4/126 MP:50/55
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Shujinko
+Shujinko es resistente el ataque de Makoto
+Shujinko recibe 19 de daño
+Shujinko termina con HP:1176/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:445/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:556/597 MP:307/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
 3-Orcus
 4-Wicker Man
 ----------------------------------------
@@ -623,13 +1175,200 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:445/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
+A-Makoto HP:556/597 MP:307/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Orcus
+3-Wicker Man
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Makoto HP:556/597 MP:307/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith lanza un ataque todo poderoso a Makoto
+El ataque drena 53 MP de Makoto
+Makoto termina con MP:254/347
+Lilith termina con MP:369/369
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:445/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:556/597 MP:254/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orcus
+2-Wicker Man
+3-Shujinko
+4-Lilith
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Orcus use
+1-Mamudoon MP:30
+2-Energy Drain MP:10
+3-Tetrakarn MP:50
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Orcus
+1-Makoto HP:556/597 MP:254/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Orcus lanza un ataque todo poderoso a Makoto
+El ataque drena 43 HP de Makoto
+Makoto termina con HP:513/597
+Orcus termina con HP:488/567
+El ataque drena 43 MP de Makoto
+Makoto termina con MP:211/347
+Orcus termina con MP:112/112
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:488/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:513/597 MP:211/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Wicker Man
+2-Shujinko
+3-Lilith
+4-Orcus
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wicker Man
+1-Makoto HP:513/597 MP:211/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Wicker Man ataca a Makoto
+Makoto es resistente el ataque de Wicker Man
+Makoto recibe 4 de daño
+Makoto termina con HP:509/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:488/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:509/597 MP:211/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+4-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:488/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:509/597 MP:211/347
+B-
 C-
 D-
 ----------------------------------------
@@ -637,25 +1376,140 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Tsuchigumo
+1-Lilith
 2-Orcus
 3-Wicker Man
 4-Shujinko
 ----------------------------------------
-Seleccione una acción para Tsuchigumo
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Makoto HP:593/597 MP:347/347
-2-Yomotsu-Ikusa HP:174/445 MP:88/88
-3-Cancelar
+Seleccione un objetivo para Lilith
+1-Makoto HP:509/597 MP:211/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith ataca a Makoto
+Makoto es resistente el ataque de Lilith
+Makoto recibe 20 de daño
+Makoto termina con HP:489/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:625/625
+B-Orcus HP:488/567 MP:112/112
+C-Lilith HP:380/380 MP:369/369
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:211/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una acción para Tsuchigumo
+Seleccione una habilidad para que Makoto use
+1-Dark Energy MP:25
+2-Fire Breath MP:21
+3-Thunder Reign MP:22
+4-Zionga MP:8
+5-Bufudyne MP:14
+6-Megidola MP:40
+7-Titanomachia MP:30
+8-Javelin Rain MP:21
+9-Cancelar
+INPUT: 6
+----------------------------------------
+Makoto lanza un ataque todo poderoso a Shujinko
+Shujinko recibe 122 de daño
+Shujinko termina con HP:1054/1317
+Makoto lanza un ataque todo poderoso a Orcus
+Orcus recibe 122 de daño
+Orcus termina con HP:366/567
+Makoto lanza un ataque todo poderoso a Lilith
+Lilith recibe 122 de daño
+Lilith termina con HP:258/380
+Makoto lanza un ataque todo poderoso a Wicker Man
+Wicker Man recibe 122 de daño
+Wicker Man termina con HP:0/126
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1054/1317 MP:625/625
+B-Orcus HP:366/567 MP:112/112
+C-Lilith HP:258/380 MP:369/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1054/1317 MP:625/625
+B-Orcus HP:366/567 MP:112/112
+C-Lilith HP:258/380 MP:369/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Orcus
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -665,16 +1519,14 @@ INPUT: 4
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:567/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1054/1317 MP:625/625
+B-Orcus HP:366/567 MP:112/112
+C-Lilith HP:258/380 MP:369/369
+D-
 Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
+A-Makoto HP:489/597 MP:171/347
+B-
 C-
 D-
 ----------------------------------------
@@ -682,8 +1534,1180 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Orcus
+2-Shujinko
+3-Lilith
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1054/1317 MP:625/625
+B-Orcus HP:366/567 MP:112/112
+C-Lilith HP:258/380 MP:369/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1054/1317 MP:625/625
+B-Orcus HP:366/567 MP:112/112
+C-Lilith HP:258/380 MP:369/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Orcus
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Lilith cura a Shujinko
+Shujinko recibe 1317 de HP
+Shujinko termina con HP:1317/1317
+Lilith cura a Orcus
+Orcus recibe 567 de HP
+Orcus termina con HP:567/567
+Lilith cura a Lilith
+Lilith recibe 380 de HP
+Lilith termina con HP:380/380
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Makoto
-2-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1317/1317 MP:625/625
+2-Orcus HP:567/567 MP:112/112
+3-Lilith HP:380/380 MP:329/369
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Shujinko
+Shujinko es resistente el ataque de Makoto
+Shujinko recibe 28 de daño
+Shujinko termina con HP:1289/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Orcus
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Makoto HP:489/597 MP:171/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:489/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orcus
+2-Shujinko
+3-Lilith
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Orcus
+1-Makoto HP:489/597 MP:171/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Orcus ataca a Makoto
+Makoto es resistente el ataque de Orcus
+Makoto recibe 21 de daño
+Makoto termina con HP:468/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:468/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:468/597 MP:171/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 114 de daño
+Makoto termina con HP:354/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:567/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:354/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1289/1317 MP:625/625
+2-Orcus HP:567/567 MP:112/112
+3-Lilith HP:380/380 MP:329/369
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto ataca a Orcus
+Orcus es resistente el ataque de Makoto
+Orcus recibe 19 de daño
+Orcus termina con HP:548/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:548/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:354/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Orcus
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:354/597 MP:171/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:548/567 MP:112/112
+C-Lilith HP:380/380 MP:329/369
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:354/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Orcus
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Tsuchigumo ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Orcus HP:548/567 MP:112/112
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:354/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Orcus
+2-Shujinko
+3-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Orcus
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Lilith HP:380/380 MP:329/369
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Lilith ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:354/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+2-Tsuchigumo
+3-Lilith
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:354/597 MP:171/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:354/597 MP:171/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 114 de daño
+Makoto termina con HP:240/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:240/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Lilith
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tsuchigumo
+1-Makoto HP:240/597 MP:171/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tsuchigumo ataca a Makoto
+Makoto es resistente el ataque de Tsuchigumo
+Makoto recibe 11 de daño
+Makoto termina con HP:229/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1289/1317 MP:625/625
+2-Lilith HP:380/380 MP:329/369
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto ataca a Tsuchigumo
+Tsuchigumo recibe 38 de daño
+Tsuchigumo termina con HP:242/280
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:242/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:242/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Tsuchigumo
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:242/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Shujinko
+3-Lilith
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Orcus HP:548/567 MP:112/112
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+2-Lilith
+3-Raphael
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Concentrate MP:11
+2-Wind Breath MP:21
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:171/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Raphael
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Lilith
+1-Makoto HP:229/597 MP:171/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Lilith lanza un ataque todo poderoso a Makoto
+El ataque drena 53 MP de Makoto
+Makoto termina con MP:118/347
+Lilith termina con MP:369/369
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:369/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:369/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J1)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:369/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Raphael
+3-Lilith
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:369/369
+C-Raphael HP:501/623 MP:263/279
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Lilith
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Makoto HP:229/597 MP:118/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Orcus HP:548/567 MP:112/112
+2-Tsuchigumo HP:242/280 MP:126/126
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Tsuchigumo ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1289/1317 MP:625/625
+B-Lilith HP:380/380 MP:369/369
+C-Tsuchigumo HP:242/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Shujinko
+3-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Lilith cura a Shujinko
+Shujinko recibe 1317 de HP
+Shujinko termina con HP:1317/1317
+Lilith cura a Tsuchigumo
+Tsuchigumo recibe 280 de HP
+Tsuchigumo termina con HP:280/280
+Lilith cura a Lilith
+Lilith recibe 380 de HP
+Lilith termina con HP:380/380
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:229/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Tsuchigumo
+3-Lilith
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Orcus HP:548/567 MP:112/112
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:229/597 MP:118/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko ataca a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 93 de daño
+Makoto termina con HP:136/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:136/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Dark Energy MP:25
+2-Fire Breath MP:21
+3-Thunder Reign MP:22
+4-Zionga MP:8
+5-Bufudyne MP:14
+6-Megidola MP:40
+7-Titanomachia MP:30
+8-Javelin Rain MP:21
+9-Cancelar
+INPUT: 9
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
@@ -709,175 +2733,29 @@ INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
 1-Shujinko HP:1317/1317 MP:625/625
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Orcus HP:567/567 MP:112/112
-4-Wicker Man HP:126/126 MP:55/55
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2-Lilith HP:380/380 MP:329/369
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1317/1317 MP:625/625
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Orcus HP:567/567 MP:112/112
-4-Wicker Man HP:126/126 MP:55/55
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto ataca a Orcus
-Orcus es resistente el ataque de Makoto
-Orcus recibe 19 de daño
-Orcus termina con HP:548/567
+Makoto ataca a Shujinko
+Shujinko es resistente el ataque de Makoto
+Shujinko recibe 19 de daño
+Shujinko termina con HP:1298/1317
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yomotsu-Ikusa
-2-Makoto
-----------------------------------------
-Seleccione una acción para Yomotsu-Ikusa
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:280/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Yomotsu-Ikusa
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1317/1317 MP:625/625
-2-Tsuchigumo HP:280/280 MP:126/126
-3-Orcus HP:548/567 MP:112/112
-4-Wicker Man HP:126/126 MP:55/55
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto ataca a Tsuchigumo
-Tsuchigumo recibe 38 de daño
-Tsuchigumo termina con HP:242/280
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J1)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Tsuchigumo HP:242/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:593/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
-C-
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
 D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Orcus
-3-Tsuchigumo
-4-Wicker Man
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:593/597 MP:347/347
-2-Yomotsu-Ikusa HP:174/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Concentrate MP:11
-2-Wind Breath MP:21
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Shujinko lanza viento a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 61 de daño
-Makoto termina con HP:532/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Tsuchigumo HP:242/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:174/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -885,39 +2763,87 @@ Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Orcus
-2-Tsuchigumo
-3-Wicker Man
-4-Shujinko
+1-Shujinko
+2-Lilith
+3-Tsuchigumo
 ----------------------------------------
-Seleccione una acción para Orcus
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:329/369
+C-Tsuchigumo HP:280/280 MP:126/126
+D-
+Equipo de Makoto (J2)
+A-Makoto HP:136/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Lilith
+2-Tsuchigumo
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Orcus
-1-Makoto HP:532/597 MP:347/347
-2-Yomotsu-Ikusa HP:174/445 MP:88/88
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Orcus ataca a Yomotsu-Ikusa
-Yomotsu-Ikusa recibe 43 de daño
-Yomotsu-Ikusa termina con HP:131/445
+Seleccione una habilidad para que Lilith use
+1-Lullaby MP:11
+2-Spirit Drain MP:5
+3-Charm Lightning MP:45
+4-Mediarahan MP:40
+5-Invitation MP:45
+6-Cancelar
+INPUT: 5
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Seleccione un monstruo para invocar
+1-Raphael HP:501/623 MP:263/279
+2-Orcus HP:548/567 MP:112/112
+3-Wicker Man HP:0/126 MP:50/55
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Lilith HP:380/380 MP:329/369 (Puesto 2)
+2-Tsuchigumo HP:280/280 MP:126/126 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Wicker Man ha sido invocado
+Lilith revive a Wicker Man
+Wicker Man recibe 126 de HP
+Wicker Man termina con HP:126/126
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Tsuchigumo HP:242/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Wicker Man HP:126/126 MP:50/55
+D-
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -925,61 +2851,21 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tsuchigumo
-2-Wicker Man
-3-Shujinko
-4-Orcus
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Raphael HP:623/623 MP:279/279
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
 1-Wicker Man
 2-Shujinko
-3-Orcus
-4-Raphael
+3-Lilith
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wicker Man
+1-Makoto HP:136/597 MP:118/347
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Wicker Man
 1: Atacar
@@ -992,25 +2878,6 @@ Seleccione una habilidad para que Wicker Man use
 1-Zan MP:5
 2-Pandemic Bomb MP:11
 3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Wicker Man
-1-Makoto HP:532/597 MP:347/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Wicker Man
-1-Makoto HP:532/597 MP:347/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
 INPUT: 3
 ----------------------------------------
 Seleccione una acción para Wicker Man
@@ -1020,28 +2887,41 @@ Seleccione una acción para Wicker Man
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Raphael HP:623/623 MP:279/279
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Wicker Man HP:126/126 MP:50/55
+D-
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Orcus
-3-Raphael
-4-Wicker Man
+2-Lilith
+3-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:136/597 MP:118/347
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -1053,31 +2933,74 @@ Seleccione una acción para Shujinko
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Lilith HP:380/380 MP:369/369
-2-Tsuchigumo HP:242/280 MP:126/126
-3-Cancelar
+1-Raphael HP:501/623 MP:263/279
+2-Orcus HP:548/567 MP:112/112
+3-Tsuchigumo HP:280/280 MP:126/126
+4-Cancelar
 INPUT: 2
 ----------------------------------------
 Seleccione una posición para invocar
-1-Raphael HP:623/623 MP:279/279 (Puesto 2)
-2-Orcus HP:548/567 MP:112/112 (Puesto 3)
-3-Wicker Man HP:126/126 MP:55/55 (Puesto 4)
+1-Lilith HP:380/380 MP:284/369 (Puesto 2)
+2-Wicker Man HP:126/126 MP:50/55 (Puesto 3)
+3-Vacío (Puesto 4)
 4-Cancelar
+INPUT: 3
+----------------------------------------
+Orcus ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Wicker Man HP:126/126 MP:50/55
+D-Orcus HP:548/567 MP:112/112
+Equipo de Makoto (J2)
+A-Makoto HP:136/597 MP:118/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lilith
+2-Wicker Man
+3-Orcus
+4-Shujinko
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Tsuchigumo ha sido invocado
+Seleccione un objetivo para Lilith
+1-Makoto HP:136/597 MP:118/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Lilith
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Tsuchigumo HP:242/280 MP:126/126
-C-Orcus HP:548/567 MP:112/112
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Wicker Man HP:126/126 MP:50/55
+D-Orcus HP:548/567 MP:112/112
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -1085,12 +3008,12 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Orcus
-2-Tsuchigumo
-3-Wicker Man
-4-Shujinko
+1-Wicker Man
+2-Orcus
+3-Shujinko
+4-Lilith
 ----------------------------------------
-Seleccione una acción para Orcus
+Seleccione una acción para Wicker Man
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1098,8 +3021,8 @@ Seleccione una acción para Orcus
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Lilith HP:380/380 MP:369/369
+1-Raphael HP:501/623 MP:263/279
+2-Tsuchigumo HP:280/280 MP:126/126
 3-Cancelar
 INPUT: 1
 ----------------------------------------
@@ -1111,22 +3034,47 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J2)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1317/1317 MP:604/625
-B-Tsuchigumo HP:242/280 MP:126/126
-C-Raphael HP:623/623 MP:279/279
-D-Wicker Man HP:126/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Orcus HP:548/567 MP:112/112
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:347/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Makoto
-2-Yomotsu-Ikusa
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
@@ -1160,75 +3108,59 @@ Seleccione una habilidad para que Makoto use
 7-Titanomachia MP:30
 8-Javelin Rain MP:21
 9-Cancelar
-INPUT: 8
+INPUT: 9
 ----------------------------------------
-Makoto ataca a Shujinko
-Shujinko es resistente el ataque de Makoto
-Shujinko recibe 46 de daño
-Shujinko termina con HP:1271/1317
-Makoto ataca a Tsuchigumo
-Tsuchigumo recibe 93 de daño
-Tsuchigumo termina con HP:149/280
-Makoto ataca a Raphael
-Raphael recibe 93 de daño
-Raphael termina con HP:530/623
-Makoto ataca a Wicker Man
-Wicker Man recibe 93 de daño
-Wicker Man termina con HP:33/126
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:149/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:33/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Orcus HP:548/567 MP:112/112
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
+Full Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Yomotsu-Ikusa
-2-Makoto
+1-Makoto
 ----------------------------------------
-Seleccione una acción para Yomotsu-Ikusa
+Seleccione una acción para Makoto
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
-Seleccione un objetivo para Yomotsu-Ikusa
-1-Shujinko HP:1271/1317 MP:604/625
-2-Tsuchigumo HP:149/280 MP:126/126
-3-Raphael HP:530/623 MP:279/279
-4-Wicker Man HP:33/126 MP:55/55
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Yomotsu-Ikusa ataca a Wicker Man
-Wicker Man recibe 32 de daño
-Wicker Man termina con HP:1/126
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J1)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:149/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Orcus HP:548/567 MP:112/112
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -1238,8 +3170,8 @@ Blinking Turns: 0
 Orden:
 1-Shujinko
 2-Raphael
-3-Tsuchigumo
-4-Wicker Man
+3-Lilith
+4-Orcus
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -1251,31 +3183,31 @@ Seleccione una acción para Shujinko
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Orcus HP:548/567 MP:112/112
-2-Lilith HP:380/380 MP:369/369
+1-Wicker Man HP:126/126 MP:50/55
+2-Tsuchigumo HP:280/280 MP:126/126
 3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Tsuchigumo HP:149/280 MP:126/126 (Puesto 2)
-2-Raphael HP:530/623 MP:279/279 (Puesto 3)
-3-Wicker Man HP:1/126 MP:55/55 (Puesto 4)
-4-Cancelar
 INPUT: 1
 ----------------------------------------
-Lilith ha sido invocado
+Seleccione una posición para invocar
+1-Lilith HP:380/380 MP:284/369 (Puesto 2)
+2-Raphael HP:501/623 MP:263/279 (Puesto 3)
+3-Orcus HP:548/567 MP:112/112 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Wicker Man ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -1293,13 +3225,30 @@ Seleccione una acción para Raphael
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:532/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -1312,13 +3261,13 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:136/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
@@ -1336,46 +3285,34 @@ Seleccione una acción para Lilith
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Lilith
-1-Makoto HP:532/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
+1-Makoto HP:136/597 MP:118/347
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Lilith ataca a Makoto
+Makoto es resistente el ataque de Lilith
+Makoto recibe 20 de daño
+Makoto termina con HP:116/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:116/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
 Full Turns: 2
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Wicker Man
@@ -1388,24 +3325,36 @@ Seleccione una acción para Wicker Man
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Wicker Man
+1-Makoto HP:116/597 MP:118/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:625/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:116/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
+Full Turns: 1
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Shujinko
@@ -1426,78 +3375,29 @@ Seleccione una habilidad para que Shujinko use
 1-Concentrate MP:11
 2-Wind Breath MP:21
 3-Cancelar
-INPUT: 3
+INPUT: 2
 ----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
+Shujinko lanza viento a Makoto
+Makoto es resistente el ataque de Shujinko
+Makoto recibe 61 de daño
+Makoto termina con HP:55/597
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Orcus HP:548/567 MP:112/112
-2-Tsuchigumo HP:149/280 MP:126/126
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:532/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:532/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:604/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:55/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Raphael
@@ -1512,22 +3412,22 @@ Seleccione una acción para Raphael
 4: Pasar Turno
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Lilith HP:380/380 MP:369/369
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:604/625
+B-Lilith HP:380/380 MP:284/369
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
+A-Makoto HP:55/597 MP:118/347
+B-
 C-
 D-
 ----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
+Full Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Lilith
@@ -1540,451 +3440,28 @@ Seleccione una acción para Lilith
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lilith use
-1-Lullaby MP:11
-2-Spirit Drain MP:5
-3-Charm Lightning MP:45
-4-Mediarahan MP:40
-5-Invitation MP:45
-6-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Orcus HP:548/567 MP:112/112
-2-Tsuchigumo HP:149/280 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Lilith HP:380/380 MP:369/369 (Puesto 2)
-2-Raphael HP:530/623 MP:279/279 (Puesto 3)
-3-Wicker Man HP:1/126 MP:55/55 (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Lilith
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Orcus HP:548/567 MP:112/112
-2-Tsuchigumo HP:149/280 MP:126/126
+2-Tsuchigumo HP:280/280 MP:126/126
 3-Cancelar
 INPUT: 2
 ----------------------------------------
 Tsuchigumo ha sido invocado
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:149/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Wicker Man
-2-Shujinko
-3-Raphael
-4-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Wicker Man use
-1-Zan MP:5
-2-Pandemic Bomb MP:11
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Wicker Man use
-1-Zan MP:5
-2-Pandemic Bomb MP:11
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Wicker Man use
-1-Zan MP:5
-2-Pandemic Bomb MP:11
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Makoto (J2)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:149/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1298/1317 MP:604/625
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Raphael HP:501/623 MP:263/279
+D-Wicker Man HP:126/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Yomotsu-Ikusa
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1271/1317 MP:604/625
-2-Tsuchigumo HP:149/280 MP:126/126
-3-Raphael HP:530/623 MP:279/279
-4-Wicker Man HP:1/126 MP:55/55
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto dispara a Tsuchigumo
-Tsuchigumo recibe 57 de daño
-Tsuchigumo termina con HP:92/280
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yomotsu-Ikusa
-2-Makoto
-----------------------------------------
-Seleccione una acción para Yomotsu-Ikusa
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:530/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Yomotsu-Ikusa
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1271/1317 MP:604/625
-2-Tsuchigumo HP:92/280 MP:126/126
-3-Raphael HP:530/623 MP:279/279
-4-Wicker Man HP:1/126 MP:55/55
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:492/623
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Shujinko (J1)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:492/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:532/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Raphael
-3-Tsuchigumo
-4-Wicker Man
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:532/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko dispara a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 114 de daño
-Makoto termina con HP:418/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:492/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:418/597 MP:326/347
-B-Yomotsu-Ikusa HP:131/445 MP:88/88
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Tsuchigumo
-3-Wicker Man
-4-Shujinko
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:418/597 MP:326/347
-2-Yomotsu-Ikusa HP:131/445 MP:88/88
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 61 HP de Makoto
-Makoto termina con HP:357/597
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:265/347
-Raphael lanza un ataque todo poderoso a Yomotsu-Ikusa
-El ataque drena 61 HP de Yomotsu-Ikusa
-Yomotsu-Ikusa termina con HP:70/445
-Raphael termina con HP:614/623
-El ataque drena 61 MP de Yomotsu-Ikusa
-Yomotsu-Ikusa termina con MP:27/88
-Raphael termina con MP:279/279
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
-B-Yomotsu-Ikusa HP:70/445 MP:27/88
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Wicker Man
-3-Shujinko
-4-Raphael
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
-B-Yomotsu-Ikusa HP:70/445 MP:27/88
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Wicker Man
-2-Shujinko
-3-Raphael
-4-Tsuchigumo
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
-B-Yomotsu-Ikusa HP:70/445 MP:27/88
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Raphael
-3-Tsuchigumo
-4-Wicker Man
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:357/597 MP:265/347
-2-Yomotsu-Ikusa HP:70/445 MP:27/88
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Shujinko ataca a Yomotsu-Ikusa
-Yomotsu-Ikusa recibe 187 de daño
-Yomotsu-Ikusa termina con HP:0/445
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
+A-Makoto HP:55/597 MP:118/347
 B-
 C-
 D-
@@ -2002,28 +3479,16 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Shujinko HP:1298/1317 MP:604/625
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Raphael HP:501/623 MP:263/279
+4-Wicker Man HP:126/126 MP:50/55
+5-Cancelar
 INPUT: 5
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1271/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
 2: Disparar
@@ -2031,33 +3496,45 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Makoto
-1-Shujinko HP:1271/1317 MP:604/625
-2-Tsuchigumo HP:92/280 MP:126/126
-3-Raphael HP:614/623 MP:279/279
-4-Wicker Man HP:1/126 MP:55/55
-5-Cancelar
-INPUT: 1
+Seleccione una habilidad para que Makoto use
+1-Dark Energy MP:25
+2-Fire Breath MP:21
+3-Thunder Reign MP:22
+4-Zionga MP:8
+5-Bufudyne MP:14
+6-Megidola MP:40
+7-Titanomachia MP:30
+8-Javelin Rain MP:21
+9-Cancelar
+INPUT: 6
 ----------------------------------------
-Makoto dispara a Shujinko
-Shujinko es resistente el ataque de Makoto
-Shujinko recibe 28 de daño
-Shujinko termina con HP:1243/1317
+Makoto lanza un ataque todo poderoso a Shujinko
+Shujinko recibe 122 de daño
+Shujinko termina con HP:1176/1317
+Makoto lanza un ataque todo poderoso a Tsuchigumo
+Tsuchigumo recibe 122 de daño
+Tsuchigumo termina con HP:158/280
+Makoto lanza un ataque todo poderoso a Raphael
+Raphael recibe 122 de daño
+Raphael termina con HP:379/623
+Makoto lanza un ataque todo poderoso a Wicker Man
+Wicker Man recibe 122 de daño
+Wicker Man termina con HP:4/126
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J1)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:604/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:604/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Raphael HP:379/623 MP:263/279
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:357/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2070,6 +3547,34 @@ Orden:
 2-Raphael
 3-Tsuchigumo
 4-Wicker Man
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:55/597 MP:78/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Makoto HP:55/597 MP:78/347
+2-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione una acción para Shujinko
 1: Atacar
@@ -2084,29 +3589,20 @@ Seleccione una habilidad para que Shujinko use
 1-Concentrate MP:11
 2-Wind Breath MP:21
 3-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Shujinko lanza viento a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 61 de daño
-Shujinko lanza viento a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 61 de daño
-Shujinko lanza viento a Makoto
-Makoto es resistente el ataque de Shujinko
-Makoto recibe 61 de daño
-Makoto termina con HP:174/597
+Shujinko ha cargado su siguiente ataque mágico a más del doble
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:279/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Raphael HP:379/623 MP:263/279
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:174/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2125,36 +3621,56 @@ Seleccione una acción para Raphael
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:174/597 MP:265/347
-2-Cancelar
+Seleccione un monstruo para invocar
+1-Orcus HP:548/567 MP:112/112
+2-Lilith HP:380/380 MP:284/369
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 81 de daño
-Makoto termina con HP:93/597
+Orcus ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:55/597 MP:78/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Wicker Man
+3-Shujinko
+4-Orcus
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:93/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2163,38 +3679,96 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Tsuchigumo
-2-Wicker Man
-3-Shujinko
-4-Raphael
+1-Wicker Man
+2-Shujinko
+3-Orcus
+4-Tsuchigumo
 ----------------------------------------
-Seleccione una acción para Tsuchigumo
+Seleccione una acción para Wicker Man
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Wicker Man use
+1-Zan MP:5
+2-Pandemic Bomb MP:11
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Wicker Man
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:379/623 MP:263/279
+2-Lilith HP:380/380 MP:284/369
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Makoto HP:93/597 MP:265/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Tsuchigumo ataca a Makoto
-Makoto es resistente el ataque de Tsuchigumo
-Makoto recibe 11 de daño
-Makoto termina con HP:82/597
+Raphael ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Raphael HP:379/623 MP:263/279
+Equipo de Makoto (J2)
+A-Makoto HP:55/597 MP:78/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+2-Orcus
+3-Tsuchigumo
+4-Raphael
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Wicker Man HP:4/126 MP:50/55
+2-Lilith HP:380/380 MP:284/369
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Tsuchigumo HP:158/280 MP:126/126 (Puesto 2)
+2-Orcus HP:548/567 MP:112/112 (Puesto 3)
+3-Raphael HP:379/623 MP:263/279 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Wicker Man ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2203,12 +3777,12 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Wicker Man
-2-Shujinko
-3-Raphael
-4-Tsuchigumo
+1-Orcus
+2-Tsuchigumo
+3-Wicker Man
+4-Shujinko
 ----------------------------------------
-Seleccione una acción para Wicker Man
+Seleccione una acción para Orcus
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -2219,12 +3793,12 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2233,19 +3807,29 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Shujinko
-2-Raphael
-3-Tsuchigumo
-4-Wicker Man
+1-Tsuchigumo
+2-Wicker Man
+3-Shujinko
+4-Orcus
 ----------------------------------------
-Seleccione una acción para Shujinko
+Seleccione una acción para Tsuchigumo
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tsuchigumo
+1-Makoto HP:55/597 MP:78/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -2253,12 +3837,12 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J2)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1243/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2276,33 +3860,62 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Shujinko (J1)
+A-Shujinko HP:1176/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
+Equipo de Makoto (J2)
+A-Makoto HP:55/597 MP:78/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Shujinko HP:1243/1317 MP:583/625
-2-Tsuchigumo HP:92/280 MP:126/126
-3-Raphael HP:614/623 MP:259/279
-4-Wicker Man HP:1/126 MP:55/55
+1-Shujinko HP:1176/1317 MP:593/625
+2-Tsuchigumo HP:158/280 MP:126/126
+3-Orcus HP:548/567 MP:112/112
+4-Wicker Man HP:4/126 MP:50/55
 5-Cancelar
 INPUT: 1
 ----------------------------------------
-Makoto dispara a Shujinko
+Makoto ataca a Shujinko
 Shujinko es resistente el ataque de Makoto
-Shujinko recibe 28 de daño
-Shujinko termina con HP:1215/1317
+Shujinko recibe 19 de daño
+Shujinko termina con HP:1157/1317
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Shujinko (J1)
 ----------------------------------------
 Equipo de Shujinko (J1)
-A-Shujinko HP:1215/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
+A-Shujinko HP:1157/1317 MP:593/625
+B-Tsuchigumo HP:158/280 MP:126/126
+C-Orcus HP:548/567 MP:112/112
+D-Wicker Man HP:4/126 MP:50/55
 Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
+A-Makoto HP:55/597 MP:78/347
 B-
 C-
 D-
@@ -2312,7 +3925,7 @@ Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Shujinko
-2-Raphael
+2-Orcus
 3-Tsuchigumo
 4-Wicker Man
 ----------------------------------------
@@ -2326,182 +3939,7 @@ Seleccione una acción para Shujinko
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Shujinko
-1-Makoto HP:82/597 MP:265/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1215/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Tsuchigumo
-3-Wicker Man
-4-Shujinko
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1215/1317 MP:583/625
-B-Tsuchigumo HP:92/280 MP:126/126
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tsuchigumo
-2-Wicker Man
-3-Shujinko
-4-Raphael
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Tsuchigumo use
-1-Poison Claw MP:9
-2-Zionga MP:8
-3-Me Patra MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Makoto HP:82/597 MP:265/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Tsuchigumo
-1-Makoto HP:82/597 MP:265/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tsuchigumo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Orcus HP:548/567 MP:112/112
-2-Lilith HP:380/380 MP:369/369
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Orcus ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1215/1317 MP:583/625
-B-Orcus HP:548/567 MP:112/112
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Wicker Man
-2-Shujinko
-3-Raphael
-4-Orcus
-----------------------------------------
-Seleccione una acción para Wicker Man
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Shujinko (J1)
-A-Shujinko HP:1215/1317 MP:583/625
-B-Orcus HP:548/567 MP:112/112
-C-Raphael HP:614/623 MP:259/279
-D-Wicker Man HP:1/126 MP:55/55
-Equipo de Makoto (J2)
-A-Makoto HP:82/597 MP:265/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Raphael
-3-Orcus
-4-Wicker Man
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Makoto HP:82/597 MP:265/347
+1-Makoto HP:55/597 MP:78/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------

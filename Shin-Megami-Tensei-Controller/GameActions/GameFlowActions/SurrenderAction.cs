@@ -15,7 +15,7 @@ public class SurrenderAction
         _gameState = gameState;
     }
 
-    internal void ExecuteSurrender()
+    internal void Execute()
     {
         _view.WriteLine($"{_gameState.TurnPlayer.Samurai.Name} (J{_gameState.TurnPlayer.Id}) se rinde");
         _view.WriteLine(Params.Separator);

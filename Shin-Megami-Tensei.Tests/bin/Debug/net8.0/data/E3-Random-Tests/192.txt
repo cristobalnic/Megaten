@@ -428,66 +428,35 @@ Seleccione una acción para Trumpeter
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione una habilidad para que Trumpeter use
-1-Maragidyne MP:32
-2-Mamudoon MP:30
-3-Poison Breath MP:11
-4-Lullaby MP:11
-5-Mahamaon MP:30
-6-Pulinpa MP:5
-7-Judgement MP:45
-8-Cancelar
-INPUT: 8
+Seleccione un objetivo para Trumpeter
+1-Itsuki HP:1136/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:337/337
+5-Cancelar
+INPUT: 4
 ----------------------------------------
-Seleccione una acción para Trumpeter
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
+Trumpeter ataca a Hokuto Seikun
+Hokuto Seikun recibe 51 de daño
+Hokuto Seikun termina con HP:297/348
 ----------------------------------------
-Seleccione una habilidad para que Trumpeter use
-1-Maragidyne MP:32
-2-Mamudoon MP:30
-3-Poison Breath MP:11
-4-Lullaby MP:11
-5-Mahamaon MP:30
-6-Pulinpa MP:5
-7-Judgement MP:45
-8-Cancelar
-INPUT: 2
-----------------------------------------
-Trumpeter ataca con oscuridad a Itsuki
-Itsuki ha sido eliminado
-Itsuki termina con HP:0/1136
-Trumpeter ataca con oscuridad a Raphael
-Trumpeter ha fallado el ataque
-Raphael termina con HP:623/623
-Trumpeter ataca con oscuridad a Ishtar
-Ishtar es débil contra el ataque de Trumpeter
-Ishtar ha sido eliminado
-Ishtar termina con HP:0/258
-Trumpeter ataca con oscuridad a Hokuto Seikun
-Hokuto Seikun bloquea el ataque de Trumpeter
-Hokuto Seikun termina con HP:348/348
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
 A-Tamaki HP:999/999 MP:542/542
 B-Hecatoncheires HP:756/756 MP:151/151
 C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+D-Trumpeter HP:474/474 MP:460/460
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Itsuki HP:1136/1136 MP:413/413
 B-Raphael HP:623/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:337/337
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:297/348 MP:337/337
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -501,24 +470,36 @@ Seleccione una acción para Hecatoncheires
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hecatoncheires
+1-Itsuki HP:1136/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:297/348 MP:337/337
+5-Cancelar
 INPUT: 4
 ----------------------------------------
+Hecatoncheires ataca a Hokuto Seikun
+Hokuto Seikun recibe 58 de daño
+Hokuto Seikun termina con HP:239/348
+----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
 A-Tamaki HP:999/999 MP:542/542
 B-Hecatoncheires HP:756/756 MP:151/151
 C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+D-Trumpeter HP:474/474 MP:460/460
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Itsuki HP:1136/1136 MP:413/413
 B-Raphael HP:623/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:337/337
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:239/348 MP:337/337
 ----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
+Full Turns: 2
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Pallas Athena
@@ -531,21 +512,39 @@ Seleccione una acción para Pallas Athena
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 2
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:1136/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:239/348 MP:337/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pallas Athena ataca a Raphael
+Raphael recibe 130 de daño
+Raphael termina con HP:493/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
 A-Tamaki HP:999/999 MP:542/542
 B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Trumpeter HP:474/474 MP:460/460
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:623/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:337/337
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:239/348 MP:337/337
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
@@ -563,19 +562,74 @@ Seleccione una acción para Tamaki
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
+INPUT: 4
 ----------------------------------------
-Seleccione un objetivo para Tamaki
-1-Raphael HP:623/623 MP:279/279
-2-Hokuto Seikun HP:348/348 MP:337/337
-3-Cancelar
-INPUT: 1
+Seleccione un monstruo para invocar
+1-Inugami HP:214/214 MP:109/109
+2-Pele HP:76/76 MP:72/72
+3-Okuninushi HP:416/416 MP:82/82
+4-Kama HP:574/574 MP:257/257
+5-Cancelar
+INPUT: 3
 ----------------------------------------
-Tamaki ataca a Raphael
-Raphael recibe 18 de daño
-Raphael termina con HP:605/623
+Seleccione una posición para invocar
+1-Hecatoncheires HP:756/756 MP:151/151 (Puesto 2)
+2-Pallas Athena HP:577/577 MP:102/115 (Puesto 3)
+3-Trumpeter HP:474/474 MP:460/460 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Okuninushi ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:999/999 MP:542/542
+B-Hecatoncheires HP:756/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:82/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:239/348 MP:337/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Hecatoncheires
+3-Pallas Athena
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Okuninushi use
+1-Dream Fist MP:9
+2-Diarama MP:9
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Okuninushi
+1-Tamaki HP:999/999 MP:542/542
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Pallas Athena HP:577/577 MP:102/115
+4-Okuninushi HP:416/416 MP:82/82
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Okuninushi cura a Tamaki
+Tamaki recibe 499 de HP
+Tamaki termina con HP:999/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Itsuki (J2)
@@ -583,61 +637,130 @@ Ronda de Itsuki (J2)
 Equipo de Tamaki (J1)
 A-Tamaki HP:999/999 MP:542/542
 B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:605/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:337/337
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:239/348 MP:337/337
 ----------------------------------------
-Full Turns: 2
+Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Raphael
-2-Hokuto Seikun
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Raphael
-1-Tamaki HP:999/999 MP:542/542
-2-Hecatoncheires HP:756/756 MP:151/151
-3-Pallas Athena HP:577/577 MP:115/115
-4-Trumpeter HP:474/474 MP:430/460
+1-Itsuki HP:1136/1136 MP:413/413
+2-Raphael HP:493/623 MP:279/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:239/348 MP:337/337
 5-Cancelar
-INPUT: 1
+INPUT: 4
 ----------------------------------------
-Raphael ataca a Tamaki
-Tamaki es resistente el ataque de Raphael
-Tamaki recibe 26 de daño
-Tamaki termina con HP:973/999
+Raphael cura a Hokuto Seikun
+Hokuto Seikun recibe 348 de HP
+Hokuto Seikun termina con HP:348/348
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
+A-Tamaki HP:999/999 MP:542/542
 B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:605/623 MP:279/279
-C-
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
 D-Hokuto Seikun HP:348/348 MP:337/337
 ----------------------------------------
-Full Turns: 1
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:999/999 MP:542/542
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Pallas Athena HP:577/577 MP:102/115
+4-Okuninushi HP:416/416 MP:73/82
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 22 de daño
+Tamaki termina con HP:977/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:977/999 MP:542/542
+B-Hecatoncheires HP:756/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:337/337
+----------------------------------------
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Hokuto Seikun
-2-Raphael
+2-Ishtar
+3-Raphael
+4-Itsuki
 ----------------------------------------
 Seleccione una acción para Hokuto Seikun
 1: Atacar
@@ -651,44 +774,147 @@ Seleccione una habilidad para que Hokuto Seikun use
 2-Samarecarm MP:40
 3-Bufudyne MP:14
 4-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Hokuto Seikun
-1-Itsuki HP:0/1136 MP:413/413
-2-Ishtar HP:0/258 MP:251/251
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Hokuto Seikun revive a Ishtar
-Ishtar recibe 258 de HP
-Ishtar termina con HP:258/258
+Hokuto Seikun lanza hielo a Tamaki
+Tamaki es resistente el ataque de Hokuto Seikun
+Tamaki recibe 82 de daño
+Tamaki termina con HP:895/999
+Hokuto Seikun lanza hielo a Hecatoncheires
+Hecatoncheires recibe 164 de daño
+Hecatoncheires termina con HP:592/756
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:895/999 MP:542/542
+2-Hecatoncheires HP:592/756 MP:151/151
+3-Pallas Athena HP:577/577 MP:102/115
+4-Okuninushi HP:416/416 MP:73/82
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Tamaki (J1)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Trumpeter HP:474/474 MP:430/460
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:605/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:297/337
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
 ----------------------------------------
 Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Trumpeter
-2-Hecatoncheires
-3-Pallas Athena
+1-Hecatoncheires
+2-Pallas Athena
+3-Okuninushi
 4-Tamaki
 ----------------------------------------
-Seleccione una acción para Trumpeter
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Pallas Athena HP:577/577 MP:102/115
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Okuninushi
+3-Tamaki
+4-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -696,39 +922,188 @@ Seleccione una acción para Trumpeter
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Inugami HP:214/214 MP:109/109
-2-Pele HP:76/76 MP:72/72
-3-Okuninushi HP:416/416 MP:82/82
+1-Trumpeter HP:474/474 MP:460/460
+2-Inugami HP:214/214 MP:109/109
+3-Pele HP:76/76 MP:72/72
 4-Kama HP:574/574 MP:257/257
 5-Cancelar
-INPUT: 1
+INPUT: 2
 ----------------------------------------
 Inugami ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Inugami HP:214/214 MP:109/109
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Tamaki
+3-Hecatoncheires
+4-Inugami
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Inugami HP:214/214 MP:109/109
+D-Okuninushi HP:416/416 MP:73/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:605/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:297/337
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
+1-Tamaki
+2-Hecatoncheires
+3-Inugami
+4-Okuninushi
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:577/577 MP:102/115
+2-Trumpeter HP:474/474 MP:460/460
+3-Pele HP:76/76 MP:72/72
+4-Kama HP:574/574 MP:257/257
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una posición para invocar
+1-Hecatoncheires HP:592/756 MP:151/151 (Puesto 2)
+2-Inugami HP:214/214 MP:109/109 (Puesto 3)
+3-Okuninushi HP:416/416 MP:73/82 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Kama ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Hecatoncheires HP:592/756 MP:151/151
+C-Kama HP:574/574 MP:257/257
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Hecatoncheires
-2-Pallas Athena
-3-Tamaki
-4-Inugami
+2-Kama
+3-Okuninushi
+4-Tamaki
 ----------------------------------------
 Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:577/577 MP:102/115
+2-Trumpeter HP:474/474 MP:460/460
+3-Inugami HP:214/214 MP:109/109
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:577/577 MP:102/115
+2-Trumpeter HP:474/474 MP:460/460
+3-Inugami HP:214/214 MP:109/109
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Trumpeter ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Trumpeter HP:474/474 MP:460/460
+C-Kama HP:574/574 MP:257/257
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kama
+2-Okuninushi
+3-Tamaki
+4-Trumpeter
+----------------------------------------
+Seleccione una acción para Kama
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:592/756 MP:151/151
+2-Pallas Athena HP:577/577 MP:102/115
+3-Inugami HP:214/214 MP:109/109
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kama
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -739,24 +1114,1371 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
+A-Tamaki HP:895/999 MP:542/542
+B-Trumpeter HP:474/474 MP:460/460
+C-Kama HP:574/574 MP:257/257
+D-Okuninushi HP:416/416 MP:73/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:605/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:297/337
+A-Itsuki HP:1136/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Tamaki
+3-Trumpeter
+4-Kama
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Okuninushi use
+1-Dream Fist MP:9
+2-Diarama MP:9
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okuninushi
+1-Itsuki HP:1136/1136 MP:413/413
+2-Raphael HP:493/623 MP:263/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Okuninushi ataca a Itsuki
+Itsuki recibe 30 de daño
+Itsuki termina con HP:1106/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:895/999 MP:542/542
+B-Trumpeter HP:474/474 MP:460/460
+C-Kama HP:574/574 MP:257/257
+D-Okuninushi HP:416/416 MP:73/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:493/623 MP:263/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:895/999 MP:542/542
+2-Trumpeter HP:474/474 MP:460/460
+3-Kama HP:574/574 MP:257/257
+4-Okuninushi HP:416/416 MP:73/82
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Raphael lanza un ataque todo poderoso a Tamaki
+El ataque drena 239 HP de Tamaki
+Tamaki termina con HP:656/999
+El ataque drena 239 MP de Tamaki
+Tamaki termina con MP:303/542
+Raphael lanza un ataque todo poderoso a Trumpeter
+El ataque drena 239 HP de Trumpeter
+Trumpeter termina con HP:235/474
+El ataque drena 239 MP de Trumpeter
+Trumpeter termina con MP:221/460
+Raphael lanza un ataque todo poderoso a Kama
+El ataque drena 239 HP de Kama
+Kama termina con HP:335/574
+El ataque drena 239 MP de Kama
+Kama termina con MP:18/257
+Raphael lanza un ataque todo poderoso a Okuninushi
+El ataque drena 239 HP de Okuninushi
+Okuninushi termina con HP:177/416
+Raphael termina con HP:623/623
+El ataque drena 73 MP de Okuninushi
+Okuninushi termina con MP:0/82
+Raphael termina con MP:279/279
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:656/999 MP:303/542
+B-Trumpeter HP:235/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:177/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:656/999 MP:303/542
+2-Trumpeter HP:235/474 MP:221/460
+3-Kama HP:335/574 MP:18/257
+4-Okuninushi HP:177/416 MP:0/82
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:656/999 MP:303/542
+2-Trumpeter HP:235/474 MP:221/460
+3-Kama HP:335/574 MP:18/257
+4-Okuninushi HP:177/416 MP:0/82
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 22 de daño
+Tamaki termina con HP:634/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:235/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:177/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:634/999 MP:303/542
+2-Trumpeter HP:235/474 MP:221/460
+3-Kama HP:335/574 MP:18/257
+4-Okuninushi HP:177/416 MP:0/82
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Hokuto Seikun ataca a Okuninushi
+Okuninushi recibe 36 de daño
+Okuninushi termina con HP:141/416
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:235/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:235/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:634/999 MP:303/542
+2-Trumpeter HP:235/474 MP:221/460
+3-Kama HP:335/574 MP:18/257
+4-Okuninushi HP:141/416 MP:0/82
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Trumpeter
+Trumpeter recibe 52 de daño
+Trumpeter termina con HP:183/474
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kama
+2-Trumpeter
+3-Okuninushi
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Kama
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kama
+1-Itsuki HP:1106/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:258/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kama ataca a Ishtar
+Ishtar recibe 48 de daño
+Ishtar termina con HP:210/258
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Trumpeter
+2-Okuninushi
+3-Tamaki
+4-Kama
+----------------------------------------
+Seleccione una acción para Trumpeter
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Trumpeter
+1-Itsuki HP:1106/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Trumpeter ataca a Itsuki
+Itsuki recibe 51 de daño
+Itsuki termina con HP:1055/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Tamaki
+3-Kama
+4-Trumpeter
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:592/756 MP:151/151
+2-Pallas Athena HP:577/577 MP:102/115
+3-Inugami HP:214/214 MP:109/109
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pele ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Pele HP:76/76 MP:72/72
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Kama
+3-Trumpeter
+4-Pele
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:592/756 MP:151/151
+2-Pallas Athena HP:577/577 MP:102/115
+3-Inugami HP:214/214 MP:109/109
+4-Okuninushi HP:141/416 MP:0/82
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Itsuki HP:1055/1136 MP:413/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Tamaki ataca a Raphael
+Raphael recibe 18 de daño
+Raphael termina con HP:605/623
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Kama HP:335/574 MP:18/257
+D-Pele HP:76/76 MP:72/72
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kama
+2-Trumpeter
+3-Pele
+4-Tamaki
+----------------------------------------
+Seleccione una acción para Kama
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:592/756 MP:151/151
+2-Pallas Athena HP:577/577 MP:102/115
+3-Inugami HP:214/214 MP:109/109
+4-Okuninushi HP:141/416 MP:0/82
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pallas Athena ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Pele HP:76/76 MP:72/72
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Trumpeter
+2-Pele
+3-Tamaki
+4-Pallas Athena
+----------------------------------------
+Seleccione una acción para Trumpeter
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Pele HP:76/76 MP:72/72
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:634/999 MP:303/542
+B-Trumpeter HP:183/474 MP:221/460
+C-Pallas Athena HP:577/577 MP:102/115
+D-Pele HP:76/76 MP:72/72
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:413/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:634/999 MP:303/542
+2-Trumpeter HP:183/474 MP:221/460
+3-Pallas Athena HP:577/577 MP:102/115
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:634/999 MP:303/542
+2-Trumpeter HP:183/474 MP:221/460
+3-Pallas Athena HP:577/577 MP:102/115
+4-Pele HP:76/76 MP:72/72
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki lanza un ataque todo poderoso a Tamaki
+Tamaki recibe 99 de daño
+Tamaki termina con HP:535/999
+Itsuki lanza un ataque todo poderoso a Trumpeter
+Trumpeter recibe 99 de daño
+Trumpeter termina con HP:84/474
+Itsuki lanza un ataque todo poderoso a Pallas Athena
+Pallas Athena recibe 99 de daño
+Pallas Athena termina con HP:478/577
+Itsuki lanza un ataque todo poderoso a Pele
+Pele recibe 99 de daño
+Pele termina con HP:0/76
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-Trumpeter HP:84/474 MP:221/460
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:535/999 MP:303/542
+2-Trumpeter HP:84/474 MP:221/460
+3-Pallas Athena HP:478/577 MP:102/115
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:535/999 MP:303/542
+2-Trumpeter HP:84/474 MP:221/460
+3-Pallas Athena HP:478/577 MP:102/115
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Hokuto Seikun ataca a Trumpeter
+Trumpeter recibe 36 de daño
+Trumpeter termina con HP:48/474
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-Trumpeter HP:48/474 MP:221/460
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-Trumpeter HP:48/474 MP:221/460
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:535/999 MP:303/542
+2-Trumpeter HP:48/474 MP:221/460
+3-Pallas Athena HP:478/577 MP:102/115
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Trumpeter
+Trumpeter recibe 52 de daño
+Trumpeter termina con HP:0/474
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1055/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:535/999 MP:303/542
+2-Pallas Athena HP:478/577 MP:102/115
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Itsuki dispara a Pallas Athena
+Pallas Athena devuelve 61 daño a Itsuki
+Itsuki termina con HP:994/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:994/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Pallas Athena
 2-Tamaki
-3-Inugami
-4-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:994/1136 MP:368/413
+2-Raphael HP:605/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:994/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pallas Athena
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Itsuki HP:994/1136 MP:368/413
+2-Raphael HP:605/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Itsuki HP:994/1136 MP:368/413
+2-Raphael HP:605/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Tamaki dispara a Itsuki
+Itsuki recibe 15 de daño
+Itsuki termina con HP:979/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:979/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:979/1136 MP:368/413
+2-Raphael HP:605/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:979/1136 MP:368/413
+2-Raphael HP:605/623 MP:279/279
+3-Ishtar HP:210/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pallas Athena ataca a Hokuto Seikun
+Hokuto Seikun recibe 43 de daño
+Hokuto Seikun termina con HP:305/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:535/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:979/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:305/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:535/999 MP:303/542
+2-Pallas Athena HP:478/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Tamaki
+Tamaki es resistente el ataque de Raphael
+Tamaki recibe 26 de daño
+Tamaki termina con HP:509/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:509/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:979/1136 MP:368/413
+B-Raphael HP:605/623 MP:279/279
+C-Ishtar HP:210/258 MP:251/251
+D-Hokuto Seikun HP:305/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Itsuki cura a Raphael
+Raphael recibe 311 de HP
+Raphael termina con HP:623/623
+Itsuki cura a Ishtar
+Ishtar recibe 129 de HP
+Ishtar termina con HP:258/258
+Itsuki cura a Hokuto Seikun
+Hokuto Seikun recibe 174 de HP
+Hokuto Seikun termina con HP:348/348
+Itsuki cura a Itsuki
+Itsuki recibe 568 de HP
+Itsuki termina con HP:1136/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:509/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:509/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tamaki HP:509/999 MP:303/542
+2-Pallas Athena HP:478/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Ishtar ataca a Tamaki
+Tamaki es resistente el ataque de Ishtar
+Tamaki recibe 13 de daño
+Tamaki termina con HP:496/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Pallas Athena HP:478/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:496/999 MP:303/542
+2-Pallas Athena HP:478/577 MP:102/115
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Pallas Athena
+Pallas Athena es resistente el ataque de Raphael
+Pallas Athena recibe 26 de daño
+Pallas Athena termina con HP:452/577
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
 ----------------------------------------
 Seleccione una acción para Pallas Athena
 1: Atacar
@@ -776,42 +2498,789 @@ Seleccione una acción para Pallas Athena
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:592/756 MP:151/151
+2-Inugami HP:214/214 MP:109/109
+3-Okuninushi HP:141/416 MP:0/82
+4-Kama HP:335/574 MP:18/257
+5-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Pallas Athena
-1-Raphael HP:605/623 MP:279/279
-2-Hokuto Seikun HP:348/348 MP:297/337
-3-Cancelar
-INPUT: 1
+Hecatoncheires ha sido invocado
 ----------------------------------------
-Pallas Athena ataca a Raphael
-Raphael recibe 43 de daño
-Raphael termina con HP:562/623
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:151/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:452/577 MP:102/115
+2-Inugami HP:214/214 MP:109/109
+3-Okuninushi HP:141/416 MP:0/82
+4-Kama HP:335/574 MP:18/257
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Hecatoncheires HP:592/756 MP:151/151 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Okuninushi ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:151/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:346/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:258/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Okuninushi
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Hecatoncheires ataca a Itsuki
+Itsuki recibe 137 de daño
+Itsuki termina con HP:999/1136
+Hecatoncheires ataca a Raphael
+Raphael recibe 137 de daño
+Raphael termina con HP:486/623
+Hecatoncheires ataca a Ishtar
+Ishtar recibe 137 de daño
+Ishtar termina con HP:121/258
+Hecatoncheires ataca a Hokuto Seikun
+Hokuto Seikun recibe 137 de daño
+Hokuto Seikun termina con HP:211/348
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:562/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:297/337
+A-Itsuki HP:999/1136 MP:346/413
+B-Raphael HP:486/623 MP:279/279
+C-Ishtar HP:121/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:999/1136 MP:346/413
+B-Raphael HP:486/623 MP:279/279
+C-Ishtar HP:121/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 6
+----------------------------------------
+Itsuki cura a Raphael
+Raphael recibe 311 de HP
+Raphael termina con HP:623/623
+Itsuki cura a Ishtar
+Ishtar recibe 129 de HP
+Ishtar termina con HP:250/258
+Itsuki cura a Hokuto Seikun
+Hokuto Seikun recibe 174 de HP
+Hokuto Seikun termina con HP:348/348
+Itsuki cura a Itsuki
+Itsuki recibe 568 de HP
+Itsuki termina con HP:1136/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:496/999 MP:303/542
+2-Hecatoncheires HP:592/756 MP:119/151
+3-Okuninushi HP:141/416 MP:0/82
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:496/999 MP:303/542
+2-Hecatoncheires HP:592/756 MP:119/151
+3-Okuninushi HP:141/416 MP:0/82
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Okuninushi
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Tamaki
+3-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:623/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Tamaki
-2-Inugami
-3-Hecatoncheires
-4-Pallas Athena
+2-Hecatoncheires
+3-Okuninushi
 ----------------------------------------
 Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Itsuki HP:1136/1136 MP:324/413
+2-Raphael HP:623/623 MP:279/279
+3-Ishtar HP:250/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Tamaki dispara a Raphael
+Raphael recibe 15 de daño
+Raphael termina con HP:608/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Okuninushi
+3-Tamaki
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Okuninushi
+2-Tamaki
+3-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Okuninushi
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Okuninushi
+1-Itsuki HP:1136/1136 MP:324/413
+2-Raphael HP:608/623 MP:279/279
+3-Ishtar HP:250/258 MP:251/251
+4-Hokuto Seikun HP:348/348 MP:315/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Okuninushi ataca a Itsuki
+Itsuki recibe 30 de daño
+Itsuki termina con HP:1106/1136
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:141/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:496/999 MP:303/542
+2-Hecatoncheires HP:592/756 MP:119/151
+3-Okuninushi HP:141/416 MP:0/82
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Raphael ataca a Okuninushi
+Okuninushi recibe 52 de daño
+Okuninushi termina con HP:89/416
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:89/416 MP:0/82
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 7
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -824,104 +3293,186 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
+A-Tamaki HP:496/999 MP:303/542
+B-
+C-Hecatoncheires HP:592/756 MP:119/151
+D-Okuninushi HP:89/416 MP:0/82
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:562/623 MP:279/279
-C-
-D-Hokuto Seikun HP:348/348 MP:297/337
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:315/337
 ----------------------------------------
-Full Turns: 1
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Inugami
-2-Hecatoncheires
-3-Pallas Athena
-4-Tamaki
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
 ----------------------------------------
-Seleccione una acción para Inugami
+Seleccione una acción para Hokuto Seikun
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Inugami
-1-Raphael HP:562/623 MP:279/279
-2-Hokuto Seikun HP:348/348 MP:297/337
-3-Cancelar
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Inugami ataca a Hokuto Seikun
-Hokuto Seikun recibe 17 de daño
-Hokuto Seikun termina con HP:331/348
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hokuto Seikun lanza hielo a Tamaki
+Tamaki es resistente el ataque de Hokuto Seikun
+Tamaki recibe 82 de daño
+Tamaki termina con HP:414/999
+Hokuto Seikun lanza hielo a Hecatoncheires
+Hecatoncheires recibe 164 de daño
+Hecatoncheires termina con HP:428/756
+Hokuto Seikun lanza hielo a Okuninushi
+Okuninushi es débil contra el ataque de Hokuto Seikun
+Okuninushi recibe 246 de daño
+Okuninushi termina con HP:0/416
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:414/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:119/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:293/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 2
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
+A-Tamaki HP:414/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:119/151
+D-
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:562/623 MP:279/279
-C-
-D-Hokuto Seikun HP:331/348 MP:297/337
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:293/337
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Hecatoncheires
-2-Pallas Athena
-3-Tamaki
-4-Inugami
-----------------------------------------
-Seleccione una acción para Hecatoncheires
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Hecatoncheires
-1-Raphael HP:562/623 MP:279/279
-2-Hokuto Seikun HP:331/348 MP:297/337
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Hecatoncheires ataca a Raphael
-Raphael recibe 58 de daño
-Raphael termina con HP:504/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Itsuki (J2)
-----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:973/999 MP:542/542
-B-Hecatoncheires HP:756/756 MP:151/151
-C-Pallas Athena HP:577/577 MP:115/115
-D-Inugami HP:214/214 MP:109/109
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:504/623 MP:279/279
-C-
-D-Hokuto Seikun HP:331/348 MP:297/337
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Raphael
-2-Hokuto Seikun
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -936,79 +3487,7 @@ Seleccione una habilidad para que Raphael use
 3-Stigma Attack MP:20
 4-Serpent of Sheol MP:45
 5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Tamaki
-El ataque drena 61 HP de Tamaki
-Tamaki termina con HP:912/999
-El ataque drena 61 MP de Tamaki
-Tamaki termina con MP:481/542
-Raphael lanza un ataque todo poderoso a Hecatoncheires
-El ataque drena 61 HP de Hecatoncheires
-Hecatoncheires termina con HP:695/756
-El ataque drena 61 MP de Hecatoncheires
-Hecatoncheires termina con MP:90/151
-Raphael lanza un ataque todo poderoso a Pallas Athena
-El ataque drena 61 HP de Pallas Athena
-Pallas Athena termina con HP:516/577
-El ataque drena 61 MP de Pallas Athena
-Pallas Athena termina con MP:54/115
-Raphael lanza un ataque todo poderoso a Inugami
-El ataque drena 61 HP de Inugami
-Inugami termina con HP:153/214
-Raphael termina con HP:623/623
-El ataque drena 61 MP de Inugami
-Inugami termina con MP:48/109
-Raphael termina con MP:279/279
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:90/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Inugami HP:153/214 MP:48/109
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:623/623 MP:279/279
-C-
-D-Hokuto Seikun HP:331/348 MP:297/337
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Hokuto Seikun
-2-Raphael
-----------------------------------------
-Seleccione una acción para Hokuto Seikun
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:90/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Inugami HP:153/214 MP:48/109
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Raphael HP:623/623 MP:279/279
-C-
-D-Hokuto Seikun HP:331/348 MP:297/337
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Hokuto Seikun
+INPUT: 5
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -1018,36 +3497,144 @@ Seleccione una acción para Raphael
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Ishtar HP:258/258 MP:251/251
-2-Cancelar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Ishtar ha sido invocado
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:414/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:119/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:293/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:414/999 MP:303/542
+2-Hecatoncheires HP:428/756 MP:119/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:414/999 MP:303/542
+2-Hecatoncheires HP:428/756 MP:119/151
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 30 de daño
+Tamaki termina con HP:384/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Tamaki (J1)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:90/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Inugami HP:153/214 MP:48/109
+A-Tamaki HP:384/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:119/151
+D-
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Ishtar HP:258/258 MP:251/251
-C-
-D-Hokuto Seikun HP:331/348 MP:297/337
+A-Itsuki HP:1106/1136 MP:324/413
+B-Raphael HP:608/623 MP:279/279
+C-Ishtar HP:250/258 MP:251/251
+D-Hokuto Seikun HP:348/348 MP:293/337
 ----------------------------------------
-Full Turns: 4
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Hecatoncheires
-2-Pallas Athena
-3-Inugami
-4-Tamaki
+2-Tamaki
 ----------------------------------------
 Seleccione una acción para Hecatoncheires
 1: Atacar
@@ -1063,118 +3650,39 @@ Seleccione una habilidad para que Hecatoncheires use
 4-Cancelar
 INPUT: 2
 ----------------------------------------
+Hecatoncheires ataca a Itsuki
+Itsuki recibe 137 de daño
+Itsuki termina con HP:969/1136
+Hecatoncheires ataca a Raphael
+Raphael recibe 137 de daño
+Raphael termina con HP:471/623
 Hecatoncheires ataca a Ishtar
 Ishtar recibe 137 de daño
-Ishtar termina con HP:121/258
+Ishtar termina con HP:113/258
 Hecatoncheires ataca a Hokuto Seikun
 Hokuto Seikun recibe 137 de daño
-Hokuto Seikun termina con HP:194/348
+Hokuto Seikun termina con HP:211/348
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:58/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Inugami HP:153/214 MP:48/109
+A-Tamaki HP:384/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:87/151
+D-
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Ishtar HP:121/258 MP:251/251
-C-
-D-Hokuto Seikun HP:194/348 MP:297/337
+A-Itsuki HP:969/1136 MP:324/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:113/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:293/337
 ----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pallas Athena
-2-Inugami
-3-Tamaki
-4-Hecatoncheires
-----------------------------------------
-Seleccione una acción para Pallas Athena
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:58/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Inugami HP:153/214 MP:48/109
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Ishtar HP:121/258 MP:251/251
-C-
-D-Hokuto Seikun HP:194/348 MP:297/337
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Inugami
-2-Tamaki
-3-Hecatoncheires
-4-Pallas Athena
-----------------------------------------
-Seleccione una acción para Inugami
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Inugami
-1-Ishtar HP:121/258 MP:251/251
-2-Hokuto Seikun HP:194/348 MP:297/337
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Inugami
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Trumpeter HP:474/474 MP:430/460
-2-Pele HP:76/76 MP:72/72
-3-Okuninushi HP:416/416 MP:82/82
-4-Kama HP:574/574 MP:257/257
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kama ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:58/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Kama HP:574/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Ishtar HP:121/258 MP:251/251
-C-
-D-Hokuto Seikun HP:194/348 MP:297/337
-----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Tamaki
 2-Hecatoncheires
-3-Pallas Athena
-4-Kama
 ----------------------------------------
 Seleccione una acción para Tamaki
 1: Atacar
@@ -1189,70 +3697,68 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:58/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Kama HP:574/574 MP:257/257
+A-Tamaki HP:384/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:87/151
+D-
 Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-Ishtar HP:121/258 MP:251/251
-C-
-D-Hokuto Seikun HP:194/348 MP:297/337
+A-Itsuki HP:969/1136 MP:324/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:113/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:293/337
 ----------------------------------------
-Full Turns: 1
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Hecatoncheires
-2-Pallas Athena
-3-Kama
-4-Tamaki
+2-Tamaki
 ----------------------------------------
 Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Seleccione una habilidad para que Hecatoncheires use
-1-Rakukaja MP:15
-2-Hades Blast MP:32
-3-War Cry MP:45
-4-Cancelar
-INPUT: 2
+Seleccione un objetivo para Hecatoncheires
+1-Itsuki HP:969/1136 MP:324/413
+2-Raphael HP:471/623 MP:279/279
+3-Ishtar HP:113/258 MP:251/251
+4-Hokuto Seikun HP:211/348 MP:293/337
+5-Cancelar
+INPUT: 3
 ----------------------------------------
 Hecatoncheires ataca a Ishtar
-Ishtar recibe 137 de daño
-Ishtar termina con HP:0/258
-Hecatoncheires ataca a Hokuto Seikun
-Hokuto Seikun recibe 137 de daño
-Hokuto Seikun termina con HP:57/348
+Ishtar recibe 58 de daño
+Ishtar termina con HP:55/258
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:26/151
-C-Pallas Athena HP:516/577 MP:54/115
-D-Kama HP:574/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
-B-
-C-
-D-Hokuto Seikun HP:57/348 MP:297/337
+Ronda de Itsuki (J2)
 ----------------------------------------
-Full Turns: 1
+Equipo de Tamaki (J1)
+A-Tamaki HP:384/999 MP:303/542
+B-
+C-Hecatoncheires HP:428/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:324/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:293/337
+----------------------------------------
+Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Pallas Athena
-2-Kama
-3-Tamaki
-4-Hecatoncheires
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
 ----------------------------------------
-Seleccione una acción para Pallas Athena
+Seleccione una acción para Raphael
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1260,39 +3766,981 @@ Seleccione una acción para Pallas Athena
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Trumpeter HP:474/474 MP:430/460
-2-Inugami HP:153/214 MP:48/109
-3-Pele HP:76/76 MP:72/72
-4-Okuninushi HP:416/416 MP:82/82
-5-Cancelar
-INPUT: 2
+1-Cancelar
+INPUT: 1
 ----------------------------------------
-Inugami ha sido invocado
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:26/151
-C-Inugami HP:153/214 MP:48/109
-D-Kama HP:574/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Tamaki HP:384/999 MP:303/542
 B-
-C-
-D-Hokuto Seikun HP:57/348 MP:297/337
+C-Hecatoncheires HP:428/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:324/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:293/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki lanza un ataque todo poderoso a Tamaki
+Tamaki recibe 99 de daño
+Tamaki termina con HP:285/999
+Itsuki lanza un ataque todo poderoso a Hecatoncheires
+Hecatoncheires recibe 99 de daño
+Hecatoncheires termina con HP:329/756
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:285/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:293/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:285/999 MP:303/542
+2-Hecatoncheires HP:329/756 MP:87/151
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Hokuto Seikun lanza hielo a Tamaki
+Tamaki es resistente el ataque de Hokuto Seikun
+Tamaki recibe 67 de daño
+Tamaki termina con HP:218/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tamaki HP:218/999 MP:303/542
+2-Hecatoncheires HP:329/756 MP:87/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Kama
-2-Tamaki
-3-Hecatoncheires
-4-Inugami
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
 ----------------------------------------
-Seleccione una acción para Kama
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:218/999 MP:303/542
+2-Hecatoncheires HP:329/756 MP:87/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:218/999 MP:303/542
+2-Hecatoncheires HP:329/756 MP:87/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:452/577 MP:102/115
+2-Inugami HP:214/214 MP:109/109
+3-Kama HP:335/574 MP:18/257
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Pallas Athena ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:471/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pallas Athena
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tamaki
+1-Itsuki HP:969/1136 MP:279/413
+2-Raphael HP:471/623 MP:279/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:211/348 MP:279/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Tamaki dispara a Raphael
+Raphael recibe 15 de daño
+Raphael termina con HP:456/623
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:211/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:969/1136 MP:279/413
+2-Raphael HP:456/623 MP:279/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:211/348 MP:279/337
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Pallas Athena ataca a Hokuto Seikun
+Hokuto Seikun recibe 43 de daño
+Hokuto Seikun termina con HP:168/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:218/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:218/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:218/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:218/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 22 de daño
+Tamaki termina con HP:196/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:196/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Tamaki HP:196/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:452/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ishtar use
+1-Megidola MP:40
+2-Doping MP:45
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ishtar
+1-Tamaki HP:196/999 MP:303/542
+2-Pallas Athena HP:452/577 MP:102/115
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Ishtar ataca a Pallas Athena
+Pallas Athena es resistente el ataque de Ishtar
+Pallas Athena recibe 13 de daño
+Pallas Athena termina con HP:439/577
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:439/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:196/999 MP:303/542
+2-Pallas Athena HP:439/577 MP:102/115
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Pallas Athena
+Pallas Athena es resistente el ataque de Raphael
+Pallas Athena recibe 26 de daño
+Pallas Athena termina con HP:413/577
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:456/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:969/1136 MP:279/413
+2-Raphael HP:456/623 MP:279/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:168/348 MP:279/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Pallas Athena ataca a Raphael
+Raphael recibe 43 de daño
+Raphael termina con HP:413/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pallas Athena
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Pallas Athena
+1-Itsuki HP:969/1136 MP:279/413
+2-Raphael HP:413/623 MP:279/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:168/348 MP:279/337
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Pallas Athena
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1305,21 +4753,709 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Itsuki (J2)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:26/151
-C-Inugami HP:153/214 MP:48/109
-D-Kama HP:574/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Tamaki HP:196/999 MP:303/542
 B-
-C-
-D-Hokuto Seikun HP:57/348 MP:297/337
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:196/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:196/999 MP:303/542
+2-Pallas Athena HP:413/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 30 de daño
+Tamaki termina con HP:166/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:166/999 MP:303/542
+B-
+C-Pallas Athena HP:413/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:279/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hokuto Seikun lanza hielo a Tamaki
+Tamaki es resistente el ataque de Hokuto Seikun
+Tamaki recibe 82 de daño
+Tamaki termina con HP:84/999
+Hokuto Seikun lanza hielo a Pallas Athena
+Pallas Athena recibe 164 de daño
+Pallas Athena termina con HP:249/577
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:84/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:84/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:84/999 MP:303/542
+2-Pallas Athena HP:249/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Tamaki
+Tamaki es resistente el ataque de Raphael
+Tamaki recibe 26 de daño
+Tamaki termina con HP:58/999
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:58/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Tamaki HP:58/999 MP:303/542
+2-Pallas Athena HP:249/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Tamaki
+Tamaki es resistente el ataque de Itsuki
+Tamaki recibe 30 de daño
+Tamaki termina con HP:28/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:28/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Pallas Athena use
+1-Makarakarn MP:50
+2-Mortal Jihad MP:13
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:28/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pallas Athena
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:28/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+2-Tamaki
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:28/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tamaki
+2-Pallas Athena
+----------------------------------------
+Seleccione una acción para Tamaki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:28/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:279/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Tamaki HP:28/999 MP:303/542
+2-Pallas Athena HP:249/577 MP:102/115
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Tamaki
+Tamaki es resistente el ataque de Raphael
+Tamaki recibe 81 de daño
+Tamaki termina con HP:0/999
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:969/1136 MP:279/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Pallas Athena HP:249/577 MP:102/115
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki dispara a Pallas Athena
+Pallas Athena devuelve 61 daño a Itsuki
+Itsuki termina con HP:908/1136
+----------------------------------------
+Se han consumido 3 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tamaki (J1)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Pallas Athena HP:249/577 MP:102/115
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:279/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Pallas Athena
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:329/756 MP:87/151
+2-Inugami HP:214/214 MP:109/109
+3-Kama HP:335/574 MP:18/257
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Pallas Athena
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hecatoncheires HP:329/756 MP:87/151
+2-Inugami HP:214/214 MP:109/109
+3-Kama HP:335/574 MP:18/257
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Hecatoncheires ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Hecatoncheires HP:329/756 MP:87/151
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:279/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pallas Athena HP:249/577 MP:102/115
+2-Inugami HP:214/214 MP:109/109
+3-Kama HP:335/574 MP:18/257
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Kama ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:335/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:279/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:335/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:279/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kama HP:335/574 MP:18/257
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki ataca a Kama
+Kama es resistente el ataque de Itsuki
+Kama recibe 50 de daño
+Itsuki ataca a Kama
+Kama es resistente el ataque de Itsuki
+Kama recibe 50 de daño
+Itsuki ataca a Kama
+Kama es resistente el ataque de Itsuki
+Kama recibe 50 de daño
+Kama termina con HP:185/574
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:185/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:272/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Hokuto Seikun
+2-Ishtar
+3-Raphael
+4-Itsuki
 ----------------------------------------
 Seleccione una acción para Hokuto Seikun
 1: Atacar
@@ -1332,87 +5468,318 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:26/151
-C-Inugami HP:153/214 MP:48/109
-D-Kama HP:574/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Tamaki HP:0/999 MP:303/542
 B-
-C-
-D-Hokuto Seikun HP:57/348 MP:297/337
+C-Kama HP:185/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:272/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
 ----------------------------------------
-Full Turns: 0
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Hokuto Seikun
+1-Ishtar
+2-Raphael
+3-Itsuki
+4-Hokuto Seikun
 ----------------------------------------
-Seleccione una acción para Hokuto Seikun
+Seleccione una acción para Ishtar
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Ishtar
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Hokuto Seikun
-1-Tamaki HP:912/999 MP:481/542
-2-Hecatoncheires HP:695/756 MP:26/151
-3-Inugami HP:153/214 MP:48/109
-4-Kama HP:574/574 MP:257/257
-5-Cancelar
-INPUT: 4
+Seleccione un objetivo para Ishtar
+1-Kama HP:185/574 MP:18/257
+2-Cancelar
+INPUT: 1
 ----------------------------------------
-Hokuto Seikun ataca a Kama
-Kama es resistente el ataque de Hokuto Seikun
-Kama recibe 18 de daño
-Kama termina con HP:556/574
+Ishtar ataca a Kama
+Kama es resistente el ataque de Ishtar
+Kama recibe 13 de daño
+Kama termina con HP:172/574
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:172/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:272/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kama HP:172/574 MP:18/257
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kama
+Kama es resistente el ataque de Raphael
+Kama recibe 26 de daño
+Kama termina con HP:146/574
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:146/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:272/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 4
+----------------------------------------
+Itsuki lanza un ataque todo poderoso a Kama
+Kama recibe 99 de daño
+Kama termina con HP:47/574
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Tamaki (J1)
 ----------------------------------------
 Equipo de Tamaki (J1)
-A-Tamaki HP:912/999 MP:481/542
-B-Hecatoncheires HP:695/756 MP:26/151
-C-Inugami HP:153/214 MP:48/109
-D-Kama HP:556/574 MP:257/257
-Equipo de Itsuki (J2)
-A-Itsuki HP:0/1136 MP:413/413
+A-Tamaki HP:0/999 MP:303/542
 B-
-C-
-D-Hokuto Seikun HP:57/348 MP:297/337
+C-Kama HP:47/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:227/413
+B-Raphael HP:413/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
 ----------------------------------------
-Full Turns: 4
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Kama
-2-Hecatoncheires
-3-Inugami
-4-Tamaki
 ----------------------------------------
 Seleccione una acción para Kama
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kama
+1-Itsuki HP:908/1136 MP:227/413
+2-Raphael HP:413/623 MP:259/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:168/348 MP:257/337
+5-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Kama use
-1-Tetraja MP:15
-2-Madness Needle MP:11
-3-Diarahan MP:16
-4-Heaven's Bow MP:26
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Kama dispara a Hokuto Seikun
-Hokuto Seikun recibe 113 de daño
-Hokuto Seikun termina con HP:0/348
+Kama ataca a Raphael
+Raphael recibe 48 de daño
+Raphael termina con HP:365/623
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Tamaki (J1)
+Ronda de Itsuki (J2)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:47/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:908/1136 MP:227/413
+B-Raphael HP:365/623 MP:259/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Itsuki
+3-Hokuto Seikun
+4-Ishtar
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kama HP:47/574 MP:18/257
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Itsuki HP:908/1136 MP:227/413
+2-Raphael HP:365/623 MP:259/279
+3-Ishtar HP:55/258 MP:251/251
+4-Hokuto Seikun HP:168/348 MP:257/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael cura a Itsuki
+Itsuki recibe 1136 de HP
+Itsuki termina con HP:1136/1136
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tamaki (J1)
+A-Tamaki HP:0/999 MP:303/542
+B-
+C-Kama HP:47/574 MP:18/257
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:227/413
+B-Raphael HP:365/623 MP:243/279
+C-Ishtar HP:55/258 MP:251/251
+D-Hokuto Seikun HP:168/348 MP:257/337
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Itsuki
+2-Hokuto Seikun
+3-Ishtar
+4-Raphael
+----------------------------------------
+Seleccione una acción para Itsuki
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Itsuki use
+1-Ziodyne MP:14
+2-Mediarahan MP:40
+3-Damascus Claw MP:7
+4-Holy Wrath MP:45
+5-Floral Gust MP:35
+6-Mediarama MP:22
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Itsuki
+1-Kama HP:47/574 MP:18/257
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Itsuki lanza electricidad a Kama
+Kama recibe 114 de daño
+Kama termina con HP:0/574
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Itsuki (J2)

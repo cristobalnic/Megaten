@@ -428,7 +428,15 @@ Seleccione una acción para Pales
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:279/279
+2-Aniel HP:567/567 MP:255/255
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Aniel ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
@@ -437,7 +445,7 @@ Equipo de Nahobino (J1)
 A-Nahobino HP:453/453 MP:389/389
 B-Toubyou HP:175/175 MP:77/77
 C-Lailah HP:212/212 MP:205/205
-D-Pales HP:390/390 MP:378/378
+D-Aniel HP:567/567 MP:255/255
 Equipo de Makoto (J2)
 A-Makoto HP:597/597 MP:347/347
 B-Bishamonten HP:700/700 MP:139/139
@@ -451,7 +459,615 @@ Orden:
 1-Nahobino
 2-Lailah
 3-Toubyou
-4-Pales
+4-Aniel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Makoto HP:597/597 MP:347/347
+2-Bishamonten HP:700/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Makoto HP:597/597 MP:347/347
+2-Bishamonten HP:700/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Makoto HP:597/597 MP:347/347
+2-Bishamonten HP:700/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Nahobino dispara a Makoto
+Makoto es resistente el ataque de Nahobino
+Makoto recibe 41 de daño
+Makoto termina con HP:556/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Toubyou HP:175/175 MP:77/77
+C-Lailah HP:212/212 MP:205/205
+D-Aniel HP:567/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:556/597 MP:347/347
+B-Bishamonten HP:700/700 MP:139/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Lailah
+2-Toubyou
+3-Aniel
+4-Nahobino
+----------------------------------------
+Seleccione una acción para Lailah
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Lailah
+1-Makoto HP:556/597 MP:347/347
+2-Bishamonten HP:700/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Lailah ataca a Makoto
+Makoto es resistente el ataque de Lailah
+Makoto recibe 11 de daño
+Makoto termina con HP:545/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Toubyou HP:175/175 MP:77/77
+C-Lailah HP:212/212 MP:205/205
+D-Aniel HP:567/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:347/347
+B-Bishamonten HP:700/700 MP:139/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Toubyou
+2-Aniel
+3-Nahobino
+4-Lailah
+----------------------------------------
+Seleccione una acción para Toubyou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Toubyou use
+1-Zanma MP:8
+2-Pandemic Bomb MP:11
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Toubyou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pales HP:390/390 MP:378/378
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Toubyou
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Toubyou
+1-Makoto HP:545/597 MP:347/347
+2-Bishamonten HP:700/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Toubyou ataca a Bishamonten
+Bishamonten recibe 12 de daño
+Bishamonten termina con HP:688/700
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Toubyou HP:175/175 MP:77/77
+C-Lailah HP:212/212 MP:205/205
+D-Aniel HP:567/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:347/347
+B-Bishamonten HP:688/700 MP:139/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Nahobino
+3-Lailah
+4-Toubyou
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Toubyou HP:175/175 MP:77/77
+C-Lailah HP:212/212 MP:205/205
+D-Aniel HP:567/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:347/347
+B-Bishamonten HP:688/700 MP:139/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Lailah
+3-Toubyou
+4-Aniel
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nahobino
+1-Makoto HP:545/597 MP:347/347
+2-Bishamonten HP:688/700 MP:139/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Nahobino ataca a Bishamonten
+Bishamonten recibe 29 de daño
+Bishamonten termina con HP:659/700
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Toubyou HP:175/175 MP:77/77
+C-Lailah HP:212/212 MP:205/205
+D-Aniel HP:567/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:347/347
+B-Bishamonten HP:659/700 MP:139/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Makoto
+3-Nadja
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Bishamonten lanza un ataque todo poderoso a Nahobino
+Nahobino recibe 120 de daño
+Nahobino termina con HP:333/453
+Bishamonten lanza un ataque todo poderoso a Toubyou
+Toubyou recibe 120 de daño
+Toubyou termina con HP:55/175
+Bishamonten lanza un ataque todo poderoso a Lailah
+Lailah recibe 120 de daño
+Lailah termina con HP:92/212
+Bishamonten lanza un ataque todo poderoso a Aniel
+Aniel recibe 120 de daño
+Aniel termina con HP:447/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:333/453 MP:389/389
+B-Toubyou HP:55/175 MP:77/77
+C-Lailah HP:92/212 MP:205/205
+D-Aniel HP:447/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:347/347
+B-Bishamonten HP:659/700 MP:99/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Nadja
+3-Bishamonten
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Invitation MP:45
+2-Hades Blast MP:32
+3-Hamaon MP:10
+4-Heat Wave MP:11
+5-Serpent of Sheol MP:45
+6-Holy Wrath MP:45
+7-Riot Gun MP:30
+8-Cancelar
+INPUT: 6
+----------------------------------------
+Makoto lanza un ataque todo poderoso a Nahobino
+Nahobino recibe 100 de daño
+Nahobino termina con HP:233/453
+Makoto lanza un ataque todo poderoso a Toubyou
+Toubyou recibe 100 de daño
+Toubyou termina con HP:0/175
+Makoto lanza un ataque todo poderoso a Lailah
+Lailah recibe 100 de daño
+Lailah termina con HP:0/212
+Makoto lanza un ataque todo poderoso a Aniel
+Aniel recibe 100 de daño
+Aniel termina con HP:347/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:233/453 MP:389/389
+B-
+C-
+D-Aniel HP:347/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:99/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nadja
+2-Bishamonten
+3-Makoto
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Nahobino HP:233/453 MP:389/389
+2-Aniel HP:347/567 MP:255/255
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:233/453 MP:389/389
+B-
+C-
+D-Aniel HP:347/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:99/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Makoto
+3-Nadja
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Bishamonten ataca a Nahobino
+Nahobino recibe 131 de daño
+Nahobino termina con HP:102/453
+Bishamonten ataca a Aniel
+Aniel recibe 131 de daño
+Aniel termina con HP:216/567
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:102/453 MP:389/389
+B-
+C-
+D-Aniel HP:216/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:67/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Nahobino
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pales HP:390/390 MP:378/378
+2-Raphael HP:623/623 MP:279/279
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:102/453 MP:389/389
+B-
+C-
+D-Raphael HP:623/623 MP:279/279
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:67/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Raphael
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Pales HP:390/390 MP:378/378
+2-Aniel HP:216/567 MP:255/255
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Vacío (Puesto 2)
+2-Vacío (Puesto 3)
+3-Raphael HP:623/623 MP:279/279 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Aniel ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:102/453 MP:389/389
+B-
+C-
+D-Aniel HP:216/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:67/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+2-Nahobino
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:102/453 MP:389/389
+B-
+C-
+D-Aniel HP:216/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:67/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nahobino
+2-Aniel
 ----------------------------------------
 Seleccione una acción para Nahobino
 1: Atacar
@@ -470,164 +1086,14 @@ Seleccione una habilidad para que Nahobino use
 5-Energy Drain MP:10
 6-Blood Ritual MP:25
 7-Cancelar
-INPUT: 6
-----------------------------------------
-El ataque de Nahobino ha aumentado
-La defensa de Nahobino ha aumentado
-Nahobino termina con HP:1/453
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Toubyou HP:175/175 MP:77/77
-C-Lailah HP:212/212 MP:205/205
-D-Pales HP:390/390 MP:378/378
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:700/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lailah
-2-Toubyou
-3-Pales
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Lailah
-1-Makoto HP:597/597 MP:347/347
-2-Bishamonten HP:700/700 MP:139/139
+Seleccione un objetivo para Nahobino
+1-Makoto HP:545/597 MP:302/347
+2-Bishamonten HP:659/700 MP:67/139
 3-Nadja HP:399/399 MP:179/179
 4-Cancelar
-INPUT: 2
-----------------------------------------
-Lailah ataca a Bishamonten
-Bishamonten recibe 22 de daño
-Bishamonten termina con HP:678/700
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Toubyou HP:175/175 MP:77/77
-C-Lailah HP:212/212 MP:205/205
-D-Pales HP:390/390 MP:378/378
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Toubyou
-2-Pales
-3-Nahobino
-4-Lailah
-----------------------------------------
-Seleccione una acción para Toubyou
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Aniel HP:567/567 MP:255/255
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Aniel ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:212/212 MP:205/205
-D-Pales HP:390/390 MP:378/378
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pales
-2-Nahobino
-3-Lailah
-4-Aniel
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Raphael HP:623/623 MP:279/279
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:212/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Lailah
-3-Aniel
-4-Raphael
+INPUT: 4
 ----------------------------------------
 Seleccione una acción para Nahobino
 1: Atacar
@@ -638,49 +1104,19 @@ Seleccione una acción para Nahobino
 6: Rendirse
 INPUT: 5
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:212/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Lailah
-2-Aniel
-3-Raphael
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Makoto (J2)
 ----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:212/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
+A-Nahobino HP:102/453 MP:389/389
+B-
+C-
+D-Aniel HP:216/567 MP:255/255
 Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:67/139
 C-Nadja HP:399/399 MP:179/179
 D-
 ----------------------------------------
@@ -697,24 +1133,39 @@ Seleccione una acción para Bishamonten
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Bishamonten ataca a Nahobino
+Nahobino recibe 131 de daño
+Nahobino termina con HP:0/453
+Bishamonten ataca a Aniel
+Aniel recibe 131 de daño
+Aniel termina con HP:85/567
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:212/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
+A-Nahobino HP:0/453 MP:389/389
+B-
+C-
+D-Aniel HP:85/567 MP:255/255
 Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:347/347
-B-Bishamonten HP:678/700 MP:139/139
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:35/139
 C-Nadja HP:399/399 MP:179/179
 D-
 ----------------------------------------
 Full Turns: 2
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Makoto
@@ -733,6 +1184,229 @@ INPUT: 4
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Aniel HP:85/567 MP:255/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Aniel
+Aniel recibe 38 de daño
+Aniel termina con HP:47/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:0/453 MP:389/389
+B-
+C-
+D-Aniel HP:47/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:35/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nadja
+2-Bishamonten
+3-Makoto
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Nadja use
+1-Pulinpa MP:5
+2-Concentrate MP:11
+3-Samarecarm MP:40
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nadja
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nadja
+1-Aniel HP:47/567 MP:255/255
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nadja ataca a Aniel
+Aniel recibe 32 de daño
+Aniel termina con HP:15/567
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:0/453 MP:389/389
+B-
+C-
+D-Aniel HP:15/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:659/700 MP:35/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Aniel
+----------------------------------------
+Seleccione una acción para Aniel
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Aniel
+1-Makoto HP:545/597 MP:302/347
+2-Bishamonten HP:659/700 MP:35/139
+3-Nadja HP:399/399 MP:179/179
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Aniel ataca a Bishamonten
+Bishamonten recibe 47 de daño
+Bishamonten termina con HP:612/700
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:0/453 MP:389/389
+B-
+C-
+D-Aniel HP:15/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:612/700 MP:35/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Makoto
+3-Nadja
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Aniel HP:15/567 MP:255/255
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:0/453 MP:389/389
+B-
+C-
+D-Aniel HP:15/567 MP:255/255
+Equipo de Makoto (J2)
+A-Makoto HP:545/597 MP:302/347
+B-Bishamonten HP:612/700 MP:35/139
+C-Nadja HP:399/399 MP:179/179
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Nadja
+3-Bishamonten
 ----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
@@ -755,2822 +1429,7 @@ Seleccione una habilidad para que Makoto use
 INPUT: 7
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Nahobino HP:1/453 MP:364/389
-2-Aniel HP:567/567 MP:255/255
-3-Lailah HP:212/212 MP:205/205
-4-Raphael HP:623/623 MP:279/279
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto dispara a Lailah
-Lailah recibe 148 de daño
-Lailah termina con HP:64/212
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:317/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:179/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nadja
-2-Bishamonten
-3-Makoto
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nadja use
-1-Pulinpa MP:5
-2-Concentrate MP:11
-3-Samarecarm MP:40
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nadja ha cargado su siguiente ataque mágico a más del doble
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:317/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:168/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-3-Nadja
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:317/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:168/179
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Nadja
-3-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:597/597 MP:317/347
-B-Bishamonten HP:678/700 MP:139/139
-C-Nadja HP:399/399 MP:168/179
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Nahobino
-4-Lailah
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:597/597 MP:317/347
-2-Bishamonten HP:678/700 MP:139/139
-3-Nadja HP:399/399 MP:168/179
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 61 HP de Makoto
-Makoto termina con HP:536/597
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:256/347
-Raphael lanza un ataque todo poderoso a Bishamonten
-El ataque drena 61 HP de Bishamonten
-Bishamonten termina con HP:617/700
-El ataque drena 61 MP de Bishamonten
-Bishamonten termina con MP:78/139
-Raphael lanza un ataque todo poderoso a Nadja
-El ataque drena 61 HP de Nadja
-Nadja termina con HP:338/399
-Raphael termina con HP:623/623
-El ataque drena 61 MP de Nadja
-Nadja termina con MP:107/179
-Raphael termina con MP:279/279
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:536/597 MP:256/347
-B-Bishamonten HP:617/700 MP:78/139
-C-Nadja HP:338/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aniel
-2-Nahobino
-3-Lailah
-4-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Makoto HP:536/597 MP:256/347
-2-Bishamonten HP:617/700 MP:78/139
-3-Nadja HP:338/399 MP:107/179
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Aniel ataca a Bishamonten
-Bishamonten recibe 47 de daño
-Bishamonten termina con HP:570/700
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:364/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:536/597 MP:256/347
-B-Bishamonten HP:570/700 MP:78/139
-C-Nadja HP:338/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Lailah
-3-Raphael
-4-Aniel
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Spirit Drain MP:5
-2-Judgement Light MP:45
-3-Holy Wrath MP:45
-4-Megaton Press MP:17
-5-Energy Drain MP:10
-6-Cancelar
-INPUT: 3
-----------------------------------------
-Nahobino lanza un ataque todo poderoso a Makoto
-Makoto recibe 166 de daño
-Makoto termina con HP:370/597
-Nahobino lanza un ataque todo poderoso a Bishamonten
-Bishamonten recibe 166 de daño
-Bishamonten termina con HP:404/700
-Nahobino lanza un ataque todo poderoso a Nadja
-Nadja recibe 166 de daño
-Nadja termina con HP:172/399
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:319/389
-B-Aniel HP:567/567 MP:255/255
-C-Lailah HP:64/212 MP:205/205
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:172/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lailah
-2-Raphael
-3-Aniel
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lailah use
-1-Recarm MP:20
-2-Mahama MP:18
-3-Hamaon MP:10
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Lailah
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Lailah use
-1-Recarm MP:20
-2-Mahama MP:18
-3-Hamaon MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Pales HP:390/390 MP:378/378
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Pales ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:319/389
-B-Aniel HP:567/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:279/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:172/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Nahobino
-4-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:370/597 MP:256/347
-2-Bishamonten HP:404/700 MP:78/139
-3-Nadja HP:172/399 MP:107/179
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Raphael ataca a Nadja
-Nadja recibe 162 de daño
-Nadja termina con HP:10/399
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:319/389
-B-Aniel HP:567/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-3-Nadja
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Nahobino HP:1/453 MP:319/389
-2-Aniel HP:567/567 MP:255/255
-3-Pales HP:390/390 MP:378/378
-4-Raphael HP:623/623 MP:259/279
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Luster Candy MP:50
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:1/453 MP:319/389
-B-Aniel HP:567/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Nadja
-3-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Nahobino HP:1/453 MP:319/389
-2-Aniel HP:567/567 MP:255/255
-3-Pales HP:390/390 MP:378/378
-4-Raphael HP:623/623 MP:259/279
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Nahobino
-Nahobino recibe 33 de daño
-Nahobino termina con HP:0/453
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:567/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nadja
-2-Bishamonten
-3-Makoto
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nadja
-1-Aniel HP:567/567 MP:255/255
-2-Pales HP:390/390 MP:378/378
-3-Raphael HP:623/623 MP:259/279
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Nadja ataca a Aniel
-Aniel recibe 32 de daño
-Aniel termina con HP:535/567
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-3-Nadja
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Nadja
-3-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Aniel HP:535/567 MP:255/255
-2-Pales HP:390/390 MP:378/378
-3-Raphael HP:623/623 MP:259/279
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto ataca a Pales
-Pales recibe 38 de daño
-Pales termina con HP:352/390
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:352/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:352/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:352/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pales
-2-Raphael
-3-Aniel
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:352/390 MP:378/378
-D-Raphael HP:623/623 MP:259/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:404/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:370/597 MP:256/347
-2-Bishamonten HP:404/700 MP:78/139
-3-Nadja HP:10/399 MP:107/179
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Raphael ataca a Bishamonten
-Bishamonten recibe 162 de daño
-Bishamonten termina con HP:242/700
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:255/255
-C-Pales HP:352/390 MP:378/378
-D-Raphael HP:623/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:242/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Makoto HP:370/597 MP:256/347
-2-Bishamonten HP:242/700 MP:78/139
-3-Nadja HP:10/399 MP:107/179
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Aniel use
-1-Ziodyne MP:14
-2-Diarama MP:9
-3-Pulinpa MP:5
-4-Hamaon MP:10
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Aniel HP:535/567 MP:255/255
-2-Pales HP:352/390 MP:378/378
-3-Raphael HP:623/623 MP:239/279
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Aniel cura a Pales
-Pales recibe 195 de HP
-Pales termina con HP:390/390
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:535/567 MP:246/255
-C-Pales HP:390/390 MP:378/378
-D-Raphael HP:623/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:242/700 MP:78/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-3-Nadja
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Luster Candy MP:50
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Luster Candy MP:50
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Bishamonten ataca a Aniel
-Aniel recibe 131 de daño
-Aniel termina con HP:404/567
-Bishamonten ataca a Pales
-Pales recibe 131 de daño
-Pales termina con HP:259/390
-Bishamonten ataca a Raphael
-Raphael recibe 131 de daño
-Raphael termina con HP:492/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:404/567 MP:246/255
-C-Pales HP:259/390 MP:378/378
-D-Raphael HP:492/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:256/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Nadja
-3-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Invitation MP:45
-2-Hades Blast MP:32
-3-Hamaon MP:10
-4-Heat Wave MP:11
-5-Serpent of Sheol MP:45
-6-Holy Wrath MP:45
-7-Riot Gun MP:30
-8-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto ataca a Aniel
-Aniel recibe 112 de daño
-Aniel termina con HP:292/567
-Makoto ataca a Pales
-Pales recibe 112 de daño
-Pales termina con HP:147/390
-Makoto ataca a Raphael
-Raphael recibe 112 de daño
-Raphael termina con HP:380/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nadja
-2-Bishamonten
-3-Makoto
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nadja
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-3-Nadja
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Aniel HP:292/567 MP:246/255
-2-Pales HP:147/390 MP:378/378
-3-Raphael HP:380/623 MP:239/279
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:370/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Aniel use
-1-Ziodyne MP:14
-2-Diarama MP:9
-3-Pulinpa MP:5
-4-Hamaon MP:10
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Makoto HP:370/597 MP:224/347
-2-Bishamonten HP:242/700 MP:46/139
-3-Nadja HP:10/399 MP:107/179
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Aniel ataca a Makoto
-Makoto es resistente el ataque de Aniel
-Makoto recibe 23 de daño
-Makoto termina con HP:347/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pales
-2-Raphael
-3-Aniel
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-Nadja HP:10/399 MP:107/179
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Makoto HP:347/597 MP:224/347
-2-Bishamonten HP:242/700 MP:46/139
-3-Nadja HP:10/399 MP:107/179
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Aniel ataca a Nadja
-Nadja recibe 47 de daño
-Nadja termina con HP:0/399
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:380/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Aniel HP:292/567 MP:246/255
-2-Pales HP:147/390 MP:378/378
-3-Raphael HP:380/623 MP:239/279
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:342/623
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:147/390 MP:378/378
-D-Raphael HP:342/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Aniel HP:292/567 MP:246/255
-2-Pales HP:147/390 MP:378/378
-3-Raphael HP:342/623 MP:239/279
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Bishamonten ataca a Pales
-Pales recibe 53 de daño
-Pales termina con HP:94/390
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:94/390 MP:378/378
-D-Raphael HP:342/623 MP:239/279
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Lailah HP:64/212 MP:205/205
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Lailah ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:64/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Lailah
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:64/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:242/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pales
-2-Lailah
-3-Aniel
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pales
-1-Makoto HP:347/597 MP:224/347
-2-Bishamonten HP:242/700 MP:46/139
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Pales ataca a Bishamonten
-Bishamonten recibe 41 de daño
-Bishamonten termina con HP:201/700
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:64/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Lailah
-2-Aniel
-3-Pales
-----------------------------------------
-Seleccione una acción para Lailah
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:64/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Aniel
-2-Pales
-3-Lailah
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Raphael HP:342/623 MP:239/279
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:64/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Raphael HP:342/623 MP:239/279
-2-Pales HP:94/390 MP:378/378
-3-Lailah HP:64/212 MP:205/205
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Bishamonten ataca a Lailah
-Lailah recibe 53 de daño
-Lailah termina con HP:11/212
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:11/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:342/623 MP:239/279
-2-Pales HP:94/390 MP:378/378
-3-Lailah HP:11/212 MP:205/205
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:342/623 MP:239/279
-2-Pales HP:94/390 MP:378/378
-3-Lailah HP:11/212 MP:205/205
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-Lailah HP:11/212 MP:205/205
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Raphael HP:342/623 MP:239/279
-2-Pales HP:94/390 MP:378/378
-3-Lailah HP:11/212 MP:205/205
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Bishamonten ataca a Lailah
-Lailah recibe 53 de daño
-Lailah termina con HP:0/212
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:201/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pales
-2-Raphael
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pales
-1-Makoto HP:347/597 MP:224/347
-2-Bishamonten HP:201/700 MP:46/139
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Pales ataca a Bishamonten
-Bishamonten recibe 41 de daño
-Bishamonten termina con HP:160/700
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:342/623 MP:239/279
-C-Pales HP:94/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Aniel HP:292/567 MP:246/255
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Raphael HP:342/623 MP:239/279
-2-Pales HP:94/390 MP:378/378
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael cura a Raphael
-Raphael recibe 623 de HP
-Raphael termina con HP:623/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:623/623 MP:223/279
-C-Pales HP:94/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Raphael HP:623/623 MP:223/279
-2-Pales HP:94/390 MP:378/378
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Bishamonten ataca a Pales
-Pales recibe 53 de daño
-Pales termina con HP:41/390
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:623/623 MP:223/279
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:223/279
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto dispara a Raphael
-Raphael recibe 57 de daño
-Raphael termina con HP:566/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:566/623 MP:223/279
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Aniel HP:292/567 MP:246/255
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Aniel ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Pales
-2-Aniel
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Pales use
-1-Mamudoon MP:30
-2-Pandemic Bomb MP:11
-3-Dekaja MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Pales
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Raphael HP:566/623 MP:223/279
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Aniel HP:292/567 MP:246/255
-C-Raphael HP:566/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aniel
-2-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Aniel use
-1-Ziodyne MP:14
-2-Diarama MP:9
-3-Pulinpa MP:5
-4-Hamaon MP:10
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Aniel use
-1-Ziodyne MP:14
-2-Diarama MP:9
-3-Pulinpa MP:5
-4-Hamaon MP:10
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Aniel
-1-Aniel HP:292/567 MP:246/255
-2-Raphael HP:566/623 MP:223/279
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:175/175 MP:77/77
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Toubyou ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:175/175 MP:77/77
-C-Raphael HP:566/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Toubyou
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:347/597 MP:224/347
-2-Bishamonten HP:160/700 MP:46/139
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:347/597 MP:224/347
-2-Bishamonten HP:160/700 MP:46/139
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:175/175 MP:77/77
-C-Raphael HP:566/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:46/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-War Cry MP:45
-2-Hades Blast MP:32
-3-Megidola MP:40
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Bishamonten lanza un ataque todo poderoso a Toubyou
-Toubyou recibe 120 de daño
-Toubyou termina con HP:55/175
-Bishamonten lanza un ataque todo poderoso a Raphael
-Raphael recibe 120 de daño
-Raphael termina con HP:446/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Raphael HP:446/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Raphael HP:446/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Raphael HP:446/623 MP:223/279
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Toubyou
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Pales HP:41/390 MP:378/378
-2-Aniel HP:292/567 MP:246/255
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Aniel ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Aniel HP:292/567 MP:246/255
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Toubyou
-2-Aniel
-----------------------------------------
-Seleccione una acción para Toubyou
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Pales HP:41/390 MP:378/378
-2-Raphael HP:446/623 MP:223/279
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:446/623 MP:223/279
-C-Aniel HP:292/567 MP:246/255
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Aniel
-2-Raphael
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:55/175 MP:77/77
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Aniel
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:55/175 MP:77/77
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Pales ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Raphael HP:446/623 MP:223/279
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Pales
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Toubyou HP:55/175 MP:77/77
-2-Aniel HP:292/567 MP:246/255
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Toubyou ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Bishamonten use
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Toubyou HP:55/175 MP:77/77
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-Pales HP:41/390 MP:378/378
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Toubyou HP:55/175 MP:77/77
-2-Pales HP:41/390 MP:378/378
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto dispara a Pales
-Pales recibe 57 de daño
-Pales termina con HP:0/390
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Bishamonten
-2-Makoto
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Bishamonten
-1-Toubyou HP:55/175 MP:77/77
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Bishamonten
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:0/453 MP:319/389
-B-Toubyou HP:55/175 MP:77/77
-C-
-D-
-Equipo de Makoto (J2)
-A-Makoto HP:347/597 MP:224/347
-B-Bishamonten HP:160/700 MP:6/139
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Bishamonten
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Invitation MP:45
-2-Hades Blast MP:32
-3-Hamaon MP:10
-4-Heat Wave MP:11
-5-Serpent of Sheol MP:45
-6-Holy Wrath MP:45
-7-Riot Gun MP:30
-8-Cancelar
-INPUT: 8
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Toubyou HP:55/175 MP:77/77
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Toubyou HP:55/175 MP:77/77
+1-Aniel HP:15/567 MP:255/255
 2-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -3584,13 +1443,13 @@ Seleccione una acción para Makoto
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Toubyou HP:55/175 MP:77/77
+1-Aniel HP:15/567 MP:255/255
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Makoto dispara a Toubyou
-Toubyou recibe 57 de daño
-Toubyou termina con HP:0/175
+Makoto dispara a Aniel
+Aniel recibe 57 de daño
+Aniel termina con HP:0/567
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

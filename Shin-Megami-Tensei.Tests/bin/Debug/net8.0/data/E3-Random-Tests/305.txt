@@ -427,126 +427,159 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 5
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Mudoon MP:10
+2-Great Logos MP:70
+3-Mortal Jihad MP:13
+4-Agi MP:5
+5-Hades Blast MP:32
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Mudoon MP:10
+2-Great Logos MP:70
+3-Mortal Jihad MP:13
+4-Agi MP:5
+5-Hades Blast MP:32
+6-Cancelar
+INPUT: 6
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Mudoon MP:10
+2-Great Logos MP:70
+3-Mortal Jihad MP:13
+4-Agi MP:5
+5-Hades Blast MP:32
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:760/760 MP:398/398
+2-Raphael HP:623/623 MP:279/279
+3-Mou-Ryo HP:238/238 MP:107/107
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto ataca a Mou-Ryo
+Mou-Ryo recibe 122 de daño
+Mou-Ryo termina con HP:116/238
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:347/347
+A-Makoto HP:597/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
 A-Kei HP:760/760 MP:398/398
 B-Raphael HP:623/623 MP:279/279
-C-Mou-Ryo HP:238/238 MP:107/107
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
+Full Turns: 3
+Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Makoto
+1-Raphael
+2-Mou-Ryo
+3-Kei
 ----------------------------------------
-Seleccione una acción para Makoto
+Seleccione una acción para Raphael
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:760/760 MP:398/398
-2-Raphael HP:623/623 MP:279/279
-3-Mou-Ryo HP:238/238 MP:107/107
-4-Cancelar
-INPUT: 4
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
 ----------------------------------------
-Seleccione una acción para Makoto
+Seleccione un objetivo para Raphael
+1-Makoto HP:597/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:760/760 MP:398/398
-2-Raphael HP:623/623 MP:279/279
-3-Mou-Ryo HP:238/238 MP:107/107
-4-Cancelar
+Seleccione un objetivo para Raphael
+1-Makoto HP:597/597 MP:334/347
+2-Cancelar
 INPUT: 1
 ----------------------------------------
-Makoto ataca a Kei
-Kei es resistente el ataque de Makoto
-Kei recibe 19 de daño
-Kei termina con HP:741/760
+Raphael ataca a Makoto
+Makoto es resistente el ataque de Raphael
+Makoto recibe 26 de daño
+Makoto termina con HP:571/597
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:347/347
+A-Makoto HP:571/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
+A-Kei HP:760/760 MP:398/398
 B-Raphael HP:623/623 MP:279/279
-C-Mou-Ryo HP:238/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:597/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 81 de daño
-Makoto termina con HP:516/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:516/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:238/238 MP:107/107
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 2
@@ -569,624 +602,40 @@ Seleccione una habilidad para que Mou-Ryo use
 2-Spirit Drain MP:5
 3-Pulinpa MP:5
 4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:516/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Mou-Ryo ataca con oscuridad a Makoto
-Mou-Ryo ha fallado el ataque
-Makoto termina con HP:516/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:516/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:238/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Raphael
-3-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:516/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:516/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:516/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:238/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:516/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:490/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:490/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:238/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:741/760 MP:398/398
-2-Raphael HP:623/623 MP:259/279
-3-Mou-Ryo HP:238/238 MP:101/107
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Makoto dispara a Mou-Ryo
-Mou-Ryo recibe 57 de daño
-Mou-Ryo termina con HP:181/238
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:490/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:490/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:490/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
 ----------------------------------------
 Seleccione una acción para Mou-Ryo
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:490/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:398/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Raphael
-3-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Ragnarok MP:35
-2-Megido MP:25
-3-Nihil Claw MP:11
-4-Megidola MP:40
-5-Ice Breath MP:21
-6-Die for Me! MP:45
-7-Thunder Reign MP:22
-8-Cancelar
-INPUT: 6
-----------------------------------------
-Kei ataca con oscuridad a Makoto
-Kei ha fallado el ataque
-Makoto termina con HP:490/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:490/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:490/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:490/597 MP:347/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:464/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:464/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:741/760 MP:353/398
-2-Raphael HP:623/623 MP:259/279
-3-Mou-Ryo HP:181/238 MP:101/107
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:585/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:464/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:464/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
 ----------------------------------------
 Seleccione una acción para Mou-Ryo
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 3
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:464/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Raphael
-3-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:464/597 MP:347/347
-2-Cancelar
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Kei dispara a Makoto
-Makoto es resistente el ataque de Kei
-Makoto recibe 7 de daño
-Makoto termina con HP:457/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:457/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
+Seleccione una acción para Mou-Ryo
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
+INPUT: 3
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:457/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Mou-Ryo
 1: Atacar
@@ -1203,143 +652,7 @@ Seleccione una habilidad para que Mou-Ryo use
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:457/597 MP:347/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:457/597 MP:347/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:741/760 MP:353/398
-2-Raphael HP:585/623 MP:259/279
-3-Mou-Ryo HP:181/238 MP:101/107
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto lanza fuego a Kei
-Kei es resistente el ataque de Makoto
-Kei recibe 35 de daño
-Kei termina con HP:706/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:457/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:706/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:457/597 MP:342/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:457/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:706/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:457/597 MP:342/347
+1-Makoto HP:571/597 MP:334/347
 2-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -1351,30 +664,30 @@ Seleccione una acción para Mou-Ryo
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:457/597 MP:342/347
+1-Makoto HP:571/597 MP:334/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Mou-Ryo ataca a Makoto
 Makoto es resistente el ataque de Mou-Ryo
 Makoto recibe 9 de daño
-Makoto termina con HP:448/597
+Makoto termina con HP:562/597
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:342/347
+A-Makoto HP:562/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:706/760 MP:353/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -1392,414 +705,29 @@ Seleccione una acción para Kei
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Kei
-1-Makoto HP:448/597 MP:342/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:448/597 MP:342/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:448/597 MP:342/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Kei
-1-Makoto HP:448/597 MP:342/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Ragnarok MP:35
-2-Megido MP:25
-3-Nihil Claw MP:11
-4-Megidola MP:40
-5-Ice Breath MP:21
-6-Die for Me! MP:45
-7-Thunder Reign MP:22
-8-Cancelar
-INPUT: 6
-----------------------------------------
-Kei ataca con oscuridad a Makoto
-Kei ha fallado el ataque
-Makoto termina con HP:448/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:706/760 MP:308/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Kei HP:706/760 MP:308/398
-2-Raphael HP:585/623 MP:259/279
-3-Mou-Ryo HP:181/238 MP:101/107
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael cura a Kei
-Kei recibe 760 de HP
-Kei termina con HP:760/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:760/760 MP:308/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:760/760 MP:308/398
-2-Raphael HP:585/623 MP:243/279
-3-Mou-Ryo HP:181/238 MP:101/107
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Kei
-Kei es resistente el ataque de Makoto
-Kei recibe 19 de daño
-Kei termina con HP:741/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:308/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:342/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:308/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:448/597 MP:342/347
+1-Makoto HP:562/597 MP:334/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Mou-Ryo lanza un ataque todo poderoso a Makoto
-El ataque drena 28 MP de Makoto
-Makoto termina con MP:314/347
-Mou-Ryo termina con MP:107/107
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:448/597 MP:314/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:308/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kei
-2-Raphael
-3-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Kei
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Kei use
-1-Ragnarok MP:35
-2-Megido MP:25
-3-Nihil Claw MP:11
-4-Megidola MP:40
-5-Ice Breath MP:21
-6-Die for Me! MP:45
-7-Thunder Reign MP:22
-8-Cancelar
-INPUT: 5
-----------------------------------------
-Kei lanza hielo a Makoto
+Kei ataca a Makoto
 Makoto es resistente el ataque de Kei
-Makoto recibe 33 de daño
-Kei lanza hielo a Makoto
-Makoto es resistente el ataque de Kei
-Makoto recibe 33 de daño
-Kei lanza hielo a Makoto
-Makoto es resistente el ataque de Kei
-Makoto recibe 33 de daño
-Makoto termina con HP:349/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:349/597 MP:314/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:287/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-3-Kei
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:349/597 MP:314/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:349/597 MP:314/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:741/760 MP:287/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Kei
-3-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:349/597 MP:314/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:349/597 MP:314/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Mou-Ryo ataca a Makoto
-Makoto es resistente el ataque de Mou-Ryo
 Makoto recibe 9 de daño
-Makoto termina con HP:340/597
+Makoto termina con HP:553/597
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:340/597 MP:314/347
+A-Makoto HP:553/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:741/760 MP:287/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 1
@@ -1815,21 +743,12 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 4
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Kei HP:741/760 MP:287/398
-2-Raphael HP:585/623 MP:243/279
-3-Mou-Ryo HP:181/238 MP:107/107
+1-Kei HP:760/760 MP:398/398
+2-Raphael HP:623/623 MP:279/279
+3-Mou-Ryo HP:116/238 MP:107/107
 4-Cancelar
 INPUT: 4
 ----------------------------------------
@@ -1840,1412 +759,27 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
+INPUT: 4
 ----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
 Seleccione un objetivo para Makoto
-1-Kei HP:741/760 MP:287/398
-2-Raphael HP:585/623 MP:243/279
-3-Mou-Ryo HP:181/238 MP:107/107
+1-Kei HP:760/760 MP:398/398
+2-Raphael HP:623/623 MP:279/279
+3-Mou-Ryo HP:116/238 MP:107/107
 4-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca con oscuridad a Kei
-Kei es resistente el ataque de Makoto
-Kei ha sido eliminado
-Kei termina con HP:0/760
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:340/597 MP:304/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:243/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 61 HP de Makoto
-Makoto termina con HP:279/597
-Raphael termina con HP:623/623
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:243/347
-Raphael termina con MP:259/279
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:279/597 MP:243/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Raphael HP:623/623 MP:259/279
-2-Mou-Ryo HP:181/238 MP:107/107
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:279/597 MP:243/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:181/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:259/279
-2-Mou-Ryo HP:181/238 MP:107/107
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:259/279
-2-Mou-Ryo HP:181/238 MP:107/107
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto dispara a Mou-Ryo
-Mou-Ryo recibe 57 de daño
-Mou-Ryo termina con HP:124/238
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:259/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:585/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:279/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:279/597 MP:243/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:279/597 MP:243/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:253/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:253/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:253/597 MP:243/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:253/597 MP:243/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:253/597 MP:243/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Raphael HP:585/623 MP:259/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 61 HP de Makoto
-Makoto termina con HP:192/597
-Raphael termina con HP:623/623
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:182/347
-Raphael termina con MP:275/279
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:275/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:585/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:585/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:585/623 MP:275/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:547/623
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:547/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:547/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:547/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:547/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:547/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:547/623 MP:275/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:509/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:509/623 MP:275/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Raphael HP:509/623 MP:275/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael cura a Raphael
-Raphael recibe 623 de HP
-Raphael termina con HP:623/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:192/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:192/597 MP:182/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:166/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:166/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:623/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:623/623 MP:259/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
 ----------------------------------------
 Makoto dispara a Raphael
 Raphael recibe 57 de daño
@@ -3257,22 +791,34 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Kei (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:166/597 MP:182/347
+A-Makoto HP:553/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:566/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Raphael
 2-Mou-Ryo
+3-Kei
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -3282,435 +828,36 @@ Seleccione una acción para Raphael
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Raphael
-1-Makoto HP:166/597 MP:182/347
+1-Makoto HP:553/597 MP:334/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Raphael ataca a Makoto
 Makoto es resistente el ataque de Raphael
 Makoto recibe 26 de daño
-Makoto termina con HP:140/597
+Makoto termina con HP:527/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:140/597 MP:182/347
+A-Makoto HP:527/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:566/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:140/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:566/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:140/597 MP:182/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:114/597
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:114/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:566/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:566/623 MP:259/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Raphael
-Raphael recibe 38 de daño
-Raphael termina con HP:528/623
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:114/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:114/597 MP:182/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:114/597 MP:182/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ataca a Makoto
-Makoto es resistente el ataque de Raphael
-Makoto recibe 26 de daño
-Makoto termina con HP:88/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
 1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:182/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:124/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:528/623 MP:259/279
-2-Mou-Ryo HP:124/238 MP:107/107
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto lanza fuego a Mou-Ryo
-Mou-Ryo recibe 70 de daño
-Mou-Ryo termina con HP:54/238
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:177/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:54/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:88/597 MP:177/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:54/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
+2-Kei
+3-Raphael
 ----------------------------------------
 Seleccione una acción para Mou-Ryo
 1: Atacar
@@ -3720,88 +867,69 @@ Seleccione una acción para Mou-Ryo
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:88/597 MP:177/347
+1-Makoto HP:527/597 MP:334/347
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Mou-Ryo ataca a Makoto
 Makoto es resistente el ataque de Mou-Ryo
 Makoto recibe 9 de daño
-Makoto termina con HP:79/597
+Makoto termina con HP:518/597
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:79/597 MP:177/347
+A-Makoto HP:518/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:54/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Raphael
-2-Mou-Ryo
+1-Kei
+2-Raphael
+3-Mou-Ryo
 ----------------------------------------
-Seleccione una acción para Raphael
+Seleccione una acción para Kei
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Makoto HP:79/597 MP:177/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:79/597 MP:177/347
+A-Makoto HP:518/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:54/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Mou-Ryo
-2-Raphael
+1-Raphael
+2-Mou-Ryo
+3-Kei
 ----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
+Seleccione una acción para Raphael
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -3814,14 +942,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:79/597 MP:177/347
+A-Makoto HP:518/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:54/238 MP:107/107
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 1
@@ -3837,17 +965,19 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:528/623 MP:259/279
-2-Mou-Ryo HP:54/238 MP:107/107
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Makoto ataca a Mou-Ryo
-Mou-Ryo recibe 38 de daño
-Mou-Ryo termina con HP:16/238
+Seleccione un objetivo para Makoto
+1-Kei HP:760/760 MP:398/398
+2-Raphael HP:566/623 MP:279/279
+3-Mou-Ryo HP:116/238 MP:107/107
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto dispara a Kei
+Kei es resistente el ataque de Makoto
+Kei recibe 28 de daño
+Kei termina con HP:732/760
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -3855,574 +985,249 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Kei (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:79/597 MP:177/347
+A-Makoto HP:518/597 MP:334/347
 B-
 C-
 D-
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:528/623 MP:259/279
-C-Mou-Ryo HP:16/238 MP:107/107
+A-Kei HP:732/760 MP:398/398
+B-Raphael HP:566/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Mou-Ryo
+3-Kei
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:732/760 MP:398/398
+2-Raphael HP:566/623 MP:279/279
+3-Mou-Ryo HP:116/238 MP:107/107
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael cura a Kei
+Kei recibe 760 de HP
+Kei termina con HP:760/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:518/597 MP:334/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:263/279
+C-Mou-Ryo HP:116/238 MP:107/107
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
+1-Mou-Ryo
+2-Kei
+3-Raphael
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mou-Ryo use
+1-Mudo MP:6
+2-Spirit Drain MP:5
+3-Pulinpa MP:5
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mou-Ryo use
+1-Mudo MP:6
+2-Spirit Drain MP:5
+3-Pulinpa MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Mou-Ryo
+1-Makoto HP:518/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Mou-Ryo
+1-Makoto HP:518/597 MP:334/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Mou-Ryo ataca a Makoto
+Makoto es resistente el ataque de Mou-Ryo
+Makoto recibe 9 de daño
+Makoto termina con HP:509/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:509/597 MP:334/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:263/279
+C-Mou-Ryo HP:116/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Raphael
+3-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:509/597 MP:334/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:509/597 MP:334/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:566/623 MP:263/279
+C-Mou-Ryo HP:116/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
 1-Raphael
 2-Mou-Ryo
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 61 HP de Makoto
-Makoto termina con HP:18/597
-Raphael termina con HP:589/623
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:116/347
-Raphael termina con MP:275/279
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:116/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-Mou-Ryo HP:16/238 MP:107/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Mou-Ryo
-2-Raphael
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:18/597 MP:116/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:18/597 MP:116/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:18/597 MP:116/347
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Mou-Ryo
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Mou-Ryo use
-1-Mudo MP:6
-2-Spirit Drain MP:5
-3-Pulinpa MP:5
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Mou-Ryo
-1-Makoto HP:18/597 MP:116/347
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Mou-Ryo ataca con oscuridad a Makoto
-Mou-Ryo ha fallado el ataque
-Makoto termina con HP:18/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:116/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-Mou-Ryo HP:16/238 MP:101/107
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:589/623 MP:275/279
-2-Mou-Ryo HP:16/238 MP:101/107
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:589/623 MP:275/279
-2-Mou-Ryo HP:16/238 MP:101/107
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Makoto lanza fuego a Mou-Ryo
-Mou-Ryo recibe 70 de daño
-Mou-Ryo termina con HP:0/238
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Mudoon MP:10
-2-Great Logos MP:70
-3-Mortal Jihad MP:13
-4-Agi MP:5
-5-Hades Blast MP:32
-6-Cancelar
-INPUT: 6
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Raphael HP:589/623 MP:275/279
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:18/597 MP:111/347
-B-
-C-
-D-
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:287/398
-B-Raphael HP:589/623 MP:275/279
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
+3-Kei
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -4432,7 +1237,7 @@ Seleccione una acción para Raphael
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Raphael
-1-Makoto HP:18/597 MP:111/347
+1-Makoto HP:509/597 MP:334/347
 2-Cancelar
 INPUT: 2
 ----------------------------------------
@@ -4452,12 +1257,201 @@ Seleccione una habilidad para que Raphael use
 INPUT: 4
 ----------------------------------------
 Raphael lanza un ataque todo poderoso a Makoto
-El ataque drena 18 HP de Makoto
-Makoto termina con HP:0/597
-Raphael termina con HP:607/623
-El ataque drena 61 MP de Makoto
-Makoto termina con MP:50/347
+El ataque drena 239 HP de Makoto
+Makoto termina con HP:270/597
+Raphael termina con HP:623/623
+El ataque drena 239 MP de Makoto
+Makoto termina con MP:95/347
 Raphael termina con MP:279/279
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:270/597 MP:95/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:116/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:760/760 MP:398/398
+2-Raphael HP:623/623 MP:279/279
+3-Mou-Ryo HP:116/238 MP:107/107
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Makoto dispara a Mou-Ryo
+Mou-Ryo recibe 57 de daño
+Mou-Ryo termina con HP:59/238
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:270/597 MP:95/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:59/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Mou-Ryo
+3-Kei
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Raphael lanza un ataque todo poderoso a Makoto
+El ataque drena 239 HP de Makoto
+Makoto termina con HP:31/597
+Raphael termina con HP:623/623
+El ataque drena 95 MP de Makoto
+Makoto termina con MP:0/347
+Raphael termina con MP:279/279
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:31/597 MP:0/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:59/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Mou-Ryo
+2-Kei
+3-Raphael
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Mou-Ryo use
+1-Mudo MP:6
+2-Spirit Drain MP:5
+3-Pulinpa MP:5
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Mou-Ryo
+1-Makoto HP:31/597 MP:0/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Mou-Ryo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:31/597 MP:0/347
+B-
+C-
+D-
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Raphael HP:623/623 MP:279/279
+C-Mou-Ryo HP:59/238 MP:107/107
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+2-Raphael
+3-Mou-Ryo
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Ragnarok MP:35
+2-Megido MP:25
+3-Nihil Claw MP:11
+4-Megidola MP:40
+5-Ice Breath MP:21
+6-Die for Me! MP:45
+7-Thunder Reign MP:22
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:31/597 MP:0/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Makoto
+Makoto es resistente el ataque de Kei
+Makoto recibe 42 de daño
+Makoto termina con HP:0/597
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

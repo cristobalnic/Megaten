@@ -20,7 +20,7 @@ public class SummonAction
         _selectionUtils = new SelectionUtils(view, gameState);
     }
 
-    internal void ExecuteSummon(Unit summoner)
+    internal void Execute(Unit summoner)
     {
         var selectionPhrase = "Seleccione un monstruo para invocar";
         _view.DisplayMonsterSelection(_gameState.TurnPlayer.Table.Reserve, selectionPhrase);

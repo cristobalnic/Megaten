@@ -35,10 +35,10 @@ public class ActionManager
         if (action != "Pasar Turno") _view.WriteLine(Params.Separator);
         if (action == "Atacar") _physicalAttack.Execute(monster);
         else if (action == "Disparar") _shootAttack.Execute(monster);
-        else if (action == "Usar Habilidad") _useSkillAction.ExecuteUseSkill(monster);
-        else if (action == "Invocar") _summonAction.ExecuteSummon(monster);
-        else if (action == "Pasar Turno") _passTurnAction.ExecutePassTurn();
-        else if (action == "Rendirse") _surrenderAction.ExecuteSurrender();
+        else if (action == "Usar Habilidad") _useSkillAction.Execute(monster);
+        else if (action == "Invocar") _summonAction.Execute(monster);
+        else if (action == "Pasar Turno") _passTurnAction.Execute();
+        else if (action == "Rendirse") _surrenderAction.Execute();
         
     }
     

@@ -25,7 +25,7 @@ public class UseSkillAction
         _skillHandlerFactory = new SkillHandlerFactory(_view, _gameState);
     }
 
-    internal void ExecuteUseSkill(Unit attacker)
+    internal void Execute(Unit attacker)
     {
         Skill skill = GetSelectedSkill(attacker);
         _view.WriteLine(Params.Separator);

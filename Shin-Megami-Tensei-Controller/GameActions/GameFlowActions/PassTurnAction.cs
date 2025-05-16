@@ -7,7 +7,7 @@ public class PassTurnAction
     private readonly GameState _gameState;
     public PassTurnAction(GameState gameState) => _gameState = gameState;
 
-    internal void ExecutePassTurn()
+    internal void Execute()
     {
         _gameState.TurnPlayer.TurnState.UseTurnsForPassOrSummon();
     }

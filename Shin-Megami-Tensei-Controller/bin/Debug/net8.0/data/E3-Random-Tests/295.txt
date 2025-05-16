@@ -428,22 +428,34 @@ Seleccione una acción para Raphael
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Vivian HP:319/319 MP:310/310
-2-Nergal HP:644/644 MP:288/288
-3-Cancelar
 INPUT: 2
 ----------------------------------------
-Nergal ha sido invocado
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Makoto HP:597/597 MP:347/347
+2-Raphael HP:623/623 MP:279/279
+3-Yurlungur HP:202/202 MP:196/196
+4-Astaroth HP:406/406 MP:181/181
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael cura a Makoto
+Makoto recibe 597 de HP
+Makoto termina con HP:597/597
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
 A-Makoto HP:597/597 MP:347/347
-B-Nergal HP:644/644 MP:288/288
+B-Raphael HP:623/623 MP:263/279
 C-Yurlungur HP:202/202 MP:196/196
 D-Astaroth HP:406/406 MP:181/181
 Equipo de Kei (J2)
@@ -453,51 +465,71 @@ C-
 D-
 ----------------------------------------
 Full Turns: 3
-Blinking Turns: 1
+Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Astaroth
 2-Makoto
 3-Yurlungur
-4-Nergal
+4-Raphael
 ----------------------------------------
 Seleccione una acción para Astaroth
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Vivian HP:319/319 MP:310/310
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Vivian ha sido invocado
+Astaroth lanza hielo a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 46 de daño
+Kei termina con HP:714/760
+Astaroth lanza hielo a Sraosha
+Sraosha es resistente el ataque de Astaroth
+Sraosha recibe 46 de daño
+Sraosha termina con HP:316/362
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
 A-Makoto HP:597/597 MP:347/347
-B-Nergal HP:644/644 MP:288/288
+B-Raphael HP:623/623 MP:263/279
 C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:149/181
 Equipo de Kei (J2)
-A-Kei HP:760/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
+A-Kei HP:714/760 MP:398/398
+B-Sraosha HP:316/362 MP:351/351
 C-
 D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Makoto
 2-Yurlungur
-3-Nergal
-4-Vivian
+3-Raphael
+4-Astaroth
 ----------------------------------------
 Seleccione una acción para Makoto
 1: Atacar
@@ -517,40 +549,37 @@ Seleccione una habilidad para que Makoto use
 6-Megaton Press MP:17
 7-Hama MP:6
 8-Cancelar
-INPUT: 7
+INPUT: 5
 ----------------------------------------
-Seleccione un objetivo para Makoto
-1-Kei HP:760/760 MP:398/398
-2-Sraosha HP:362/362 MP:351/351
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca con luz a Kei
+Makoto lanza fuego a Kei
 Kei es resistente el ataque de Makoto
-Kei ha sido eliminado
-Kei termina con HP:0/760
+Kei recibe 43 de daño
+Kei termina con HP:671/760
+Makoto lanza fuego a Sraosha
+Sraosha recibe 86 de daño
+Sraosha termina con HP:230/362
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:288/288
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:623/623 MP:263/279
 C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:149/181
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
+A-Kei HP:671/760 MP:398/398
+B-Sraosha HP:230/362 MP:351/351
 C-
 D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Yurlungur
-2-Nergal
-3-Vivian
+2-Raphael
+3-Astaroth
 4-Makoto
 ----------------------------------------
 Seleccione una acción para Yurlungur
@@ -564,101 +593,13 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:288/288
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:623/623 MP:263/279
 C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:149/181
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nergal
-2-Vivian
-3-Makoto
-4-Yurlungur
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:362/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:362/362 MP:351/351
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Nergal ataca con oscuridad a Sraosha
-Nergal ha fallado el ataque
-Sraosha termina con HP:362/362
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:278/288
-C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Vivian
-2-Makoto
-3-Yurlungur
-4-Nergal
-----------------------------------------
-Seleccione una acción para Vivian
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:278/288
-C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
+A-Kei HP:671/760 MP:398/398
+B-Sraosha HP:230/362 MP:351/351
 C-
 D-
 ----------------------------------------
@@ -666,1131 +607,23 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Makoto
-2-Yurlungur
-3-Nergal
-4-Vivian
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Lunge MP:6
-2-Desperate Hit MP:40
-3-Sabbatma MP:20
-4-Zan MP:5
-5-Maragion MP:20
-6-Megaton Press MP:17
-7-Hama MP:6
-8-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:362/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:278/288
-C-Yurlungur HP:202/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Sraosha
-----------------------------------------
-Seleccione una acción para Sraosha
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Sraosha
-1-Makoto HP:597/597 MP:341/347
-2-Nergal HP:644/644 MP:278/288
-3-Yurlungur HP:202/202 MP:196/196
-4-Vivian HP:319/319 MP:310/310
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Sraosha ataca a Yurlungur
-Yurlungur recibe 38 de daño
-Yurlungur termina con HP:164/202
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Nergal HP:644/644 MP:278/288
-C-Yurlungur HP:164/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Makoto
-3-Vivian
-4-Yurlungur
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Astaroth HP:406/406 MP:181/181
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Astaroth ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Astaroth HP:406/406 MP:181/181
-C-Yurlungur HP:164/202 MP:196/196
-D-Vivian HP:319/319 MP:310/310
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Vivian
-3-Yurlungur
-4-Astaroth
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Lunge MP:6
-2-Desperate Hit MP:40
-3-Sabbatma MP:20
-4-Zan MP:5
-5-Maragion MP:20
-6-Megaton Press MP:17
-7-Hama MP:6
-8-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Nergal HP:644/644 MP:278/288
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Nergal HP:644/644 MP:278/288
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Astaroth HP:406/406 MP:181/181 (Puesto 2)
-2-Yurlungur HP:164/202 MP:196/196 (Puesto 3)
-3-Vivian HP:319/319 MP:310/310 (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Astaroth HP:406/406 MP:181/181
-C-Yurlungur HP:164/202 MP:196/196
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
 1-Raphael
-2-Yurlungur
-3-Astaroth
-4-Makoto
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Raphael
-1-Sraosha HP:362/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Raphael use
-1-God's Tornado MP:50
-2-Diarahan MP:16
-3-Stigma Attack MP:20
-4-Serpent of Sheol MP:45
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Astaroth HP:406/406 MP:181/181
-C-Yurlungur HP:164/202 MP:196/196
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Yurlungur
 2-Astaroth
 3-Makoto
-4-Raphael
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Yurlungur use
-1-Blast Arrow MP:16
-2-Ice Breath MP:21
-3-Dekaja MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Yurlungur use
-1-Blast Arrow MP:16
-2-Ice Breath MP:21
-3-Dekaja MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Yurlungur
-1-Sraosha HP:362/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Astaroth HP:406/406 MP:181/181
-C-Yurlungur HP:164/202 MP:196/196
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Astaroth
-2-Makoto
-3-Raphael
 4-Yurlungur
 ----------------------------------------
-Seleccione una acción para Astaroth
+Seleccione una acción para Raphael
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:341/347
-B-Astaroth HP:406/406 MP:181/181
-C-Yurlungur HP:164/202 MP:196/196
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Raphael
-3-Yurlungur
-4-Astaroth
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Makoto use
-1-Lunge MP:6
-2-Desperate Hit MP:40
-3-Sabbatma MP:20
-4-Zan MP:5
-5-Maragion MP:20
-6-Megaton Press MP:17
-7-Hama MP:6
-8-Cancelar
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Vivian HP:319/319 MP:310/310
-2-Nergal HP:644/644 MP:278/288
+2-Nergal HP:644/644 MP:288/288
 3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Astaroth HP:406/406 MP:181/181 (Puesto 2)
-2-Yurlungur HP:164/202 MP:196/196 (Puesto 3)
-3-Raphael HP:623/623 MP:279/279 (Puesto 4)
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nergal ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:278/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Raphael
-2-Nergal
-3-Astaroth
-4-Makoto
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:278/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:362/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nergal
-2-Astaroth
-3-Makoto
-4-Raphael
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nergal dispara a Sraosha
-Sraosha recibe 125 de daño
-Sraosha termina con HP:237/362
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Sraosha
-----------------------------------------
-Seleccione una acción para Sraosha
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Sraosha
-----------------------------------------
-Seleccione una acción para Sraosha
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Raphael
-3-Astaroth
-4-Makoto
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:237/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:237/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Astaroth
-3-Makoto
-4-Nergal
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Astaroth
-2-Makoto
-3-Nergal
-4-Raphael
-----------------------------------------
-Seleccione una acción para Astaroth
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Nergal
-3-Raphael
-4-Astaroth
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Raphael
-3-Astaroth
-4-Makoto
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:237/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Raphael HP:623/623 MP:279/279
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Astaroth
-3-Makoto
-4-Nergal
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Yurlungur HP:164/202 MP:196/196
-2-Vivian HP:319/319 MP:310/310
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Yurlungur ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Astaroth HP:406/406 MP:181/181
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Astaroth
-2-Makoto
-3-Nergal
-4-Yurlungur
-----------------------------------------
-Seleccione una acción para Astaroth
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Raphael HP:623/623 MP:279/279
-2-Vivian HP:319/319 MP:310/310
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Raphael ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Makoto
-2-Nergal
-3-Yurlungur
-4-Raphael
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:237/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kei (J2)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:597/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Sraosha
-----------------------------------------
-Seleccione una acción para Sraosha
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Sraosha
-1-Makoto HP:597/597 MP:321/347
-2-Raphael HP:623/623 MP:279/279
-3-Nergal HP:644/644 MP:252/288
-4-Yurlungur HP:164/202 MP:196/196
-5-Cancelar
-INPUT: 1
-----------------------------------------
-Sraosha ataca a Makoto
-Makoto es resistente el ataque de Sraosha
-Makoto recibe 19 de daño
-Makoto termina con HP:578/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Makoto (J1)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Raphael
-3-Makoto
-4-Yurlungur
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Nergal use
-1-Hamaon MP:10
-2-Heaven's Bow MP:26
-3-Mudoon MP:10
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione un objetivo para Nergal
-1-Sraosha HP:237/362 MP:351/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Makoto
-3-Yurlungur
-4-Nergal
-----------------------------------------
-Seleccione una acción para Raphael
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Yurlungur
-3-Nergal
-4-Raphael
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:196/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:237/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Yurlungur
-2-Nergal
-3-Raphael
-4-Makoto
-----------------------------------------
-Seleccione una acción para Yurlungur
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Yurlungur use
-1-Blast Arrow MP:16
-2-Ice Breath MP:21
-3-Dekaja MP:10
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Yurlungur lanza hielo a Sraosha
-Sraosha es resistente el ataque de Yurlungur
-Sraosha recibe 47 de daño
-Sraosha termina con HP:190/362
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Nergal HP:644/644 MP:252/288
-D-Yurlungur HP:164/202 MP:175/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:190/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nergal
-2-Raphael
-3-Makoto
-4-Yurlungur
-----------------------------------------
-Seleccione una acción para Nergal
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Astaroth HP:406/406 MP:181/181
-2-Vivian HP:319/319 MP:310/310
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Vivian ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Vivian HP:319/319 MP:310/310
-D-Yurlungur HP:164/202 MP:175/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:190/362 MP:351/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Raphael
-2-Makoto
-3-Yurlungur
-4-Vivian
 ----------------------------------------
 Seleccione una acción para Raphael
 1: Atacar
@@ -1805,78 +638,53 @@ Seleccione una habilidad para que Raphael use
 3-Stigma Attack MP:20
 4-Serpent of Sheol MP:45
 5-Cancelar
-INPUT: 4
+INPUT: 2
 ----------------------------------------
-Raphael lanza un ataque todo poderoso a Sraosha
-El ataque drena 61 HP de Sraosha
-Sraosha termina con HP:129/362
-Raphael termina con HP:623/623
-El ataque drena 61 MP de Sraosha
-Sraosha termina con MP:290/351
-Raphael termina con MP:279/279
+Seleccione un objetivo para Raphael
+1-Makoto HP:597/597 MP:327/347
+2-Raphael HP:623/623 MP:263/279
+3-Yurlungur HP:202/202 MP:196/196
+4-Astaroth HP:406/406 MP:149/181
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Raphael cura a Yurlungur
+Yurlungur recibe 202 de HP
+Yurlungur termina con HP:202/202
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Vivian HP:319/319 MP:310/310
-D-Yurlungur HP:164/202 MP:175/196
-Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:129/362 MP:290/351
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Makoto
-2-Yurlungur
-3-Vivian
-4-Raphael
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:129/362 MP:290/351
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Makoto ataca a Sraosha
-Sraosha recibe 38 de daño
-Sraosha termina con HP:91/362
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ronda de Kei (J2)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:578/597 MP:321/347
-B-Raphael HP:623/623 MP:279/279
-C-Vivian HP:319/319 MP:310/310
-D-Yurlungur HP:164/202 MP:175/196
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:623/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:149/181
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:91/362 MP:290/351
+A-Kei HP:671/760 MP:398/398
+B-Sraosha HP:230/362 MP:351/351
 C-
 D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Sraosha
+2-Kei
+----------------------------------------
+Seleccione una acción para Sraosha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
 Seleccione una acción para Sraosha
 1: Atacar
@@ -1889,20 +697,59 @@ Seleccione una habilidad para que Sraosha use
 1-Holy Wrath MP:45
 2-Diarahan MP:16
 3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Sraosha
+1-Kei HP:671/760 MP:398/398
+2-Sraosha HP:230/362 MP:351/351
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Sraosha lanza un ataque todo poderoso a Makoto
-Makoto recibe 120 de daño
-Makoto termina con HP:458/597
-Sraosha lanza un ataque todo poderoso a Raphael
-Raphael recibe 120 de daño
-Raphael termina con HP:503/623
-Sraosha lanza un ataque todo poderoso a Vivian
-Vivian recibe 120 de daño
-Vivian termina con HP:199/319
-Sraosha lanza un ataque todo poderoso a Yurlungur
-Yurlungur recibe 120 de daño
-Yurlungur termina con HP:44/202
+Sraosha cura a Kei
+Kei recibe 760 de HP
+Kei termina con HP:760/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:623/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:149/181
+Equipo de Kei (J2)
+A-Kei HP:760/760 MP:398/398
+B-Sraosha HP:230/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Sraosha
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:597/597 MP:327/347
+2-Raphael HP:623/623 MP:247/279
+3-Yurlungur HP:202/202 MP:196/196
+4-Astaroth HP:406/406 MP:149/181
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Kei dispara a Raphael
+Raphael recibe 15 de daño
+Raphael termina con HP:608/623
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -1910,13 +757,13 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Makoto (J1)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:458/597 MP:321/347
-B-Raphael HP:503/623 MP:279/279
-C-Vivian HP:199/319 MP:310/310
-D-Yurlungur HP:44/202 MP:175/196
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:149/181
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:91/362 MP:245/351
+A-Kei HP:760/760 MP:398/398
+B-Sraosha HP:230/362 MP:335/351
 C-
 D-
 ----------------------------------------
@@ -1925,8 +772,751 @@ Blinking Turns: 0
 ----------------------------------------
 Orden:
 1-Raphael
+2-Astaroth
+3-Makoto
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:760/760 MP:398/398
+2-Sraosha HP:230/362 MP:335/351
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kei
+Kei es resistente el ataque de Raphael
+Kei recibe 26 de daño
+Kei termina con HP:734/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:149/181
+Equipo de Kei (J2)
+A-Kei HP:734/760 MP:398/398
+B-Sraosha HP:230/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Yurlungur
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 51 de daño
+Kei termina con HP:683/760
+Astaroth ataca a Sraosha
+Sraosha recibe 103 de daño
+Sraosha termina con HP:127/362
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:117/181
+Equipo de Kei (J2)
+A-Kei HP:683/760 MP:398/398
+B-Sraosha HP:127/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Yurlungur
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:683/760 MP:398/398
+2-Sraosha HP:127/362 MP:335/351
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:683/760 MP:398/398
+2-Sraosha HP:127/362 MP:335/351
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:117/181
+Equipo de Kei (J2)
+A-Kei HP:683/760 MP:398/398
+B-Sraosha HP:127/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Vivian HP:319/319 MP:310/310
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Vivian ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:117/181
+Equipo de Kei (J2)
+A-Kei HP:683/760 MP:398/398
+B-Sraosha HP:127/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:117/181
+Equipo de Kei (J2)
+A-Kei HP:683/760 MP:398/398
+B-Sraosha HP:127/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
 2-Makoto
 3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Astaroth lanza hielo a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 46 de daño
+Kei termina con HP:637/760
+Astaroth lanza hielo a Sraosha
+Sraosha es resistente el ataque de Astaroth
+Sraosha recibe 46 de daño
+Sraosha termina con HP:81/362
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:597/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:637/760 MP:398/398
+B-Sraosha HP:81/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Sraosha
+2-Kei
+----------------------------------------
+Seleccione una acción para Sraosha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Sraosha
+1-Makoto HP:597/597 MP:327/347
+2-Raphael HP:608/623 MP:247/279
+3-Vivian HP:319/319 MP:310/310
+4-Astaroth HP:406/406 MP:85/181
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Sraosha ataca a Makoto
+Makoto es resistente el ataque de Sraosha
+Makoto recibe 19 de daño
+Makoto termina con HP:578/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:578/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:637/760 MP:398/398
+B-Sraosha HP:81/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+2-Sraosha
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:578/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:637/760 MP:398/398
+B-Sraosha HP:81/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Sraosha
+2-Kei
+----------------------------------------
+Seleccione una acción para Sraosha
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Sraosha
+1-Makoto HP:578/597 MP:327/347
+2-Raphael HP:608/623 MP:247/279
+3-Vivian HP:319/319 MP:310/310
+4-Astaroth HP:406/406 MP:85/181
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Sraosha ataca a Makoto
+Makoto es resistente el ataque de Sraosha
+Makoto recibe 19 de daño
+Makoto termina con HP:559/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:637/760 MP:398/398
+B-Sraosha HP:81/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yurlungur HP:202/202 MP:196/196
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:637/760 MP:398/398
+2-Sraosha HP:81/362 MP:335/351
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:637/760 MP:398/398
+2-Sraosha HP:81/362 MP:335/351
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Sraosha
+Sraosha recibe 52 de daño
+Sraosha termina con HP:29/362
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:637/760 MP:398/398
+B-Sraosha HP:29/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:637/760 MP:398/398
+2-Sraosha HP:29/362 MP:335/351
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:621/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Vivian HP:319/319 MP:310/310
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:398/398
+B-Sraosha HP:29/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yurlungur HP:202/202 MP:196/196
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:608/623 MP:247/279 (Puesto 2)
+2-Vivian HP:319/319 MP:310/310 (Puesto 3)
+3-Astaroth HP:406/406 MP:85/181 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yurlungur ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:398/398
+B-Sraosha HP:29/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yurlungur
+1-Kei HP:621/760 MP:398/398
+2-Sraosha HP:29/362 MP:335/351
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yurlungur
+1-Kei HP:621/760 MP:398/398
+2-Sraosha HP:29/362 MP:335/351
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Yurlungur ataca a Sraosha
+Sraosha recibe 20 de daño
+Sraosha termina con HP:9/362
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:398/398
+B-Sraosha HP:9/362 MP:335/351
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Vivian HP:319/319 MP:310/310
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:621/760 MP:398/398
+2-Sraosha HP:9/362 MP:335/351
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ataca a Sraosha
+Sraosha recibe 52 de daño
+Sraosha termina con HP:0/362
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:559/597 MP:327/347
+B-Raphael HP:608/623 MP:247/279
+C-Yurlungur HP:202/202 MP:196/196
+D-Astaroth HP:406/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:398/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Fire Breath MP:21
+2-Mazio MP:11
+3-Hades Blast MP:32
+4-Ziodyne MP:14
+5-Mahamaon MP:30
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Kei ataca a Makoto
+Makoto es resistente el ataque de Kei
+Makoto recibe 40 de daño
+Makoto termina con HP:519/597
+Kei ataca a Raphael
+Raphael recibe 80 de daño
+Raphael termina con HP:528/623
+Kei ataca a Yurlungur
+Yurlungur recibe 80 de daño
+Yurlungur termina con HP:122/202
+Kei ataca a Astaroth
+Astaroth recibe 80 de daño
+Astaroth termina con HP:326/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:528/623 MP:247/279
+C-Yurlungur HP:122/202 MP:196/196
+D-Astaroth HP:326/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
 4-Yurlungur
 ----------------------------------------
 Seleccione una acción para Raphael
@@ -1940,17 +1530,886 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:458/597 MP:321/347
-B-Raphael HP:503/623 MP:279/279
-C-Vivian HP:199/319 MP:310/310
-D-Yurlungur HP:44/202 MP:175/196
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:528/623 MP:247/279
+C-Yurlungur HP:122/202 MP:196/196
+D-Astaroth HP:326/406 MP:85/181
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:91/362 MP:245/351
+A-Kei HP:621/760 MP:366/398
+B-
 C-
 D-
 ----------------------------------------
 Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Yurlungur
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:528/623 MP:247/279
+C-Yurlungur HP:122/202 MP:196/196
+D-Astaroth HP:326/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Yurlungur
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:528/623 MP:247/279
+C-Yurlungur HP:122/202 MP:196/196
+D-Astaroth HP:326/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Vivian HP:319/319 MP:310/310
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:528/623 MP:247/279
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:326/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Nergal
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Makoto HP:519/597 MP:327/347
+2-Raphael HP:528/623 MP:247/279
+3-Nergal HP:644/644 MP:288/288
+4-Astaroth HP:326/406 MP:85/181
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael cura a Raphael
+Raphael recibe 623 de HP
+Raphael termina con HP:623/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:326/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Nergal
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Yurlungur HP:122/202 MP:196/196
+2-Vivian HP:319/319 MP:310/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yurlungur ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Nergal
+3-Raphael
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:326/406 MP:85/181
+2-Vivian HP:319/319 MP:310/310
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:623/623 MP:231/279 (Puesto 2)
+2-Nergal HP:644/644 MP:288/288 (Puesto 3)
+3-Yurlungur HP:122/202 MP:196/196 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Astaroth ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Astaroth HP:326/406 MP:85/181
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:519/597 MP:327/347
+2-Raphael HP:623/623 MP:231/279
+3-Astaroth HP:326/406 MP:85/181
+4-Yurlungur HP:122/202 MP:196/196
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kei ataca a Astaroth
+Astaroth recibe 19 de daño
+Astaroth termina con HP:307/406
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:621/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:621/760 MP:366/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:621/760 MP:366/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:621/760 MP:366/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:621/760 MP:366/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kei
+Kei es resistente el ataque de Raphael
+Kei recibe 26 de daño
+Kei termina con HP:595/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:595/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Yurlungur
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Raphael HP:623/623 MP:231/279
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:595/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Yurlungur
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Vivian HP:319/319 MP:310/310
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una posición para invocar
+1-Raphael HP:623/623 MP:231/279 (Puesto 2)
+2-Astaroth HP:307/406 MP:85/181 (Puesto 3)
+3-Yurlungur HP:122/202 MP:196/196 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Nergal HP:644/644 MP:288/288
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:196/196
+Equipo de Kei (J2)
+A-Kei HP:595/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Nergal
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Yurlungur use
+1-Blast Arrow MP:16
+2-Ice Breath MP:21
+3-Dekaja MP:10
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yurlungur dispara a Kei
+Kei es resistente el ataque de Yurlungur
+Kei recibe 33 de daño
+Kei termina con HP:562/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Nergal HP:644/644 MP:288/288
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:562/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Astaroth
+3-Makoto
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nergal
+1-Kei HP:562/760 MP:366/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:231/279
+2-Vivian HP:319/319 MP:310/310
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Vivian ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Astaroth HP:307/406 MP:85/181
+D-Yurlungur HP:122/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:562/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Yurlungur
+4-Vivian
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:231/279
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:122/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:562/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:519/597 MP:327/347
+2-Vivian HP:319/319 MP:310/310
+3-Nergal HP:644/644 MP:288/288
+4-Yurlungur HP:122/202 MP:180/196
+5-Cancelar
+INPUT: 4
+----------------------------------------
+Kei ataca a Yurlungur
+Yurlungur recibe 19 de daño
+Yurlungur termina con HP:103/202
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:562/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Makoto
+3-Vivian
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nergal
+1-Kei HP:562/760 MP:366/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ataca a Kei
+Kei es resistente el ataque de Nergal
+Kei recibe 27 de daño
+Kei termina con HP:535/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:535/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Yurlungur
+4-Nergal
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:535/760 MP:366/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kei
+Kei es resistente el ataque de Makoto
+Kei recibe 19 de daño
+Kei termina con HP:516/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:516/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vivian
+2-Yurlungur
+3-Nergal
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:231/279
+2-Astaroth HP:307/406 MP:85/181
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:231/279
+2-Astaroth HP:307/406 MP:85/181
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vivian use
+1-Lullaby MP:11
+2-Mabufula MP:20
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:516/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yurlungur
+2-Nergal
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Yurlungur
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Nergal HP:644/644 MP:288/288
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:516/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Makoto
+3-Vivian
+4-Yurlungur
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Nergal use
+1-Hamaon MP:10
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione un objetivo para Nergal
+1-Kei HP:516/760 MP:366/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:623/623 MP:231/279
+2-Astaroth HP:307/406 MP:85/181
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:516/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
@@ -1966,70 +2425,113 @@ Seleccione una acción para Makoto
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:91/362 MP:245/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Makoto
-1-Sraosha HP:91/362 MP:245/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:91/362 MP:245/351
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Makoto
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Makoto
-1-Sraosha HP:91/362 MP:245/351
+1-Kei HP:516/760 MP:366/398
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Makoto dispara a Sraosha
-Sraosha recibe 57 de daño
-Sraosha termina con HP:34/362
+Makoto ataca a Kei
+Kei es resistente el ataque de Makoto
+Kei recibe 19 de daño
+Kei termina con HP:497/760
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
 Equipo de Makoto (J1)
-A-Makoto HP:458/597 MP:321/347
-B-Raphael HP:503/623 MP:279/279
-C-Vivian HP:199/319 MP:310/310
-D-Yurlungur HP:44/202 MP:175/196
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-Yurlungur HP:103/202 MP:180/196
 Equipo de Kei (J2)
-A-Kei HP:0/760 MP:398/398
-B-Sraosha HP:34/362 MP:245/351
+A-Kei HP:497/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-Yurlungur HP:103/202 MP:180/196
+Equipo de Kei (J2)
+A-Kei HP:497/760 MP:366/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Fire Breath MP:21
+2-Mazio MP:11
+3-Hades Blast MP:32
+4-Ziodyne MP:14
+5-Mahamaon MP:30
+6-Cancelar
+INPUT: 5
+----------------------------------------
+Kei ataca con luz a Makoto
+Kei ha fallado el ataque
+Makoto termina con HP:519/597
+Kei ataca con luz a Vivian
+Kei ha fallado el ataque
+Vivian termina con HP:319/319
+Kei ataca con luz a Raphael
+Raphael bloquea el ataque de Kei
+Raphael termina con HP:623/623
+Kei ataca con luz a Yurlungur
+Yurlungur ha sido eliminado
+Yurlungur termina con HP:0/202
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-
+Equipo de Kei (J2)
+A-Kei HP:497/760 MP:336/398
+B-
 C-
 D-
 ----------------------------------------
@@ -2037,9 +2539,1609 @@ Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Vivian
-2-Yurlungur
+1-Raphael
+2-Makoto
+3-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Raphael
+1-Kei HP:497/760 MP:336/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ataca a Kei
+Kei es resistente el ataque de Raphael
+Kei recibe 26 de daño
+Kei termina con HP:471/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-
+Equipo de Kei (J2)
+A-Kei HP:471/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
 3-Raphael
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:471/760 MP:336/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:310/310
+C-Raphael HP:623/623 MP:231/279
+D-
+Equipo de Kei (J2)
+A-Kei HP:471/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Raphael
+3-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vivian use
+1-Lullaby MP:11
+2-Mabufula MP:20
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Vivian lanza hielo a Kei
+Kei es resistente el ataque de Vivian
+Kei recibe 48 de daño
+Kei termina con HP:423/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:623/623 MP:231/279
+D-
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Makoto
+3-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:623/623 MP:231/279
+D-
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:307/406 MP:85/181
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:423/760 MP:336/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Lunge MP:6
+2-Desperate Hit MP:40
+3-Sabbatma MP:20
+4-Zan MP:5
+5-Maragion MP:20
+6-Megaton Press MP:17
+7-Hama MP:6
+8-Cancelar
+INPUT: 8
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Astaroth HP:307/406 MP:85/181
+2-Nergal HP:644/644 MP:288/288
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vivian HP:319/319 MP:290/310 (Puesto 2)
+2-Raphael HP:623/623 MP:231/279 (Puesto 3)
+3-Vacío (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Astaroth ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:623/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:519/597 MP:327/347
+2-Vivian HP:319/319 MP:290/310
+3-Raphael HP:623/623 MP:231/279
+4-Astaroth HP:307/406 MP:85/181
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kei ataca a Raphael
+Raphael recibe 19 de daño
+Raphael termina con HP:604/623
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:423/760 MP:336/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:423/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:423/760 MP:336/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Makoto ataca a Kei
+Kei es resistente el ataque de Makoto
+Kei recibe 19 de daño
+Kei termina con HP:404/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:404/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vivian
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Vivian
+1-Kei HP:404/760 MP:336/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:404/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:404/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:404/760 MP:336/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:388/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:319/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:388/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:519/597 MP:327/347
+2-Vivian HP:319/319 MP:290/310
+3-Raphael HP:604/623 MP:231/279
+4-Astaroth HP:307/406 MP:85/181
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Kei dispara a Vivian
+Vivian recibe 15 de daño
+Vivian termina con HP:304/319
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:388/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:85/181
+Equipo de Kei (J2)
+A-Kei HP:388/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 51 de daño
+Kei termina con HP:337/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:337/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vivian HP:304/319 MP:290/310 (Puesto 2)
+2-Raphael HP:604/623 MP:231/279 (Puesto 3)
+3-Astaroth HP:307/406 MP:53/181 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:337/760 MP:336/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vivian HP:304/319 MP:290/310 (Puesto 2)
+2-Raphael HP:604/623 MP:231/279 (Puesto 3)
+3-Astaroth HP:307/406 MP:53/181 (Puesto 4)
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Nergal HP:644/644 MP:288/288
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:337/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nergal
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Vivian HP:304/319 MP:290/310
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Vivian ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:337/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:337/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:337/760 MP:336/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:321/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:327/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:321/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Lunge MP:6
+2-Desperate Hit MP:40
+3-Sabbatma MP:20
+4-Zan MP:5
+5-Maragion MP:20
+6-Megaton Press MP:17
+7-Hama MP:6
+8-Cancelar
+INPUT: 2
+----------------------------------------
+Makoto lanza un ataque todo poderoso a Kei
+Kei recibe 122 de daño
+Kei termina con HP:199/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:287/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:519/597 MP:287/347
+B-Vivian HP:304/319 MP:290/310
+C-Raphael HP:604/623 MP:231/279
+D-Astaroth HP:307/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:336/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Fire Breath MP:21
+2-Mazio MP:11
+3-Hades Blast MP:32
+4-Ziodyne MP:14
+5-Mahamaon MP:30
+6-Cancelar
+INPUT: 2
+----------------------------------------
+Kei lanza electricidad a Makoto
+Makoto es resistente el ataque de Kei
+Makoto recibe 18 de daño
+Makoto termina con HP:501/597
+Kei lanza electricidad a Vivian
+Vivian recibe 37 de daño
+Vivian termina con HP:267/319
+Kei lanza electricidad a Raphael
+Raphael recibe 37 de daño
+Raphael termina con HP:567/623
+Kei lanza electricidad a Astaroth
+Astaroth recibe 37 de daño
+Astaroth termina con HP:270/406
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Nergal
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Nergal
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:567/623 MP:231/279
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vivian HP:267/319 MP:290/310 (Puesto 2)
+2-Nergal HP:644/644 MP:288/288 (Puesto 3)
+3-Astaroth HP:270/406 MP:53/181 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Raphael ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:199/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Vivian
+1-Kei HP:199/760 MP:325/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Vivian ataca a Kei
+Kei es resistente el ataque de Vivian
+Kei recibe 16 de daño
+Kei termina con HP:183/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:183/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:183/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:183/760 MP:325/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:167/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Raphael
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vivian use
+1-Lullaby MP:11
+2-Mabufula MP:20
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:501/597 MP:287/347
+B-Vivian HP:267/319 MP:290/310
+C-Raphael HP:567/623 MP:231/279
+D-Astaroth HP:270/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:325/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:501/597 MP:287/347
+2-Vivian HP:267/319 MP:290/310
+3-Raphael HP:567/623 MP:231/279
+4-Astaroth HP:270/406 MP:53/181
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Fire Breath MP:21
+2-Mazio MP:11
+3-Hades Blast MP:32
+4-Ziodyne MP:14
+5-Mahamaon MP:30
+6-Cancelar
+INPUT: 3
+----------------------------------------
+Kei ataca a Makoto
+Makoto es resistente el ataque de Kei
+Makoto recibe 40 de daño
+Makoto termina con HP:461/597
+Kei ataca a Vivian
+Vivian recibe 80 de daño
+Vivian termina con HP:187/319
+Kei ataca a Raphael
+Raphael recibe 80 de daño
+Raphael termina con HP:487/623
+Kei ataca a Astaroth
+Astaroth recibe 80 de daño
+Astaroth termina con HP:190/406
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:290/310
+C-Raphael HP:487/623 MP:231/279
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Raphael
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Raphael use
+1-God's Tornado MP:50
+2-Diarahan MP:16
+3-Stigma Attack MP:20
+4-Serpent of Sheol MP:45
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Raphael
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:290/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:167/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Nergal
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:167/760 MP:293/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:151/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:290/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:151/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Nergal
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:487/623 MP:231/279
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Makoto use
+1-Lunge MP:6
+2-Desperate Hit MP:40
+3-Sabbatma MP:20
+4-Zan MP:5
+5-Maragion MP:20
+6-Megaton Press MP:17
+7-Hama MP:6
+8-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:151/760 MP:293/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:151/760 MP:293/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:290/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:151/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Nergal
+3-Astaroth
 4-Makoto
 ----------------------------------------
 Seleccione una acción para Vivian
@@ -2055,12 +4157,621 @@ Seleccione una habilidad para que Vivian use
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Vivian lanza hielo a Sraosha
-Sraosha es resistente el ataque de Vivian
-Sraosha recibe 48 de daño
-Sraosha termina con HP:0/362
+Vivian lanza hielo a Kei
+Kei es resistente el ataque de Vivian
+Kei recibe 48 de daño
+Kei termina con HP:103/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:270/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:103/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:487/623 MP:231/279
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:487/623 MP:231/279
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Raphael ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:270/310
+C-Raphael HP:487/623 MP:231/279
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:103/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Raphael
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:270/310
+C-Raphael HP:487/623 MP:231/279
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:103/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Raphael
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Nergal HP:644/644 MP:288/288
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Vivian HP:187/319 MP:270/310 (Puesto 2)
+2-Raphael HP:487/623 MP:231/279 (Puesto 3)
+3-Astaroth HP:190/406 MP:53/181 (Puesto 4)
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Nergal ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:270/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:103/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Vivian
+2-Nergal
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Vivian use
+1-Lullaby MP:11
+2-Mabufula MP:20
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Vivian lanza hielo a Kei
+Kei es resistente el ataque de Vivian
+Kei recibe 48 de daño
+Kei termina con HP:55/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:461/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:55/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:461/597 MP:287/347
+2-Vivian HP:187/319 MP:250/310
+3-Nergal HP:644/644 MP:288/288
+4-Astaroth HP:190/406 MP:53/181
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:461/597 MP:287/347
+2-Vivian HP:187/319 MP:250/310
+3-Nergal HP:644/644 MP:288/288
+4-Astaroth HP:190/406 MP:53/181
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Kei ataca a Makoto
+Makoto es resistente el ataque de Kei
+Makoto recibe 9 de daño
+Makoto termina con HP:452/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:55/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nergal
+1-Kei HP:55/760 MP:293/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Nergal ataca a Kei
+Kei es resistente el ataque de Nergal
+Kei recibe 27 de daño
+Kei termina con HP:28/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:28/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Nergal
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:28/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Makoto
+2-Vivian
+3-Nergal
+4-Astaroth
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Makoto
+1-Kei HP:28/760 MP:293/398
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Makoto
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:28/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Vivian
+2-Nergal
+3-Astaroth
+4-Makoto
+----------------------------------------
+Seleccione una acción para Vivian
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:28/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nergal
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Nergal use
+1-Hamaon MP:10
+2-Heaven's Bow MP:26
+3-Mudoon MP:10
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Raphael HP:487/623 MP:231/279
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:28/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Nergal
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Astaroth
+1-Kei HP:28/760 MP:293/398
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 16 de daño
+Kei termina con HP:12/760
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Kei (J2)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:644/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:12/760 MP:293/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kei
+----------------------------------------
+Seleccione una acción para Kei
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Kei use
+1-Fire Breath MP:21
+2-Mazio MP:11
+3-Hades Blast MP:32
+4-Ziodyne MP:14
+5-Mahamaon MP:30
+6-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione un objetivo para Kei
+1-Makoto HP:452/597 MP:287/347
+2-Vivian HP:187/319 MP:250/310
+3-Nergal HP:644/644 MP:288/288
+4-Astaroth HP:190/406 MP:53/181
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Kei lanza electricidad a Nergal
+Nergal recibe 69 de daño
+Nergal termina con HP:575/644
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Makoto (J1)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:575/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:12/760 MP:279/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nergal
+2-Astaroth
+3-Makoto
+4-Vivian
+----------------------------------------
+Seleccione una acción para Nergal
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Makoto (J1)
+A-Makoto HP:452/597 MP:287/347
+B-Vivian HP:187/319 MP:250/310
+C-Nergal HP:575/644 MP:288/288
+D-Astaroth HP:190/406 MP:53/181
+Equipo de Kei (J2)
+A-Kei HP:12/760 MP:279/398
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Astaroth
+2-Makoto
+3-Vivian
+4-Nergal
+----------------------------------------
+Seleccione una acción para Astaroth
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Astaroth use
+1-Hades Blast MP:32
+2-Mabufudyne MP:32
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Astaroth ataca a Kei
+Kei es resistente el ataque de Astaroth
+Kei recibe 51 de daño
+Kei termina con HP:0/760
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ganador: Makoto (J1)

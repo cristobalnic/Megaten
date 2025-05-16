@@ -430,22 +430,6 @@ Seleccione una acción para Nahobino
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:341/341 MP:67/67
-3-Hecatoncheires HP:756/756 MP:151/151
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
@@ -458,105 +442,7 @@ Seleccione una posición para invocar
 2-Dybbuk HP:66/66 MP:63/63 (Puesto 3)
 3-Tiamat HP:305/305 MP:296/296 (Puesto 4)
 4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:341/341 MP:67/67
-3-Hecatoncheires HP:756/756 MP:151/151
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nahobino dispara a Nue
-Nue es débil contra el ataque de Nahobino
-Nue recibe 125 de daño
-Nue termina con HP:216/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Tlazolteotl HP:315/315 MP:306/306
-C-Dybbuk HP:66/66 MP:63/63
-D-Tiamat HP:305/305 MP:296/296
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:216/341 MP:67/67
-C-Hecatoncheires HP:756/756 MP:151/151
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tlazolteotl
-2-Tiamat
-3-Dybbuk
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
 INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Camazotz HP:180/180 MP:35/35
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Tlazolteotl
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Tlazolteotl HP:315/315 MP:306/306
-C-Dybbuk HP:66/66 MP:63/63
-D-Tiamat HP:305/305 MP:296/296
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:216/341 MP:67/67
-C-Hecatoncheires HP:756/756 MP:151/151
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Tiamat
-2-Dybbuk
-3-Nahobino
-4-Tlazolteotl
-----------------------------------------
-Seleccione una acción para Tiamat
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Camazotz HP:180/180 MP:35/35
-2-Cancelar
-INPUT: 1
 ----------------------------------------
 Camazotz ha sido invocado
 ----------------------------------------
@@ -570,97 +456,11 @@ C-Dybbuk HP:66/66 MP:63/63
 D-Camazotz HP:180/180 MP:35/35
 Equipo de Shujinko (J2)
 A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:216/341 MP:67/67
+B-Nue HP:341/341 MP:67/67
 C-Hecatoncheires HP:756/756 MP:151/151
 D-
 ----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Dybbuk
-2-Nahobino
-3-Tlazolteotl
-4-Camazotz
-----------------------------------------
-Seleccione una acción para Dybbuk
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dybbuk
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:216/341 MP:67/67
-3-Hecatoncheires HP:756/756 MP:151/151
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Dybbuk ataca a Hecatoncheires
-Hecatoncheires es resistente el ataque de Dybbuk
-Hecatoncheires recibe 2 de daño
-Hecatoncheires termina con HP:754/756
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Tlazolteotl HP:315/315 MP:306/306
-C-Dybbuk HP:66/66 MP:63/63
-D-Camazotz HP:180/180 MP:35/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:216/341 MP:67/67
-C-Hecatoncheires HP:754/756 MP:151/151
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tlazolteotl
-3-Camazotz
-4-Dybbuk
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:216/341 MP:67/67
-3-Hecatoncheires HP:754/756 MP:151/151
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Nahobino dispara a Nue
-Nue es débil contra el ataque de Nahobino
-Nue recibe 125 de daño
-Nue termina con HP:91/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Tlazolteotl HP:315/315 MP:306/306
-C-Dybbuk HP:66/66 MP:63/63
-D-Camazotz HP:180/180 MP:35/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:754/756 MP:151/151
-D-
-----------------------------------------
-Full Turns: 1
+Full Turns: 3
 Blinking Turns: 1
 ----------------------------------------
 Orden:
@@ -693,11 +493,11 @@ C-Dybbuk HP:66/66 MP:63/63
 D-Camazotz HP:180/180 MP:35/35
 Equipo de Shujinko (J2)
 A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:754/756 MP:151/151
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:756/756 MP:151/151
 D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
@@ -715,61 +515,112 @@ INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Camazotz
 1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:754/756 MP:151/151
+2-Nue HP:341/341 MP:67/67
+3-Hecatoncheires HP:756/756 MP:151/151
 4-Cancelar
-INPUT: 4
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
+Camazotz ataca a Shujinko
+Shujinko es resistente el ataque de Camazotz
+Shujinko recibe 5 de daño
+Shujinko termina con HP:1312/1317
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Tlazolteotl HP:315/315 MP:306/306
-2-Cancelar
-INPUT: 2
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Seleccione una acción para Camazotz
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Tiamat HP:305/305 MP:296/296
+C-Dybbuk HP:66/66 MP:63/63
+D-Camazotz HP:180/180 MP:35/35
+Equipo de Shujinko (J2)
+A-Shujinko HP:1312/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:756/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Dybbuk
+2-Nahobino
+3-Tiamat
+4-Camazotz
+----------------------------------------
+Seleccione una acción para Dybbuk
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:754/756 MP:151/151
+Seleccione un objetivo para Dybbuk
+1-Shujinko HP:1312/1317 MP:625/625
+2-Nue HP:341/341 MP:67/67
+3-Hecatoncheires HP:756/756 MP:151/151
 4-Cancelar
+INPUT: 1
+----------------------------------------
+Dybbuk ataca a Shujinko
+Shujinko es resistente el ataque de Dybbuk
+Shujinko recibe 2 de daño
+Shujinko termina con HP:1310/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:389/389
+B-Tiamat HP:305/305 MP:296/296
+C-Dybbuk HP:66/66 MP:63/63
+D-Camazotz HP:180/180 MP:35/35
+Equipo de Shujinko (J2)
+A-Shujinko HP:1310/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:756/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Tiamat
+3-Camazotz
+4-Dybbuk
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nahobino use
+1-Bufudyne MP:14
+2-Blast Arrow MP:16
+3-Maragion MP:20
+4-Nihil Claw MP:11
+5-Mazanma MP:20
+6-Media MP:12
+7-Mabufula MP:20
+8-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Camazotz use
-1-Tetanus Cut MP:11
-2-Life Drain MP:5
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:754/756 MP:151/151
+Seleccione un objetivo para Nahobino
+1-Shujinko HP:1310/1317 MP:625/625
+2-Nue HP:341/341 MP:67/67
+3-Hecatoncheires HP:756/756 MP:151/151
 4-Cancelar
 INPUT: 3
 ----------------------------------------
-Camazotz lanza un ataque todo poderoso a Hecatoncheires
-El ataque drena 20 HP de Hecatoncheires
-Hecatoncheires termina con HP:734/756
-Camazotz termina con HP:180/180
+Nahobino ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Nahobino
+Hecatoncheires recibe 52 de daño
+Hecatoncheires termina con HP:704/756
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
@@ -777,14 +628,14 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Shujinko (J2)
 ----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
+A-Nahobino HP:453/453 MP:378/389
 B-Tiamat HP:305/305 MP:296/296
 C-Dybbuk HP:66/66 MP:63/63
-D-Camazotz HP:180/180 MP:30/35
+D-Camazotz HP:180/180 MP:35/35
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:151/151
+A-Shujinko HP:1310/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
 D-
 ----------------------------------------
 Full Turns: 3
@@ -808,14 +659,442 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
+A-Nahobino HP:453/453 MP:378/389
 B-Tiamat HP:305/305 MP:296/296
 C-Dybbuk HP:66/66 MP:63/63
-D-Camazotz HP:180/180 MP:30/35
+D-Camazotz HP:180/180 MP:35/35
+Equipo de Shujinko (J2)
+A-Shujinko HP:1310/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Nue
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:378/389
+B-Tiamat HP:305/305 MP:296/296
+C-Dybbuk HP:66/66 MP:63/63
+D-Camazotz HP:180/180 MP:35/35
+Equipo de Shujinko (J2)
+A-Shujinko HP:1310/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nue
+2-Shujinko
+3-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:453/453 MP:378/389
+B-Tiamat HP:305/305 MP:296/296
+C-Dybbuk HP:66/66 MP:63/63
+D-Camazotz HP:180/180 MP:35/35
+Equipo de Shujinko (J2)
+A-Shujinko HP:1310/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Shujinko
+2-Hecatoncheires
+3-Nue
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Nahobino HP:453/453 MP:378/389
+2-Tiamat HP:305/305 MP:296/296
+3-Dybbuk HP:66/66 MP:63/63
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Nahobino HP:453/453 MP:378/389
+2-Tiamat HP:305/305 MP:296/296
+3-Dybbuk HP:66/66 MP:63/63
+4-Camazotz HP:180/180 MP:35/35
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Serpent of Sheol MP:45
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko lanza un ataque todo poderoso a Nahobino
+El ataque drena 232 HP de Nahobino
+Nahobino termina con HP:221/453
+El ataque drena 232 MP de Nahobino
+Nahobino termina con MP:146/389
+Shujinko lanza un ataque todo poderoso a Tiamat
+El ataque drena 232 HP de Tiamat
+Tiamat termina con HP:73/305
+El ataque drena 232 MP de Tiamat
+Tiamat termina con MP:64/296
+Shujinko lanza un ataque todo poderoso a Dybbuk
+El ataque drena 66 HP de Dybbuk
+Dybbuk termina con HP:0/66
+El ataque drena 63 MP de Dybbuk
+Dybbuk termina con MP:0/63
+Shujinko lanza un ataque todo poderoso a Camazotz
+El ataque drena 180 HP de Camazotz
+Camazotz termina con HP:0/180
+Shujinko termina con HP:1317/1317
+El ataque drena 35 MP de Camazotz
+Camazotz termina con MP:0/35
+Shujinko termina con MP:625/625
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:146/389
+B-Tiamat HP:73/305 MP:64/296
+C-
+D-
 Equipo de Shujinko (J2)
 A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:151/151
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Nue
+3-Shujinko
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:146/389
+B-Tiamat HP:73/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Nue
+2-Shujinko
+3-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Nue
+1-Nahobino HP:221/453 MP:146/389
+2-Tiamat HP:73/305 MP:64/296
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Nue ataca a Tiamat
+Tiamat recibe 24 de daño
+Tiamat termina con HP:49/305
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Nahobino (J1)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:146/389
+B-Tiamat HP:49/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Tiamat
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:146/389
+B-Tiamat HP:49/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tiamat
+2-Nahobino
+----------------------------------------
+Seleccione una acción para Tiamat
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:146/389
+B-Tiamat HP:49/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Nue HP:341/341 MP:67/67
+C-Hecatoncheires HP:704/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Nahobino
+2-Tiamat
+----------------------------------------
+Seleccione una acción para Nahobino
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Nahobino use
+1-Bufudyne MP:14
+2-Blast Arrow MP:16
+3-Maragion MP:20
+4-Nihil Claw MP:11
+5-Mazanma MP:20
+6-Media MP:12
+7-Mabufula MP:20
+8-Cancelar
+INPUT: 3
+----------------------------------------
+Nahobino lanza fuego a Shujinko
+Shujinko recibe 115 de daño
+Shujinko termina con HP:1202/1317
+Nahobino lanza fuego a Nue
+Nue recibe 115 de daño
+Nue termina con HP:226/341
+Nahobino lanza fuego a Hecatoncheires
+Hecatoncheires recibe 115 de daño
+Hecatoncheires termina con HP:589/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:126/389
+B-Tiamat HP:49/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1202/1317 MP:625/625
+B-Nue HP:226/341 MP:67/67
+C-Hecatoncheires HP:589/756 MP:151/151
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Hecatoncheires
+3-Nue
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Serpent of Sheol MP:45
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Nahobino (J1)
+A-Nahobino HP:221/453 MP:126/389
+B-Tiamat HP:49/305 MP:64/296
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1202/1317 MP:625/625
+B-Nue HP:226/341 MP:67/67
+C-Hecatoncheires HP:589/756 MP:151/151
 D-
 ----------------------------------------
 Full Turns: 2
@@ -842,715 +1121,32 @@ INPUT: 2
 ----------------------------------------
 Hecatoncheires ataca a Nahobino
 Nahobino recibe 137 de daño
-Nahobino termina con HP:316/453
+Nahobino termina con HP:84/453
 Hecatoncheires ataca a Tiamat
 Tiamat recibe 137 de daño
-Tiamat termina con HP:168/305
-Hecatoncheires ataca a Dybbuk
-Dybbuk recibe 137 de daño
-Dybbuk termina con HP:0/66
-Hecatoncheires ataca a Camazotz
-Camazotz recibe 137 de daño
-Camazotz termina con HP:43/180
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:43/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Shujinko
-3-Hecatoncheires
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Nahobino HP:316/453 MP:389/389
-2-Tiamat HP:168/305 MP:296/296
-3-Camazotz HP:43/180 MP:30/35
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Nahobino HP:316/453 MP:389/389
-2-Tiamat HP:168/305 MP:296/296
-3-Camazotz HP:43/180 MP:30/35
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Nue ataca a Camazotz
-Camazotz recibe 24 de daño
-Camazotz termina con HP:19/180
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Hecatoncheires
-3-Nue
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Hecatoncheires
-2-Nue
-3-Shujinko
-----------------------------------------
-Seleccione una acción para Hecatoncheires
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tiamat
-3-Camazotz
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tlazolteotl HP:315/315 MP:306/306
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Tlazolteotl HP:315/315 MP:306/306
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-Tiamat HP:168/305 MP:296/296 (Puesto 2)
-2-Vacío (Puesto 3)
-3-Camazotz HP:19/180 MP:30/35 (Puesto 4)
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Tiamat
-2-Camazotz
-3-Nahobino
-----------------------------------------
-Seleccione una acción para Tiamat
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:734/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Camazotz
-2-Nahobino
-3-Tiamat
-----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Camazotz use
-1-Tetanus Cut MP:11
-2-Life Drain MP:5
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:734/756 MP:119/151
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:734/756 MP:119/151
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Camazotz ataca a Hecatoncheires
-Hecatoncheires es resistente el ataque de Camazotz
-Hecatoncheires recibe 5 de daño
-Hecatoncheires termina con HP:729/756
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Tiamat
-3-Camazotz
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Shujinko HP:1317/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:729/756 MP:119/151
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino dispara a Shujinko
-Shujinko es resistente el ataque de Nahobino
-Shujinko recibe 41 de daño
-Shujinko termina con HP:1276/1317
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Shujinko (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-Tiamat HP:168/305 MP:296/296
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Hecatoncheires
-3-Nue
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Serpent of Sheol MP:45
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Serpent of Sheol MP:45
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Shujinko
-1-Nahobino HP:316/453 MP:389/389
-2-Tiamat HP:168/305 MP:296/296
-3-Camazotz HP:19/180 MP:30/35
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Shujinko ataca a Tiamat
-Tiamat recibe 187 de daño
 Tiamat termina con HP:0/305
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:316/453 MP:389/389
-B-
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Hecatoncheires
-2-Nue
-3-Shujinko
-----------------------------------------
-Seleccione una acción para Hecatoncheires
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Hecatoncheires
-1-Nahobino HP:316/453 MP:389/389
-2-Camazotz HP:19/180 MP:30/35
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Hecatoncheires ataca a Nahobino
-Nahobino recibe 58 de daño
-Nahobino termina con HP:258/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:258/453 MP:389/389
-B-
-C-
-D-Camazotz HP:19/180 MP:30/35
-Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Shujinko
-3-Hecatoncheires
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Nahobino HP:258/453 MP:389/389
-2-Camazotz HP:19/180 MP:30/35
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Nue ataca a Camazotz
-Camazotz recibe 24 de daño
-Camazotz termina con HP:0/180
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:258/453 MP:389/389
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:258/453 MP:389/389
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nahobino
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Shujinko HP:1276/1317 MP:625/625
-2-Nue HP:91/341 MP:67/67
-3-Hecatoncheires HP:729/756 MP:119/151
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Shujinko (J2)
-----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:258/453 MP:389/389
+A-Nahobino HP:84/453 MP:126/389
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1276/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Shujinko
-2-Hecatoncheires
-3-Nue
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Serpent of Sheol MP:45
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Shujinko lanza un ataque todo poderoso a Nahobino
-El ataque drena 60 HP de Nahobino
-Nahobino termina con HP:198/453
-Shujinko termina con HP:1317/1317
-El ataque drena 60 MP de Nahobino
-Nahobino termina con MP:329/389
-Shujinko termina con MP:625/625
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:198/453 MP:329/389
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
+A-Shujinko HP:1202/1317 MP:625/625
+B-Nue HP:226/341 MP:67/67
+C-Hecatoncheires HP:589/756 MP:119/151
 D-
 ----------------------------------------
 Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Hecatoncheires
-2-Nue
-3-Shujinko
-----------------------------------------
-Seleccione una acción para Hecatoncheires
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:198/453 MP:329/389
-B-
-C-
-D-
-Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:67/67
-C-Hecatoncheires HP:729/756 MP:119/151
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
 1-Nue
 2-Shujinko
 3-Hecatoncheires
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Nahobino HP:198/453 MP:329/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nue
-1-Nahobino HP:198/453 MP:329/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
 ----------------------------------------
 Seleccione una acción para Nue
 1: Atacar
@@ -1564,32 +1160,43 @@ Seleccione una habilidad para que Nue use
 2-Zionga MP:8
 3-Shock MP:21
 4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Nue ataca a Nahobino
-Nahobino recibe 63 de daño
-Nue ataca a Nahobino
-Nahobino recibe 63 de daño
-Nue ataca a Nahobino
-Nahobino recibe 63 de daño
-Nahobino termina con HP:9/453
+Seleccione un objetivo para Nue
+1-Nahobino HP:84/453 MP:126/389
+2-Cancelar
+INPUT: 2
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
+Seleccione una acción para Nue
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:329/389
+A-Nahobino HP:84/453 MP:126/389
 B-
 C-
 D-
 Equipo de Shujinko (J2)
-A-Shujinko HP:1317/1317 MP:625/625
-B-Nue HP:91/341 MP:58/67
-C-Hecatoncheires HP:729/756 MP:119/151
+A-Shujinko HP:1202/1317 MP:625/625
+B-Nue HP:226/341 MP:67/67
+C-Hecatoncheires HP:589/756 MP:119/151
 D-
 ----------------------------------------
 Full Turns: 1
-Blinking Turns: 0
+Blinking Turns: 1
 ----------------------------------------
 Orden:
 1-Shujinko
@@ -1603,46 +1210,18 @@ Seleccione una acción para Shujinko
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Serpent of Sheol MP:45
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Shujinko use
-1-Serpent of Sheol MP:45
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Shujinko
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
+INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Shujinko
-1-Nahobino HP:9/453 MP:329/389
+1-Nahobino HP:84/453 MP:126/389
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Shujinko dispara a Nahobino
-Nahobino recibe 228 de daño
+Shujinko ataca a Nahobino
+Nahobino recibe 187 de daño
 Nahobino termina con HP:0/453
 ----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Ganador: Shujinko (J2)
