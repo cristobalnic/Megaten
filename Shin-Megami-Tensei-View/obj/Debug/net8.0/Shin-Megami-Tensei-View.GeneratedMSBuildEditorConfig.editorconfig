@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shin_Megami_Tensei_View
-build_property.ProjectDir = C:\Users\crist\OneDrive\Escritorio\DDS\Proyecto\Megaten-IIC2113-CNFC\Shin-Megami-Tensei-View\
+build_property.ProjectDir = /home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

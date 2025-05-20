@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.ErrorHandling;
+using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
 namespace Shin_Megami_Tensei.GameSetup;
@@ -35,11 +36,13 @@ public class TeamLoader
     
     private string[] GetSelectedTeamFileLines()
     {
-        var teamFiles = Directory.GetFiles(_teamsFolder, "*.txt");
+        var teamFiles = SetupUtils.GetTeamFiles(_teamsFolder);
         var selectedTeamIndex = int.Parse(_view.ReadLine());
         return File.ReadAllLines(teamFiles[selectedTeamIndex]);
     }
+
     
+
     private void AddUnitToPlayer(string unitRawData, Player currentPlayer)
     {
         if (unitRawData.StartsWith("[Samurai]"))

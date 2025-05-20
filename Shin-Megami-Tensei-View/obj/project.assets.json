@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\crist\\.nuget\\packages\\": {}
+    "/home/cristobalnic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten-IIC2113-CNFC\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
+      "projectUniqueName": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj",
       "projectName": "Shin-Megami-Tensei-View",
-      "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten-IIC2113-CNFC\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
-      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten-IIC2113-CNFC\\Shin-Megami-Tensei-View\\obj\\",
+      "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj",
+      "packagesPath": "/home/cristobalnic/.nuget/packages/",
+      "outputPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/cristobalnic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/cristobalnic/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
