@@ -24,7 +24,7 @@ public class HealSkillHandler : ISkillHandler
     {
         UseHealSkill(attacker, skill);
     }
-    
+
     public void UseHealSkill(Unit attacker, Skill skill)
     {
         if (skill.Effect.Contains("eals"))
