@@ -401,778 +401,29 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 180
 ----------------------------------------
-Ronda de Nahobino (J1)
+Ronda de Flynn (J1)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:135/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:71/71 MP:67/67
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Hokuto Seikun HP:348/348 MP:337/337
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
 A-Yu HP:597/597 MP:347/347
-B-Jueyuan HP:154/154 MP:68/68
-C-Koppa Tengu HP:196/196 MP:88/88
-D-White Rider HP:672/672 MP:301/301
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dakini
-2-Nahobino
-3-Nue
-4-Melchom
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Asmodeus HP:427/427 MP:192/192
-2-Pale Rider HP:693/693 MP:310/310
-3-Qing Niuguai HP:407/407 MP:81/81
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Dakini use
-1-Maragidyne MP:32
-2-Javelin Rain MP:21
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Dakini use
-1-Maragidyne MP:32
-2-Javelin Rain MP:21
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Dakini lanza fuego a Yu
-Yu es resistente el ataque de Dakini
-Yu recibe 51 de daño
-Yu termina con HP:546/597
-Dakini lanza fuego a Jueyuan
-Jueyuan bloquea el ataque de Dakini
-Jueyuan termina con HP:154/154
-Dakini lanza fuego a Koppa Tengu
-Koppa Tengu recibe 103 de daño
-Koppa Tengu termina con HP:93/196
-Dakini lanza fuego a White Rider
-White Rider recibe 103 de daño
-White Rider termina con HP:569/672
-----------------------------------------
-Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:71/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:154/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Nue
-3-Melchom
-4-Dakini
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Yu HP:546/597 MP:347/347
-2-Jueyuan HP:154/154 MP:68/68
-3-Koppa Tengu HP:93/196 MP:88/88
-4-White Rider HP:569/672 MP:301/301
-5-Cancelar
-INPUT: 2
-----------------------------------------
-Nahobino dispara a Jueyuan
-Jueyuan recibe 83 de daño
-Jueyuan termina con HP:71/154
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:71/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nue
-2-Melchom
-3-Dakini
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Nue
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:71/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Melchom
-2-Dakini
-3-Nahobino
-4-Nue
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:71/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Yu
-3-Koppa Tengu
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para White Rider
-1-Nahobino HP:453/453 MP:389/389
-2-Dakini HP:681/681 MP:103/135
-3-Nue HP:341/341 MP:67/67
-4-Melchom HP:71/71 MP:67/67
-5-Cancelar
-INPUT: 4
-----------------------------------------
-White Rider ataca a Melchom
-Melchom recibe 56 de daño
-Melchom termina con HP:15/71
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:341/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Yu
-2-Koppa Tengu
-3-Jueyuan
-4-White Rider
-----------------------------------------
-Seleccione una acción para Yu
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Yu
-1-Nahobino HP:453/453 MP:389/389
-2-Dakini HP:681/681 MP:103/135
-3-Nue HP:341/341 MP:67/67
-4-Melchom HP:15/71 MP:67/67
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Yu dispara a Nue
-Nue es débil contra el ataque de Yu
-Nue recibe 109 de daño
-Nue termina con HP:232/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:232/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Koppa Tengu
-2-Jueyuan
-3-White Rider
-4-Yu
-----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koppa Tengu use
-1-Zanma MP:8
-2-Bad Company MP:15
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koppa Tengu use
-1-Zanma MP:8
-2-Bad Company MP:15
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Koppa Tengu
-1-Nahobino HP:453/453 MP:389/389
-2-Dakini HP:681/681 MP:103/135
-3-Nue HP:232/341 MP:67/67
-4-Melchom HP:15/71 MP:67/67
-5-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:232/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Jueyuan
-2-White Rider
-3-Yu
-4-Koppa Tengu
-----------------------------------------
-Seleccione una acción para Jueyuan
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Jueyuan use
-1-Poison Claw MP:9
-2-Agi MP:5
-3-Posumudi MP:5
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Jueyuan
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Jueyuan
-1-Nahobino HP:453/453 MP:389/389
-2-Dakini HP:681/681 MP:103/135
-3-Nue HP:232/341 MP:67/67
-4-Melchom HP:15/71 MP:67/67
-5-Cancelar
-INPUT: 3
-----------------------------------------
-Jueyuan ataca a Nue
-Nue recibe 11 de daño
-Nue termina con HP:221/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:221/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Yu
-3-Koppa Tengu
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para White Rider
-1-Nahobino HP:453/453 MP:389/389
-2-Dakini HP:681/681 MP:103/135
-3-Nue HP:221/341 MP:67/67
-4-Melchom HP:15/71 MP:67/67
-5-Cancelar
-INPUT: 3
-----------------------------------------
-White Rider ataca a Nue
-Nue recibe 56 de daño
-Nue termina con HP:165/341
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:165/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dakini
-2-Nahobino
-3-Nue
-4-Melchom
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Dakini use
-1-Maragidyne MP:32
-2-Javelin Rain MP:21
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Nue HP:165/341 MP:67/67
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nahobino
-2-Nue
-3-Melchom
-4-Dakini
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Asmodeus HP:427/427 MP:192/192
-2-Pale Rider HP:693/693 MP:310/310
-3-Qing Niuguai HP:407/407 MP:81/81
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Dakini HP:681/681 MP:103/135 (Puesto 2)
-2-Nue HP:165/341 MP:67/67 (Puesto 3)
-3-Melchom HP:15/71 MP:67/67 (Puesto 4)
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Pale Rider ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Pale Rider HP:693/693 MP:310/310
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:569/672 MP:301/301
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Melchom
-3-Dakini
-4-Nahobino
-----------------------------------------
-Seleccione una acción para Pale Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Pale Rider
-1-Yu HP:546/597 MP:347/347
-2-Jueyuan HP:71/154 MP:68/68
-3-Koppa Tengu HP:93/196 MP:88/88
-4-White Rider HP:569/672 MP:301/301
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Pale Rider ataca a White Rider
-White Rider recibe 58 de daño
-White Rider termina con HP:511/672
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Pale Rider HP:693/693 MP:310/310
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:511/672 MP:301/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Melchom
-2-Dakini
-3-Nahobino
-4-Pale Rider
-----------------------------------------
-Seleccione una acción para Melchom
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Melchom
-1-Yu HP:546/597 MP:347/347
-2-Jueyuan HP:71/154 MP:68/68
-3-Koppa Tengu HP:93/196 MP:88/88
-4-White Rider HP:511/672 MP:301/301
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Melchom ataca a White Rider
-White Rider recibe 6 de daño
-White Rider termina con HP:505/672
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Pale Rider HP:693/693 MP:310/310
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:505/672 MP:301/301
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dakini
-2-Nahobino
-3-Pale Rider
-4-Melchom
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Dakini
-1-Yu HP:546/597 MP:347/347
-2-Jueyuan HP:71/154 MP:68/68
-3-Koppa Tengu HP:93/196 MP:88/88
-4-White Rider HP:505/672 MP:301/301
-5-Cancelar
-INPUT: 4
-----------------------------------------
-Dakini ataca a White Rider
-White Rider recibe 52 de daño
-White Rider termina con HP:453/672
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-Dakini HP:681/681 MP:103/135
-C-Pale Rider HP:693/693 MP:310/310
-D-Melchom HP:15/71 MP:67/67
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:301/301
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Yu
-3-Koppa Tengu
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que White Rider use
-1-Thunder Reign MP:22
-2-Dekaja MP:10
-3-Luster Candy MP:50
-4-Cancelar
-INPUT: 1
-----------------------------------------
-White Rider lanza electricidad a Nahobino
-Nahobino es débil contra el ataque de White Rider
-Nahobino recibe 222 de daño
-Nahobino termina con HP:231/453
-White Rider lanza electricidad a Dakini
-Dakini recibe 148 de daño
-Dakini termina con HP:533/681
-White Rider lanza electricidad a Pale Rider
-Pale Rider es débil contra el ataque de White Rider
-Pale Rider recibe 222 de daño
-Pale Rider termina con HP:471/693
-White Rider lanza electricidad a Melchom
-Melchom recibe 148 de daño
-Melchom termina con HP:0/71
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:231/453 MP:389/389
-B-Dakini HP:533/681 MP:103/135
-C-Pale Rider HP:471/693 MP:310/310
+B-Hecatoncheires HP:756/756 MP:151/151
+C-
 D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:279/301
 ----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
+Full Turns: 4
+Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Yu
-2-Koppa Tengu
-3-Jueyuan
-4-White Rider
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+4-Inugami
 ----------------------------------------
-Seleccione una acción para Yu
+Seleccione una acción para Flynn
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1181,90 +432,60 @@ Seleccione una acción para Yu
 6: Rendirse
 INPUT: 5
 ----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Hokuto Seikun HP:348/348 MP:337/337
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:756/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Hokuto Seikun
+3-Inugami
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:231/453 MP:389/389
-B-Dakini HP:533/681 MP:103/135
-C-Pale Rider HP:471/693 MP:310/310
-D-
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Hokuto Seikun HP:348/348 MP:337/337
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:279/301
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:756/756 MP:151/151
+C-
+D-
 ----------------------------------------
 Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Koppa Tengu
-2-Jueyuan
-3-White Rider
-4-Yu
+1-Hokuto Seikun
+2-Inugami
+3-Flynn
+4-Bishamonten
 ----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:231/453 MP:389/389
-B-Dakini HP:533/681 MP:103/135
-C-Pale Rider HP:471/693 MP:310/310
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:279/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Jueyuan
-2-White Rider
-3-Yu
-4-Koppa Tengu
-----------------------------------------
-Seleccione una acción para Jueyuan
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:231/453 MP:389/389
-B-Dakini HP:533/681 MP:103/135
-C-Pale Rider HP:471/693 MP:310/310
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:279/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Yu
-3-Koppa Tengu
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para White Rider
+Seleccione una acción para Hokuto Seikun
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1272,57 +493,162 @@ Seleccione una acción para White Rider
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Cancelar
+1-Tsuchigumo HP:280/280 MP:126/126
+2-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que White Rider use
-1-Thunder Reign MP:22
-2-Dekaja MP:10
-3-Luster Candy MP:50
-4-Cancelar
-INPUT: 1
-----------------------------------------
-White Rider lanza electricidad a Nahobino
-Nahobino es débil contra el ataque de White Rider
-Nahobino recibe 222 de daño
-Nahobino termina con HP:9/453
-White Rider lanza electricidad a Dakini
-Dakini recibe 148 de daño
-Dakini termina con HP:385/681
-White Rider lanza electricidad a Pale Rider
-Pale Rider es débil contra el ataque de White Rider
-Pale Rider recibe 222 de daño
-Pale Rider termina con HP:249/693
+Tsuchigumo ha sido invocado
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Pale Rider HP:249/693 MP:310/310
-D-
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:756/756 MP:151/151
+C-
+D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
+1-Inugami
+2-Flynn
+3-Bishamonten
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:756/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Tsuchigumo
+4-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hokuto Seikun HP:348/348 MP:337/337
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:597/597 MP:347/347
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 55 de daño
+Hecatoncheires termina con HP:701/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:701/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Tsuchigumo
+3-Inugami
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Yu HP:597/597 MP:347/347
+2-Hecatoncheires HP:701/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Bishamonten ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Bishamonten
+Hecatoncheires recibe 26 de daño
+Hecatoncheires termina con HP:675/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:971/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:675/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
 1-Yu
-2-Koppa Tengu
-3-Jueyuan
-4-White Rider
+2-Hecatoncheires
 ----------------------------------------
 Seleccione una acción para Yu
 1: Atacar
@@ -1347,83 +673,39 @@ Seleccione una acción para Yu
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Yu
-1-Nahobino HP:9/453 MP:389/389
-2-Dakini HP:385/681 MP:103/135
-3-Pale Rider HP:249/693 MP:310/310
-4-Cancelar
-INPUT: 3
+1-Flynn HP:971/971 MP:527/527
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Bishamonten HP:700/700 MP:139/139
+4-Inugami HP:214/214 MP:109/109
+5-Cancelar
+INPUT: 1
 ----------------------------------------
-Yu dispara a Pale Rider
-Pale Rider recibe 72 de daño
-Pale Rider termina con HP:177/693
+Yu dispara a Flynn
+Flynn recibe 72 de daño
+Flynn termina con HP:899/971
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Pale Rider HP:177/693 MP:310/310
-D-
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:675/756 MP:151/151
+C-
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Koppa Tengu
-2-Jueyuan
-3-White Rider
-4-Yu
+1-Hecatoncheires
+2-Yu
 ----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Koppa Tengu use
-1-Zanma MP:8
-2-Bad Company MP:15
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Koppa Tengu
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Pale Rider HP:177/693 MP:310/310
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Jueyuan
-2-White Rider
-3-Yu
-4-Koppa Tengu
-----------------------------------------
-Seleccione una acción para Jueyuan
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1434,52 +716,35 @@ Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Jueyuan
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Jueyuan
-1-Nahobino HP:9/453 MP:389/389
-2-Dakini HP:385/681 MP:103/135
-3-Pale Rider HP:177/693 MP:310/310
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
 4-Cancelar
 INPUT: 4
 ----------------------------------------
-Seleccione una acción para Jueyuan
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
+4-Cancelar
 INPUT: 4
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Pale Rider HP:177/693 MP:310/310
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Pale Rider
-2-Dakini
-3-Nahobino
-----------------------------------------
-Seleccione una acción para Pale Rider
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1487,148 +752,10 @@ Seleccione una acción para Pale Rider
 INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Nue HP:165/341 MP:67/67
-2-Asmodeus HP:427/427 MP:192/192
-3-Qing Niuguai HP:407/407 MP:81/81
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Asmodeus ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Asmodeus HP:427/427 MP:192/192
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Dakini
-2-Nahobino
-3-Asmodeus
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Dakini use
-1-Maragidyne MP:32
-2-Javelin Rain MP:21
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Dakini
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Asmodeus HP:427/427 MP:192/192
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Asmodeus
-3-Dakini
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Asmodeus HP:427/427 MP:192/192
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Asmodeus
-2-Dakini
-3-Nahobino
-----------------------------------------
-Seleccione una acción para Asmodeus
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Nue HP:165/341 MP:67/67
-2-Pale Rider HP:177/693 MP:310/310
-3-Qing Niuguai HP:407/407 MP:81/81
-4-Cancelar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Nue ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Nue HP:165/341 MP:67/67
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Dakini
-2-Nahobino
-3-Nue
-----------------------------------------
-Seleccione una acción para Dakini
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1638,104 +765,23 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Nue HP:165/341 MP:67/67
-D-
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:675/756 MP:151/151
+C-
+D-
 ----------------------------------------
 Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Nahobino
-2-Nue
-3-Dakini
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Asmodeus HP:427/427 MP:192/192
-2-Pale Rider HP:177/693 MP:310/310
-3-Qing Niuguai HP:407/407 MP:81/81
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una posición para invocar
-1-Dakini HP:385/681 MP:103/135 (Puesto 2)
-2-Nue HP:165/341 MP:67/67 (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Qing Niuguai ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Qing Niuguai HP:407/407 MP:81/81
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 4
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-White Rider
-2-Yu
-3-Koppa Tengu
-4-Jueyuan
-----------------------------------------
-Seleccione una acción para White Rider
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-Dakini HP:385/681 MP:103/135
-C-Qing Niuguai HP:407/407 MP:81/81
-D-
-Equipo de Yu (J2)
-A-Yu HP:546/597 MP:347/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
-----------------------------------------
-Full Turns: 3
-Blinking Turns: 1
-----------------------------------------
-Orden:
 1-Yu
-2-Koppa Tengu
-3-Jueyuan
-4-White Rider
+2-Hecatoncheires
 ----------------------------------------
 Seleccione una acción para Yu
 1: Atacar
@@ -1747,45 +793,1055 @@ Seleccione una acción para Yu
 INPUT: 3
 ----------------------------------------
 Seleccione una habilidad para que Yu use
-1-Agi MP:5
-2-Die for Me! MP:45
+1-Mamudoon MP:30
+2-Samarecarm MP:40
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Mamudoon MP:30
+2-Samarecarm MP:40
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Tsuchigumo HP:280/280 MP:126/126
+3-Bishamonten HP:700/700 MP:139/139
+4-Inugami HP:214/214 MP:109/109
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:675/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Tsuchigumo
+4-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:597/597 MP:347/347
+2-Hecatoncheires HP:675/756 MP:151/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:597/597 MP:347/347
+2-Hecatoncheires HP:675/756 MP:151/151
 3-Cancelar
 INPUT: 2
 ----------------------------------------
-Yu ataca con oscuridad a Nahobino
-Nahobino devuelve el ataque a Yu y lo elimina
-Yu termina con HP:0/597
-Yu ataca con oscuridad a Dakini
-Dakini es resistente el ataque de Yu
-Dakini ha sido eliminado
-Dakini termina con HP:0/681
-Yu ataca con oscuridad a Qing Niuguai
-Qing Niuguai ha sido eliminado
-Qing Niuguai termina con HP:0/407
+Flynn ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 44 de daño
+Hecatoncheires termina con HP:631/756
 ----------------------------------------
-Se han consumido 3 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Nahobino (J1)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:597/597 MP:347/347
+B-Hecatoncheires HP:631/756 MP:151/151
 C-
 D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Tsuchigumo
+3-Inugami
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Yu HP:597/597 MP:347/347
+2-Hecatoncheires HP:631/756 MP:151/151
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Bishamonten ataca a Yu
+Yu es resistente el ataque de Bishamonten
+Yu recibe 26 de daño
+Yu termina con HP:571/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:126/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
 Equipo de Yu (J2)
-A-Yu HP:0/597 MP:302/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:631/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Inugami
+3-Flynn
+4-Bishamonten
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tsuchigumo use
+1-Poison Claw MP:9
+2-Zionga MP:8
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Tsuchigumo use
+1-Poison Claw MP:9
+2-Zionga MP:8
+3-Me Patra MP:15
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tsuchigumo
+1-Yu HP:571/597 MP:347/347
+2-Hecatoncheires HP:631/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Tsuchigumo lanza electricidad a Hecatoncheires
+Hecatoncheires recibe 70 de daño
+Hecatoncheires termina con HP:561/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:118/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:561/756 MP:151/151
+C-
+D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nahobino
+1-Inugami
+2-Flynn
+3-Bishamonten
+4-Tsuchigumo
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Inugami use
+1-Fire Breath MP:21
+2-Rakunda MP:15
+3-Panic Voice MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Inugami
+1-Yu HP:571/597 MP:347/347
+2-Hecatoncheires HP:561/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Inugami ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Inugami
+Hecatoncheires recibe 8 de daño
+Hecatoncheires termina con HP:553/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:280/280 MP:118/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:553/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Tsuchigumo HP:280/280 MP:118/126
+3-Bishamonten HP:700/700 MP:139/139
+4-Inugami HP:214/214 MP:109/109
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Yu dispara a Tsuchigumo
+Tsuchigumo recibe 72 de daño
+Tsuchigumo termina con HP:208/280
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:208/280 MP:118/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:553/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:208/280 MP:118/126
+C-Bishamonten HP:700/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:553/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Tsuchigumo HP:208/280 MP:118/126
+3-Bishamonten HP:700/700 MP:139/139
+4-Inugami HP:214/214 MP:109/109
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Yu dispara a Bishamonten
+Bishamonten recibe 72 de daño
+Bishamonten termina con HP:628/700
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:208/280 MP:118/126
+C-Bishamonten HP:628/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:553/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Tsuchigumo
+4-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:571/597 MP:347/347
+2-Hecatoncheires HP:553/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 55 de daño
+Hecatoncheires termina con HP:498/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:208/280 MP:118/126
+C-Bishamonten HP:628/700 MP:139/139
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:498/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Tsuchigumo
+3-Inugami
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hokuto Seikun HP:348/348 MP:337/337
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Hokuto Seikun ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Tsuchigumo HP:208/280 MP:118/126
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:498/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tsuchigumo
+2-Inugami
+3-Flynn
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Tsuchigumo
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Bishamonten HP:628/700 MP:139/139
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Bishamonten ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Bishamonten HP:628/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:109/109
+Equipo de Yu (J2)
+A-Yu HP:571/597 MP:347/347
+B-Hecatoncheires HP:498/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Inugami
+2-Flynn
+3-Hokuto Seikun
+4-Bishamonten
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Inugami
+1-Yu HP:571/597 MP:347/347
+2-Hecatoncheires HP:498/756 MP:151/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Inugami use
+1-Fire Breath MP:21
+2-Rakunda MP:15
+3-Panic Voice MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Inugami lanza fuego a Yu
+Yu es resistente el ataque de Inugami
+Yu recibe 35 de daño
+Yu termina con HP:536/597
+Inugami lanza fuego a Hecatoncheires
+Hecatoncheires recibe 70 de daño
+Hecatoncheires termina con HP:428/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Bishamonten HP:628/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:428/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Hokuto Seikun
+3-Bishamonten
+4-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:536/597 MP:347/347
+2-Hecatoncheires HP:428/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 44 de daño
+Hecatoncheires termina con HP:384/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Bishamonten HP:628/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:384/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Bishamonten HP:628/700 MP:139/139
+3-Hokuto Seikun HP:348/348 MP:337/337
+4-Inugami HP:214/214 MP:88/109
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Bishamonten HP:628/700 MP:139/139
+3-Hokuto Seikun HP:348/348 MP:337/337
+4-Inugami HP:214/214 MP:88/109
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Bishamonten HP:628/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:384/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hecatoncheires
+1-Flynn HP:899/971 MP:527/527
+2-Bishamonten HP:628/700 MP:139/139
+3-Hokuto Seikun HP:348/348 MP:337/337
+4-Inugami HP:214/214 MP:88/109
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Hecatoncheires ataca a Bishamonten
+Bishamonten recibe 58 de daño
+Bishamonten termina con HP:570/700
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:899/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:384/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:899/971 MP:527/527
+2-Bishamonten HP:570/700 MP:139/139
+3-Hokuto Seikun HP:348/348 MP:337/337
+4-Inugami HP:214/214 MP:88/109
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca a Flynn
+Flynn recibe 49 de daño
+Flynn termina con HP:850/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:384/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+4-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:536/597 MP:347/347
+2-Hecatoncheires HP:384/756 MP:151/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 44 de daño
+Hecatoncheires termina con HP:340/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:340/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Hokuto Seikun
+3-Inugami
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tsuchigumo HP:208/280 MP:118/126
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Hokuto Seikun HP:348/348 MP:337/337
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:340/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Inugami
+3-Flynn
+4-Bishamonten
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Tsuchigumo HP:208/280 MP:118/126
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tsuchigumo ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Tsuchigumo HP:208/280 MP:118/126
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:340/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Inugami
+2-Flynn
+3-Bishamonten
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Inugami use
+1-Fire Breath MP:21
+2-Rakunda MP:15
+3-Panic Voice MP:15
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Hokuto Seikun HP:348/348 MP:337/337
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Hokuto Seikun ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Tsuchigumo HP:208/280 MP:118/126
+D-Hokuto Seikun HP:348/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:340/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Tsuchigumo
+4-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:536/597 MP:347/347
+2-Hecatoncheires HP:340/756 MP:151/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:139/139
+C-Tsuchigumo HP:208/280 MP:118/126
+D-Hokuto Seikun HP:348/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:536/597 MP:347/347
+B-Hecatoncheires HP:340/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Tsuchigumo
+3-Hokuto Seikun
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Bishamonten ataca a Yu
+Yu es resistente el ataque de Bishamonten
+Yu recibe 65 de daño
+Yu termina con HP:471/597
+Bishamonten ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Bishamonten
+Hecatoncheires recibe 65 de daño
+Hecatoncheires termina con HP:275/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:850/971 MP:527/527
+B-Bishamonten HP:570/700 MP:107/139
+C-Tsuchigumo HP:208/280 MP:118/126
+D-Hokuto Seikun HP:348/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:471/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1795,43 +1851,231 @@ Seleccione una acción para Nahobino
 INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Nue HP:165/341 MP:67/67
-2-Asmodeus HP:427/427 MP:192/192
-3-Pale Rider HP:177/693 MP:310/310
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:850/971 MP:527/527
+2-Bishamonten HP:570/700 MP:107/139
+3-Tsuchigumo HP:208/280 MP:118/126
+4-Hokuto Seikun HP:348/348 MP:337/337
+5-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Flynn
+Flynn recibe 72 de daño
+Flynn termina con HP:778/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:778/971 MP:527/527
+B-Bishamonten HP:570/700 MP:107/139
+C-Tsuchigumo HP:208/280 MP:118/126
+D-Hokuto Seikun HP:348/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:471/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:151/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
 4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Seleccione una posición para invocar
-1-Vacío (Puesto 2)
-2-Vacío (Puesto 3)
-3-Vacío (Puesto 4)
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
 4-Cancelar
+INPUT: 2
+----------------------------------------
+Hecatoncheires ataca a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:641/971
+Hecatoncheires ataca a Bishamonten
+Bishamonten recibe 137 de daño
+Bishamonten termina con HP:433/700
+Hecatoncheires ataca a Tsuchigumo
+Tsuchigumo recibe 137 de daño
+Tsuchigumo termina con HP:71/280
+Hecatoncheires ataca a Hokuto Seikun
+Hokuto Seikun recibe 137 de daño
+Hokuto Seikun termina con HP:211/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:471/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:119/151
+C-
+D-
+----------------------------------------
+Full Turns: 4
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
 INPUT: 3
 ----------------------------------------
-Pale Rider ha sido invocado
+Seleccione una habilidad para que Flynn use
+1-Die for Me! MP:45
+2-Bufu MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:471/597 MP:347/347
+2-Hecatoncheires HP:275/756 MP:119/151
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Yu
+Yu es resistente el ataque de Flynn
+Yu recibe 44 de daño
+Yu termina con HP:427/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:427/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:119/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Hokuto Seikun
+3-Tsuchigumo
+4-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-
-C-
-D-Pale Rider HP:177/693 MP:310/310
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
 Equipo de Yu (J2)
-A-Yu HP:0/597 MP:302/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:427/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:119/151
+C-
+D-
 ----------------------------------------
-Full Turns: 0
+Full Turns: 2
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Pale Rider
-2-Nahobino
+1-Hokuto Seikun
+2-Tsuchigumo
+3-Flynn
+4-Bishamonten
 ----------------------------------------
-Seleccione una acción para Pale Rider
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hokuto Seikun use
+1-Glacial Blast MP:22
+2-Samarecarm MP:40
+3-Bufudyne MP:14
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -1841,64 +2085,1366 @@ INPUT: 4
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Yu (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:9/453 MP:389/389
-B-
-C-
-D-Pale Rider HP:177/693 MP:310/310
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
 Equipo de Yu (J2)
-A-Yu HP:0/597 MP:302/347
-B-Jueyuan HP:71/154 MP:68/68
-C-Koppa Tengu HP:93/196 MP:88/88
-D-White Rider HP:453/672 MP:257/301
+A-Yu HP:427/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:119/151
+C-
+D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-White Rider
-2-Koppa Tengu
-3-Jueyuan
+1-Tsuchigumo
+2-Flynn
+3-Bishamonten
+4-Hokuto Seikun
 ----------------------------------------
-Seleccione una acción para White Rider
+Seleccione una acción para Tsuchigumo
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para White Rider
-1-Nahobino HP:9/453 MP:389/389
-2-Pale Rider HP:177/693 MP:310/310
+Seleccione un objetivo para Tsuchigumo
+1-Yu HP:427/597 MP:347/347
+2-Hecatoncheires HP:275/756 MP:119/151
 3-Cancelar
-INPUT: 3
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para White Rider
+Tsuchigumo ataca a Yu
+Yu es resistente el ataque de Tsuchigumo
+Yu recibe 11 de daño
+Yu termina con HP:416/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:275/756 MP:119/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+4-Tsuchigumo
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Inugami HP:214/214 MP:88/109
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Bishamonten HP:433/700 MP:107/139 (Puesto 2)
+2-Tsuchigumo HP:71/280 MP:118/126 (Puesto 3)
+3-Hokuto Seikun HP:211/348 MP:337/337 (Puesto 4)
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:416/597 MP:347/347
+2-Hecatoncheires HP:275/756 MP:119/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 55 de daño
+Hecatoncheires termina con HP:220/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:433/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:220/756 MP:119/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:641/971 MP:527/527
+2-Bishamonten HP:433/700 MP:107/139
+3-Tsuchigumo HP:71/280 MP:118/126
+4-Hokuto Seikun HP:211/348 MP:337/337
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Yu dispara a Bishamonten
+Bishamonten recibe 72 de daño
+Bishamonten termina con HP:361/700
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:641/971 MP:527/527
+B-Bishamonten HP:361/700 MP:107/139
+C-Tsuchigumo HP:71/280 MP:118/126
+D-Hokuto Seikun HP:211/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:220/756 MP:119/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que White Rider use
-1-Thunder Reign MP:22
-2-Dekaja MP:10
-3-Luster Candy MP:50
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
 4-Cancelar
-INPUT: 1
+INPUT: 2
 ----------------------------------------
-White Rider lanza electricidad a Nahobino
-Nahobino es débil contra el ataque de White Rider
-Nahobino recibe 222 de daño
-Nahobino termina con HP:0/453
-White Rider lanza electricidad a Pale Rider
-Pale Rider es débil contra el ataque de White Rider
-Pale Rider recibe 222 de daño
-Pale Rider termina con HP:0/693
+Hecatoncheires ataca a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:504/971
+Hecatoncheires ataca a Bishamonten
+Bishamonten recibe 137 de daño
+Bishamonten termina con HP:224/700
+Hecatoncheires ataca a Tsuchigumo
+Tsuchigumo recibe 137 de daño
+Tsuchigumo termina con HP:0/280
+Hecatoncheires ataca a Hokuto Seikun
+Hokuto Seikun recibe 137 de daño
+Hokuto Seikun termina con HP:74/348
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Hokuto Seikun HP:74/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:220/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Inugami HP:214/214 MP:88/109
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Ganador: Yu (J2)
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Hokuto Seikun HP:74/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:220/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Hokuto Seikun
+3-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Yu HP:416/597 MP:347/347
+2-Hecatoncheires HP:220/756 MP:87/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Bishamonten ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Bishamonten
+Hecatoncheires recibe 26 de daño
+Hecatoncheires termina con HP:194/756
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Hokuto Seikun HP:74/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hokuto Seikun
+2-Flynn
+3-Bishamonten
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Hokuto Seikun
+1-Yu HP:416/597 MP:347/347
+2-Hecatoncheires HP:194/756 MP:87/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Hokuto Seikun
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Hokuto Seikun HP:74/348 MP:337/337
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Hokuto Seikun
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Inugami HP:214/214 MP:88/109
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una posición para invocar
+1-Bishamonten HP:224/700 MP:107/139 (Puesto 2)
+2-Vacío (Puesto 3)
+3-Hokuto Seikun HP:74/348 MP:337/337 (Puesto 4)
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Inugami ha sido invocado
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:416/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Inugami
+3-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Yu HP:416/597 MP:347/347
+2-Hecatoncheires HP:194/756 MP:87/151
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Bishamonten ataca a Yu
+Yu es resistente el ataque de Bishamonten
+Yu recibe 26 de daño
+Yu termina con HP:390/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:390/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:504/971 MP:527/527
+2-Bishamonten HP:224/700 MP:107/139
+3-Inugami HP:214/214 MP:88/109
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:504/971 MP:527/527
+B-Bishamonten HP:224/700 MP:107/139
+C-
+D-Inugami HP:214/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:390/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:87/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Hecatoncheires use
+1-Rakukaja MP:15
+2-Hades Blast MP:32
+3-War Cry MP:45
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Hecatoncheires ataca a Flynn
+Flynn recibe 137 de daño
+Flynn termina con HP:367/971
+Hecatoncheires ataca a Bishamonten
+Bishamonten recibe 137 de daño
+Bishamonten termina con HP:87/700
+Hecatoncheires ataca a Inugami
+Inugami recibe 137 de daño
+Inugami termina con HP:77/214
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:87/700 MP:107/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:390/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:367/971 MP:527/527
+2-Bishamonten HP:87/700 MP:107/139
+3-Inugami HP:77/214 MP:88/109
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Yu ataca a Bishamonten
+Bishamonten recibe 49 de daño
+Bishamonten termina con HP:38/700
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:38/700 MP:107/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:390/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:38/700 MP:107/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:390/597 MP:347/347
+B-Hecatoncheires HP:194/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Inugami
+3-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Bishamonten use
+1-War Cry MP:45
+2-Hades Blast MP:32
+3-Megidola MP:40
+4-Luster Candy MP:50
+5-Cancelar
+INPUT: 3
+----------------------------------------
+Bishamonten lanza un ataque todo poderoso a Yu
+Yu recibe 120 de daño
+Yu termina con HP:270/597
+Bishamonten lanza un ataque todo poderoso a Hecatoncheires
+Hecatoncheires recibe 120 de daño
+Hecatoncheires termina con HP:74/756
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:74/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Inugami
+2-Flynn
+3-Bishamonten
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Inugami
+1-Yu HP:270/597 MP:347/347
+2-Hecatoncheires HP:74/756 MP:55/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Inugami ataca a Hecatoncheires
+Hecatoncheires es resistente el ataque de Inugami
+Hecatoncheires recibe 8 de daño
+Hecatoncheires termina con HP:66/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:66/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:270/597 MP:347/347
+2-Hecatoncheires HP:66/756 MP:55/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 55 de daño
+Hecatoncheires termina con HP:11/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:367/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:11/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:367/971 MP:527/527
+2-Bishamonten HP:38/700 MP:67/139
+3-Inugami HP:77/214 MP:88/109
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Yu dispara a Flynn
+Flynn recibe 72 de daño
+Flynn termina con HP:295/971
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:11/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Hecatoncheires
+2-Yu
+----------------------------------------
+Seleccione una acción para Hecatoncheires
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:77/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:11/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+2-Hecatoncheires
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:295/971 MP:527/527
+2-Bishamonten HP:38/700 MP:67/139
+3-Inugami HP:77/214 MP:88/109
+4-Cancelar
+INPUT: 3
+----------------------------------------
+Yu dispara a Inugami
+Inugami recibe 72 de daño
+Inugami termina con HP:5/214
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:5/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-Hecatoncheires HP:11/756 MP:55/151
+C-
+D-
+----------------------------------------
+Full Turns: 3
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Die for Me! MP:45
+2-Bufu MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:270/597 MP:347/347
+2-Hecatoncheires HP:11/756 MP:55/151
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Die for Me! MP:45
+2-Bufu MP:5
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:270/597 MP:347/347
+2-Hecatoncheires HP:11/756 MP:55/151
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Flynn dispara a Hecatoncheires
+Hecatoncheires es resistente el ataque de Flynn
+Hecatoncheires recibe 55 de daño
+Hecatoncheires termina con HP:0/756
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:5/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Bishamonten
+2-Inugami
+3-Flynn
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Bishamonten
+1-Yu HP:270/597 MP:347/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Bishamonten
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:5/214 MP:88/109
+Equipo de Yu (J2)
+A-Yu HP:270/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Inugami
+2-Flynn
+3-Bishamonten
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Inugami use
+1-Fire Breath MP:21
+2-Rakunda MP:15
+3-Panic Voice MP:15
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Inugami lanza fuego a Yu
+Yu es resistente el ataque de Inugami
+Yu recibe 35 de daño
+Yu termina con HP:235/597
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:527/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:235/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Bishamonten
+3-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Die for Me! MP:45
+2-Bufu MP:5
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:235/597 MP:347/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn lanza hielo a Yu
+Yu es resistente el ataque de Flynn
+Yu recibe 53 de daño
+Yu termina con HP:182/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-Bishamonten HP:38/700 MP:67/139
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:182/597 MP:347/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:295/971 MP:522/527
+2-Bishamonten HP:38/700 MP:67/139
+3-Inugami HP:5/214 MP:67/109
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Yu
+1-Flynn HP:295/971 MP:522/527
+2-Bishamonten HP:38/700 MP:67/139
+3-Inugami HP:5/214 MP:67/109
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Yu use
+1-Mamudoon MP:30
+2-Samarecarm MP:40
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Yu ataca con oscuridad a Flynn
+Flynn bloquea el ataque de Yu
+Flynn termina con HP:295/971
+Yu ataca con oscuridad a Bishamonten
+Bishamonten es resistente el ataque de Yu
+Bishamonten ha sido eliminado
+Bishamonten termina con HP:0/700
+Yu ataca con oscuridad a Inugami
+Inugami bloquea el ataque de Yu
+Inugami termina con HP:5/214
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:182/597 MP:317/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:182/597 MP:317/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Flynn
+1-Yu HP:182/597 MP:317/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca a Yu
+Yu es resistente el ataque de Flynn
+Yu recibe 44 de daño
+Yu termina con HP:138/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:138/597 MP:317/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Inugami
+2-Flynn
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Inugami
+1-Yu HP:138/597 MP:317/347
+2-Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione una acción para Inugami
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Inugami
+1-Yu HP:138/597 MP:317/347
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Inugami ataca a Yu
+Yu es resistente el ataque de Inugami
+Yu recibe 8 de daño
+Yu termina con HP:130/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Yu (J2)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:130/597 MP:317/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:130/597 MP:317/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 0
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Yu
+----------------------------------------
+Seleccione una acción para Yu
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Flynn (J1)
+----------------------------------------
+Equipo de Flynn (J1)
+A-Flynn HP:295/971 MP:522/527
+B-
+C-
+D-Inugami HP:5/214 MP:67/109
+Equipo de Yu (J2)
+A-Yu HP:130/597 MP:317/347
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Flynn
+2-Inugami
+----------------------------------------
+Seleccione una acción para Flynn
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Flynn use
+1-Die for Me! MP:45
+2-Bufu MP:5
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Flynn ataca con oscuridad a Yu
+Yu ha sido eliminado
+Yu termina con HP:0/597
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Flynn (J1)

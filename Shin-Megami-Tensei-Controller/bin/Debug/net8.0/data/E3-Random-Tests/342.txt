@@ -1541,12 +1541,12 @@ INPUT: 6
 Nahobino ataca con oscuridad a Apsaras
 Apsaras ha sido eliminado
 Apsaras termina con HP:0/85
-Nahobino ataca con oscuridad a Xi Wangmu
-Xi Wangmu bloquea el ataque de Nahobino
-Xi Wangmu termina con HP:360/418
 Nahobino ataca con oscuridad a Centaur
 Centaur ha sido eliminado
 Centaur termina con HP:0/104
+Nahobino ataca con oscuridad a Xi Wangmu
+Xi Wangmu bloquea el ataque de Nahobino
+Xi Wangmu termina con HP:360/418
 ----------------------------------------
 Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

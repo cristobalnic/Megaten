@@ -1,11 +1,11 @@
 Player 1 Team
-[Samurai] Flynn (Mabufudyne,Maziodyne,Hamaon,Damascus Claw,Agi,Mediarahan,Axel Claw)
-Inugami
-Camazotz
-Caladrius
-Da Peng
-Peri
-David
+[Samurai] Tadano (Die for Me!,Sea of Chaos,Mudoon,Fire Breath,Recarm,Plasma Discharge)
+Fortuna
+Spriggan
+Kingu
+Red Rider
+Hecatoncheires
+Black Rider
 Player 2 Team
-[Samurai] Nahobino (Mabufudyne)
-Haoma
+[Samurai] Shujinko (Bar Toss,Mahama,Maragi,Maragion)
+Kelpie

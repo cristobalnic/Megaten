@@ -2360,12 +2360,12 @@ Joker ataca con oscuridad a Hitokoto-Nushi
 Hitokoto-Nushi es débil contra el ataque de Joker
 Hitokoto-Nushi ha sido eliminado
 Hitokoto-Nushi termina con HP:0/277
-Joker ataca con oscuridad a Huang Di
-Huang Di bloquea el ataque de Joker
-Huang Di termina con HP:672/672
 Joker ataca con oscuridad a Gryphon
 Gryphon ha sido eliminado
 Gryphon termina con HP:0/123
+Joker ataca con oscuridad a Huang Di
+Huang Di bloquea el ataque de Joker
+Huang Di termina con HP:672/672
 ----------------------------------------
 Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

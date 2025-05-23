@@ -1,13 +1,9 @@
 Player 1 Team
-[Samurai] Nahobino (Megido,Diarahan)
-Dakini
-Nue
-Melchom
-Asmodeus
-Pale Rider
-Qing Niuguai
+[Samurai] Flynn (Die for Me!,Bufu)
+Hokuto Seikun
+Bishamonten
+Inugami
+Tsuchigumo
 Player 2 Team
-[Samurai] Yu (Agi,Die for Me!)
-Jueyuan
-Koppa Tengu
-White Rider
+[Samurai] Yu (Mamudoon,Samarecarm)
+Hecatoncheires

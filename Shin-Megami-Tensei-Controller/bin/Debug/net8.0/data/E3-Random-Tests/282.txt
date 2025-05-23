@@ -2266,12 +2266,12 @@ INPUT: 3
 Demi-Fiend lanza viento a Demi-Fiend
 Demi-Fiend bloquea el ataque de Demi-Fiend
 Demi-Fiend termina con HP:1227/1227
-Demi-Fiend lanza viento a Nergal
-Nergal recibe 238 de daño
-Nergal termina con HP:220/644
 Demi-Fiend lanza viento a Lord Nan Dou
 Lord Nan Dou recibe 238 de daño
 Lord Nan Dou termina con HP:0/549
+Demi-Fiend lanza viento a Nergal
+Nergal recibe 238 de daño
+Nergal termina con HP:220/644
 Demi-Fiend lanza viento a Dis
 Dis recibe 238 de daño
 Dis termina con HP:0/188

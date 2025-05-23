@@ -401,26 +401,72 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 81
 ----------------------------------------
-Ronda de Nahobino (J1)
+Ronda de Yu (J1)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:389/389
-B-
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Ancient of Days HP:498/498 MP:484/484
 C-
 D-
-Equipo de Kotone (J2)
-A-Kotone HP:597/597 MP:347/347
-B-Harpy HP:90/90 MP:85/85
+Equipo de Itsuki (J2)
+A-Itsuki HP:1136/1136 MP:413/413
+B-Ammut HP:709/709 MP:140/140
+C-Atropos HP:277/277 MP:269/269
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Ancient of Days
+2-Yu
+----------------------------------------
+Seleccione una acción para Ancient of Days
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ancient of Days use
+1-Damnation MP:65
+2-Shining Seal MP:75
+3-Gather Spirit Energy MP:25
+4-Cancelar
+INPUT: 2
+----------------------------------------
+Ancient of Days lanza un ataque todo poderoso a Itsuki
+Itsuki recibe 222 de daño
+Itsuki termina con HP:914/1136
+Ancient of Days lanza un ataque todo poderoso a Ammut
+Ammut recibe 222 de daño
+Ammut termina con HP:487/709
+Ancient of Days lanza un ataque todo poderoso a Atropos
+Atropos recibe 222 de daño
+Atropos termina con HP:55/277
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:347/347
+B-Ancient of Days HP:498/498 MP:409/484
 C-
+D-
+Equipo de Itsuki (J2)
+A-Itsuki HP:914/1136 MP:413/413
+B-Ammut HP:487/709 MP:140/140
+C-Atropos HP:55/277 MP:269/269
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nahobino
+1-Yu
+2-Ancient of Days
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Yu
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -429,274 +475,149 @@ Seleccione una acción para Nahobino
 6: Rendirse
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mazionga MP:20
-2-Concentrate MP:11
-3-Diarahan MP:16
-4-Shining Seal MP:75
-5-Axel Claw MP:15
-6-Mazan MP:11
-7-Heat Wave MP:11
-8-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino lanza electricidad a Kotone
-Kotone es resistente el ataque de Nahobino
-Kotone recibe 57 de daño
-Kotone termina con HP:540/597
-Nahobino lanza electricidad a Harpy
-Harpy es débil contra el ataque de Nahobino
-Harpy recibe 173 de daño
-Harpy termina con HP:0/90
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:369/389
-B-
-C-
-D-
-Equipo de Kotone (J2)
-A-Kotone HP:540/597 MP:347/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nahobino
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Kotone HP:540/597 MP:347/347
+Seleccione una habilidad para que Yu use
+1-Mahama MP:18
 2-Cancelar
 INPUT: 1
 ----------------------------------------
-Nahobino ataca a Kotone
-Kotone es resistente el ataque de Nahobino
-Kotone recibe 14 de daño
-Kotone termina con HP:526/597
+Yu ataca con luz a Itsuki
+Itsuki ha sido eliminado
+Itsuki termina con HP:0/1136
+Yu ataca con luz a Ammut
+Ammut ha sido eliminado
+Ammut termina con HP:0/709
+Yu ataca con luz a Atropos
+Atropos bloquea el ataque de Yu
+Atropos termina con HP:55/277
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Kotone (J2)
+Ronda de Itsuki (J2)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:369/389
-B-
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:329/347
+B-Ancient of Days HP:498/498 MP:409/484
 C-
 D-
-Equipo de Kotone (J2)
-A-Kotone HP:526/597 MP:347/347
+Equipo de Itsuki (J2)
+A-Itsuki HP:0/1136 MP:413/413
 B-
-C-
+C-Atropos HP:55/277 MP:269/269
 D-
 ----------------------------------------
 Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Kotone
+1-Atropos
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Atropos
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Nahobino HP:453/453 MP:369/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:369/389
-B-
-C-
-D-
-Equipo de Kotone (J2)
-A-Kotone HP:526/597 MP:347/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Kotone
-1-Nahobino HP:453/453 MP:369/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Kotone
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Atropos
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Seleccione un objetivo para Atropos
+1-Yu HP:597/597 MP:329/347
+2-Ancient of Days HP:498/498 MP:409/484
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Atropos ataca a Ancient of Days
+Ancient of Days recibe 29 de daño
+Ancient of Days termina con HP:469/498
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Nahobino (J1)
+Ronda de Yu (J1)
 ----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:369/389
-B-
+Equipo de Yu (J1)
+A-Yu HP:597/597 MP:329/347
+B-Ancient of Days HP:469/498 MP:409/484
 C-
 D-
-Equipo de Kotone (J2)
-A-Kotone HP:526/597 MP:347/347
+Equipo de Itsuki (J2)
+A-Itsuki HP:0/1136 MP:413/413
 B-
-C-
+C-Atropos HP:55/277 MP:269/269
 D-
 ----------------------------------------
-Full Turns: 1
+Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nahobino
+1-Ancient of Days
+2-Yu
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Ancient of Days
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
 ----------------------------------------
 Seleccione un monstruo para invocar
 1-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Ancient of Days
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Ancient of Days use
+1-Damnation MP:65
+2-Shining Seal MP:75
+3-Gather Spirit Energy MP:25
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Ancient of Days
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mazionga MP:20
-2-Concentrate MP:11
-3-Diarahan MP:16
-4-Shining Seal MP:75
-5-Axel Claw MP:15
-6-Mazan MP:11
-7-Heat Wave MP:11
-8-Cancelar
+Seleccione un monstruo para invocar
+1-Cancelar
 INPUT: 1
 ----------------------------------------
-Nahobino lanza electricidad a Kotone
-Kotone es resistente el ataque de Nahobino
-Kotone recibe 57 de daño
-Kotone termina con HP:469/597
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Kotone (J2)
-----------------------------------------
-Equipo de Nahobino (J1)
-A-Nahobino HP:453/453 MP:349/389
-B-
-C-
-D-
-Equipo de Kotone (J2)
-A-Kotone HP:469/597 MP:347/347
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Kotone
-----------------------------------------
-Seleccione una acción para Kotone
+Seleccione una acción para Ancient of Days
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Kotone use
-1-Zio MP:5
-2-Shock MP:21
-3-Mahama MP:18
-4-Megidoplasma MP:41
-5-Bouncing Claw MP:4
-6-Mudo MP:6
-7-Mamudoon MP:30
-8-Mabufu MP:11
-9-Cancelar
-INPUT: 7
+Seleccione una habilidad para que Ancient of Days use
+1-Damnation MP:65
+2-Shining Seal MP:75
+3-Gather Spirit Energy MP:25
+4-Cancelar
+INPUT: 2
 ----------------------------------------
-Kotone ataca con oscuridad a Nahobino
-Nahobino devuelve el ataque a Kotone y lo elimina
-Kotone termina con HP:0/597
+Ancient of Days lanza un ataque todo poderoso a Atropos
+Atropos recibe 222 de daño
+Atropos termina con HP:0/277
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Nahobino (J1)
+Ganador: Yu (J1)

@@ -1786,10 +1786,7 @@ INPUT: 3
 ----------------------------------------
 Tlazolteotl revive a Tadano
 Tadano recibe 194 de HP
-Tadano termina con HP:388/388
-Tlazolteotl cura a Tadano
-Tadano recibe 194 de HP
-Tadano termina con HP:388/388
+Tadano termina con HP:194/388
 Tlazolteotl termina con HP:0/315
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
@@ -1798,7 +1795,7 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Yu (J2)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:388/388 MP:185/193
+A-Tadano HP:194/388 MP:185/193
 B-
 C-
 D-
@@ -1827,19 +1824,19 @@ Seleccione una acción para Yu
 INPUT: 2
 ----------------------------------------
 Seleccione un objetivo para Yu
-1-Tadano HP:388/388 MP:185/193
+1-Tadano HP:194/388 MP:185/193
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Yu dispara a Tadano
 Tadano recibe 72 de daño
-Tadano termina con HP:316/388
+Tadano termina con HP:122/388
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:316/388 MP:185/193
+A-Tadano HP:122/388 MP:185/193
 B-
 C-
 D-
@@ -1869,7 +1866,7 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:316/388 MP:185/193
+A-Tadano HP:122/388 MP:185/193
 B-
 C-
 D-
@@ -1899,7 +1896,7 @@ Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:316/388 MP:185/193
+A-Tadano HP:122/388 MP:185/193
 B-
 C-
 D-
@@ -1926,20 +1923,20 @@ Seleccione una acción para Hamsa
 INPUT: 1
 ----------------------------------------
 Seleccione un objetivo para Hamsa
-1-Tadano HP:316/388 MP:185/193
+1-Tadano HP:122/388 MP:185/193
 2-Cancelar
 INPUT: 1
 ----------------------------------------
 Hamsa ataca a Tadano
 Tadano es resistente el ataque de Hamsa
 Tadano recibe 2 de daño
-Tadano termina con HP:314/388
+Tadano termina con HP:120/388
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:314/388 MP:185/193
+A-Tadano HP:120/388 MP:185/193
 B-
 C-
 D-
@@ -1971,7 +1968,7 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:314/388 MP:185/193
+A-Tadano HP:120/388 MP:185/193
 B-
 C-
 D-
@@ -2013,7 +2010,7 @@ Se han obtenido 0 Blinking Turn(s)
 Ronda de Tadano (J1)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:314/388 MP:185/193
+A-Tadano HP:120/388 MP:185/193
 B-
 C-
 D-
@@ -2055,7 +2052,7 @@ Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
 Equipo de Tadano (J1)
-A-Tadano HP:314/388 MP:185/193
+A-Tadano HP:120/388 MP:185/193
 B-
 C-
 D-

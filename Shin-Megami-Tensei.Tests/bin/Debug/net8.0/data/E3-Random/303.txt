@@ -1,11 +1,12 @@
 Player 1 Team
-[Samurai] Itsuki (Bar Toss,Mudo)
-Kazfiel
-Melchom
-Lailah
-Samael
-Huang Di
+[Samurai] Kei (Die for Me!,Mabufudyne,Samarecarm)
+Shax
+Qing Niuguai
+Bai Suzhen
+Pachacamac
+Da Peng
 Player 2 Team
-[Samurai] Nahobino (Mudo,Madness Nails,Bufudyne,Mahama,Charge)
-Bishamonten
-Lilith
+[Samurai] Tamaki (Recarm,Axel Claw,Wind Breath,Iron Judgement,Zandyne,Diarama,Mahamaon)
+Pixie
+Centaur
+Patriot

@@ -107,42 +107,6 @@ public class UseSkillAction
         _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
     }
 
-    public void UseHealSkill(Unit attacker, Skill skill)
-    {
-        if (skill.Effect.Contains("eals"))
-        {
-            // VERIFICAR SI HAY MUERTOS (a los que no se les puede curar)
-            var beneficiary = _selectionUtils.GetAllyTarget(attacker);
-            _view.WriteLine(Params.Separator);
-            _view.WriteLine($"{attacker.Name} cura a {beneficiary.Name}");
-            var healAmount = AttackUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
-            int currentHp = beneficiary.Stats.Hp;
-            beneficiary.Stats.Hp = Math.Min(beneficiary.Stats.MaxHp, currentHp + healAmount);
-            int healed = beneficiary.Stats.Hp - currentHp;
-            _view.WriteLine($"{beneficiary.Name} recibe {healAmount} de HP"); // AQUÍ HAY UN ERROR EN TESTS
-            _view.DisplayHpMessage(beneficiary);
-            _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        }
-        else if (skill.Effect.Contains("KO"))
-        {
-            var beneficiary = _selectionUtils.GetDeadAllyTarget(attacker);
-            var healAmount = AttackUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
-            _view.WriteLine(Params.Separator);
-            _view.WriteLine($"{attacker.Name} revive a {beneficiary.Name}");
-            int currentHp = beneficiary.Stats.Hp;
-            beneficiary.Stats.Hp = Math.Min(beneficiary.Stats.MaxHp, currentHp + healAmount);
-            int healed = beneficiary.Stats.Hp - currentHp;
-            _view.WriteLine($"{beneficiary.Name} recibe {healAmount} de HP"); // AQUÍ HAY UN ERROR EN TESTS
-            _view.DisplayHpMessage(beneficiary);
-            _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        }
-        else
-        {
-            var summonAction = new SummonAction(_view, _gameState);
-            summonAction.ExecuteHealSummon(attacker, skill);
-        }
-    }
-
     public void UseSpecialSkill()
     {
         var summonAction = new SummonAction(_view, _gameState);

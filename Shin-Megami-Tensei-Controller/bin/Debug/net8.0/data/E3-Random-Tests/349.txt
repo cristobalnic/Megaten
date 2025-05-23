@@ -401,16 +401,16 @@ Elige un archivo para cargar los equipos
 399: 400.txt
 INPUT: 348
 ----------------------------------------
-Ronda de Flynn (J1)
+Ronda de Tadano (J1)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:109/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Haoma HP:305/305 MP:296/296
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1317/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -418,41 +418,40 @@ Full Turns: 4
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Caladrius
-3-Inugami
-4-Camazotz
+1-Kingu
+2-Tadano
+3-Fortuna
+4-Spriggan
 ----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Kingu
 1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:453/453 MP:389/389
-2-Haoma HP:305/305 MP:296/296
+Seleccione un objetivo para Kingu
+1-Shujinko HP:1317/1317 MP:625/625
+2-Kelpie HP:322/322 MP:144/144
 3-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Flynn ataca a Haoma
-Haoma recibe 88 de daño
-Haoma termina con HP:217/305
+Kingu ataca a Shujinko
+Shujinko es resistente el ataque de Kingu
+Shujinko recibe 17 de daño
+Shujinko termina con HP:1300/1317
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:109/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Haoma HP:217/305 MP:296/296
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1300/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -460,12 +459,135 @@ Full Turns: 3
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Caladrius
-2-Inugami
-3-Camazotz
-4-Flynn
+1-Tadano
+2-Fortuna
+3-Spriggan
+4-Kingu
 ----------------------------------------
-Seleccione una acción para Caladrius
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1300/1317 MP:625/625
+2-Kelpie HP:322/322 MP:144/144
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Shujinko
+Shujinko es resistente el ataque de Tadano
+Shujinko recibe 10 de daño
+Shujinko termina con HP:1290/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1290/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Spriggan
+3-Kingu
+4-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Red Rider HP:917/917 MP:183/183
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Black Rider HP:686/686 MP:307/307
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Red Rider ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1290/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Spriggan
+2-Kingu
+3-Tadano
+4-Red Rider
+----------------------------------------
+Seleccione una acción para Spriggan
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Spriggan
+1-Shujinko HP:1290/1317 MP:625/625
+2-Kelpie HP:322/322 MP:144/144
+3-Cancelar
+INPUT: 1
+----------------------------------------
+Spriggan ataca a Shujinko
+Shujinko es resistente el ataque de Spriggan
+Shujinko recibe 5 de daño
+Shujinko termina con HP:1285/1317
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Kingu
+2-Tadano
+3-Red Rider
+4-Spriggan
+----------------------------------------
+Seleccione una acción para Kingu
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -475,56 +597,48 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:109/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:453/453 MP:389/389
-B-Haoma HP:217/305 MP:296/296
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
-Full Turns: 2
+Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Inugami
-2-Camazotz
-3-Flynn
-4-Caladrius
+1-Tadano
+2-Red Rider
+3-Spriggan
+4-Kingu
 ----------------------------------------
-Seleccione una acción para Inugami
+Seleccione una acción para Tadano
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Inugami use
-1-Fire Breath MP:21
-2-Rakunda MP:15
-3-Panic Voice MP:15
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Inugami lanza fuego a Nahobino
-Nahobino es resistente el ataque de Inugami
-Nahobino recibe 35 de daño
-Nahobino termina con HP:418/453
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:88/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:418/453 MP:389/389
-B-Haoma HP:217/305 MP:296/296
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:147/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -532,52 +646,10 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Camazotz
-2-Flynn
-3-Caladrius
-4-Inugami
+1-Shujinko
+2-Kelpie
 ----------------------------------------
-Seleccione una acción para Camazotz
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Camazotz
-1-Nahobino HP:418/453 MP:389/389
-2-Haoma HP:217/305 MP:296/296
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Camazotz ataca a Nahobino
-Nahobino recibe 11 de daño
-Nahobino termina con HP:407/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:88/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:217/305 MP:296/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Caladrius
-3-Inugami
-4-Camazotz
-----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -586,71 +658,30 @@ Seleccione una acción para Flynn
 6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:407/453 MP:389/389
-2-Haoma HP:217/305 MP:296/296
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Flynn ataca a Haoma
-Haoma recibe 88 de daño
-Haoma termina con HP:129/305
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:88/109
-C-Camazotz HP:180/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:296/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:971/971 MP:527/527
-2-Inugami HP:214/214 MP:88/109
-3-Camazotz HP:180/180 MP:35/35
-4-Caladrius HP:155/155 MP:149/149
+Seleccione un objetivo para Shujinko
+1-Tadano HP:388/388 MP:193/193
+2-Red Rider HP:917/917 MP:183/183
+3-Spriggan HP:147/147 MP:66/66
+4-Kingu HP:464/464 MP:91/91
 5-Cancelar
 INPUT: 3
 ----------------------------------------
-Nahobino ataca a Camazotz
-Camazotz recibe 29 de daño
-Camazotz termina con HP:151/180
+Shujinko ataca a Spriggan
+Spriggan es resistente el ataque de Shujinko
+Spriggan recibe 93 de daño
+Spriggan termina con HP:54/147
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:971/971 MP:527/527
-B-Inugami HP:214/214 MP:88/109
-C-Camazotz HP:151/180 MP:35/35
-D-Caladrius HP:155/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:296/296
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:54/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -658,49 +689,47 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Haoma
-2-Nahobino
+1-Kelpie
+2-Shujinko
 ----------------------------------------
-Seleccione una acción para Haoma
+Seleccione una acción para Kelpie
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
+Seleccione una habilidad para que Kelpie use
+1-Diarama MP:9
+2-Tarunda MP:15
+3-Trafuri MP:5
 4-Cancelar
-INPUT: 2
+INPUT: 1
 ----------------------------------------
-Haoma dispara a Flynn
-Flynn recibe 84 de daño
-Flynn termina con HP:887/971
-Haoma dispara a Inugami
-Inugami recibe 84 de daño
-Inugami termina con HP:130/214
-Haoma dispara a Camazotz
-Camazotz es débil contra el ataque de Haoma
-Camazotz recibe 126 de daño
-Camazotz termina con HP:25/180
-Haoma dispara a Caladrius
-Caladrius es débil contra el ataque de Haoma
-Caladrius recibe 126 de daño
-Caladrius termina con HP:29/155
+Seleccione un objetivo para Kelpie
+1-Shujinko HP:1285/1317 MP:625/625
+2-Kelpie HP:322/322 MP:144/144
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Kelpie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-Inugami HP:130/214 MP:88/109
-C-Camazotz HP:25/180 MP:35/35
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-Spriggan HP:54/147 MP:66/66
+D-Kingu HP:464/464 MP:91/91
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:625/625
+B-Kelpie HP:322/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -708,130 +737,307 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Nahobino
-2-Haoma
+1-Shujinko
+2-Kelpie
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
-INPUT: 4
+INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
+Seleccione una habilidad para que Shujinko use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Maragi MP:11
+4-Maragion MP:20
+5-Cancelar
+INPUT: 5
 ----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
 4: Invocar
 5: Pasar Turno
 6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Maragi MP:11
+4-Maragion MP:20
+5-Cancelar
 INPUT: 2
 ----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:887/971 MP:527/527
-2-Inugami HP:130/214 MP:88/109
-3-Camazotz HP:25/180 MP:35/35
-4-Caladrius HP:29/155 MP:149/149
+Shujinko ataca con luz a Tadano
+Tadano bloquea el ataque de Shujinko
+Tadano termina con HP:388/388
+Shujinko ataca con luz a Red Rider
+Red Rider bloquea el ataque de Shujinko
+Red Rider termina con HP:917/917
+Shujinko ataca con luz a Spriggan
+Spriggan es débil contra el ataque de Shujinko
+Spriggan ha sido eliminado
+Spriggan termina con HP:0/147
+Shujinko ataca con luz a Kingu
+Kingu ha sido eliminado
+Kingu termina con HP:0/464
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Red Rider HP:917/917 MP:183/183
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:607/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Red Rider
+2-Tadano
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Red Rider use
+1-Antichthon MP:80
+2-War Cry MP:45
+3-Purple Smoke MP:14
+4-Trisagion MP:22
+5-Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione una acción para Red Rider
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Fortuna HP:147/147 MP:66/66
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Black Rider HP:686/686 MP:307/307
+4-Cancelar
+INPUT: 1
+----------------------------------------
+Fortuna ha sido invocado
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 1 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:607/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 1
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 5
+----------------------------------------
+Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:607/625
+B-Kelpie HP:322/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Fortuna
+2-Tadano
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 3
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Red Rider HP:917/917 MP:183/183
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Black Rider HP:686/686 MP:307/307
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Fortuna
+1-Shujinko HP:1285/1317 MP:607/625
+2-Kelpie HP:322/322 MP:144/144
+3-Cancelar
+INPUT: 2
+----------------------------------------
+Fortuna ataca a Kelpie
+Kelpie recibe 10 de daño
+Kelpie termina con HP:312/322
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:388/388 MP:193/193
+B-Fortuna HP:147/147 MP:66/66
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:607/625
+B-Kelpie HP:312/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+2-Kelpie
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Tadano HP:388/388 MP:193/193
+2-Fortuna HP:147/147 MP:66/66
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Maragi MP:11
+4-Maragion MP:20
 5-Cancelar
 INPUT: 3
 ----------------------------------------
-Nahobino dispara a Camazotz
-Camazotz es débil contra el ataque de Nahobino
-Camazotz recibe 125 de daño
-Camazotz termina con HP:0/180
+Shujinko lanza fuego a Tadano
+Tadano recibe 69 de daño
+Tadano termina con HP:319/388
+Shujinko lanza fuego a Fortuna
+Fortuna recibe 69 de daño
+Fortuna termina con HP:78/147
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-Inugami HP:130/214 MP:88/109
+Equipo de Tadano (J1)
+A-Tadano HP:319/388 MP:193/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
-Full Turns: 3
+Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Flynn
-2-Caladrius
-3-Inugami
+1-Kelpie
+2-Shujinko
 ----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-Inugami HP:130/214 MP:88/109
-C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Caladrius
-2-Inugami
-3-Flynn
-----------------------------------------
-Seleccione una acción para Caladrius
+Seleccione una acción para Kelpie
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Caladrius
-1-Nahobino HP:407/453 MP:389/389
-2-Haoma HP:129/305 MP:280/296
+Seleccione un objetivo para Kelpie
+1-Tadano HP:319/388 MP:193/193
+2-Fortuna HP:78/147 MP:66/66
 3-Cancelar
-INPUT: 3
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Caladrius
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
+Kelpie ataca a Tadano
+Tadano es resistente el ataque de Kelpie
+Tadano recibe 12 de daño
+Tadano termina con HP:307/388
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-Inugami HP:130/214 MP:88/109
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:193/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1285/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -839,49 +1045,26 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Inugami
-2-Flynn
-3-Caladrius
+1-Tadano
+2-Fortuna
 ----------------------------------------
-Seleccione una acción para Inugami
+Seleccione una acción para Tadano
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
 ----------------------------------------
 Seleccione un monstruo para invocar
-1-Da Peng HP:634/634 MP:126/126
-2-Peri HP:483/483 MP:216/216
-3-David HP:224/224 MP:99/99
+1-Red Rider HP:917/917 MP:183/183
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Black Rider HP:686/686 MP:307/307
 4-Cancelar
-INPUT: 3
+INPUT: 4
 ----------------------------------------
-David ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-David HP:224/224 MP:99/99
-C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Flynn
-2-Caladrius
-3-David
-----------------------------------------
-Seleccione una acción para Flynn
+Seleccione una acción para Tadano
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -890,32 +1073,28 @@ Seleccione una acción para Flynn
 6: Rendirse
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:407/453 MP:389/389
-2-Haoma HP:129/305 MP:280/296
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1285/1317 MP:596/625
+2-Kelpie HP:312/322 MP:144/144
 3-Cancelar
-INPUT: 3
+INPUT: 1
 ----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
+Tadano ataca a Shujinko
+Shujinko es resistente el ataque de Tadano
+Shujinko recibe 8 de daño
+Shujinko termina con HP:1277/1317
 ----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-David HP:224/224 MP:99/99
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:193/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1277/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -923,11 +1102,23 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Caladrius
-2-David
-3-Flynn
+1-Fortuna
+2-Tadano
 ----------------------------------------
-Seleccione una acción para Caladrius
+Seleccione una acción para Fortuna
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para que Fortuna use
+1-Zan MP:5
+2-Media MP:12
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Fortuna
 1: Atacar
 2: Usar Habilidad
 3: Invocar
@@ -937,14 +1128,14 @@ INPUT: 4
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-David HP:224/224 MP:99/99
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:193/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1277/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -952,30 +1143,60 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-David
-2-Flynn
-3-Caladrius
+1-Tadano
+2-Fortuna
 ----------------------------------------
-Seleccione una acción para David
+Seleccione una acción para Tadano
 1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1277/1317 MP:596/625
+2-Kelpie HP:312/322 MP:144/144
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Die for Me! MP:45
+2-Sea of Chaos MP:45
+3-Mudoon MP:10
+4-Fire Breath MP:21
+5-Recarm MP:20
+6-Plasma Discharge MP:22
+7-Cancelar
 INPUT: 4
+----------------------------------------
+Tadano lanza fuego a Shujinko
+Shujinko recibe 72 de daño
+Shujinko termina con HP:1205/1317
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ronda de Nahobino (J2)
+Ronda de Shujinko (J2)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-David HP:224/224 MP:99/99
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:172/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Caladrius HP:29/155 MP:149/149
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -983,284 +1204,10 @@ Full Turns: 2
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nahobino
-2-Haoma
+1-Shujinko
+2-Kelpie
 ----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:887/971 MP:527/527
-2-David HP:224/224 MP:99/99
-3-Caladrius HP:29/155 MP:149/149
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:887/971 MP:527/527
-2-David HP:224/224 MP:99/99
-3-Caladrius HP:29/155 MP:149/149
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Nahobino ataca a Caladrius
-Caladrius recibe 29 de daño
-Caladrius termina con HP:0/155
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:887/971 MP:527/527
-B-David HP:224/224 MP:99/99
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:280/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma dispara a Flynn
-Flynn recibe 84 de daño
-Flynn termina con HP:803/971
-Haoma dispara a David
-David recibe 84 de daño
-David termina con HP:140/224
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:803/971 MP:527/527
-B-David HP:140/224 MP:99/99
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:264/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-David
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Inugami HP:130/214 MP:88/109
-2-Da Peng HP:634/634 MP:126/126
-3-Peri HP:483/483 MP:216/216
-4-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una posición para invocar
-1-David HP:140/224 MP:99/99 (Puesto 2)
-2-Vacío (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Inugami ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:803/971 MP:527/527
-B-David HP:140/224 MP:99/99
-C-
-D-Inugami HP:130/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:264/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-David
-2-Inugami
-3-Flynn
-----------------------------------------
-Seleccione una acción para David
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que David use
-1-Mamudo MP:18
-2-Pulinpa MP:5
-3-Blight MP:14
-4-Cancelar
-INPUT: 1
-----------------------------------------
-David ataca con oscuridad a Nahobino
-Nahobino devuelve el ataque a David y lo elimina
-David termina con HP:0/224
-David ataca con oscuridad a Haoma
-Haoma bloquea el ataque de David
-Haoma termina con HP:129/305
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:803/971 MP:527/527
-B-
-C-
-D-Inugami HP:130/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:264/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:803/971 MP:527/527
-2-Inugami HP:130/214 MP:88/109
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:803/971 MP:527/527
-2-Inugami HP:130/214 MP:88/109
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1272,14 +1219,14 @@ INPUT: 5
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:803/971 MP:527/527
-B-
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:172/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Inugami HP:130/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:264/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -1287,41 +1234,38 @@ Full Turns: 1
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Haoma
-2-Nahobino
+1-Kelpie
+2-Shujinko
 ----------------------------------------
-Seleccione una acción para Haoma
+Seleccione una acción para Kelpie
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
-INPUT: 2
+INPUT: 3
 ----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 2
+Seleccione un monstruo para invocar
+1-Cancelar
+INPUT: 1
 ----------------------------------------
-Haoma dispara a Flynn
-Flynn recibe 84 de daño
-Flynn termina con HP:719/971
-Haoma dispara a Inugami
-Inugami recibe 84 de daño
-Inugami termina con HP:46/214
+Seleccione una acción para Kelpie
+1: Atacar
+2: Usar Habilidad
+3: Invocar
+4: Pasar Turno
+INPUT: 4
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:172/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -1329,24 +1273,10 @@ Full Turns: 1
 Blinking Turns: 0
 ----------------------------------------
 Orden:
-1-Nahobino
-2-Haoma
+1-Shujinko
+2-Kelpie
 ----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mabufudyne MP:32
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nahobino
+Seleccione una acción para Shujinko
 1: Atacar
 2: Disparar
 3: Usar Habilidad
@@ -1358,14 +1288,14 @@ INPUT: 5
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 1 Blinking Turn(s)
 ----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
+Equipo de Tadano (J1)
+A-Tadano HP:307/388 MP:172/193
+B-Fortuna HP:78/147 MP:66/66
 C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
 C-
 D-
 ----------------------------------------
@@ -1373,1909 +1303,355 @@ Full Turns: 0
 Blinking Turns: 1
 ----------------------------------------
 Orden:
-1-Haoma
-2-Nahobino
+1-Kelpie
+2-Shujinko
 ----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
-C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:407/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Inugami
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:407/453 MP:389/389
-2-Haoma HP:129/305 MP:248/296
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn dispara a Nahobino
-Nahobino recibe 110 de daño
-Nahobino termina con HP:297/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
-C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:297/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Inugami
-2-Flynn
-----------------------------------------
-Seleccione una acción para Inugami
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
-C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:297/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Flynn
-2-Inugami
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:297/453 MP:389/389
-2-Haoma HP:129/305 MP:248/296
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn ataca a Nahobino
-Nahobino recibe 88 de daño
-Nahobino termina con HP:209/453
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:719/971 MP:527/527
-B-
-C-
-D-Inugami HP:46/214 MP:88/109
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:389/389
-B-Haoma HP:129/305 MP:248/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:719/971 MP:527/527
-2-Inugami HP:46/214 MP:88/109
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mabufudyne MP:32
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino lanza hielo a Flynn
-Flynn recibe 141 de daño
-Flynn termina con HP:578/971
-Nahobino lanza hielo a Inugami
-Inugami recibe 141 de daño
-Inugami termina con HP:0/214
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:578/971 MP:527/527
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:248/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
+Seleccione una acción para Kelpie
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 2
 ----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma dispara a Flynn
-Flynn recibe 84 de daño
-Flynn termina con HP:494/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:494/971 MP:527/527
-B-
-C-
-D-
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Da Peng HP:634/634 MP:126/126
-2-Peri HP:483/483 MP:216/216
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una posición para invocar
-1-Vacío (Puesto 2)
-2-Vacío (Puesto 3)
-3-Vacío (Puesto 4)
-4-Cancelar
-INPUT: 3
-----------------------------------------
-Peri ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:494/971 MP:527/527
-B-
-C-
-D-Peri HP:483/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Peri
-2-Flynn
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:494/971 MP:527/527
-B-
-C-
-D-Peri HP:483/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:494/971 MP:527/527
-2-Peri HP:483/483 MP:216/216
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino dispara a Flynn
-Flynn recibe 83 de daño
-Flynn termina con HP:411/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:411/971 MP:527/527
-B-
-C-
-D-Peri HP:483/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:411/971 MP:527/527
-2-Peri HP:483/483 MP:216/216
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:411/971 MP:527/527
-2-Peri HP:483/483 MP:216/216
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:411/971 MP:527/527
-B-
-C-
-D-Peri HP:483/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:357/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mabufudyne MP:32
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mabufudyne MP:32
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino lanza hielo a Flynn
-Flynn recibe 141 de daño
-Flynn termina con HP:270/971
-Nahobino lanza hielo a Peri
-Peri es débil contra el ataque de Nahobino
-Peri recibe 212 de daño
-Peri termina con HP:271/483
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Peri HP:271/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:209/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Peri
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:209/453 MP:325/389
-2-Haoma HP:129/305 MP:232/296
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn dispara a Nahobino
-Nahobino recibe 110 de daño
-Nahobino termina con HP:99/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Peri HP:271/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Peri
-2-Flynn
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Da Peng HP:634/634 MP:126/126
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Da Peng ha sido invocado
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:634/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:634/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:634/634 MP:126/126
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:634/634 MP:126/126
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Nahobino use
-1-Mabufudyne MP:32
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:634/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:634/634 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma ataca a Da Peng
-Da Peng recibe 32 de daño
-Da Peng termina con HP:602/634
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:602/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:602/634 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Nahobino dispara a Da Peng
-Da Peng es débil contra el ataque de Nahobino
-Da Peng recibe 125 de daño
-Da Peng termina con HP:477/634
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:271/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:271/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Da Peng
-2-Flynn
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Da Peng
-1-Nahobino HP:99/453 MP:325/389
-2-Haoma HP:129/305 MP:232/296
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:99/453 MP:325/389
-2-Haoma HP:129/305 MP:232/296
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Da Peng
-2-Flynn
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:477/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:477/634 MP:126/126
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:477/634 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Nahobino ataca a Da Peng
-Da Peng recibe 29 de daño
-Da Peng termina con HP:448/634
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:448/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:270/971 MP:527/527
-2-Da Peng HP:448/634 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma ataca a Da Peng
-Da Peng recibe 32 de daño
-Da Peng termina con HP:416/634
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:416/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:271/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Da Peng HP:416/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Da Peng
-2-Flynn
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:271/483 MP:216/216
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Peri ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:527/527
-B-
-C-
-D-Peri HP:271/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:99/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Peri
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Flynn use
-1-Mabufudyne MP:32
-2-Maziodyne MP:32
-3-Hamaon MP:10
-4-Damascus Claw MP:7
-5-Agi MP:5
-6-Mediarahan MP:40
-7-Axel Claw MP:15
-8-Cancelar
-INPUT: 5
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:99/453 MP:325/389
-2-Haoma HP:129/305 MP:232/296
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Flynn lanza fuego a Nahobino
-Nahobino es resistente el ataque de Flynn
-Nahobino recibe 53 de daño
-Nahobino termina con HP:46/453
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:270/971 MP:522/527
-B-
-C-
-D-Peri HP:271/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Nahobino
-1-Flynn HP:270/971 MP:522/527
-2-Peri HP:271/483 MP:216/216
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Nahobino ataca a Flynn
-Flynn recibe 29 de daño
-Flynn termina con HP:241/971
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:241/971 MP:522/527
-B-
-C-
-D-Peri HP:271/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:129/305 MP:232/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Haoma use
-1-Amrita MP:20
-2-Blast Arrow MP:16
-3-Tetraja MP:15
-4-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma dispara a Flynn
-Flynn recibe 84 de daño
-Flynn termina con HP:157/971
-Haoma dispara a Peri
-Peri recibe 84 de daño
-Peri termina con HP:187/483
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Peri HP:187/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:129/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Peri
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Peri HP:187/483 MP:216/216
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:129/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Peri
-2-Flynn
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Da Peng HP:416/634 MP:126/126
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Peri
-1-Nahobino HP:46/453 MP:325/389
-2-Haoma HP:129/305 MP:216/296
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Da Peng HP:416/634 MP:126/126
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Peri
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Da Peng HP:416/634 MP:126/126
-2-Cancelar
-INPUT: 1
-----------------------------------------
-Da Peng ha sido invocado
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Da Peng HP:416/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:129/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:46/453 MP:325/389
-2-Haoma HP:129/305 MP:216/296
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Flynn dispara a Haoma
-Haoma es resistente el ataque de Flynn
-Haoma recibe 55 de daño
-Haoma termina con HP:74/305
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Nahobino (J2)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Da Peng HP:416/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:74/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Da Peng HP:416/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:74/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:157/971 MP:522/527
-2-Da Peng HP:416/634 MP:126/126
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Haoma ataca a Da Peng
-Da Peng recibe 32 de daño
-Da Peng termina con HP:384/634
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Da Peng HP:384/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:74/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Nahobino
-2-Haoma
-----------------------------------------
-Seleccione una acción para Nahobino
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 5
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:157/971 MP:522/527
-B-
-C-
-D-Da Peng HP:384/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:74/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Haoma
-2-Nahobino
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Cancelar
-INPUT: 1
-----------------------------------------
-Seleccione una acción para Haoma
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Haoma
-1-Flynn HP:157/971 MP:522/527
-2-Da Peng HP:384/634 MP:126/126
-3-Cancelar
-INPUT: 1
-----------------------------------------
-Haoma ataca a Flynn
-Flynn recibe 32 de daño
-Flynn termina con HP:125/971
-----------------------------------------
-Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Ronda de Flynn (J1)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:125/971 MP:522/527
-B-
-C-
-D-Da Peng HP:384/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-Haoma HP:74/305 MP:216/296
-C-
-D-
-----------------------------------------
-Full Turns: 2
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:46/453 MP:325/389
-2-Haoma HP:74/305 MP:216/296
-3-Cancelar
-INPUT: 3
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 1
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:46/453 MP:325/389
-2-Haoma HP:74/305 MP:216/296
-3-Cancelar
-INPUT: 2
-----------------------------------------
-Flynn ataca a Haoma
-Haoma recibe 88 de daño
-Haoma termina con HP:0/305
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 0 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:125/971 MP:522/527
-B-
-C-
-D-Da Peng HP:384/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 1
-Blinking Turns: 0
-----------------------------------------
-Orden:
-1-Da Peng
-2-Flynn
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Da Peng use
-1-Zandyne MP:14
-2-Panic Voice MP:15
-3-Mabufula MP:20
+Seleccione una habilidad para que Kelpie use
+1-Diarama MP:9
+2-Tarunda MP:15
+3-Trafuri MP:5
 4-Cancelar
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Da Peng
-1-Nahobino HP:46/453 MP:325/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
+Seleccione un objetivo para Kelpie
+1-Shujinko HP:1205/1317 MP:596/625
+2-Kelpie HP:312/322 MP:144/144
+3-Cancelar
 INPUT: 3
 ----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:187/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 3
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:187/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 2
-----------------------------------------
-Seleccione una habilidad para que Da Peng use
-1-Zandyne MP:14
-2-Panic Voice MP:15
-3-Mabufula MP:20
-4-Cancelar
-INPUT: 4
-----------------------------------------
-Seleccione una acción para Da Peng
+Seleccione una acción para Kelpie
 1: Atacar
 2: Usar Habilidad
 3: Invocar
 4: Pasar Turno
 INPUT: 1
 ----------------------------------------
-Seleccione un objetivo para Da Peng
-1-Nahobino HP:46/453 MP:325/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Da Peng
-1: Atacar
-2: Usar Habilidad
-3: Invocar
-4: Pasar Turno
-INPUT: 4
-----------------------------------------
-Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
-Se han obtenido 1 Blinking Turn(s)
-----------------------------------------
-Equipo de Flynn (J1)
-A-Flynn HP:125/971 MP:522/527
-B-
-C-
-D-Da Peng HP:384/634 MP:126/126
-Equipo de Nahobino (J2)
-A-Nahobino HP:46/453 MP:325/389
-B-
-C-
-D-
-----------------------------------------
-Full Turns: 0
-Blinking Turns: 1
-----------------------------------------
-Orden:
-1-Flynn
-2-Da Peng
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:187/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 4
-----------------------------------------
-Seleccione un monstruo para invocar
-1-Peri HP:187/483 MP:216/216
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 2
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:46/453 MP:325/389
-2-Cancelar
-INPUT: 2
-----------------------------------------
-Seleccione una acción para Flynn
-1: Atacar
-2: Disparar
-3: Usar Habilidad
-4: Invocar
-5: Pasar Turno
-6: Rendirse
-INPUT: 3
-----------------------------------------
-Seleccione una habilidad para que Flynn use
-1-Mabufudyne MP:32
-2-Maziodyne MP:32
-3-Hamaon MP:10
-4-Damascus Claw MP:7
-5-Agi MP:5
-6-Mediarahan MP:40
-7-Axel Claw MP:15
-8-Cancelar
-INPUT: 7
-----------------------------------------
-Seleccione un objetivo para Flynn
-1-Nahobino HP:46/453 MP:325/389
-2-Cancelar
+Seleccione un objetivo para Kelpie
+1-Tadano HP:307/388 MP:172/193
+2-Fortuna HP:78/147 MP:66/66
+3-Cancelar
 INPUT: 1
 ----------------------------------------
-Flynn ataca a Nahobino
-Nahobino recibe 177 de daño
-Nahobino termina con HP:0/453
+Kelpie ataca a Tadano
+Tadano es resistente el ataque de Kelpie
+Tadano recibe 12 de daño
+Tadano termina con HP:295/388
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
 ----------------------------------------
-Ganador: Flynn (J1)
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:295/388 MP:172/193
+B-Fortuna HP:78/147 MP:66/66
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-Kelpie HP:312/322 MP:144/144
+C-
+D-
+----------------------------------------
+Full Turns: 2
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+2-Fortuna
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 4
+----------------------------------------
+Seleccione un monstruo para invocar
+1-Red Rider HP:917/917 MP:183/183
+2-Hecatoncheires HP:756/756 MP:151/151
+3-Black Rider HP:686/686 MP:307/307
+4-Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1205/1317 MP:596/625
+2-Kelpie HP:312/322 MP:144/144
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Die for Me! MP:45
+2-Sea of Chaos MP:45
+3-Mudoon MP:10
+4-Fire Breath MP:21
+5-Recarm MP:20
+6-Plasma Discharge MP:22
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ataca con oscuridad a Shujinko
+Shujinko bloquea el ataque de Tadano
+Shujinko termina con HP:1205/1317
+Tadano ataca con oscuridad a Kelpie
+Kelpie ha sido eliminado
+Kelpie termina con HP:0/322
+----------------------------------------
+Se han consumido 2 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:295/388 MP:127/193
+B-Fortuna HP:78/147 MP:66/66
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:596/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Tadano HP:295/388 MP:127/193
+2-Fortuna HP:78/147 MP:66/66
+3-Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Shujinko use
+1-Bar Toss MP:35
+2-Mahama MP:18
+3-Maragi MP:11
+4-Maragion MP:20
+5-Cancelar
+INPUT: 2
+----------------------------------------
+Shujinko ataca con luz a Tadano
+Tadano bloquea el ataque de Shujinko
+Tadano termina con HP:295/388
+Shujinko ataca con luz a Fortuna
+Fortuna ha sido eliminado
+Fortuna termina con HP:0/147
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:295/388 MP:127/193
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1205/1317 MP:578/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Tadano
+1-Shujinko HP:1205/1317 MP:578/625
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano dispara a Shujinko
+Shujinko es resistente el ataque de Tadano
+Shujinko recibe 10 de daño
+Shujinko termina con HP:1195/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:295/388 MP:127/193
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1195/1317 MP:578/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Tadano HP:295/388 MP:127/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Tadano
+Tadano recibe 228 de daño
+Tadano termina con HP:67/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Tadano (J1)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:67/388 MP:127/193
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1195/1317 MP:578/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Tadano
+----------------------------------------
+Seleccione una acción para Tadano
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 3
+----------------------------------------
+Seleccione una habilidad para que Tadano use
+1-Die for Me! MP:45
+2-Sea of Chaos MP:45
+3-Mudoon MP:10
+4-Fire Breath MP:21
+5-Recarm MP:20
+6-Plasma Discharge MP:22
+7-Cancelar
+INPUT: 1
+----------------------------------------
+Tadano ataca con oscuridad a Shujinko
+Shujinko bloquea el ataque de Tadano
+Shujinko termina con HP:1195/1317
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ronda de Shujinko (J2)
+----------------------------------------
+Equipo de Tadano (J1)
+A-Tadano HP:67/388 MP:82/193
+B-
+C-
+D-
+Equipo de Shujinko (J2)
+A-Shujinko HP:1195/1317 MP:578/625
+B-
+C-
+D-
+----------------------------------------
+Full Turns: 1
+Blinking Turns: 0
+----------------------------------------
+Orden:
+1-Shujinko
+----------------------------------------
+Seleccione una acción para Shujinko
+1: Atacar
+2: Disparar
+3: Usar Habilidad
+4: Invocar
+5: Pasar Turno
+6: Rendirse
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Shujinko
+1-Tadano HP:67/388 MP:82/193
+2-Cancelar
+INPUT: 1
+----------------------------------------
+Shujinko dispara a Tadano
+Tadano recibe 228 de daño
+Tadano termina con HP:0/388
+----------------------------------------
+Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
+Se han obtenido 0 Blinking Turn(s)
+----------------------------------------
+Ganador: Shujinko (J2)

@@ -4533,16 +4533,16 @@ Seleccione una habilidad para que Yu use
 9-Cancelar
 INPUT: 3
 ----------------------------------------
-Yu lanza fuego a Decarabia
-Decarabia recibe 157 de daño
-Yu lanza fuego a Decarabia
-Decarabia recibe 157 de daño
-Decarabia termina con HP:0/273
 Yu lanza fuego a Ancient of Days
 Ancient of Days recibe 157 de daño
 Yu lanza fuego a Ancient of Days
 Ancient of Days recibe 157 de daño
 Ancient of Days termina con HP:0/498
+Yu lanza fuego a Decarabia
+Decarabia recibe 157 de daño
+Yu lanza fuego a Decarabia
+Decarabia recibe 157 de daño
+Decarabia termina con HP:0/273
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

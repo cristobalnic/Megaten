@@ -1908,17 +1908,17 @@ Seleccione una habilidad para que Yu use
 7-Cancelar
 INPUT: 2
 ----------------------------------------
-Yu lanza un ataque todo poderoso a Sraosha
-Sraosha recibe 138 de daño
-Sraosha termina con HP:224/362
-Yu lanza un ataque todo poderoso a Azumi
-Azumi recibe 138 de daño
-Azumi termina con HP:0/137
 Yu lanza un ataque todo poderoso a Makara
 Makara recibe 138 de daño
 Yu lanza un ataque todo poderoso a Makara
 Makara recibe 138 de daño
 Makara termina con HP:0/161
+Yu lanza un ataque todo poderoso a Azumi
+Azumi recibe 138 de daño
+Azumi termina con HP:0/137
+Yu lanza un ataque todo poderoso a Sraosha
+Sraosha recibe 138 de daño
+Sraosha termina con HP:224/362
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

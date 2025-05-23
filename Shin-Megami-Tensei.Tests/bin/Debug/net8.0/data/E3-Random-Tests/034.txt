@@ -1344,13 +1344,13 @@ Kyouji termina con HP:869/999
 Flynn lanza hielo a Archangel
 Archangel recibe 130 de daño
 Archangel termina con HP:0/265
-Flynn lanza hielo a Atropos
-Atropos recibe 130 de daño
-Atropos termina con HP:147/277
 Flynn lanza hielo a Mithras
 Mithras es débil contra el ataque de Flynn
 Mithras recibe 196 de daño
 Mithras termina con HP:0/293
+Flynn lanza hielo a Atropos
+Atropos recibe 130 de daño
+Atropos termina con HP:147/277
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

@@ -3383,12 +3383,12 @@ Flynn termina con HP:628/971
 Samael lanza un ataque todo poderoso a Sandman
 Sandman recibe 115 de daño
 Sandman termina con HP:0/113
-Samael lanza un ataque todo poderoso a Girimekhala
-Girimekhala recibe 115 de daño
-Girimekhala termina con HP:538/653
 Samael lanza un ataque todo poderoso a Lham Dearg
 Lham Dearg recibe 115 de daño
 Lham Dearg termina con HP:0/91
+Samael lanza un ataque todo poderoso a Girimekhala
+Girimekhala recibe 115 de daño
+Girimekhala termina con HP:538/653
 ----------------------------------------
 Se han consumido 1 Full Turn(s) y 0 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

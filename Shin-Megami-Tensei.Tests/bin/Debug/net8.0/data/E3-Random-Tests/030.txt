@@ -1514,15 +1514,15 @@ INPUT: 2
 Xi Wangmu dispara a Itsuki
 Itsuki recibe 150 de daño
 Itsuki termina con HP:941/1136
-Xi Wangmu dispara a Hitokoto-Nushi
-Hitokoto-Nushi recibe 150 de daño
-Hitokoto-Nushi termina con HP:127/277
 Xi Wangmu dispara a Parvati
 Parvati recibe 150 de daño
 Parvati termina con HP:0/165
 Xi Wangmu dispara a Kelpie
 Kelpie recibe 150 de daño
 Kelpie termina con HP:0/322
+Xi Wangmu dispara a Hitokoto-Nushi
+Hitokoto-Nushi recibe 150 de daño
+Hitokoto-Nushi termina con HP:127/277
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)

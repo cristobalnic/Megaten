@@ -1298,12 +1298,12 @@ Tadano termina con HP:134/388
 Itsuki lanza un ataque todo poderoso a Principality
 Principality recibe 155 de daño
 Principality termina con HP:0/169
-Itsuki lanza un ataque todo poderoso a Nidhoggr
-Nidhoggr recibe 155 de daño
-Nidhoggr termina con HP:392/681
 Itsuki lanza un ataque todo poderoso a Okiku-Mushi
 Okiku-Mushi recibe 155 de daño
 Okiku-Mushi termina con HP:0/273
+Itsuki lanza un ataque todo poderoso a Nidhoggr
+Nidhoggr recibe 155 de daño
+Nidhoggr termina con HP:392/681
 ----------------------------------------
 Se han consumido 0 Full Turn(s) y 1 Blinking Turn(s)
 Se han obtenido 0 Blinking Turn(s)
