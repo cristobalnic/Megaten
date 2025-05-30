@@ -1,8 +1,10 @@
 ﻿using Shin_Megami_Tensei.Entities;
+using Shin_Megami_Tensei.GameActions.GameFlowActions;
+using Shin_Megami_Tensei.GameActions.SkillActions;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameActions.SkillActions;
+namespace Shin_Megami_Tensei.GameActions.SkillHandlers;
 
 public class SpecialSkillHandler : ISkillHandler
 {
@@ -16,7 +18,13 @@ public class SpecialSkillHandler : ISkillHandler
     }
 
     public void Execute(Unit attacker, Skill skill)
+    { 
+        UseSpecialSkill();
+    }
+
+    private void UseSpecialSkill()
     {
-        new UseSkillAction(_view, _gameState).UseSpecialSkill();
+        var summonAction = new SummonAction(_view, _gameState);
+        summonAction.ExecuteSpecialSummon();
     }
 }

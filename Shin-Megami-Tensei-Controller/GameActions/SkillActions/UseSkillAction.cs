@@ -35,8 +35,6 @@ public class UseSkillAction
         _gameState.TurnPlayer.KSkillsUsed++;
     }
 
-    
-
     private Skill GetSelectedSkill(Unit attacker)
     {
         _view.DisplaySkillSelection(attacker);
@@ -47,69 +45,5 @@ public class UseSkillAction
             throw new CancelObjectiveSelectionException();
         }
         return attacker.Skills[skillSelection-1];
-    }
-
-    public void UseAttackSkill(Unit attacker, Skill skill)
-    {
-        var target = _selectionUtils.GetTarget(attacker);
-        _view.WriteLine(Params.Separator);
-        
-        AffinityType targetAffinity = target.Affinity.GetAffinity(skill.Type);
-        
-        double baseDamage = GetSkillDamage(attacker, skill);
-        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = AttackUtils.GetRoundedInt(affinityDamage);
-        
-        CombatRecord combatRecord = new CombatRecord(attacker, target, damage, targetAffinity);
-
-        int hitNumber = SkillUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
-        for (int i = 0; i < hitNumber; i++)
-        {
-            AffinityUtils.DealDamageByAffinityRules(combatRecord);
-            
-            _view.DisplayAttackMessage(combatRecord, skill);
-            _view.DisplayAffinityDetectionMessage(combatRecord);
-            _view.DisplayAttackResultMessage(combatRecord);
-            
-            if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
-            if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-        }
-        _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
-        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
-    }
-
-    private double GetSkillDamage(Unit attacker, Skill skill)
-    {
-        if (skill.Type == SkillType.Phys)
-            return Math.Sqrt(attacker.Stats.Str * skill.Power);
-        if (skill.Type == SkillType.Gun)
-            return Math.Sqrt(attacker.Stats.Skl * skill.Power);
-        if (skill.Type is SkillType.Fire or SkillType.Ice or SkillType.Elec or SkillType.Force or SkillType.Almighty)
-            return Math.Sqrt(attacker.Stats.Mag * skill.Power);
-        throw new NotImplementedException($"Skill type {skill.Type} not implemented for Damage calculation");
-    }
-
-    public void UseInstantKillSkill(Unit attacker, Skill skill)
-    {
-        var target = _selectionUtils.GetTarget(attacker);
-        _view.WriteLine(Params.Separator);
-        AffinityType targetAffinity = AffinityUtils.GetTargetAffinity(skill, target);
-        CombatRecord combatRecord = new CombatRecord(attacker, target, 0, targetAffinity);
-        bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(combatRecord, skill);
-        if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(combatRecord);
-        _view.DisplayAttackMessage(combatRecord, skill);
-        if (!hasMissed) _view.DisplayAffinityDetectionMessage(combatRecord);
-        _view.DisplayInstantKillSkillResultMessage(combatRecord, hasMissed);
-        if (!target.IsAlive()) _gameState.WaitPlayer.Table.HandleDeath(target);
-        if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
-        if (!hasMissed) _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
-        else _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
-    }
-
-    public void UseSpecialSkill()
-    {
-        var summonAction = new SummonAction(_view, _gameState);
-        summonAction.ExecuteSpecialSummon();
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei.Tests/Shin-Megami-Tensei.Tests.csproj": {}
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj": {}
   },
   "projects": {
-    "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
         "projectName": "Shin-Megami-Tensei-Controller",
-        "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj",
-        "packagesPath": "/home/cristobalnic/.nuget/packages/",
-        "outputPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/obj/",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cristobalnic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj": {
-                "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj"
               }
             }
           }
@@ -68,21 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cristobalnic/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
         "projectName": "Shin-Megami-Tensei-View",
-        "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj",
-        "packagesPath": "/home/cristobalnic/.nuget/packages/",
-        "outputPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/obj/",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cristobalnic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -126,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cristobalnic/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei.Tests/Shin-Megami-Tensei.Tests.csproj": {
+    "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei.Tests/Shin-Megami-Tensei.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
         "projectName": "Shin-Megami-Tensei.Tests",
-        "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei.Tests/Shin-Megami-Tensei.Tests.csproj",
-        "packagesPath": "/home/cristobalnic/.nuget/packages/",
-        "outputPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei.Tests/obj/",
+        "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei.Tests\\Shin-Megami-Tensei.Tests.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cristobalnic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -152,11 +152,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj": {
-                "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-Controller/Shin-Megami-Tensei-Controller.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-Controller\\Shin-Megami-Tensei-Controller.csproj"
               },
-              "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj": {
-                "projectPath": "/home/cristobalnic/Desktop/Megaten/Shin-Megami-Tensei-View/Shin-Megami-Tensei-View.csproj"
+              "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj": {
+                "projectPath": "C:\\Users\\crist\\OneDrive\\Escritorio\\DDS\\Proyecto\\Megaten\\Shin-Megami-Tensei-View\\Shin-Megami-Tensei-View.csproj"
               }
             }
           }
@@ -209,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/cristobalnic/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

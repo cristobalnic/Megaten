@@ -1,5 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.GameActions.SkillHandlers;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
 
@@ -23,7 +24,7 @@ public class SkillHandlerFactory
             SkillType.Heal => new HealSkillHandler(_view, _gameState),
             SkillType.Light or SkillType.Dark => new InstantKillSkillHandler(_view, _gameState),
             SkillType.Special => new SpecialSkillHandler(_view, _gameState),
-            _ => new AttackSkillHandler(_view, _gameState),
+            _ => new BasicSkillHandler(_view, _gameState),
         };
     }
 }

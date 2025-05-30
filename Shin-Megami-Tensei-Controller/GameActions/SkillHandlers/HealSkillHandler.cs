@@ -5,7 +5,7 @@ using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameActions.SkillActions;
+namespace Shin_Megami_Tensei.GameActions.SkillHandlers;
 
 public class HealSkillHandler : ISkillHandler
 {
@@ -25,7 +25,7 @@ public class HealSkillHandler : ISkillHandler
         UseHealSkill(attacker, skill);
     }
 
-    public void UseHealSkill(Unit attacker, Skill skill)
+    private void UseHealSkill(Unit attacker, Skill skill)
     {
         if (skill.Effect.Contains("eals"))
         {
