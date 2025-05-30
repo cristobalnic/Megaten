@@ -19,17 +19,6 @@ public static class AffinityUtils
         return baseDamage;
     }
 
-    public static void DealDamageByAffinityRules(CombatRecord combatRecord)
-    {
-        if (combatRecord.Affinity == AffinityType.Repel)
-            AttackUtils.ApplyDamage(combatRecord.Attacker, combatRecord.Damage);
-        
-        else if (combatRecord.Affinity == AffinityType.Drain)
-            AttackUtils.ApplyDrain(combatRecord.Target, combatRecord.Damage);
-        else
-            AttackUtils.ApplyDamage(combatRecord.Target, combatRecord.Damage);
-    }
-
     public static AffinityType GetTargetAffinity(Skill skill, Unit target)
     {
         return target.Affinity.GetAffinity(skill.Type);

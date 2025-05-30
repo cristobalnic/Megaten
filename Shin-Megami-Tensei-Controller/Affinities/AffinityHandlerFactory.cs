@@ -1,6 +1,7 @@
 ﻿using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
+using Shin_Megami_Tensei.GameActions.AttackActions;
 using Shin_Megami_Tensei.GameData;
 
 namespace Shin_Megami_Tensei.Affinities;
@@ -106,6 +107,11 @@ public class RepelAffinityHandler : AffinityHandler
     }
     
     public override Unit GetDamagedUnit(CombatRecord combatRecord) => combatRecord.Attacker;
+
+    public override void DealDamageByAffinityRules(CombatRecord combatRecord)
+    {
+        AttackUtils.ApplyDamage(combatRecord.Attacker, combatRecord.Damage);
+    }
 }
 
 public class DrainAffinityHandler : AffinityHandler
@@ -119,5 +125,10 @@ public class DrainAffinityHandler : AffinityHandler
     {
         turnState.UseFullTurn(turnState.GetFullTurns());
         turnState.UseBlinkingTurn(turnState.GetBlinkingTurns());
+    }
+
+    public override void DealDamageByAffinityRules(CombatRecord combatRecord)
+    {
+        AttackUtils.ApplyDrain(combatRecord.Target, combatRecord.Damage);
     }
 }

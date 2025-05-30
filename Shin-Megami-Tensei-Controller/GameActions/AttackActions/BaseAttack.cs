@@ -41,9 +41,10 @@ public abstract class BaseAttack
     private CombatRecord DealDamage(CombatRecord combatRecord)
     {
         var baseDamage = GetBaseDamage(combatRecord.Attacker);
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
         var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, combatRecord.Affinity);
         combatRecord.Damage = AttackUtils.GetRoundedInt(affinityDamage);
-        AffinityUtils.DealDamageByAffinityRules(combatRecord);
+        affinityHandler.DealDamageByAffinityRules(combatRecord);
         return combatRecord;
     }
     

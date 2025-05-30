@@ -40,12 +40,12 @@ public class BasicSkillHandler : ISkillHandler
         var damage = AttackUtils.GetRoundedInt(affinityDamage);
         
         CombatRecord combatRecord = new CombatRecord(attacker, target, damage, targetAffinity);
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
 
         int hitNumber = SkillUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
         {
-            AffinityUtils.DealDamageByAffinityRules(combatRecord);
-            
+            affinityHandler.DealDamageByAffinityRules(combatRecord);
             _view.DisplayAttackMessage(combatRecord, skill);
             _view.DisplayAffinityDetectionMessage(combatRecord);
             _view.DisplayAttackResultMessage(combatRecord);
@@ -54,7 +54,6 @@ public class BasicSkillHandler : ISkillHandler
             if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
         }
         _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
-        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
         var damagedUnit = affinityHandler.GetDamagedUnit(combatRecord);
         _view.DisplayHpMessage(damagedUnit);
     }
