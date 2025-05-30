@@ -7,18 +7,6 @@ namespace Shin_Megami_Tensei.Utils;
 
 public static class AffinityUtils
 {
-    public static double GetDamageByAffinityRules(double baseDamage, AffinityType affinityType)
-    {
-        
-        if (affinityType == AffinityType.Weak)
-            baseDamage *= Params.WeakDamageMultiplier;
-        else if (affinityType == AffinityType.Resist)
-            baseDamage *= Params.ResistDamageMultiplier;
-        else if (affinityType == AffinityType.Null)
-            baseDamage *= Params.NullDamageMultiplier;
-        return baseDamage;
-    }
-
     public static AffinityType GetTargetAffinity(Skill skill, Unit target)
     {
         return target.Affinity.GetAffinity(skill.Type);

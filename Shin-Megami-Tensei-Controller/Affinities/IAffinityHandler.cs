@@ -9,11 +9,11 @@ public abstract class AffinityHandler
 {
     public abstract double ApplyDamageModifier(double baseDamage);
     public abstract void UseTurns(TurnState turnState);
-    public virtual Unit GetDamagedUnit(CombatRecord combatRecord) => combatRecord.Target;
-
-    public virtual void DealDamageByAffinityRules(CombatRecord combatRecord)
-    {
-        AttackUtils.ApplyDamage(combatRecord.Target, combatRecord.Damage);
-    }
+    public virtual Unit GetDamagedUnit(CombatRecord combatRecord) 
+        => combatRecord.Target;
+    public virtual void DealDamageByAffinityRules(CombatRecord combatRecord) 
+        => AttackUtils.ApplyDamage(combatRecord.Target, combatRecord.Damage);
+    public virtual double GetDamageByAffinityRules(double baseDamage) 
+        => baseDamage;
 }
 

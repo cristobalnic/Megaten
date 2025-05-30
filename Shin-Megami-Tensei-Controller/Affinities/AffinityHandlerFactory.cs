@@ -56,6 +56,11 @@ public class WeakAffinityHandler : AffinityHandler
         else
             turnState.UseBlinkingTurn();
     }
+
+    public override double GetDamageByAffinityRules(double baseDamage)
+    {
+        return baseDamage * Params.WeakDamageMultiplier;
+    }
 }
 
 public class ResistAffinityHandler : AffinityHandler
@@ -71,6 +76,11 @@ public class ResistAffinityHandler : AffinityHandler
             turnState.UseBlinkingTurn();
         else
             turnState.UseFullTurn();
+    }
+
+    public override double GetDamageByAffinityRules(double baseDamage)
+    {
+        return baseDamage * Params.ResistDamageMultiplier;
     }
 }
 
@@ -90,6 +100,11 @@ public class NullAffinityHandler : AffinityHandler
             else if (turnState.GetFullTurns() > 0)
                 turnState.UseFullTurn();
         }
+    }
+
+    public override double GetDamageByAffinityRules(double baseDamage)
+    {
+        return baseDamage * Params.NullDamageMultiplier;
     }
 }
 

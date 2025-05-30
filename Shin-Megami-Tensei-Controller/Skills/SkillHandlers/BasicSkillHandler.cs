@@ -35,12 +35,14 @@ public class BasicSkillHandler : ISkillHandler
         
         AffinityType targetAffinity = target.Affinity.GetAffinity(skill.Type);
         
-        double baseDamage = SkillUtils.GetSkillDamage(attacker, skill);
-        var affinityDamage = AffinityUtils.GetDamageByAffinityRules(baseDamage, targetAffinity);
-        var damage = AttackUtils.GetRoundedInt(affinityDamage);
-        
-        CombatRecord combatRecord = new CombatRecord(attacker, target, damage, targetAffinity);
+        CombatRecord combatRecord = new CombatRecord(attacker, target, 0, targetAffinity);
         var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        
+        double baseDamage = SkillUtils.GetSkillDamage(attacker, skill);
+        var affinityDamage = affinityHandler.GetDamageByAffinityRules(baseDamage);
+        combatRecord.Damage = AttackUtils.GetRoundedInt(affinityDamage);
+        
+        
 
         int hitNumber = SkillUtils.GetHits(skill.Hits, _gameState.TurnPlayer);
         for (int i = 0; i < hitNumber; i++)
