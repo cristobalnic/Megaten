@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.Enums;
+﻿using Shin_Megami_Tensei.Affinities;
+using Shin_Megami_Tensei.Enums;
 
 namespace Shin_Megami_Tensei.GameData;
 
@@ -11,20 +12,20 @@ public class TurnState
     private int _blinkingTurnsGained;
     
     public bool AreTurnsAvailable() => _fullTurns > 0 || _blinkingTurns > 0;
-    
-    private void UseFullTurn(int amount = 1)
+
+    public void UseFullTurn(int amount = 1)
     {
         _fullTurns -= amount;
         _fullTurnsUsed += amount;
     }
 
-    private void UseBlinkingTurn(int amount = 1)
+    public void UseBlinkingTurn(int amount = 1)
     {
         _blinkingTurns -= amount;
         _blinkingTurnsUsed += amount;
     }
 
-    private void GainBlinkingTurn(int amount = 1)
+    public void GainBlinkingTurn(int amount = 1)
     {
         _blinkingTurns += amount;
         _blinkingTurnsGained += amount;
@@ -56,42 +57,6 @@ public class TurnState
         _blinkingTurns = 0;
     }
 
-    private void UseTurnsForNeutralOrResist()
-    {
-        if (_blinkingTurns > 0)
-            UseBlinkingTurn();
-        else
-            UseFullTurn();
-    }
-
-    private void UseTurnsForWeak()
-    {
-        if (_fullTurns > 0)
-        {
-            UseFullTurn();
-            GainBlinkingTurn();
-        }
-        else
-            UseBlinkingTurn();
-    }
-
-    private void UseTurnsForNull()
-    {
-        for (int i = 0; i < 2; i++)
-        {
-            if (_blinkingTurns > 0)
-                UseBlinkingTurn();
-            else if (_fullTurns > 0)
-                UseFullTurn();
-        }
-    }
-
-    private void UseTurnsForRepelOrDrain()
-    {
-        UseFullTurn(_fullTurns);
-        UseBlinkingTurn(_blinkingTurns);
-    }
-
     public void UseTurnsForPassOrSummon()
     {
         if (_blinkingTurns > 0)
@@ -113,13 +78,17 @@ public class TurnState
 
     public void UseTurnsByTargetAffinity(AffinityType targetAffinity)
     {
-        if (targetAffinity is AffinityType.Neutral or AffinityType.Resist)
-            UseTurnsForNeutralOrResist();
-        else if (targetAffinity is AffinityType.Weak)
-            UseTurnsForWeak();
-        else if (targetAffinity is AffinityType.Null)
-            UseTurnsForNull();
-        else if (targetAffinity is AffinityType.Repel or AffinityType.Drain)
-            UseTurnsForRepelOrDrain();
+        IAffinityHandler affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(targetAffinity);
+        affinityHandler.UseTurns(this);
+    }
+
+    public int GetBlinkingTurns()
+    {
+        return _blinkingTurns;
+    }
+
+    public int GetFullTurns()
+    {
+        return _fullTurns;
     }
 }

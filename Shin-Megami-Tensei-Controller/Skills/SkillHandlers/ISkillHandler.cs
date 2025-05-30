@@ -1,6 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
 
-namespace Shin_Megami_Tensei.GameActions.SkillHandlers;
+namespace Shin_Megami_Tensei.Skills.SkillHandlers;
 
 public interface ISkillHandler
 {

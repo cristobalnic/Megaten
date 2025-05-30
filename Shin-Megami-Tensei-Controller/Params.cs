@@ -36,5 +36,7 @@ public static class Params
 
     public const double WeakDamageMultiplier = 1.5;
     public const double ResistDamageMultiplier = 0.5;
+    public const double NullDamageMultiplier = 0.0;
+    
     public const string EmptyUnitName = "Vacío";
 }

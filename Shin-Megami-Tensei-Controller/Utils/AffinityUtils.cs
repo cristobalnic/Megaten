@@ -15,7 +15,7 @@ public static class AffinityUtils
         else if (affinityType == AffinityType.Resist)
             baseDamage *= Params.ResistDamageMultiplier;
         else if (affinityType == AffinityType.Null)
-            baseDamage = 0;
+            baseDamage *= Params.NullDamageMultiplier;
         return baseDamage;
     }
 

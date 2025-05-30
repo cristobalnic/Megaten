@@ -1,7 +1,7 @@
 ﻿using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 
-namespace Shin_Megami_Tensei.GameActions.SkillActions;
+namespace Shin_Megami_Tensei.Skills.SkillActions;
 
 public class SkillUtils
 {

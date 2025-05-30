@@ -2,12 +2,12 @@
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.GameActions.AttackActions;
-using Shin_Megami_Tensei.GameActions.SkillActions;
 using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.Skills.SkillActions;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameActions.SkillHandlers;
+namespace Shin_Megami_Tensei.Skills.SkillHandlers;
 
 public class BasicSkillHandler : ISkillHandler
 {

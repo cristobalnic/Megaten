@@ -5,7 +5,7 @@ using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
-namespace Shin_Megami_Tensei.GameActions.SkillHandlers;
+namespace Shin_Megami_Tensei.Skills.SkillHandlers;
 
 public class HealSkillHandler : ISkillHandler
 {
