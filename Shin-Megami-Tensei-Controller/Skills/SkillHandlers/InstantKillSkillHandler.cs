@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.DataStructures;
+﻿using Shin_Megami_Tensei.Affinities;
+using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.GameData;
@@ -40,6 +41,8 @@ public class InstantKillSkillHandler : ISkillHandler
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
         if (!hasMissed) _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
         else _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        _view.DisplayHpMessage(targetAffinity == AffinityType.Repel ? attacker : target);
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        var damagedUnit = affinityHandler.GetDamagedUnit(combatRecord);
+        _view.DisplayHpMessage(damagedUnit);
     }
 }

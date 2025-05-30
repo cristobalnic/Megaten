@@ -78,7 +78,7 @@ public class TurnState
 
     public void UseTurnsByTargetAffinity(AffinityType targetAffinity)
     {
-        IAffinityHandler affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(targetAffinity);
+        AffinityHandler affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(targetAffinity);
         affinityHandler.UseTurns(this);
     }
 

@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.GameData;
 
@@ -6,7 +7,7 @@ namespace Shin_Megami_Tensei.Affinities;
 
 public static class AffinityHandlerFactory
 {
-    public static IAffinityHandler CreateAffinityHandler(AffinityType affinityType)
+    public static AffinityHandler CreateAffinityHandler(AffinityType affinityType)
     {
         return affinityType switch
         {
@@ -21,14 +22,14 @@ public static class AffinityHandlerFactory
     }
 }
 
-public class NeutralAffinityHandler : IAffinityHandler
+public class NeutralAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         if (turnState.GetBlinkingTurns() > 0)
             turnState.UseBlinkingTurn();
@@ -37,14 +38,14 @@ public class NeutralAffinityHandler : IAffinityHandler
     }
 }
 
-public class WeakAffinityHandler : IAffinityHandler
+public class WeakAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         if (turnState.GetFullTurns() > 0)
         {
@@ -56,14 +57,14 @@ public class WeakAffinityHandler : IAffinityHandler
     }
 }
 
-public class ResistAffinityHandler : IAffinityHandler
+public class ResistAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         if (turnState.GetBlinkingTurns() > 0)
             turnState.UseBlinkingTurn();
@@ -72,14 +73,14 @@ public class ResistAffinityHandler : IAffinityHandler
     }
 }
 
-public class NullAffinityHandler : IAffinityHandler
+public class NullAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         for (int i = 0; i < 2; i++)
         {
@@ -91,28 +92,30 @@ public class NullAffinityHandler : IAffinityHandler
     }
 }
 
-public class RepelAffinityHandler : IAffinityHandler
+public class RepelAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         turnState.UseFullTurn(turnState.GetFullTurns());
         turnState.UseBlinkingTurn(turnState.GetBlinkingTurns());
     }
+    
+    public override Unit GetDamagedUnit(CombatRecord combatRecord) => combatRecord.Attacker;
 }
 
-public class DrainAffinityHandler : IAffinityHandler
+public class DrainAffinityHandler : AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage)
+    public override double ApplyDamageModifier(double baseDamage)
     {
         throw new NotImplementedException();
     }
 
-    public void UseTurns(TurnState turnState)
+    public override void UseTurns(TurnState turnState)
     {
         turnState.UseFullTurn(turnState.GetFullTurns());
         turnState.UseBlinkingTurn(turnState.GetBlinkingTurns());

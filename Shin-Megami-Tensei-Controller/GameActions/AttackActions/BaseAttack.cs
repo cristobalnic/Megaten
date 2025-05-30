@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.DataStructures;
+﻿using Shin_Megami_Tensei.Affinities;
+using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
 using Shin_Megami_Tensei.GameData;
@@ -51,7 +52,8 @@ public abstract class BaseAttack
         _view.WriteLine(GetActionMessage(combatRecord));
         _view.DisplayAffinityDetectionMessage(combatRecord);
         _view.DisplayAttackResultMessage(combatRecord);
-        var damagedUnit = combatRecord.Affinity == AffinityType.Repel ? combatRecord.Attacker : combatRecord.Target;
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        var damagedUnit = affinityHandler.GetDamagedUnit(combatRecord);
         _view.DisplayHpMessage(damagedUnit);
     }
     

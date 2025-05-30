@@ -1,11 +1,13 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using Shin_Megami_Tensei.DataStructures;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.GameData;
 
 namespace Shin_Megami_Tensei.Affinities;
 
-public interface IAffinityHandler
+public abstract class AffinityHandler
 {
-    public double ApplyDamageModifier(double baseDamage);
-    public void UseTurns(TurnState turnState);
+    public abstract double ApplyDamageModifier(double baseDamage);
+    public abstract void UseTurns(TurnState turnState);
+    public virtual Unit GetDamagedUnit(CombatRecord combatRecord) => combatRecord.Target;
 }
 
