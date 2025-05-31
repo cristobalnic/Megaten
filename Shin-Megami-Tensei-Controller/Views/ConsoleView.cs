@@ -1,4 +1,5 @@
 ﻿using Shin_Megami_Tensei_View.ConsoleLib;
+using Shin_Megami_Tensei.Affinities;
 using Shin_Megami_Tensei.DataStructures;
 using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.Enums;
@@ -76,10 +77,16 @@ public class ConsoleView : IView
     
     public void DisplayAffinityDetectionMessage(CombatRecord combatRecord)
     {
-        if (combatRecord.Affinity == AffinityType.Weak)
-            _view.WriteLine($"{combatRecord.Target.Name} es débil contra el ataque de {combatRecord.Attacker.Name}");
-        else if (combatRecord.Affinity == AffinityType.Resist)
-            _view.WriteLine($"{combatRecord.Target.Name} es resistente el ataque de {combatRecord.Attacker.Name}");
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        try 
+        {
+            var message = affinityHandler.GetAffinityDetectionMessage(combatRecord);
+            _view.WriteLine(message);
+        }
+        catch (NotImplementedException)
+        {
+            // The affinity detection message does not exist for this affinity type
+        }
     }
 
     public void DisplayInstantKillSkillResultMessage(CombatRecord combatRecord, bool skillHasMissed)
@@ -90,25 +97,16 @@ public class ConsoleView : IView
         }
         else
         {
-            if (combatRecord.Affinity is AffinityType.Neutral or AffinityType.Resist or AffinityType.Weak)
-                _view.WriteLine($"{combatRecord.Target.Name} ha sido eliminado");
-            else if (combatRecord.Affinity is AffinityType.Null)
-                _view.WriteLine($"{combatRecord.Target.Name} bloquea el ataque de {combatRecord.Attacker.Name}");
-            else
-                throw new NotImplementedException($"Affinity type {combatRecord.Affinity} not implemented for Instant Kill Skill Result Message");
+            var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+            var message = affinityHandler.GetInstantKillResultMessage(combatRecord);
+            _view.WriteLine(message);
         }
     }
 
     public void DisplayAttackResultMessage(CombatRecord combatRecord)
     {
-        var message = combatRecord.Affinity switch
-        {
-            AffinityType.Neutral or AffinityType.Weak or AffinityType.Resist => $"{combatRecord.Target.Name} recibe {combatRecord.Damage} de daño",
-            AffinityType.Null => $"{combatRecord.Target.Name} bloquea el ataque de {combatRecord.Attacker.Name}",
-            AffinityType.Repel => $"{combatRecord.Target.Name} devuelve {combatRecord.Damage} daño a {combatRecord.Attacker.Name}",
-            AffinityType.Drain => $"{combatRecord.Target.Name} absorbe {combatRecord.Damage} daño",
-            _ => throw new NotImplementedException("Affinity type not implemented for Attack Result Message")
-        };
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        var message = affinityHandler.GetAttackResultMessage(combatRecord);
         _view.WriteLine(message);
     }
 

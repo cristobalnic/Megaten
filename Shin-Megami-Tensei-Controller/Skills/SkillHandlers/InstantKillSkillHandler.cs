@@ -32,8 +32,12 @@ public class InstantKillSkillHandler : ISkillHandler
         _view.WriteLine(Params.Separator);
         AffinityType targetAffinity = AffinityUtils.GetTargetAffinity(skill, target);
         CombatRecord combatRecord = new CombatRecord(attacker, target, 0, targetAffinity);
-        bool hasMissed = AffinityUtils.HasInstantKillSkillMissed(combatRecord, skill);
-        if (!hasMissed) AffinityUtils.ExecuteInstantKillByAffinityRules(combatRecord);
+        
+        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        bool hasMissed = affinityHandler.HasInstantKillSkillMissed(combatRecord, skill);
+        
+        if (!hasMissed) affinityHandler.ExecuteInstantKillByAffinityRules(combatRecord);
+        
         _view.DisplayAttackMessage(combatRecord, skill);
         if (!hasMissed) _view.DisplayAffinityDetectionMessage(combatRecord);
         _view.DisplayInstantKillSkillResultMessage(combatRecord, hasMissed);
@@ -41,7 +45,7 @@ public class InstantKillSkillHandler : ISkillHandler
         if (!attacker.IsAlive()) _gameState.TurnPlayer.Table.HandleDeath(attacker);
         if (!hasMissed) _gameState.TurnPlayer.TurnState.UseTurnsByTargetAffinity(targetAffinity);
         else _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
-        var affinityHandler = AffinityHandlerFactory.CreateAffinityHandler(combatRecord.Affinity);
+        
         var damagedUnit = affinityHandler.GetDamagedUnit(combatRecord);
         _view.DisplayHpMessage(damagedUnit);
     }
