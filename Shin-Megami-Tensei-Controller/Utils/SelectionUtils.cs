@@ -93,16 +93,29 @@ public class SelectionUtils
     {
         var player = _gameState.WaitPlayer;
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(player.Table.ActiveUnits, selectionPhrase);
+        var possibleTargets = FilterAliveAndNotEmptyMonsters(player.Table.ActiveUnits);
+        _view.DisplayMonsterSelection(possibleTargets, selectionPhrase);
         Unit target = GetTargetMonster(player.Table.ActiveUnits);
         return target;
     }
-    
+
+    public List<Unit> FilterAliveAndNotEmptyMonsters(List<Unit> tableActiveUnits)
+    {
+        List<Unit> validMonsters = new List<Unit>();
+        foreach (var monster in tableActiveUnits)
+        {
+            if (monster.IsEmpty() || !monster.IsAlive()) continue;
+            validMonsters.Add(monster);
+        }
+        return validMonsters;
+    }
+
     public Unit GetAllyTarget(Unit attacker)
     {
         var player = _gameState.TurnPlayer;
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(player.Table.ActiveUnits, selectionPhrase);
+        var possibleTargets = FilterAliveAndNotEmptyMonsters(player.Table.ActiveUnits);
+        _view.DisplayMonsterSelection(possibleTargets, selectionPhrase);
         Unit target = GetTargetMonster(player.Table.ActiveUnits);
         return target;
     }
@@ -110,11 +123,23 @@ public class SelectionUtils
     public Unit GetDeadAllyTarget(Unit attacker)
     {
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayDeadMonsterSelection(_gameState.TurnPlayer.GetAllUnits(), selectionPhrase);
+        var deadMonsters = FilterDeadMonsters(_gameState.TurnPlayer.GetAllUnits());
+        _view.DisplayMonsterSelection(deadMonsters, selectionPhrase);
         Unit target = GetDeadTargetMonster(_gameState.TurnPlayer.GetAllUnits());
         return target;
     }
-    
+
+    private List<Unit> FilterDeadMonsters(List<Unit> getAllUnits)
+    {
+        List<Unit> deadMonsters = new List<Unit>();
+        foreach (var monster in getAllUnits)
+        {
+            if (monster.IsAlive()) continue;
+            deadMonsters.Add(monster);
+        }
+        return deadMonsters;
+    }
+
     public void DisplayPlayerActionSelectionMenu(Unit monster)
     {
         _view.WriteLine(Params.Separator);

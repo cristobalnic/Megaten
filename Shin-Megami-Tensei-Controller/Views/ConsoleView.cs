@@ -57,20 +57,6 @@ public class ConsoleView : IView
         char label = '1';
         foreach (var monster in monsters)
         {
-            if (monster.IsEmpty() || !monster.IsAlive()) continue;
-            _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
-            label++;
-        }
-        _view.WriteLine($"{label}-Cancelar");
-    }
-    
-    public void DisplayDeadMonsterSelection(List<Unit> monsters, string displayPhrase)
-    {
-        _view.WriteLine(displayPhrase);
-        char label = '1';
-        foreach (var monster in monsters)
-        {
-            if (monster.IsAlive()) continue;
             _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
             label++;
         }
