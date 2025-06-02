@@ -1,6 +1,6 @@
 ﻿using Shin_Megami_Tensei.Entities;
-using Shin_Megami_Tensei.GameActions.AttackActions;
 using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.Skills.SkillEffects;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
@@ -46,23 +46,16 @@ public class SummonAction
     {
         var selectionPhrase = "Seleccione un monstruo para invocar";
         _view.DisplayMonsterSelection(_gameState.TurnPlayer.Table.Reserve, selectionPhrase, showAll: true);
-        Unit monsterSummon = _selectionUtils.GetTargetMonster(_gameState.TurnPlayer.Table.Reserve, showAll: true);
+        Unit monsterSummon = _selectionUtils.GetAnyReserveMonster(_gameState.TurnPlayer.Table.Reserve);
         _gameState.TurnPlayer.Samurai.Summon(monsterSummon, _gameState.TurnPlayer.Table, _selectionUtils);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monsterSummon.Name} ha sido invocado");
 
         if (!monsterSummon.IsAlive())
         {
-            _view.WriteLine($"{attacker.Name} revive a {monsterSummon.Name}");
-            var healAmount = AttackUtils.GetRoundedInt(monsterSummon.Stats.MaxHp * (skill.Power * 0.01));
-            int currentHp = monsterSummon.Stats.Hp;
-            monsterSummon.Stats.Hp = Math.Min(monsterSummon.Stats.MaxHp, currentHp + healAmount);
-            int healed = monsterSummon.Stats.Hp - currentHp;
-            _view.WriteLine($"{monsterSummon.Name} recibe {healAmount} de HP"); // AQUÍ HAY UN ERROR EN TESTS
-            _view.DisplayHpMessage(monsterSummon);
+            var skillEffect = new ReviveEffect();
+            skillEffect.Apply(_view, attacker, monsterSummon, skill);
         }
-        
-        
         _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
     }
 }

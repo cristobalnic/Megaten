@@ -2,6 +2,7 @@
 using Shin_Megami_Tensei.GameActions.AttackActions;
 using Shin_Megami_Tensei.GameActions.GameFlowActions;
 using Shin_Megami_Tensei.GameData;
+using Shin_Megami_Tensei.Skills.SkillEffects;
 using Shin_Megami_Tensei.Utils;
 using Shin_Megami_Tensei.Views;
 
@@ -44,14 +45,11 @@ public class HealSkillHandler : ISkillHandler
         else if (skill.Effect.Contains("KO"))
         {
             var beneficiary = _selectionUtils.GetDeadAllyTarget(attacker);
-            var healAmount = AttackUtils.GetRoundedInt(beneficiary.Stats.MaxHp * (skill.Power * 0.01));
             _view.WriteLine(Params.Separator);
-            _view.WriteLine($"{attacker.Name} revive a {beneficiary.Name}");
-            int currentHp = beneficiary.Stats.Hp;
-            beneficiary.Stats.Hp = Math.Min(beneficiary.Stats.MaxHp, currentHp + healAmount);
-            int healed = beneficiary.Stats.Hp - currentHp;
-            _view.WriteLine($"{beneficiary.Name} recibe {healAmount} de HP"); // AQUÍ HAY UN ERROR EN TESTS
-            _view.DisplayHpMessage(beneficiary);
+
+            var skillEffect = new ReviveEffect();
+            skillEffect.Apply(_view, attacker, beneficiary, skill);
+            
             _gameState.TurnPlayer.TurnState.UseTurnsForNonOffensiveSkill();
         }
         else

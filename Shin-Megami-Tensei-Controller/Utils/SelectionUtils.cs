@@ -31,7 +31,7 @@ public class SelectionUtils
         _view.WriteLine($"{label}-Cancelar");
     }
     
-    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false, bool showAll = false)
+    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false)
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
         List<Unit> validMonsters = new List<Unit>();
@@ -41,15 +41,21 @@ public class SelectionUtils
             if (onlyDead && monster.IsAlive()) continue;
             validMonsters.Add(monster);
         }
-        if (showAll)
-        {
-            validMonsters = monsters;
-        }
         if (objectiveSelection > validMonsters.Count)
         {
             throw new CancelObjectiveSelectionException();
         }
         return validMonsters[objectiveSelection-1];
+    }
+
+    public Unit GetAnyReserveMonster(List<Unit> reserveMonsters)
+    {
+        var objectiveSelection = int.Parse(_view.ReadLine());
+        if (objectiveSelection > reserveMonsters.Count)
+        {
+            throw new CancelObjectiveSelectionException();
+        }
+        return reserveMonsters[objectiveSelection-1];
     }
     
     public Unit GetSummonWithdrawSelection(List<Unit> monsters)

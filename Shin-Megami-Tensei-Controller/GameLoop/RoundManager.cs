@@ -72,27 +72,43 @@ public class RoundManager
         reorderedUnits.Add(orderedUnits[0]);
         return reorderedUnits;
     }
+    
     private List<Unit> UpdateOrderedUnitsWithSummons(List<Unit> orderedUnits, List<Unit> activeUnits)
     {
         var updatedMonsters = new List<Unit>(orderedUnits);
+
         foreach (var unit in activeUnits)
         {
-            if (unit.IsEmpty() || !unit.IsAlive()) continue; // Skip empty slots
-            if (orderedUnits.Contains(unit)) continue; // Already in the order
-            bool replaced = false;
-            for (var i = 0; i < updatedMonsters.Count; i++)
-            {
-                if (!activeUnits.Contains(updatedMonsters[i])) // Already in the order
-                {
-                    updatedMonsters[i] = unit;
-                    replaced = true;
-                    break;
-                }
-            }
-            if (!replaced) updatedMonsters.Add(unit);
+            if (ShouldSkipUnit(unit, orderedUnits)) continue;
+            TryReplaceOrAddUnit(unit, updatedMonsters, activeUnits);
         }
+
         return updatedMonsters;
     }
+
+    private bool ShouldSkipUnit(Unit unit, List<Unit> orderedUnits)
+    {
+        return unit.IsEmpty() || !unit.IsAlive() || orderedUnits.Contains(unit);
+    }
+
+    private void TryReplaceOrAddUnit(Unit unit, List<Unit> updatedMonsters, List<Unit> activeUnits)
+    {
+        int index = FindReplaceableIndex(updatedMonsters, activeUnits);
+        if (index >= 0)
+        {
+            updatedMonsters[index] = unit;
+            return;
+        }
+
+        updatedMonsters.Add(unit);
+    }
+
+    private int FindReplaceableIndex(List<Unit> updatedMonsters, List<Unit> activeUnits)
+    {
+        return updatedMonsters.FindIndex(existing => !activeUnits.Contains(existing));
+    }
+    
+    
     private List<Unit> UpdateOrderedUnitsWithDeaths(List<Unit> orderedUnits)
     {
         var updatedMonsters = new List<Unit>(orderedUnits);
