@@ -11,7 +11,6 @@ public interface IView
     void DisplayAttackMessage(CombatRecord combatRecord, Skill skill);
     void DisplayAttackResultMessage(CombatRecord combatRecord);
     void DisplayMonsterSelection(List<Unit> tableMonsters, string displayPhrase);
-    void DisplayAnyReserveMonsterSelection(List<Unit> monsters, string displayPhrase);
     void DisplayPlayersTables(List<Player> gameStatePlayers);
     void DisplayRoundInit(Player turnPlayer);
     void DisplaySkillSelection(Unit attacker);

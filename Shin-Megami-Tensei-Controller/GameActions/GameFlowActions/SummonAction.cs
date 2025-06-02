@@ -43,15 +43,15 @@ public class SummonAction
         var selectionPhrase = "Seleccione un monstruo para invocar";
         var possibleTargets = _selectionUtils.FilterAliveAndNotEmptyMonsters(_gameState.TurnPlayer.Table.Reserve);
         _view.DisplayMonsterSelection(possibleTargets, selectionPhrase);
-        Unit monsterSummon = _selectionUtils.GetTargetMonster(_gameState.TurnPlayer.Table.Reserve);
+        Unit monsterSummon = _selectionUtils.GetTargetMonster(possibleTargets);
         return monsterSummon;
     }
 
     internal void ExecuteHealSummon(Unit attacker, Skill skill)
     {
         var selectionPhrase = "Seleccione un monstruo para invocar";
-        _view.DisplayAnyReserveMonsterSelection(_gameState.TurnPlayer.Table.Reserve, selectionPhrase);
-        Unit monsterSummon = _selectionUtils.GetAnyReserveTargetMonster(_gameState.TurnPlayer.Table.Reserve);
+        _view.DisplayMonsterSelection(_gameState.TurnPlayer.Table.Reserve, selectionPhrase);
+        Unit monsterSummon = _selectionUtils.GetTargetMonster(_gameState.TurnPlayer.Table.Reserve);
         _gameState.TurnPlayer.Samurai.Summon(monsterSummon, _gameState.TurnPlayer.Table, _selectionUtils);
         _view.WriteLine(Params.Separator);
         _view.WriteLine($"{monsterSummon.Name} ha sido invocado");

@@ -63,18 +63,6 @@ public class ConsoleView : IView
         _view.WriteLine($"{label}-Cancelar");
     }
     
-    public void DisplayAnyReserveMonsterSelection(List<Unit> monsters, string displayPhrase)
-    {
-        _view.WriteLine(displayPhrase);
-        char label = '1';
-        foreach (var monster in monsters)
-        {
-            _view.WriteLine($"{label}-{monster.Name} HP:{monster.Stats.Hp}/{monster.Stats.MaxHp} MP:{monster.Stats.Mp}/{monster.Stats.MaxMp}");
-            label++;
-        }
-        _view.WriteLine($"{label}-Cancelar");
-    }
-    
     public void DisplayHpMessage(Unit monster) 
         => _view.WriteLine($"{monster.Name} termina con HP:{monster.Stats.Hp}/{monster.Stats.MaxHp}");
     
