@@ -1,4 +1,5 @@
-﻿using Shin_Megami_Tensei.Entities;
+﻿using System.Reflection.Metadata;
+using Shin_Megami_Tensei.Entities;
 using Shin_Megami_Tensei.ErrorHandling;
 using Shin_Megami_Tensei.GameData;
 using Shin_Megami_Tensei.Views;
@@ -31,31 +32,45 @@ public class SelectionUtils
         _view.WriteLine($"{label}-Cancelar");
     }
     
-    public Unit GetTargetMonster(List<Unit> monsters, bool onlyDead = false)
+    public Unit GetTargetMonster(List<Unit> monsters)
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
         List<Unit> validMonsters = new List<Unit>();
         foreach (var monster in monsters)
         {
-            if ((monster.IsEmpty() || !monster.IsAlive()) && !onlyDead) continue;
-            if (onlyDead && monster.IsAlive()) continue;
+            if (monster.IsEmpty() || !monster.IsAlive()) continue;
             validMonsters.Add(monster);
         }
-        if (objectiveSelection > validMonsters.Count)
+        HandleCancelSelection(objectiveSelection, validMonsters);
+        return validMonsters[objectiveSelection-1];
+    }
+    
+    public Unit GetDeadTargetMonster(List<Unit> monsters)
+    {
+        var objectiveSelection = int.Parse(_view.ReadLine());
+        List<Unit> validMonsters = new List<Unit>();
+        foreach (var monster in monsters)
         {
-            throw new CancelObjectiveSelectionException();
+            if (monster.IsAlive()) continue;
+            validMonsters.Add(monster);
         }
+        HandleCancelSelection(objectiveSelection, validMonsters);
         return validMonsters[objectiveSelection-1];
     }
 
-    public Unit GetAnyReserveMonster(List<Unit> reserveMonsters)
+    public Unit GetAnyReserveTargetMonster(List<Unit> reserveMonsters)
     {
         var objectiveSelection = int.Parse(_view.ReadLine());
-        if (objectiveSelection > reserveMonsters.Count)
+        HandleCancelSelection(objectiveSelection, reserveMonsters);
+        return reserveMonsters[objectiveSelection-1];
+    }
+    
+    private static void HandleCancelSelection(int objectiveSelection, List<Unit> monsters)
+    {
+        if (objectiveSelection > monsters.Count)
         {
             throw new CancelObjectiveSelectionException();
         }
-        return reserveMonsters[objectiveSelection-1];
     }
     
     public Unit GetSummonWithdrawSelection(List<Unit> monsters)
@@ -95,8 +110,8 @@ public class SelectionUtils
     public Unit GetDeadAllyTarget(Unit attacker)
     {
         var selectionPhrase = $"Seleccione un objetivo para {attacker.Name}";
-        _view.DisplayMonsterSelection(_gameState.TurnPlayer.GetAllUnits(), selectionPhrase, onlyDead: true);
-        Unit target = GetTargetMonster(_gameState.TurnPlayer.GetAllUnits(), onlyDead: true);
+        _view.DisplayDeadMonsterSelection(_gameState.TurnPlayer.GetAllUnits(), selectionPhrase);
+        Unit target = GetDeadTargetMonster(_gameState.TurnPlayer.GetAllUnits());
         return target;
     }
     
